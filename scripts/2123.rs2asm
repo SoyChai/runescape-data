@@ -1,0 +1,24 @@
+.int_stack_count    8
+.string_stack_count 0
+.int_var_count      8
+.string_var_count   0
+   get_gamecycle         
+   iload                  0
+   if_icmplt              LABEL4
+   jump                   LABEL5
+LABEL4:
+   return                
+LABEL5:
+   load_int               -1
+   load_string            ""
+   iload                  1
+   widget_put_render_listener_widget
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   iload                  7
+   invoke                 690
+   return                

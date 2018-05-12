@@ -2,20 +2,7 @@
 .string_stack_count 0
 .int_var_count      9
 .string_var_count   1
-   load_int               1
-   put_varc               11
-   load_int               10616864
-   widget_get_hidden_widget
-   load_int               0
-   if_icmpeq              LABEL7
-   jump                   LABEL10
-LABEL7:
-   load_int               1
-   load_int               1
-   invoke                 299
-LABEL10:
-   load_int               0
-   invoke                 927
+   invoke                 2157
    load_string            ""
    load_string            ""
    put_varc_string        130

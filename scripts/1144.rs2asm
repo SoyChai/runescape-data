@@ -2,12 +2,12 @@
 .string_stack_count 0
 .int_var_count      4
 .string_var_count   0
-   get_settings           1295
+   get_varp               1295
    iload                  1
    load_int               1
    isub                  
    clear_bit             
-   put_settings           1295
+   put_varp               1295
    iload                  0
    iload                  1
    invoke                 1146

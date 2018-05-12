@@ -199,8 +199,8 @@ LABEL167:
    if_icmpeq              LABEL191
    jump                   LABEL243
 LABEL191:
-   sload                  0
-   is_friend             
+   iload                  20
+   3626                  
    load_int               1
    if_icmpeq              LABEL196
    jump                   LABEL207
@@ -217,8 +217,8 @@ LABEL196:
    widget_put_action      1
    jump                   LABEL243
 LABEL207:
-   sload                  0
-   is_ignore             
+   iload                  20
+   3627                  
    load_int               1
    if_icmpeq              LABEL212
    jump                   LABEL223

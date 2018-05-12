@@ -9,22 +9,33 @@
 LABEL4:
    return                
 LABEL5:
+   invoke                 900
+   load_int               1745
+   if_icmpeq              LABEL9
+   jump                   LABEL14
+LABEL9:
+   load_int               2277
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   return                
+LABEL14:
    load_int               2266
    load_int               1
    load_int               0
    play_sound_effect     
    get_varbit             4084
    load_int               0
-   if_icmpeq              LABEL13
-   jump                   LABEL16
-LABEL13:
+   if_icmpeq              LABEL22
+   jump                   LABEL25
+LABEL22:
    load_int               1
    set_varbit             4084
-   jump                   LABEL18
-LABEL16:
+   jump                   LABEL27
+LABEL25:
    load_int               0
    set_varbit             4084
-LABEL18:
+LABEL27:
    iload                  1
    iload                  2
    invoke                 442

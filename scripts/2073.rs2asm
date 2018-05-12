@@ -1,0 +1,39 @@
+.int_stack_count    12
+.string_stack_count 0
+.int_var_count      12
+.string_var_count   0
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   iload                  7
+   iload                  8
+   iload                  9
+   iload                  10
+   iload                  11
+   invoke                 2075
+   load_int               2074
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   iload                  7
+   iload                  8
+   iload                  9
+   iload                  10
+   iload                  11
+   load_int               302
+   load_int               365
+   load_int               150
+   load_int               328
+   load_int               655
+   load_int               176
+   load_int               6
+   load_string            "IIIIIIIIIIIY"
+   iload                  0
+   widget_put_config_listener_widget
+   return                

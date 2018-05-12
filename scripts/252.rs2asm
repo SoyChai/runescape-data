@@ -17,7 +17,7 @@
    widget_load_child     
    load_int               1
    if_icmpeq              LABEL16
-   jump                   LABEL157
+   jump                   LABEL163
 LABEL16:
    iload                  0
    widget_get_width_widget
@@ -53,6 +53,9 @@ LABEL16:
    load_int               1
    load_string            "Play"
    widget_put_action     
+   load_int               2
+   load_string            "Unlock hint"
+   widget_put_action     
    load_string            "<col=ff9040>"
    sload                  0
    string_append          2
@@ -65,9 +68,9 @@ LABEL16:
    istore                 3
    iload                  3
    load_int               -1
-   if_icmpne              LABEL64
-   jump                   LABEL146
-LABEL64:
+   if_icmpne              LABEL67
+   jump                   LABEL152
+LABEL67:
    iload                  3
    divide_by_16384       
    iload                  3
@@ -76,125 +79,130 @@ LABEL64:
    istore                 4
    iload                  4
    switch                
-      1: LABEL73
-      2: LABEL76
-      3: LABEL79
-      4: LABEL82
-      5: LABEL85
-      6: LABEL88
-      7: LABEL91
-      8: LABEL94
-      9: LABEL97
-      10: LABEL100
-      11: LABEL103
-      12: LABEL106
-      13: LABEL109
-      14: LABEL112
-      15: LABEL115
-      16: LABEL118
-      17: LABEL121
-   jump                   LABEL123
-LABEL73:
-   get_settings           20
-   istore                 6
-   jump                   LABEL123
+      1: LABEL76
+      2: LABEL79
+      3: LABEL82
+      4: LABEL85
+      5: LABEL88
+      6: LABEL91
+      7: LABEL94
+      8: LABEL97
+      9: LABEL100
+      10: LABEL103
+      11: LABEL106
+      12: LABEL109
+      13: LABEL112
+      14: LABEL115
+      15: LABEL118
+      16: LABEL121
+      17: LABEL124
+      18: LABEL127
+   jump                   LABEL129
 LABEL76:
-   get_settings           21
+   get_varp               20
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL79:
-   get_settings           22
+   get_varp               21
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL82:
-   get_settings           23
+   get_varp               22
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL85:
-   get_settings           24
+   get_varp               23
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL88:
-   get_settings           25
+   get_varp               24
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL91:
-   get_settings           298
+   get_varp               25
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL94:
-   get_settings           311
+   get_varp               298
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL97:
-   get_settings           346
+   get_varp               311
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL100:
-   get_settings           414
+   get_varp               346
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL103:
-   get_settings           464
+   get_varp               414
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL106:
-   get_settings           598
+   get_varp               464
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL109:
-   get_settings           662
+   get_varp               598
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL112:
-   get_settings           721
+   get_varp               662
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL115:
-   get_settings           906
+   get_varp               721
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL118:
-   get_settings           1009
+   get_varp               906
    istore                 6
-   jump                   LABEL123
+   jump                   LABEL129
 LABEL121:
-   get_settings           1338
+   get_varp               1009
    istore                 6
-LABEL123:
+   jump                   LABEL129
+LABEL124:
+   get_varp               1338
+   istore                 6
+   jump                   LABEL129
+LABEL127:
+   get_varp               1681
+   istore                 6
+LABEL129:
    iload                  6
    iload                  5
    test_bit              
    load_int               1
-   if_icmpeq              LABEL129
-   jump                   LABEL132
-LABEL129:
+   if_icmpeq              LABEL135
+   jump                   LABEL138
+LABEL135:
    load_int               65280
    invoke                 314
-   jump                   LABEL145
-LABEL132:
+   jump                   LABEL151
+LABEL138:
    iload                  1
    load_int               331
-   if_icmpeq              LABEL136
-   jump                   LABEL143
-LABEL136:
+   if_icmpeq              LABEL142
+   jump                   LABEL149
+LABEL142:
    get_varbit             1028
    load_int               35
-   if_icmpgt              LABEL140
-   jump                   LABEL143
-LABEL140:
-   load_int               65280
-   invoke                 314
-   jump                   LABEL145
-LABEL143:
-   load_int               16711680
-   invoke                 314
-LABEL145:
-   jump                   LABEL148
+   if_icmpgt              LABEL146
+   jump                   LABEL149
 LABEL146:
    load_int               65280
    invoke                 314
-LABEL148:
+   jump                   LABEL151
+LABEL149:
+   load_int               16711680
+   invoke                 314
+LABEL151:
+   jump                   LABEL154
+LABEL152:
+   load_int               65280
+   invoke                 314
+LABEL154:
    load_int               85
    load_int               -2147483645
    load_int               -2147483643
@@ -204,5 +212,5 @@ LABEL148:
    load_int               -1
    load_string            ""
    widget_put_render_listener
-LABEL157:
+LABEL163:
    return                

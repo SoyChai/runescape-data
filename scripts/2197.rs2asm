@@ -1,0 +1,385 @@
+.int_stack_count    4
+.string_stack_count 0
+.int_var_count      5
+.string_var_count   0
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   widget_get_index      
+   istore                 4
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               1
+   widget_put_filled     
+   load_int               16777215
+   widget_put_textcolor  
+   load_int               255
+   widget_put_opacity    
+   load_int               16
+   load_int               27
+   load_int               1
+   load_int               0
+   widget_put_size       
+   load_int               0
+   iload                  3
+   load_int               1
+   iadd                  
+   load_int               1
+   load_int               0
+   widget_put_position   
+   load_int               2201
+   load_int               -2147483645
+   load_int               -2147483643
+   iload                  1
+   load_int               1
+   load_string            "Iii1"
+   widget_put_mouse_enter_listener
+   load_int               2201
+   load_int               -2147483645
+   load_int               -2147483643
+   iload                  1
+   load_int               0
+   load_string            "Iii1"
+   widget_put_mouse_exit_listener
+   load_int               2198
+   load_int               -2147483645
+   load_int               -2147483643
+   iload                  1
+   load_int               1719
+   load_int               1720
+   load_int               1721
+   load_int               1722
+   load_int               1723
+   load_int               1724
+   load_int               1188
+   load_int               1189
+   load_int               1000
+   load_int               1001
+   load_int               1002
+   load_int               1200
+   load_int               1190
+   load_int               1191
+   load_int               14
+   load_string            "IiiY"
+   widget_put_config_listener
+   iload                  0
+   load_int               4
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               105
+   load_int               115
+   load_int               595
+   iload                  1
+   get_enum_value        
+   widget_put_text       
+   load_int               70
+   load_int               15
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               1
+   widget_put_text_shadowed
+   load_int               494
+   widget_put_fontid     
+   load_int               16711680
+   widget_put_textcolor  
+   load_int               12
+   iload                  3
+   load_int               3
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               4
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_string            "X/X"
+   widget_put_text       
+   load_int               20
+   load_int               15
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               1
+   widget_put_text_shadowed
+   load_int               494
+   widget_put_fontid     
+   load_int               2
+   load_int               0
+   load_int               0
+   widget_put_text_alignment
+   load_int               16711680
+   widget_put_textcolor  
+   load_int               12
+   iload                  3
+   load_int               3
+   iadd                  
+   load_int               2
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child    1
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               1
+   widget_put_filled      1
+   load_int               0
+   widget_put_textcolor   1
+   load_int               150
+   widget_put_opacity     1
+   load_int               144
+   load_int               7
+   load_int               0
+   load_int               0
+   widget_put_size        1
+   load_int               0
+   iload                  3
+   load_int               17
+   iadd                  
+   load_int               1
+   load_int               0
+   widget_put_position    1
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               0
+   widget_put_filled     
+   load_int               0
+   widget_put_textcolor  
+   load_int               37
+   load_int               7
+   load_int               0
+   load_int               0
+   widget_put_size       
+   widget_get_relativex   1
+   iload                  3
+   load_int               17
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               0
+   widget_put_filled     
+   load_int               0
+   widget_put_textcolor  
+   load_int               37
+   load_int               7
+   load_int               0
+   load_int               0
+   widget_put_size       
+   widget_get_relativex   1
+   load_int               36
+   iadd                  
+   iload                  3
+   load_int               17
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               0
+   widget_put_filled     
+   load_int               0
+   widget_put_textcolor  
+   load_int               37
+   load_int               7
+   load_int               0
+   load_int               0
+   widget_put_size       
+   widget_get_relativex   1
+   load_int               72
+   iadd                  
+   iload                  3
+   load_int               17
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               0
+   widget_put_filled     
+   load_int               0
+   widget_put_textcolor  
+   load_int               37
+   load_int               7
+   load_int               0
+   load_int               0
+   widget_put_size       
+   widget_get_relativex   1
+   load_int               108
+   iadd                  
+   iload                  3
+   load_int               17
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               0
+   widget_put_filled     
+   load_int               13905408
+   widget_put_textcolor  
+   load_int               0
+   load_int               5
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               1
+   widget_put_filled     
+   widget_get_relativex   1
+   load_int               1
+   iadd                  
+   iload                  3
+   load_int               18
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               0
+   widget_put_filled     
+   load_int               13905408
+   widget_put_textcolor  
+   load_int               0
+   load_int               5
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               1
+   widget_put_filled     
+   widget_get_relativex   1
+   load_int               36
+   iadd                  
+   load_int               1
+   iadd                  
+   iload                  3
+   load_int               18
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               0
+   widget_put_filled     
+   load_int               13905408
+   widget_put_textcolor  
+   load_int               0
+   load_int               5
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               1
+   widget_put_filled     
+   widget_get_relativex   1
+   load_int               72
+   iadd                  
+   load_int               1
+   iadd                  
+   iload                  3
+   load_int               18
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   load_int               3
+   iload                  2
+   widget_create_child   
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   load_int               0
+   widget_put_filled     
+   load_int               13905408
+   widget_put_textcolor  
+   load_int               0
+   load_int               5
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               1
+   widget_put_filled     
+   widget_get_relativex   1
+   load_int               108
+   iadd                  
+   load_int               1
+   iadd                  
+   iload                  3
+   load_int               18
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   iload                  0
+   iload                  4
+   iload                  1
+   invoke                 2199
+   iload                  2
+   return                
+   load_int               0
+   return                

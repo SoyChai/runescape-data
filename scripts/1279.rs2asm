@@ -11,7 +11,7 @@
    iload                  1
    get_realskilllevels   
    istore                 2
-   get_settings           1295
+   get_varp               1295
    iload                  0
    load_int               1
    isub                  

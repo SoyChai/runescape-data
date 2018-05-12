@@ -42,6 +42,14 @@ LABEL28:
    load_int               1132
    return                
 LABEL30:
+   get_widget_root       
+   load_int               80
+   if_icmpeq              LABEL34
+   jump                   LABEL36
+LABEL34:
+   load_int               139
+   return                
+LABEL36:
    load_int               -1
    return                
    load_int               -1

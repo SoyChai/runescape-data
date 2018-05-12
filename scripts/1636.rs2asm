@@ -7,7 +7,7 @@
    invoke                 1942
    load_int               1
    if_icmpeq              LABEL6
-   jump                   LABEL16
+   jump                   LABEL28
 LABEL6:
    get_varbit             5703
    load_int               0
@@ -15,41 +15,68 @@ LABEL6:
    jump                   LABEL16
 LABEL10:
    load_string            "<col=00ff00>"
-   load_string            "When the timer hits 0:00 You will be safe here"
+   load_string            "When the timer hits 0:00 you'll be safe here"
    load_string            "</col>"
    string_append          3
    sstore                 0
-   jump                   LABEL41
+   jump                   LABEL27
 LABEL16:
-   invoke                 1942
-   load_int               0
-   if_icmpeq              LABEL20
-   jump                   LABEL30
-LABEL20:
-   get_varbit             4991
-   load_int               0
-   if_icmpeq              LABEL24
-   jump                   LABEL30
-LABEL24:
-   load_string            "<col=00ff00>"
-   load_string            "When the timer hits 0:00 You will be safe here"
-   load_string            "</col>"
-   string_append          3
-   sstore                 0
-   jump                   LABEL41
-LABEL30:
-   load_string            "<col=ff981f>"
-   load_string            "When the timer hits 0:00 YOU'LL "
+   load_string            "<col=ffa71f>"
+   load_string            "When the timer hits 0:00 you'll "
    load_string            "</col>"
    load_string            "<col=ff0000>"
    load_string            "DIE"
    load_string            "</col>"
-   load_string            "<col=ff981f>"
+   load_string            "<col=ffa71f>"
    load_string            " -  Get to safety"
    load_string            "</col>"
    string_append          9
    sstore                 0
-LABEL41:
+LABEL27:
+   jump                   LABEL65
+LABEL28:
+   get_varbit             4991
+   load_int               1
+   if_icmpeq              LABEL32
+   jump                   LABEL44
+LABEL32:
+   load_string            "<col=ff812c>"
+   load_string            "You'll "
+   load_string            "</col>"
+   load_string            "<col=ff0000>"
+   load_string            "DIE"
+   load_string            "</col>"
+   load_string            "<col=ff812c>"
+   load_string            " if you stay in this area -  Get to safety"
+   load_string            "</col>"
+   string_append          9
+   sstore                 0
+   jump                   LABEL65
+LABEL44:
+   get_varbit             4991
+   load_int               2
+   if_icmpeq              LABEL48
+   jump                   LABEL60
+LABEL48:
+   load_string            "<col=ffa71f>"
+   load_string            "When the timer hits 0:00 you'll "
+   load_string            "</col>"
+   load_string            "<col=ff0000>"
+   load_string            "DIE"
+   load_string            "</col>"
+   load_string            "<col=ffa71f>"
+   load_string            " -  Get to safety"
+   load_string            "</col>"
+   string_append          9
+   sstore                 0
+   jump                   LABEL65
+LABEL60:
+   load_string            "<col=00ff00>"
+   load_string            "When the timer hits 0:00 you'll be safe here"
+   load_string            "</col>"
+   string_append          3
+   sstore                 0
+LABEL65:
    sload                  0
    iload                  0
    widget_put_text_widget

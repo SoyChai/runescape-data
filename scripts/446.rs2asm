@@ -59,7 +59,7 @@ LABEL48:
    load_int               3
    get_realskilllevels   
    invoke                 449
-   get_settings           456
+   get_varp               456
    load_int               0
    if_icmpgt              LABEL59
    jump                   LABEL63
@@ -69,7 +69,7 @@ LABEL59:
    widget_put_spriteid_widget
    jump                   LABEL82
 LABEL63:
-   get_settings           102
+   get_varp               102
    load_int               1000000
    if_icmpge              LABEL67
    jump                   LABEL71
@@ -79,7 +79,7 @@ LABEL67:
    widget_put_spriteid_widget
    jump                   LABEL82
 LABEL71:
-   get_settings           102
+   get_varp               102
    load_int               0
    if_icmpgt              LABEL75
    jump                   LABEL79
@@ -93,12 +93,12 @@ LABEL79:
    iload                  3
    widget_put_spriteid_widget
 LABEL82:
-   get_settings           102
+   get_varp               102
    load_int               0
    if_icmpgt              LABEL86
    jump                   LABEL101
 LABEL86:
-   get_settings           102
+   get_varp               102
    load_int               1000000
    if_icmpge              LABEL90
    jump                   LABEL94
@@ -123,10 +123,10 @@ LABEL101:
 LABEL104:
    load_int               1072
    istore                 8
-   get_settings           102
+   get_varp               102
    load_int               0
    if_icmpgt              LABEL113
-   get_settings           456
+   get_varp               456
    load_int               0
    if_icmpgt              LABEL113
    jump                   LABEL136

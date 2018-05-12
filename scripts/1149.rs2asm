@@ -59,7 +59,7 @@ LABEL46:
    get_gamecycle         
    iload                  2
    iload                  1
-   load_string            "Isii1"
+   load_string            "Isiii"
    iload                  4
    widget_put_render_listener_widget
    load_int               1597

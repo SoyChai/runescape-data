@@ -10,7 +10,7 @@
    istore                 5
 LABEL6:
    iload                  5
-   load_int               19
+   load_int               20
    if_icmplt              LABEL10
    jump                   LABEL54
 LABEL10:
@@ -70,7 +70,7 @@ LABEL54:
    istore                 5
 LABEL56:
    iload                  5
-   load_int               113
+   load_int               116
    if_icmplt              LABEL60
    jump                   LABEL104
 LABEL60:
@@ -130,7 +130,7 @@ LABEL104:
    istore                 5
 LABEL106:
    iload                  5
-   load_int               11
+   load_int               12
    if_icmplt              LABEL110
    jump                   LABEL154
 LABEL110:

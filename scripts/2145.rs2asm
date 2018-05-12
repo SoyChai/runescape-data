@@ -1,0 +1,120 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   load_int               -1
+   istore                 1
+   load_int               93
+   get_inventory_size    
+   istore                 2
+LABEL5:
+   iload                  2
+   load_int               0
+   if_icmpgt              LABEL9
+   jump                   LABEL106
+LABEL9:
+   iload                  2
+   load_int               1
+   isub                  
+   istore                 2
+   iload                  0
+   iload                  2
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL19
+   jump                   LABEL105
+LABEL19:
+   load_int               93
+   iload                  2
+   get_itemcontainer_itemid
+   istore                 1
+   widget_put_actions_null
+   load_int               -1
+   load_string            ""
+   widget_put_render_listener
+   iload                  1
+   load_int               -1
+   if_icmpeq              LABEL31
+   jump                   LABEL34
+LABEL31:
+   load_int               1
+   widget_put_hidden     
+   jump                   LABEL105
+LABEL34:
+   iload                  1
+   get_item_note_2       
+   load_int               21652
+   if_icmpeq              LABEL39
+   jump                   LABEL77
+LABEL39:
+   load_int               0
+   widget_put_hidden     
+   load_int               0
+   widget_put_opacity    
+   load_int               487
+   load_int               -2147483645
+   load_int               -2147483643
+   load_int               100
+   load_int               0
+   load_string            "Iiii"
+   widget_put_option_click_listener
+   iload                  1
+   load_int               93
+   iload                  2
+   get_itemcontainer_stacksize
+   1200                  
+   load_int               1
+   load_string            "Store-1"
+   widget_put_action     
+   load_int               2
+   load_string            "Store-5"
+   widget_put_action     
+   load_int               3
+   load_string            "Store-X"
+   widget_put_action     
+   load_int               4
+   load_string            "Store-All"
+   widget_put_action     
+   load_int               10
+   load_string            "Examine"
+   widget_put_action     
+   load_string            "<col=ff9040>"
+   iload                  1
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   widget_put_name       
+   jump                   LABEL105
+LABEL77:
+   load_int               0
+   widget_put_hidden     
+   load_int               130
+   widget_put_opacity    
+   load_int               487
+   load_int               -2147483645
+   load_int               -2147483643
+   load_int               170
+   load_int               130
+   load_string            "Iiii"
+   widget_put_option_click_listener
+   iload                  1
+   load_int               93
+   iload                  2
+   get_itemcontainer_stacksize
+   1200                  
+   load_int               1
+   load_string            "Store"
+   widget_put_action     
+   load_int               10
+   load_string            "Examine"
+   widget_put_action     
+   load_string            "<col=ff9040>"
+   iload                  1
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   widget_put_name       
+LABEL105:
+   jump                   LABEL5
+LABEL106:
+   return                

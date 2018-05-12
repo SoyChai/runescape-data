@@ -3,200 +3,106 @@
 .int_var_count      1
 .string_var_count   1
    iload                  0
-   load_int               10
-   if_icmplt              LABEL4
-   jump                   LABEL78
-LABEL4:
-   iload                  0
-   load_int               5
-   if_icmplt              LABEL8
-   jump                   LABEL43
-LABEL8:
-   iload                  0
-   load_int               0
-   if_icmpeq              LABEL12
-   jump                   LABEL15
-LABEL12:
+   switch                
+      0: LABEL3
+      1: LABEL6
+      2: LABEL9
+      3: LABEL12
+      4: LABEL15
+      5: LABEL18
+      6: LABEL21
+      7: LABEL24
+      8: LABEL27
+      9: LABEL30
+      10: LABEL33
+      11: LABEL36
+      12: LABEL39
+      13: LABEL42
+      14: LABEL45
+      15: LABEL48
+      16: LABEL51
+      17: LABEL54
+      18: LABEL57
+      19: LABEL60
+   jump                   LABEL62
+LABEL3:
    sload                  0
    put_varc_string        2
-   jump                   LABEL42
-LABEL15:
-   iload                  0
-   load_int               1
-   if_icmpeq              LABEL19
-   jump                   LABEL22
-LABEL19:
+   jump                   LABEL62
+LABEL6:
    sload                  0
    put_varc_string        3
-   jump                   LABEL42
-LABEL22:
-   iload                  0
-   load_int               2
-   if_icmpeq              LABEL26
-   jump                   LABEL29
-LABEL26:
+   jump                   LABEL62
+LABEL9:
    sload                  0
    put_varc_string        4
-   jump                   LABEL42
-LABEL29:
-   iload                  0
-   load_int               3
-   if_icmpeq              LABEL33
-   jump                   LABEL36
-LABEL33:
+   jump                   LABEL62
+LABEL12:
    sload                  0
    put_varc_string        5
-   jump                   LABEL42
-LABEL36:
-   iload                  0
-   load_int               4
-   if_icmpeq              LABEL40
-   jump                   LABEL42
-LABEL40:
+   jump                   LABEL62
+LABEL15:
    sload                  0
    put_varc_string        6
-LABEL42:
-   jump                   LABEL77
-LABEL43:
-   iload                  0
-   load_int               5
-   if_icmpeq              LABEL47
-   jump                   LABEL50
-LABEL47:
+   jump                   LABEL62
+LABEL18:
    sload                  0
    put_varc_string        7
-   jump                   LABEL77
-LABEL50:
-   iload                  0
-   load_int               6
-   if_icmpeq              LABEL54
-   jump                   LABEL57
-LABEL54:
+   jump                   LABEL62
+LABEL21:
    sload                  0
    put_varc_string        8
-   jump                   LABEL77
-LABEL57:
-   iload                  0
-   load_int               7
-   if_icmpeq              LABEL61
-   jump                   LABEL64
-LABEL61:
+   jump                   LABEL62
+LABEL24:
    sload                  0
    put_varc_string        9
-   jump                   LABEL77
-LABEL64:
-   iload                  0
-   load_int               8
-   if_icmpeq              LABEL68
-   jump                   LABEL71
-LABEL68:
+   jump                   LABEL62
+LABEL27:
    sload                  0
    put_varc_string        10
-   jump                   LABEL77
-LABEL71:
-   iload                  0
-   load_int               9
-   if_icmpeq              LABEL75
-   jump                   LABEL77
-LABEL75:
+   jump                   LABEL62
+LABEL30:
    sload                  0
    put_varc_string        11
-LABEL77:
-   jump                   LABEL151
-LABEL78:
-   iload                  0
-   load_int               15
-   if_icmplt              LABEL82
-   jump                   LABEL117
-LABEL82:
-   iload                  0
-   load_int               10
-   if_icmpeq              LABEL86
-   jump                   LABEL89
-LABEL86:
+   jump                   LABEL62
+LABEL33:
    sload                  0
    put_varc_string        12
-   jump                   LABEL116
-LABEL89:
-   iload                  0
-   load_int               11
-   if_icmpeq              LABEL93
-   jump                   LABEL96
-LABEL93:
+   jump                   LABEL62
+LABEL36:
    sload                  0
    put_varc_string        13
-   jump                   LABEL116
-LABEL96:
-   iload                  0
-   load_int               12
-   if_icmpeq              LABEL100
-   jump                   LABEL103
-LABEL100:
+   jump                   LABEL62
+LABEL39:
    sload                  0
    put_varc_string        14
-   jump                   LABEL116
-LABEL103:
-   iload                  0
-   load_int               13
-   if_icmpeq              LABEL107
-   jump                   LABEL110
-LABEL107:
+   jump                   LABEL62
+LABEL42:
    sload                  0
    put_varc_string        15
-   jump                   LABEL116
-LABEL110:
-   iload                  0
-   load_int               14
-   if_icmpeq              LABEL114
-   jump                   LABEL116
-LABEL114:
+   jump                   LABEL62
+LABEL45:
    sload                  0
    put_varc_string        16
-LABEL116:
-   jump                   LABEL151
-LABEL117:
-   iload                  0
-   load_int               15
-   if_icmpeq              LABEL121
-   jump                   LABEL124
-LABEL121:
+   jump                   LABEL62
+LABEL48:
    sload                  0
    put_varc_string        17
-   jump                   LABEL151
-LABEL124:
-   iload                  0
-   load_int               16
-   if_icmpeq              LABEL128
-   jump                   LABEL131
-LABEL128:
+   jump                   LABEL62
+LABEL51:
    sload                  0
    put_varc_string        18
-   jump                   LABEL151
-LABEL131:
-   iload                  0
-   load_int               17
-   if_icmpeq              LABEL135
-   jump                   LABEL138
-LABEL135:
+   jump                   LABEL62
+LABEL54:
    sload                  0
    put_varc_string        19
-   jump                   LABEL151
-LABEL138:
-   iload                  0
-   load_int               18
-   if_icmpeq              LABEL142
-   jump                   LABEL145
-LABEL142:
+   jump                   LABEL62
+LABEL57:
    sload                  0
    put_varc_string        20
-   jump                   LABEL151
-LABEL145:
-   iload                  0
-   load_int               19
-   if_icmpeq              LABEL149
-   jump                   LABEL151
-LABEL149:
+   jump                   LABEL62
+LABEL60:
    sload                  0
    put_varc_string        21
-LABEL151:
+LABEL62:
    return                

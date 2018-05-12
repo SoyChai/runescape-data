@@ -1,0 +1,9 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   load_int               0
+   3119                  
+   iload                  0
+   invoke                 2179
+   return                

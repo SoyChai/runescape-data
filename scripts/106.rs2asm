@@ -11,7 +11,7 @@ LABEL4:
 LABEL5:
    invoke                 677
    load_string            "Enter name of player to delete from list"
-   load_int               10616865
+   load_int               10616867
    widget_put_text_widget
    load_int               5
    put_varc               5
@@ -24,7 +24,7 @@ LABEL5:
    load_int               -2147483639
    sload                  0
    load_string            "izs"
-   load_int               10616866
+   load_int               10616868
    widget_put_key_listener_widget
    invoke                 1972
    load_int               1

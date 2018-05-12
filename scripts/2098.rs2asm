@@ -1,0 +1,335 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      5
+.string_var_count   0
+   iload                  0
+   widget_unset_children 
+   iload                  0
+   load_int               4
+   load_int               0
+   widget_create_child   
+   load_string            "Cancel"
+   load_int               190
+   load_int               495
+   get_max_line_width    
+   load_int               15
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               5
+   load_int               0
+   load_int               2
+   load_int               2
+   widget_put_position   
+   load_int               2
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
+   load_int               9408399
+   widget_put_textcolor  
+   load_int               85
+   load_int               -2147483645
+   load_int               -2147483643
+   load_int               13619151
+   load_string            "Iii"
+   widget_put_mouse_enter_listener
+   load_int               85
+   load_int               -2147483645
+   load_int               -2147483643
+   load_int               9408399
+   load_string            "Iii"
+   widget_put_mouse_exit_listener
+   load_int               495
+   widget_put_fontid     
+   load_int               1
+   widget_put_text_shadowed
+   load_string            "Cancel"
+   widget_put_text       
+   load_int               1
+   load_string            "Cancel"
+   widget_put_action     
+   load_int               1
+   istore                 2
+   load_int               -1
+   istore                 3
+   load_int               -1
+   istore                 4
+LABEL52:
+   iload                  2
+   load_int               52
+   if_icmple              LABEL56
+   jump                   LABEL136
+LABEL56:
+   iload                  0
+   load_int               5
+   iload                  2
+   widget_create_child   
+   iload                  2
+   get_varp               664
+   invoke                 243
+   istore                 4
+   istore                 3
+   iload                  3
+   load_int               -1
+   if_icmpne              LABEL69
+   jump                   LABEL129
+LABEL69:
+   iload                  4
+   load_int               -1
+   if_icmpne              LABEL73
+   jump                   LABEL129
+LABEL73:
+   iload                  3
+   iload                  4
+   load_int               1
+   load_int               1
+   widget_put_position   
+   load_int               24
+   load_int               24
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               1
+   load_int               105
+   load_int               115
+   load_int               794
+   iload                  2
+   get_enum_value        
+   widget_put_action     
+   load_int               236
+   load_int               -2147483645
+   iload                  2
+   load_int               93
+   load_int               94
+   load_int               2
+   load_string            "IiY"
+   widget_put_table_listener
+   load_int               236
+   load_int               -2147483645
+   iload                  2
+   load_int               6
+   load_int               1
+   load_string            "IiY"
+   widget_put_skill_listener
+   load_int               236
+   load_int               -2147483645
+   iload                  2
+   load_int               638
+   load_int               375
+   load_int               1139
+   load_int               1140
+   load_int               1377
+   load_int               5
+   load_string            "IiY"
+   widget_put_config_listener
+   iload                  2
+   invoke                 237
+   load_int               238
+   iload                  1
+   iload                  2
+   load_string            "Ii"
+   widget_put_mouse_enter_listener
+   load_int               238
+   iload                  1
+   load_int               0
+   load_string            "Ii"
+   widget_put_mouse_exit_listener
+   jump                   LABEL131
+LABEL129:
+   load_int               1
+   widget_put_hidden     
+LABEL131:
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   jump                   LABEL52
+LABEL136:
+   iload                  1
+   widget_unset_children 
+   iload                  1
+   load_int               4
+   load_int               0
+   widget_create_child   
+   load_int               4
+   load_int               4
+   load_int               1
+   load_int               1
+   widget_put_size       
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_position   
+   load_int               11513759
+   widget_put_textcolor  
+   load_int               1
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
+   load_int               495
+   widget_put_fontid     
+   load_int               1
+   widget_put_text_shadowed
+   load_string            "Select a Combat Spell"
+   widget_put_text       
+   iload                  1
+   load_int               4
+   load_int               1
+   widget_create_child   
+   load_int               4
+   load_int               18
+   load_int               1
+   load_int               0
+   widget_put_size       
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               0
+   widget_put_position   
+   load_int               15724288
+   widget_put_textcolor  
+   load_int               1
+   load_int               2
+   load_int               0
+   widget_put_text_alignment
+   load_int               495
+   widget_put_fontid     
+   load_int               1
+   widget_put_text_shadowed
+   load_string            ""
+   widget_put_text       
+   iload                  1
+   load_int               4
+   load_int               2
+   widget_create_child   
+   load_int               4
+   load_int               20
+   load_int               1
+   load_int               0
+   widget_put_size       
+   load_int               0
+   load_int               18
+   load_int               1
+   load_int               0
+   widget_put_position   
+   load_int               10460928
+   widget_put_textcolor  
+   load_int               1
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   widget_put_text_shadowed
+   load_string            ""
+   widget_put_text       
+   iload                  1
+   load_int               6
+   load_int               3
+   widget_create_child   
+   load_int               32
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  1
+   load_int               4
+   load_int               4
+   widget_create_child   
+   load_int               32
+   load_int               68
+   load_int               0
+   load_int               1
+   widget_put_size       
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   load_int               0
+   load_int               0
+   widget_put_text_alignment
+   load_int               0
+   widget_put_text_shadowed
+   iload                  1
+   load_int               6
+   load_int               5
+   widget_create_child   
+   load_int               32
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  1
+   load_int               4
+   load_int               6
+   widget_create_child   
+   load_int               32
+   load_int               68
+   load_int               0
+   load_int               1
+   widget_put_size       
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   load_int               0
+   load_int               0
+   widget_put_text_alignment
+   load_int               0
+   widget_put_text_shadowed
+   iload                  1
+   load_int               6
+   load_int               7
+   widget_create_child   
+   load_int               32
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  1
+   load_int               4
+   load_int               8
+   widget_create_child   
+   load_int               32
+   load_int               68
+   load_int               0
+   load_int               1
+   widget_put_size       
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   load_int               0
+   load_int               0
+   widget_put_text_alignment
+   load_int               0
+   widget_put_text_shadowed
+   iload                  1
+   load_int               6
+   load_int               9
+   widget_create_child   
+   load_int               32
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  1
+   load_int               4
+   load_int               10
+   widget_create_child   
+   load_int               32
+   load_int               68
+   load_int               0
+   load_int               1
+   widget_put_size       
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   load_int               0
+   load_int               0
+   widget_put_text_alignment
+   load_int               0
+   widget_put_text_shadowed
+   iload                  1
+   load_int               0
+   invoke                 239
+   return                

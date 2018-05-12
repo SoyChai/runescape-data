@@ -4,7 +4,7 @@
 .string_var_count   0
    iload                  0
    widget_unset_children 
-   get_settings           211
+   get_varp               211
    load_int               0
    if_icmpeq              LABEL6
    jump                   LABEL19

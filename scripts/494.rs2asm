@@ -49,13 +49,13 @@ LABEL35:
    load_int               0
    iload                  0
    widget_put_hidden_widget
-   get_settings           1102
+   get_varp               1102
    load_int               0
    if_icmpeq              LABEL42
    jump                   LABEL53
 LABEL42:
    load_string            "Kills:"
-   get_settings           1103
+   get_varp               1103
    int_to_string         
    load_string            "<br>"
    load_string            "Deaths:0"
@@ -66,10 +66,10 @@ LABEL42:
    widget_put_text_widget
    return                
 LABEL53:
-   get_settings           1103
+   get_varp               1103
    load_int               10
    imul                  
-   get_settings           1102
+   get_varp               1102
    idiv                  
    istore                 2
    iload                  2
@@ -81,11 +81,11 @@ LABEL53:
    modulo                
    istore                 4
    load_string            "Kills: "
-   get_settings           1103
+   get_varp               1103
    int_to_string         
    load_string            "<br>"
    load_string            "Deaths: "
-   get_settings           1102
+   get_varp               1102
    int_to_string         
    load_string            "<br>"
    load_string            "K/D Ratio: "

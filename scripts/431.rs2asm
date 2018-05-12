@@ -173,7 +173,7 @@ LABEL127:
    iload                  6
    load_int               1
    if_icmpgt              LABEL158
-   jump                   LABEL175
+   jump                   LABEL179
 LABEL158:
    load_int               1
    load_string            "Smith 1 set"
@@ -191,8 +191,12 @@ LABEL158:
    load_string            "Smith X sets"
    iload                  0
    widget_put_action_widget
-   jump                   LABEL191
-LABEL175:
+   load_int               5
+   load_string            "Smith All sets"
+   iload                  0
+   widget_put_action_widget
+   jump                   LABEL199
+LABEL179:
    load_int               1
    load_string            "Smith 1"
    iload                  0
@@ -209,11 +213,16 @@ LABEL175:
    load_string            "Smith X"
    iload                  0
    widget_put_action_widget
-LABEL191:
+   load_int               5
+   load_string            "Smith All"
+   iload                  0
+   widget_put_action_widget
+LABEL199:
    load_string            "<col=ff9040>"
    iload                  1
    get_item_name         
-   string_append          2
+   load_string            "</col>"
+   string_append          3
    iload                  0
    widget_put_name_widget
    return                

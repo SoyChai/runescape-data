@@ -1,0 +1,18 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   load_int               2172
+   load_int               1707
+   load_int               1
+   load_string            "Y"
+   iload                  0
+   widget_put_config_listener_widget
+   load_int               2171
+   iload                  0
+   load_int               -2147483644
+   load_string            "Ii"
+   iload                  0
+   widget_put_option_click_listener_widget
+   invoke                 2173
+   return                

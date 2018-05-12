@@ -20,7 +20,7 @@ LABEL14:
    iload                  4
    load_int               -1
    if_icmpne              LABEL18
-   jump                   LABEL80
+   jump                   LABEL83
 LABEL18:
    iload                  0
    load_int               5
@@ -60,11 +60,14 @@ LABEL18:
    load_int               2
    load_string            "Value"
    widget_put_action     
-   load_int               8
+   load_int               7
    load_string            "Buy-5"
    widget_put_action     
-   load_int               9
+   load_int               8
    load_string            "Buy-10"
+   widget_put_action     
+   load_int               9
+   load_string            "Buy-50"
    widget_put_action     
    load_int               10
    load_string            "Examine"
@@ -84,17 +87,17 @@ LABEL18:
    get_enum_value        
    istore                 4
    jump                   LABEL14
-LABEL80:
+LABEL83:
    iload                  2
    load_int               0
-   if_icmpgt              LABEL84
-   jump                   LABEL88
-LABEL84:
+   if_icmpgt              LABEL87
+   jump                   LABEL91
+LABEL87:
    iload                  2
    load_int               32
    iadd                  
    istore                 2
-LABEL88:
+LABEL91:
    load_int               0
    load_int               0
    iload                  0
@@ -102,9 +105,9 @@ LABEL88:
    iload                  2
    iload                  0
    widget_get_height_widget
-   if_icmpgt              LABEL97
-   jump                   LABEL111
-LABEL97:
+   if_icmpgt              LABEL100
+   jump                   LABEL114
+LABEL100:
    load_int               0
    iload                  2
    iload                  0
@@ -118,11 +121,11 @@ LABEL97:
    load_int               773
    load_int               788
    invoke                 31
-   jump                   LABEL115
-LABEL111:
+   jump                   LABEL118
+LABEL114:
    load_int               0
    load_int               0
    iload                  0
    widget_put_scrollwidthheight_widget
-LABEL115:
+LABEL118:
    return                

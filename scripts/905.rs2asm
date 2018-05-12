@@ -2,15 +2,24 @@
 .string_stack_count 0
 .int_var_count      7
 .string_var_count   0
+   get_widget_root       
+   load_int               80
+   if_icmpeq              LABEL4
+   jump                   LABEL7
+LABEL4:
+   iload                  0
+   invoke                 2186
+   return                
+LABEL7:
    load_int               -1
    load_int               -1
    invoke                 1701
    load_int               0
-   if_icmpeq              LABEL6
-   jump                   LABEL7
-LABEL6:
+   if_icmpeq              LABEL13
+   jump                   LABEL14
+LABEL13:
    return                
-LABEL7:
+LABEL14:
    load_int               73
    load_int               73
    iload                  1
@@ -31,49 +40,49 @@ LABEL7:
    istore                 4
    iload                  3
    load_int               -1
-   if_icmpne              LABEL29
-   jump                   LABEL49
-LABEL29:
+   if_icmpne              LABEL36
+   jump                   LABEL56
+LABEL36:
    iload                  0
    load_int               13
-   if_icmpeq              LABEL33
-   jump                   LABEL49
-LABEL33:
+   if_icmpeq              LABEL40
+   jump                   LABEL56
+LABEL40:
    get_varbit             4681
    load_int               1
-   if_icmpeq              LABEL37
-   jump                   LABEL49
-LABEL37:
+   if_icmpeq              LABEL44
+   jump                   LABEL56
+LABEL44:
    iload                  4
    widget_get_index_widget
    load_int               1
-   if_icmpeq              LABEL42
-   jump                   LABEL49
-LABEL42:
+   if_icmpeq              LABEL49
+   jump                   LABEL56
+LABEL49:
    iload                  3
    widget_get_index_widget
    load_int               1
-   if_icmpeq              LABEL47
-   jump                   LABEL49
-LABEL47:
+   if_icmpeq              LABEL54
+   jump                   LABEL56
+LABEL54:
    close_window          
    return                
-LABEL49:
+LABEL56:
    iload                  0
    invoke                 986
    istore                 5
    iload                  5
    load_int               -1
-   if_icmpeq              LABEL61
+   if_icmpeq              LABEL68
    iload                  5
    get_varbit             3756
    load_int               1
    isub                  
-   if_icmpeq              LABEL61
-   jump                   LABEL62
-LABEL61:
+   if_icmpeq              LABEL68
+   jump                   LABEL69
+LABEL68:
    return                
-LABEL62:
+LABEL69:
    load_int               105
    load_int               73
    load_int               1137
@@ -89,12 +98,12 @@ LABEL62:
    iload                  6
    widget_get_index_widget
    load_int               1
-   if_icmpeq              LABEL79
-   jump                   LABEL83
-LABEL79:
+   if_icmpeq              LABEL86
+   jump                   LABEL90
+LABEL86:
    iload                  1
    iload                  5
    iload                  2
    invoke                 71
-LABEL83:
+LABEL90:
    return                

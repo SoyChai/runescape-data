@@ -7,27 +7,53 @@
    widget_load_child     
    load_int               1
    if_icmpeq              LABEL6
-   jump                   LABEL12
+   jump                   LABEL23
 LABEL6:
+   invoke                 1972
+   load_int               1
+   if_icmpeq              LABEL10
+   jump                   LABEL17
+LABEL10:
+   load_int               105
+   load_int               115
+   load_int               1879
+   get_varp               1107
+   get_enum_value        
+   widget_put_text       
+   jump                   LABEL23
+LABEL17:
    load_int               105
    load_int               115
    load_int               1246
-   get_settings           1107
+   get_varp               1107
    get_enum_value        
    widget_put_text       
-LABEL12:
+LABEL23:
    iload                  1
    load_int               4
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL18
-   jump                   LABEL24
-LABEL18:
+   if_icmpeq              LABEL29
+   jump                   LABEL46
+LABEL29:
+   invoke                 1972
+   load_int               1
+   if_icmpeq              LABEL33
+   jump                   LABEL40
+LABEL33:
+   load_int               105
+   load_int               115
+   load_int               1879
+   get_varp               1306
+   get_enum_value        
+   widget_put_text       
+   jump                   LABEL46
+LABEL40:
    load_int               105
    load_int               115
    load_int               1246
-   get_settings           1306
+   get_varp               1306
    get_enum_value        
    widget_put_text       
-LABEL24:
+LABEL46:
    return                

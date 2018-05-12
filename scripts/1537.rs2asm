@@ -20,20 +20,20 @@ LABEL12:
    if_icmplt              LABEL16
    jump                   LABEL83
 LABEL16:
-   load_int               33226762
+   load_int               33226763
    iload                  0
-   load_int               6
+   load_int               8
    imul                  
-   load_int               4
+   load_int               5
    iadd                  
    widget_load_child     
    load_int               1
    if_icmpeq              LABEL26
    jump                   LABEL47
 LABEL26:
-   load_int               33226762
+   load_int               33226763
    iload                  0
-   load_int               6
+   load_int               8
    imul                  
    load_int               2
    iadd                  
@@ -56,20 +56,20 @@ LABEL45:
    load_int               16750623
    widget_put_textcolor   1
 LABEL47:
-   load_int               33226762
+   load_int               33226763
    iload                  0
-   load_int               6
+   load_int               8
    imul                  
-   load_int               5
+   load_int               6
    iadd                  
    widget_load_child     
    load_int               1
    if_icmpeq              LABEL57
    jump                   LABEL78
 LABEL57:
-   load_int               33226762
+   load_int               33226763
    iload                  0
-   load_int               6
+   load_int               8
    imul                  
    load_int               3
    iadd                  

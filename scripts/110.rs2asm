@@ -4,7 +4,7 @@
 .string_var_count   2
    invoke                 677
    sload                  0
-   load_int               10616865
+   load_int               10616867
    widget_put_text_widget
    iload                  0
    load_int               2
@@ -27,11 +27,11 @@ LABEL13:
    load_int               -2147483639
    sload                  1
    load_string            "izs"
-   load_int               10616866
+   load_int               10616868
    widget_put_key_listener_widget
    load_int               138
    load_string            ""
-   load_int               10616866
+   load_int               10616868
    widget_put_dialog_abort_listener_widget
    invoke                 1972
    load_int               1

@@ -12,73 +12,118 @@
    load_int               4325406
    widget_put_hidden_widget
    load_int               1
+   load_int               4325430
+   widget_put_hidden_widget
+   load_int               1
    load_int               4325419
    widget_put_hidden_widget
-   get_settings           1204
    load_int               1
-   if_icmpeq              LABEL16
-   jump                   LABEL22
-LABEL16:
+   load_int               4325441
+   widget_put_hidden_widget
+   load_int               1
+   load_int               4325452
+   widget_put_hidden_widget
+   get_varp               1204
+   load_int               1
+   if_icmpeq              LABEL25
+   jump                   LABEL31
+LABEL25:
    load_int               0
    load_int               4325383
    widget_put_hidden_widget
    load_string            "redemption of 1 bond"
    invoke                 742
-   jump                   LABEL70
-LABEL22:
-   get_settings           1204
+   jump                   LABEL109
+LABEL31:
+   get_varp               1204
    load_int               2
-   if_icmpeq              LABEL26
-   jump                   LABEL32
-LABEL26:
+   if_icmpeq              LABEL35
+   jump                   LABEL41
+LABEL35:
    load_int               0
    load_int               4325394
    widget_put_hidden_widget
    load_string            "redemption of 2 bonds"
    invoke                 742
-   jump                   LABEL70
-LABEL32:
-   get_settings           1204
+   jump                   LABEL109
+LABEL41:
+   get_varp               1204
    load_int               3
-   if_icmpeq              LABEL36
-   jump                   LABEL42
-LABEL36:
+   if_icmpeq              LABEL45
+   jump                   LABEL51
+LABEL45:
    load_int               0
    load_int               4325406
    widget_put_hidden_widget
    load_string            "redemption of three bonds"
    invoke                 742
-   jump                   LABEL70
-LABEL42:
-   get_settings           1204
-   load_int               8
-   if_icmpeq              LABEL46
-   jump                   LABEL52
-LABEL46:
+   jump                   LABEL109
+LABEL51:
+   get_varp               1204
+   load_int               4
+   if_icmpeq              LABEL55
+   jump                   LABEL61
+LABEL55:
    load_int               0
    load_int               4325419
    widget_put_hidden_widget
    load_string            "redemption of five bonds"
    invoke                 742
-   jump                   LABEL70
-LABEL52:
+   jump                   LABEL109
+LABEL61:
+   get_varp               1204
+   load_int               5
+   if_icmpeq              LABEL65
+   jump                   LABEL71
+LABEL65:
+   load_int               0
+   load_int               4325419
+   widget_put_hidden_widget
+   load_string            "redemption of the bonds"
+   invoke                 742
+   jump                   LABEL109
+LABEL71:
+   get_varp               1204
+   load_int               6
+   if_icmpeq              LABEL75
+   jump                   LABEL81
+LABEL75:
+   load_int               0
+   load_int               4325441
+   widget_put_hidden_widget
+   load_string            "redemption of the bonds"
+   invoke                 742
+   jump                   LABEL109
+LABEL81:
+   get_varp               1204
+   load_int               7
+   if_icmpeq              LABEL85
+   jump                   LABEL91
+LABEL85:
+   load_int               0
+   load_int               4325452
+   widget_put_hidden_widget
+   load_string            "redemption of the bonds"
+   invoke                 742
+   jump                   LABEL109
+LABEL91:
    load_int               1
-   load_int               4325434
+   load_int               4325464
    widget_put_hidden_widget
    load_int               0
-   load_int               4325437
+   load_int               4325467
    widget_put_hidden_widget
    load_string            "Select a membership package from the options above."
-   load_int               4325431
+   load_int               4325460
    widget_put_text_widget
    load_string            "___"
-   load_int               4325438
+   load_int               4325468
    widget_put_text_widget
    load_int               16750623
-   load_int               4325438
+   load_int               4325468
    widget_put_textcolor_widget
    load_string            ""
-   load_int               4325434
+   load_int               4325464
    widget_put_name_widget
-LABEL70:
+LABEL109:
    return                

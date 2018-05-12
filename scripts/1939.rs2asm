@@ -1,10 +1,10 @@
-.int_stack_count    26
+.int_stack_count    28
 .string_stack_count 0
-.int_var_count      26
+.int_var_count      28
 .string_var_count   0
    get_varbit             5672
    int_to_string         
-   iload                  13
+   iload                  14
    widget_put_text_widget
    get_varbit             5672
    load_int               0
@@ -12,7 +12,7 @@
    jump                   LABEL25
 LABEL8:
    load_int               16776960
-   iload                  13
+   iload                  14
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               1
@@ -33,7 +33,7 @@ LABEL24:
    jump                   LABEL41
 LABEL25:
    load_int               13107200
-   iload                  13
+   iload                  14
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               1
@@ -53,7 +53,7 @@ LABEL37:
 LABEL41:
    get_varbit             5673
    int_to_string         
-   iload                  14
+   iload                  15
    widget_put_text_widget
    get_varbit             5673
    load_int               0
@@ -61,7 +61,7 @@ LABEL41:
    jump                   LABEL66
 LABEL49:
    load_int               16776960
-   iload                  14
+   iload                  15
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               2
@@ -82,7 +82,7 @@ LABEL65:
    jump                   LABEL82
 LABEL66:
    load_int               13107200
-   iload                  14
+   iload                  15
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               2
@@ -102,7 +102,7 @@ LABEL78:
 LABEL82:
    get_varbit             5674
    int_to_string         
-   iload                  15
+   iload                  16
    widget_put_text_widget
    get_varbit             5674
    load_int               0
@@ -110,7 +110,7 @@ LABEL82:
    jump                   LABEL107
 LABEL90:
    load_int               16776960
-   iload                  15
+   iload                  16
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               3
@@ -131,7 +131,7 @@ LABEL106:
    jump                   LABEL123
 LABEL107:
    load_int               13107200
-   iload                  15
+   iload                  16
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               3
@@ -151,7 +151,7 @@ LABEL119:
 LABEL123:
    get_varbit             5675
    int_to_string         
-   iload                  16
+   iload                  17
    widget_put_text_widget
    get_varbit             5675
    load_int               0
@@ -159,7 +159,7 @@ LABEL123:
    jump                   LABEL148
 LABEL131:
    load_int               16776960
-   iload                  16
+   iload                  17
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               4
@@ -180,7 +180,7 @@ LABEL147:
    jump                   LABEL164
 LABEL148:
    load_int               13107200
-   iload                  16
+   iload                  17
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               4
@@ -200,7 +200,7 @@ LABEL160:
 LABEL164:
    get_varbit             5676
    int_to_string         
-   iload                  17
+   iload                  18
    widget_put_text_widget
    get_varbit             5676
    load_int               0
@@ -208,7 +208,7 @@ LABEL164:
    jump                   LABEL189
 LABEL172:
    load_int               16776960
-   iload                  17
+   iload                  18
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               5
@@ -229,7 +229,7 @@ LABEL188:
    jump                   LABEL205
 LABEL189:
    load_int               13107200
-   iload                  17
+   iload                  18
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               5
@@ -249,7 +249,7 @@ LABEL201:
 LABEL205:
    get_varbit             5677
    int_to_string         
-   iload                  18
+   iload                  19
    widget_put_text_widget
    get_varbit             5677
    load_int               0
@@ -257,7 +257,7 @@ LABEL205:
    jump                   LABEL230
 LABEL213:
    load_int               16776960
-   iload                  18
+   iload                  19
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               6
@@ -278,7 +278,7 @@ LABEL229:
    jump                   LABEL246
 LABEL230:
    load_int               13107200
-   iload                  18
+   iload                  19
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               6
@@ -298,7 +298,7 @@ LABEL242:
 LABEL246:
    get_varbit             5678
    int_to_string         
-   iload                  19
+   iload                  20
    widget_put_text_widget
    get_varbit             5678
    load_int               0
@@ -306,7 +306,7 @@ LABEL246:
    jump                   LABEL271
 LABEL254:
    load_int               16776960
-   iload                  19
+   iload                  20
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               7
@@ -327,7 +327,7 @@ LABEL270:
    jump                   LABEL287
 LABEL271:
    load_int               13107200
-   iload                  19
+   iload                  20
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               7
@@ -347,7 +347,7 @@ LABEL283:
 LABEL287:
    get_varbit             5679
    int_to_string         
-   iload                  20
+   iload                  21
    widget_put_text_widget
    get_varbit             5679
    load_int               0
@@ -355,7 +355,7 @@ LABEL287:
    jump                   LABEL312
 LABEL295:
    load_int               16776960
-   iload                  20
+   iload                  21
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               8
@@ -376,7 +376,7 @@ LABEL311:
    jump                   LABEL328
 LABEL312:
    load_int               13107200
-   iload                  20
+   iload                  21
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               8
@@ -396,7 +396,7 @@ LABEL324:
 LABEL328:
    get_varbit             5680
    int_to_string         
-   iload                  21
+   iload                  22
    widget_put_text_widget
    get_varbit             5680
    load_int               0
@@ -404,7 +404,7 @@ LABEL328:
    jump                   LABEL353
 LABEL336:
    load_int               16776960
-   iload                  21
+   iload                  22
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               9
@@ -425,7 +425,7 @@ LABEL352:
    jump                   LABEL369
 LABEL353:
    load_int               13107200
-   iload                  21
+   iload                  22
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               9
@@ -445,7 +445,7 @@ LABEL365:
 LABEL369:
    get_varbit             5681
    int_to_string         
-   iload                  22
+   iload                  23
    widget_put_text_widget
    get_varbit             5681
    load_int               0
@@ -453,7 +453,7 @@ LABEL369:
    jump                   LABEL394
 LABEL377:
    load_int               16776960
-   iload                  22
+   iload                  23
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               10
@@ -474,7 +474,7 @@ LABEL393:
    jump                   LABEL410
 LABEL394:
    load_int               13107200
-   iload                  22
+   iload                  23
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               10
@@ -494,7 +494,7 @@ LABEL406:
 LABEL410:
    get_varbit             5682
    int_to_string         
-   iload                  23
+   iload                  24
    widget_put_text_widget
    get_varbit             5682
    load_int               0
@@ -502,7 +502,7 @@ LABEL410:
    jump                   LABEL435
 LABEL418:
    load_int               16776960
-   iload                  23
+   iload                  24
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               11
@@ -523,7 +523,7 @@ LABEL434:
    jump                   LABEL451
 LABEL435:
    load_int               13107200
-   iload                  23
+   iload                  24
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               11
@@ -543,7 +543,7 @@ LABEL447:
 LABEL451:
    get_varbit             5683
    int_to_string         
-   iload                  24
+   iload                  25
    widget_put_text_widget
    get_varbit             5683
    load_int               0
@@ -551,7 +551,7 @@ LABEL451:
    jump                   LABEL476
 LABEL459:
    load_int               16776960
-   iload                  24
+   iload                  25
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               12
@@ -572,7 +572,7 @@ LABEL475:
    jump                   LABEL492
 LABEL476:
    load_int               13107200
-   iload                  24
+   iload                  25
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               12
@@ -592,7 +592,7 @@ LABEL488:
 LABEL492:
    get_varbit             5684
    int_to_string         
-   iload                  25
+   iload                  26
    widget_put_text_widget
    get_varbit             5684
    load_int               0
@@ -600,7 +600,7 @@ LABEL492:
    jump                   LABEL517
 LABEL500:
    load_int               16776960
-   iload                  25
+   iload                  26
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               13
@@ -621,7 +621,7 @@ LABEL516:
    jump                   LABEL533
 LABEL517:
    load_int               13107200
-   iload                  25
+   iload                  26
    widget_put_textcolor_widget
    get_varbit             5685
    load_int               13
@@ -639,4 +639,53 @@ LABEL529:
    iload                  12
    2205                  
 LABEL533:
+   get_varbit             6056
+   int_to_string         
+   iload                  27
+   widget_put_text_widget
+   get_varbit             6056
+   load_int               0
+   if_icmpgt              LABEL541
+   jump                   LABEL558
+LABEL541:
+   load_int               16776960
+   iload                  27
+   widget_put_textcolor_widget
+   get_varbit             5685
+   load_int               14
+   if_icmpeq              LABEL548
+   jump                   LABEL553
+LABEL548:
+   load_int               21790
+   load_int               0
+   iload                  13
+   2205                  
+   jump                   LABEL557
+LABEL553:
+   load_int               21802
+   load_int               0
+   iload                  13
+   2205                  
+LABEL557:
+   jump                   LABEL574
+LABEL558:
+   load_int               13107200
+   iload                  27
+   widget_put_textcolor_widget
+   get_varbit             5685
+   load_int               14
+   if_icmpeq              LABEL565
+   jump                   LABEL570
+LABEL565:
+   load_int               21790
+   load_int               0
+   iload                  13
+   2205                  
+   jump                   LABEL574
+LABEL570:
+   load_int               21789
+   load_int               0
+   iload                  13
+   2205                  
+LABEL574:
    return                

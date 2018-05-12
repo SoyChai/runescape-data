@@ -1,0 +1,19 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   load_int               141
+   get_inventory_size    
+   istore                 2
+   iload                  1
+   iload                  2
+   invoke                 2090
+   load_int               2089
+   iload                  1
+   iload                  2
+   load_int               141
+   load_int               1
+   load_string            "IiY"
+   iload                  0
+   widget_put_table_listener_widget
+   return                

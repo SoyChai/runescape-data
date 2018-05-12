@@ -185,7 +185,7 @@ LABEL156:
    if_icmpge              LABEL160
    jump                   LABEL168
 LABEL160:
-   get_settings           262
+   get_varp               262
    load_int               5
    if_icmpgt              LABEL164
    jump                   LABEL168
@@ -200,7 +200,7 @@ LABEL168:
    if_icmpge              LABEL172
    jump                   LABEL180
 LABEL172:
-   get_settings           262
+   get_varp               262
    load_int               2
    if_icmpgt              LABEL176
    jump                   LABEL180

@@ -1,0 +1,40 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      2
+.string_var_count   0
+   get_gamecycle         
+   iload                  1
+   load_int               30
+   imul                  
+   iadd                  
+   istore                 1
+   load_int               2114
+   iload                  1
+   load_string            "i"
+   load_int               19922951
+   widget_put_render_listener_widget
+   iload                  0
+   load_int               100
+   imul                  
+   load_int               900
+   idiv                  
+   load_int               150
+   imul                  
+   load_int               100
+   idiv                  
+   istore                 0
+   iload                  0
+   load_int               20
+   load_int               0
+   load_int               0
+   load_int               19922948
+   widget_put_size_widget
+   load_int               150
+   iload                  0
+   isub                  
+   load_int               20
+   load_int               0
+   load_int               0
+   load_int               19922947
+   widget_put_size_widget
+   return                

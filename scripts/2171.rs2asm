@@ -1,0 +1,31 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   iload                  1
+   load_int               1
+   if_icmpne              LABEL4
+   jump                   LABEL5
+LABEL4:
+   return                
+LABEL5:
+   load_int               73
+   load_int               105
+   load_int               1896
+   iload                  0
+   get_enum_value        
+   istore                 2
+   get_varbit             6275
+   iload                  2
+   if_icmpeq              LABEL15
+   jump                   LABEL18
+LABEL15:
+   load_int               0
+   set_varbit             6275
+   jump                   LABEL20
+LABEL18:
+   iload                  2
+   set_varbit             6275
+LABEL20:
+   invoke                 2173
+   return                

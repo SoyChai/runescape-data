@@ -1,54 +1,128 @@
-.int_stack_count    3
+.int_stack_count    1
 .string_stack_count 0
-.int_var_count      3
+.int_var_count      7
 .string_var_count   0
-   load_int               6
-   get_boostedskilllevels
+   iload                  0
+   widget_unset_children 
+   iload                  0
+   widget_get_width_widget
+   istore                 1
+   iload                  0
+   widget_get_height_widget
+   istore                 2
    iload                  1
-   if_icmpge              LABEL5
-   jump                   LABEL25
-LABEL5:
-   load_int               65280
-   widget_put_textcolor   1
-   load_int               93
+   load_int               9
+   isub                  
+   istore                 3
    iload                  2
-   get_itemcontainer_stacksizes_total
+   load_int               9
+   isub                  
+   istore                 4
+   iload                  1
+   load_int               18
+   isub                  
+   istore                 5
+   iload                  2
+   load_int               18
+   isub                  
+   istore                 6
+   iload                  0
    load_int               0
-   if_icmpgt              LABEL13
-   jump                   LABEL20
-LABEL13:
-   load_int               65280
-   widget_put_textcolor  
+   load_int               913
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               9
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  0
    load_int               1
-   load_string            "Enchant Bolts"
-   iload                  0
-   widget_put_action_widget
-   jump                   LABEL24
-LABEL20:
-   load_int               16750623
-   widget_put_textcolor  
-   iload                  0
-   widget_put_actions_null_widget
-LABEL24:
-   jump                   LABEL40
-LABEL25:
-   load_int               16750623
-   widget_put_textcolor   1
-   load_int               93
-   iload                  2
-   get_itemcontainer_stacksizes_total
+   load_int               914
+   iload                  3
    load_int               0
-   if_icmpgt              LABEL33
-   jump                   LABEL36
-LABEL33:
-   load_int               65280
-   widget_put_textcolor  
-   jump                   LABEL38
-LABEL36:
-   load_int               16750623
-   widget_put_textcolor  
-LABEL38:
+   load_int               0
+   load_int               0
+   load_int               9
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
    iload                  0
-   widget_put_actions_null_widget
-LABEL40:
+   load_int               2
+   load_int               915
+   load_int               0
+   iload                  4
+   load_int               0
+   load_int               0
+   load_int               9
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  0
+   load_int               3
+   load_int               916
+   iload                  3
+   iload                  4
+   load_int               0
+   load_int               0
+   load_int               9
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  0
+   load_int               4
+   load_int               917
+   load_int               0
+   load_int               9
+   load_int               0
+   load_int               0
+   load_int               9
+   iload                  6
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  0
+   load_int               5
+   load_int               918
+   load_int               9
+   load_int               0
+   load_int               0
+   load_int               0
+   iload                  5
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  0
+   load_int               6
+   load_int               919
+   iload                  3
+   load_int               9
+   load_int               0
+   load_int               0
+   load_int               9
+   iload                  6
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  0
+   load_int               7
+   load_int               920
+   load_int               9
+   iload                  4
+   load_int               0
+   load_int               0
+   iload                  5
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   load_int               8
+   return                
+   load_int               0
    return                

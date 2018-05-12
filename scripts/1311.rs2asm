@@ -4,18 +4,18 @@
 .string_var_count   0
    load_int               1
    istore                 2
-   get_settings           101
+   get_varp               101
    iload                  2
    if_icmpgt              LABEL6
    jump                   LABEL8
 LABEL6:
-   get_settings           101
+   get_varp               101
    istore                 2
 LABEL8:
    get_varbit             5099
    istore                 3
    get_varbit             5099
-   get_settings           101
+   get_varp               101
    if_icmplt              LABEL14
    jump                   LABEL18
 LABEL14:

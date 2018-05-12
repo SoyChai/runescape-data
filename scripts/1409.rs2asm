@@ -1,6 +1,6 @@
 .int_stack_count    4
 .string_stack_count 0
-.int_var_count      6
+.int_var_count      5
 .string_var_count   0
    load_int               30670850
    load_int               6
@@ -42,7 +42,7 @@
    load_int               80
    iadd                  
    istore                 3
-   load_int               111
+   load_int               105
    load_int               109
    load_int               1469
    iload                  0
@@ -86,33 +86,15 @@ LABEL71:
    load_int               1
    load_int               0
    widget_put_text_alignment 1
-   load_int               111
-   load_int               105
-   load_int               139
-   iload                  0
-   get_enum_value        
-   load_int               1
-   isub                  
-   istore                 5
-   iload                  5
-   load_int               0
-   if_icmpge              LABEL93
-   jump                   LABEL119
-LABEL93:
-   iload                  5
-   load_int               32
-   if_icmplt              LABEL97
-   jump                   LABEL119
-LABEL97:
    iload                  1
-   iload                  5
+   iload                  0
    test_bit              
    load_int               1
-   if_icmpeq              LABEL103
-   jump                   LABEL113
-LABEL103:
+   if_icmpeq              LABEL87
+   jump                   LABEL97
+LABEL87:
    load_string            "<str>"
-   load_int               111
+   load_int               105
    load_int               115
    load_int               1470
    iload                  0
@@ -120,15 +102,15 @@ LABEL103:
    load_string            "</str>"
    string_append          3
    widget_put_text        1
-   jump                   LABEL119
-LABEL113:
-   load_int               111
+   jump                   LABEL103
+LABEL97:
+   load_int               105
    load_int               115
    load_int               1470
    iload                  0
    get_enum_value        
    widget_put_text        1
-LABEL119:
+LABEL103:
    iload                  2
    iload                  3
    return                

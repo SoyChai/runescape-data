@@ -37,7 +37,7 @@ LABEL31:
    iload                  5
    iload                  4
    if_icmplt              LABEL35
-   jump                   LABEL90
+   jump                   LABEL97
 LABEL35:
    load_int               19660802
    load_int               5
@@ -79,6 +79,15 @@ LABEL35:
    load_int               4
    load_string            "Buy 10"
    widget_put_action     
+   invoke                 2082
+   load_int               0
+   if_icmpeq              LABEL79
+   jump                   LABEL82
+LABEL79:
+   load_int               5
+   load_string            "Buy 50"
+   widget_put_action     
+LABEL82:
    load_int               10
    load_string            "Examine"
    widget_put_action     
@@ -94,7 +103,7 @@ LABEL35:
    iadd                  
    istore                 5
    jump                   LABEL31
-LABEL90:
+LABEL97:
    load_int               19660803
    load_int               19660802
    load_int               792

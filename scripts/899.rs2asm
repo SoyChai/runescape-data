@@ -2,26 +2,24 @@
 .string_stack_count 0
 .int_var_count      2
 .string_var_count   0
-   get_settings           309
-   load_int               2
-   test_bit              
+   get_varbit             5965
    load_int               1
-   if_icmpeq              LABEL6
-   jump                   LABEL13
-LABEL6:
+   if_icmpeq              LABEL4
+   jump                   LABEL11
+LABEL4:
    load_int               2228224
    iload                  0
    widget_put_textcolor_widget
    load_int               65280
    iload                  1
    widget_put_textcolor_widget
-   jump                   LABEL19
-LABEL13:
+   jump                   LABEL17
+LABEL11:
    load_int               16711680
    iload                  0
    widget_put_textcolor_widget
    load_int               8704
    iload                  1
    widget_put_textcolor_widget
-LABEL19:
+LABEL17:
    return                

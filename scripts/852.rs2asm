@@ -13,7 +13,7 @@
    widget_put_action_widget
    load_int               1
    load_string            "Click"
-   load_string            "Tap"
+   load_string            "tap"
    invoke                 1971
    load_string            " through chatbox"
    string_append          2

@@ -8,7 +8,7 @@
    widget_create_child   
    load_int               10616864
    widget_get_width_widget
-   load_int               10616865
+   load_int               10616867
    widget_get_relativey_widget
    load_int               0
    load_int               0

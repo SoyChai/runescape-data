@@ -1,10 +1,11 @@
-.int_stack_count    3
+.int_stack_count    4
 .string_stack_count 1
-.int_var_count      3
+.int_var_count      4
 .string_var_count   1
    iload                  0
    sload                  0
    iload                  1
    iload                  2
+   iload                  3
    invoke                 1595
    return                

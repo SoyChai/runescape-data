@@ -2,15 +2,19 @@
 .string_stack_count 0
 .int_var_count      3
 .string_var_count   0
-   get_settings           1588
+   get_varp               1588
    istore                 1
    load_int               10
    load_int               0
    get_skillexperiences  
    imul                  
-   get_settings           1435
+   get_varp               1435
    invoke                 1045
-   get_settings           1588
+   get_varp               1714
+   isub                  
+   istore                 2
+   iload                  2
+   get_varp               1588
    load_int               2
    idiv                  
    invoke                 1046
@@ -27,9 +31,13 @@
    load_int               2
    get_skillexperiences  
    imul                  
-   get_settings           1436
+   get_varp               1436
    invoke                 1045
-   get_settings           1588
+   get_varp               1715
+   isub                  
+   istore                 2
+   iload                  2
+   get_varp               1588
    load_int               2
    idiv                  
    invoke                 1046
@@ -46,9 +54,13 @@
    load_int               1
    get_skillexperiences  
    imul                  
-   get_settings           1439
+   get_varp               1439
    invoke                 1045
-   get_settings           1588
+   get_varp               1718
+   isub                  
+   istore                 2
+   iload                  2
+   get_varp               1588
    load_int               3
    idiv                  
    invoke                 1046
@@ -65,9 +77,13 @@
    load_int               4
    get_skillexperiences  
    imul                  
-   get_settings           1437
+   get_varp               1437
    invoke                 1045
-   get_settings           1588
+   get_varp               1716
+   isub                  
+   istore                 2
+   iload                  2
+   get_varp               1588
    load_int               3
    idiv                  
    invoke                 1046
@@ -84,9 +100,13 @@
    load_int               6
    get_skillexperiences  
    imul                  
-   get_settings           1438
+   get_varp               1438
    invoke                 1045
-   get_settings           1588
+   get_varp               1717
+   isub                  
+   istore                 2
+   iload                  2
+   get_varp               1588
    load_int               3
    idiv                  
    invoke                 1046

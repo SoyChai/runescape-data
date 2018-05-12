@@ -21,7 +21,7 @@
    iload                  1
    widget_put_scroll_widget
    iload                  1
-   load_int               10616876
+   load_int               10616878
    if_icmpeq              LABEL22
    jump                   LABEL26
 LABEL22:
@@ -140,7 +140,7 @@ LABEL112:
    load_int               32702477
    if_icmpeq              LABEL122
    iload                  1
-   load_int               33226762
+   load_int               33226763
    if_icmpeq              LABEL122
    iload                  1
    load_int               32768010

@@ -1,0 +1,28 @@
+.int_stack_count    3
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   iload                  0
+   load_int               1
+   if_icmpne              LABEL4
+   jump                   LABEL5
+LABEL4:
+   return                
+LABEL5:
+   load_int               2266
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   load_int               2062
+   iload                  1
+   iload                  2
+   load_string            "ii"
+   load_int               17694731
+   widget_put_render_listener_widget
+   load_string            "Enter amount (1 - "
+   iload                  2
+   int_to_string         
+   load_string            "):"
+   string_append          3
+   invoke                 2063
+   return                

@@ -1,22 +1,27 @@
-.int_stack_count    2
+.int_stack_count    3
 .string_stack_count 0
-.int_var_count      2
+.int_var_count      3
 .string_var_count   1
+   load_int               663
+   load_int               1562
+   invoke                 2151
+   iload                  1
+   widget_put_spriteid_widget
    load_string            "Mouse buttons"
    load_string            "<br>"
    load_string            "(currently 2)"
    string_append          3
    sstore                 0
-   get_settings           170
+   get_varp               170
    load_int               0
-   if_icmple              LABEL9
-   jump                   LABEL13
-LABEL9:
+   if_icmple              LABEL14
+   jump                   LABEL18
+LABEL14:
    load_int               762
    iload                  0
    widget_put_spriteid_widget
-   jump                   LABEL21
-LABEL13:
+   jump                   LABEL26
+LABEL18:
    load_string            "Mouse buttons"
    load_string            "<br>"
    load_string            "(currently 1)"
@@ -25,11 +30,11 @@ LABEL13:
    load_int               761
    iload                  0
    widget_put_spriteid_widget
-LABEL21:
+LABEL26:
    load_int               526
    iload                  0
    load_int               -1
-   iload                  1
+   iload                  2
    sload                  0
    load_int               25
    load_int               190

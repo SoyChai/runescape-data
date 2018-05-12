@@ -97,7 +97,7 @@ LABEL87:
    string_length         
    load_int               0
    if_icmpgt              LABEL92
-   jump                   LABEL162
+   jump                   LABEL173
 LABEL92:
    iload                  1
    load_int               4
@@ -162,35 +162,49 @@ LABEL92:
    load_int               1
    iadd                  
    istore                 16
+   invoke                 1972
+   load_int               1
+   if_icmpeq              LABEL159
+   jump                   LABEL166
+LABEL159:
+   load_int               105
+   load_int               115
+   load_int               1879
+   iload                  16
+   get_enum_value        
+   sstore                 0
+   jump                   LABEL172
+LABEL166:
    load_int               105
    load_int               115
    load_int               1246
    iload                  16
    get_enum_value        
    sstore                 0
+LABEL172:
    jump                   LABEL87
-LABEL162:
+LABEL173:
    load_int               0
    iload                  1
    widget_put_hidden_widget
    iload                  1
    iload                  8
-   if_icmpne              LABEL169
-   jump                   LABEL172
-LABEL169:
+   if_icmpne              LABEL180
+   jump                   LABEL183
+LABEL180:
    load_int               1
    iload                  8
    widget_put_hidden_widget
-LABEL172:
+LABEL183:
    iload                  1
    iload                  9
-   if_icmpne              LABEL176
-   jump                   LABEL179
-LABEL176:
+   if_icmpne              LABEL187
+   jump                   LABEL190
+LABEL187:
    load_int               1
    iload                  9
    widget_put_hidden_widget
-LABEL179:
+LABEL190:
    iload                  16
    load_int               13
    imul                  
@@ -208,9 +222,9 @@ LABEL179:
    istore                 19
    iload                  18
    iload                  19
-   if_icmpgt              LABEL198
-   jump                   LABEL214
-LABEL198:
+   if_icmpgt              LABEL209
+   jump                   LABEL225
+LABEL209:
    iload                  0
    widget_get_width_widget
    iload                  19
@@ -226,8 +240,8 @@ LABEL198:
    iload                  17
    iload                  1
    widget_put_scrollwidthheight_widget
-   jump                   LABEL229
-LABEL214:
+   jump                   LABEL240
+LABEL225:
    iload                  0
    widget_get_width_widget
    iload                  18
@@ -243,7 +257,7 @@ LABEL214:
    load_int               0
    iload                  1
    widget_put_scrollwidthheight_widget
-LABEL229:
+LABEL240:
    iload                  10
    widget_unset_children 
    iload                  10

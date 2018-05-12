@@ -1,0 +1,95 @@
+.int_stack_count    9
+.string_stack_count 2
+.int_var_count      9
+.string_var_count   2
+   iload                  0
+   load_int               1
+   if_icmpeq              LABEL4
+   jump                   LABEL81
+LABEL4:
+   iload                  3
+   iload                  1
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL10
+   jump                   LABEL81
+LABEL10:
+   iload                  3
+   iload                  2
+   widget_load_child      1
+   load_int               1
+   if_icmpeq              LABEL16
+   jump                   LABEL81
+LABEL16:
+   load_int               2266
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   load_int               179
+   widget_put_spriteid   
+   load_int               0
+   widget_put_opacity     1
+   iload                  3
+   widget_put_actions_null_widget
+   load_int               -1
+   load_string            ""
+   iload                  3
+   widget_put_mouse_hover_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  3
+   widget_put_mouse_exit_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  3
+   widget_put_option_click_listener_widget
+   iload                  5
+   load_int               -1
+   if_icmpne              LABEL42
+   jump                   LABEL66
+LABEL42:
+   iload                  6
+   load_int               -1
+   if_icmpne              LABEL46
+   jump                   LABEL66
+LABEL46:
+   iload                  7
+   load_int               -1
+   if_icmpne              LABEL50
+   jump                   LABEL66
+LABEL50:
+   iload                  8
+   load_int               -1
+   if_icmpne              LABEL54
+   jump                   LABEL66
+LABEL54:
+   load_int               0
+   iload                  5
+   widget_put_hidden_widget
+   sload                  1
+   iload                  6
+   widget_put_text_widget
+   load_int               0
+   iload                  7
+   widget_put_hidden_widget
+   load_int               1
+   iload                  8
+   widget_put_hidden_widget
+LABEL66:
+   load_int               2135
+   get_gamecycle         
+   load_int               20
+   iadd                  
+   iload                  3
+   sload                  0
+   iload                  4
+   sload                  1
+   iload                  5
+   iload                  6
+   iload                  7
+   iload                  8
+   load_string            "iIsdsIIII"
+   iload                  3
+   widget_put_render_listener_widget
+LABEL81:
+   return                

@@ -57,7 +57,7 @@ LABEL39:
    sload                  1
    invoke                 46
    load_string            "<br>"
-   load_string            "=?"
+   load_string            "= "
    iload                  3
    sload                  1
    invoke                 46

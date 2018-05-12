@@ -2,37 +2,12 @@
 .string_stack_count 0
 .int_var_count      0
 .string_var_count   0
-   load_int               10616833
-   widget_load           
-   load_int               1
-   if_icmpeq              LABEL5
-   jump                   LABEL10
+   invoke                 900
+   load_int               1745
+   if_icmpne              LABEL4
+   jump                   LABEL5
+LABEL4:
+   return                
 LABEL5:
-   load_int               0
-   load_int               0
-   load_int               0
-   load_int               0
-   widget_put_position   
-LABEL10:
-   load_int               10616861
-   widget_load           
-   load_int               1
-   if_icmpeq              LABEL15
-   jump                   LABEL20
-LABEL15:
-   load_int               0
-   load_int               0
-   load_int               0
-   load_int               2
-   widget_put_position   
-LABEL20:
-   load_int               10616863
-   widget_load           
-   load_int               1
-   if_icmpeq              LABEL25
-   jump                   LABEL27
-LABEL25:
-   load_int               0
-   widget_put_hidden     
-LABEL27:
+   invoke                 2154
    return                

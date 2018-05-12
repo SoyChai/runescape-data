@@ -2,6 +2,15 @@
 .string_stack_count 0
 .int_var_count      0
 .string_var_count   0
+   invoke                 1972
+   load_int               1
+   if_icmpeq              LABEL4
+   jump                   LABEL7
+LABEL4:
+   load_string            "Bond purchases are not currently available on mobile."
+   send_game_message     
+   return                
+LABEL7:
    load_string            "https://www.runescape.com/oldschool/bonds"
    load_int               1
    open_url              

@@ -2,28 +2,39 @@
 .string_stack_count 0
 .int_var_count      2
 .string_var_count   1
-   load_string            "Middle mouse button controls the camera (currently off)"
+   load_string            "Middle mouse button"
+   load_string            "Dragging with two fingers"
+   invoke                 1971
+   load_string            " controls the camera "
+   load_string            "(currently off)"
+   load_string            ""
+   invoke                 1971
+   string_append          3
    sstore                 0
    get_varbit             4134
    load_int               1
-   if_icmpeq              LABEL6
-   jump                   LABEL12
-LABEL6:
+   if_icmpeq              LABEL13
+   jump                   LABEL19
+LABEL13:
    load_int               0
    set_mouse_button_controls_camera
    load_int               761
    iload                  0
    widget_put_spriteid_widget
-   jump                   LABEL19
-LABEL12:
+   jump                   LABEL30
+LABEL19:
    load_int               1
    set_mouse_button_controls_camera
-   load_string            "Middle mouse button controls the camera (currently on)"
+   load_string            "Middle mouse button"
+   load_string            "Dragging with two fingers"
+   invoke                 1971
+   load_string            " controls the camera (currently on)"
+   string_append          2
    sstore                 0
    load_int               762
    iload                  0
    widget_put_spriteid_widget
-LABEL19:
+LABEL30:
    load_int               526
    iload                  0
    load_int               -1

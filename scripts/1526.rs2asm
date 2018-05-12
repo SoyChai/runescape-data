@@ -34,10 +34,10 @@ LABEL26:
    if_icmplt              LABEL30
    jump                   LABEL88
 LABEL30:
-   load_int               33226762
+   load_int               33226763
    iload                  7
    array_load            
-   load_int               6
+   load_int               8
    imul                  
    iload                  3
    iadd                  
@@ -54,9 +54,9 @@ LABEL45:
    load_string            ""
    sstore                 0
 LABEL47:
-   load_int               33226762
+   load_int               33226763
    iload                  5
-   load_int               6
+   load_int               8
    imul                  
    iload                  3
    iadd                  

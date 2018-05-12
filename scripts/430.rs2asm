@@ -4,7 +4,7 @@
 .string_var_count   0
    load_int               0
    istore                 0
-   get_settings           197
+   get_varp               197
    load_int               16
    if_icmplt              LABEL6
    jump                   LABEL8
@@ -79,7 +79,7 @@ LABEL20:
    load_int               0
    iload                  2
    invoke                 431
-   get_settings           314
+   get_varp               314
    load_int               80
    if_icmpge              LABEL78
    jump                   LABEL85
@@ -300,7 +300,7 @@ LABEL233:
    load_int               0
    iload                  2
    invoke                 431
-   get_settings           314
+   get_varp               314
    load_int               80
    if_icmpge              LABEL291
    jump                   LABEL298
@@ -521,7 +521,7 @@ LABEL446:
    load_int               0
    iload                  2
    invoke                 431
-   get_settings           314
+   get_varp               314
    load_int               80
    if_icmpge              LABEL504
    jump                   LABEL511
@@ -742,7 +742,7 @@ LABEL659:
    load_int               0
    iload                  2
    invoke                 431
-   get_settings           314
+   get_varp               314
    load_int               80
    if_icmpge              LABEL717
    jump                   LABEL724
@@ -969,7 +969,7 @@ LABEL878:
    load_int               0
    iload                  2
    invoke                 431
-   get_settings           314
+   get_varp               314
    load_int               80
    if_icmpge              LABEL936
    jump                   LABEL943
@@ -1190,7 +1190,7 @@ LABEL1091:
    load_int               0
    iload                  2
    invoke                 431
-   get_settings           314
+   get_varp               314
    load_int               80
    if_icmpge              LABEL1149
    jump                   LABEL1156

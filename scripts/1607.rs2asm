@@ -19,7 +19,7 @@ LABEL13:
    iload                  3
    iload                  4
    if_icmplt              LABEL17
-   jump                   LABEL66
+   jump                   LABEL70
 LABEL17:
    load_int               583
    iload                  3
@@ -65,12 +65,16 @@ LABEL17:
    iload                  1
    invoke                 1608
    istore                 7
+   load_int               5
+   1303                  
+   load_int               5
+   1304                  
    iload                  3
    load_int               1
    iadd                  
    istore                 3
    jump                   LABEL13
-LABEL66:
+LABEL70:
    load_int               0
    istore                 8
    iload                  5
@@ -80,9 +84,9 @@ LABEL66:
    iload                  5
    iload                  0
    widget_get_height_widget
-   if_icmpgt              LABEL77
-   jump                   LABEL85
-LABEL77:
+   if_icmpgt              LABEL81
+   jump                   LABEL89
+LABEL81:
    iload                  0
    widget_get_scrolly_widget
    istore                 8
@@ -90,13 +94,13 @@ LABEL77:
    iload                  5
    iload                  0
    widget_put_scrollwidthheight_widget
-   jump                   LABEL89
-LABEL85:
+   jump                   LABEL93
+LABEL89:
    load_int               0
    load_int               0
    iload                  0
    widget_put_scrollwidthheight_widget
-LABEL89:
+LABEL93:
    iload                  1
    iload                  0
    iload                  8

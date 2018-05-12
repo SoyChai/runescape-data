@@ -21,7 +21,8 @@
    load_int               1055
    load_int               1431
    load_int               1227
-   load_int               4
+   load_int               439
+   load_int               5
    load_string            "IgY"
    iload                  0
    widget_put_config_listener_widget
@@ -33,12 +34,12 @@
    iload                  2
    get_enum_value        
    istore                 3
-LABEL31:
+LABEL32:
    iload                  3
    load_int               -1
-   if_icmpne              LABEL35
-   jump                   LABEL71
-LABEL35:
+   if_icmpne              LABEL36
+   jump                   LABEL72
+LABEL36:
    load_int               73
    load_int               73
    iload                  1
@@ -47,9 +48,9 @@ LABEL35:
    istore                 3
    iload                  3
    load_int               -1
-   if_icmpne              LABEL45
-   jump                   LABEL60
-LABEL45:
+   if_icmpne              LABEL46
+   jump                   LABEL61
+LABEL46:
    load_int               1
    load_int               105
    load_int               115
@@ -65,7 +66,7 @@ LABEL45:
    load_string            "igi"
    iload                  3
    widget_put_option_click_listener_widget
-LABEL60:
+LABEL61:
    iload                  2
    load_int               1
    iadd                  
@@ -76,25 +77,25 @@ LABEL60:
    iload                  2
    get_enum_value        
    istore                 3
-   jump                   LABEL31
-LABEL71:
+   jump                   LABEL32
+LABEL72:
    get_varc               171
    load_int               0
-   if_icmple              LABEL75
-   jump                   LABEL85
-LABEL75:
+   if_icmple              LABEL76
+   jump                   LABEL86
+LABEL76:
    load_int               103
    load_int               49
    load_int               1134
    iload                  1
    get_enum_value        
    load_int               0
-   if_icmpeq              LABEL83
-   jump                   LABEL85
-LABEL83:
+   if_icmpeq              LABEL84
+   jump                   LABEL86
+LABEL84:
    load_int               3
    put_varc               171
-LABEL85:
+LABEL86:
    load_int               -1
    load_int               -1
    put_varc               173
@@ -107,9 +108,9 @@ LABEL85:
    istore                 3
    iload                  3
    load_int               -1
-   if_icmpne              LABEL99
-   jump                   LABEL143
-LABEL99:
+   if_icmpne              LABEL100
+   jump                   LABEL144
+LABEL100:
    iload                  3
    widget_unset_children 
    iload                  3
@@ -154,15 +155,16 @@ LABEL99:
    load_int               -2147483644
    load_string            "i"
    widget_put_option_click_listener 1
-LABEL143:
+LABEL144:
    invoke                 1044
    invoke                 900
    load_int               1745
-   if_icmpeq              LABEL148
-   jump                   LABEL149
-LABEL148:
-   invoke                 1974
+   if_icmpeq              LABEL149
+   jump                   LABEL150
 LABEL149:
+   invoke                 1974
+LABEL150:
+   invoke                 2176
    iload                  0
    iload                  1
    invoke                 907

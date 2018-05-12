@@ -1,53 +1,48 @@
 .int_stack_count    2
 .string_stack_count 0
-.int_var_count      4
+.int_var_count      5
 .string_var_count   0
    load_int               11
    array_initialize       105
    load_int               0
    istore                 2
-LABEL4:
+   load_int               0
+   istore                 3
+LABEL6:
    iload                  2
    load_int               11
-   if_icmplt              LABEL8
-   jump                   LABEL52
-LABEL8:
+   if_icmplt              LABEL10
+   jump                   LABEL47
+LABEL10:
    iload                  0
-   load_int               4
-   iload                  2
+   load_int               3
+   iload                  3
    widget_create_child   
+   iload                  3
    load_int               1
-   load_string            "Open Journal"
-   widget_put_action     
+   iadd                  
+   istore                 3
+   load_int               1
+   load_string            "Open "
    load_int               105
    load_int               115
    load_int               595
    iload                  2
    get_enum_value        
-   widget_put_text       
-   load_int               494
-   widget_put_fontid     
-   load_int               1
-   widget_put_text_shadowed
-   load_int               15
-   load_int               15
+   load_string            " Journal"
+   string_append          3
+   widget_put_action     
+   load_int               0
+   widget_put_filled     
+   load_int               16750899
+   widget_put_textcolor  
+   load_int               150
+   widget_put_opacity    
+   load_int               16
+   load_int               27
    load_int               1
    load_int               0
    widget_put_size       
-   load_int               710
-   load_int               -2147483645
-   load_int               -2147483643
-   load_int               1188
-   load_int               1189
-   load_int               1000
-   load_int               1001
-   load_int               1002
-   load_int               5
-   load_string            "IiY"
-   widget_put_config_listener
-   iload                  0
-   iload                  2
-   invoke                 716
    iload                  2
    iload                  2
    array_store           
@@ -55,8 +50,8 @@ LABEL8:
    load_int               1
    iadd                  
    istore                 2
-   jump                   LABEL4
-LABEL52:
+   jump                   LABEL6
+LABEL47:
    load_int               0
    load_int               0
    load_int               11
@@ -64,65 +59,72 @@ LABEL52:
    isub                  
    load_int               595
    invoke                 1360
-   load_int               10
-   istore                 3
+   load_int               8
+   istore                 4
    load_int               0
    istore                 2
-LABEL63:
+LABEL58:
    iload                  2
    load_int               11
-   if_icmplt              LABEL67
-   jump                   LABEL88
-LABEL67:
+   if_icmplt              LABEL62
+   jump                   LABEL90
+LABEL62:
    iload                  0
    iload                  2
    array_load            
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL74
-   jump                   LABEL79
-LABEL74:
-   load_int               10
-   iload                  3
+   if_icmpeq              LABEL69
+   jump                   LABEL74
+LABEL69:
    load_int               0
+   iload                  4
+   load_int               1
    load_int               0
    widget_put_position   
-LABEL79:
+LABEL74:
+   iload                  0
+   iload                  2
+   array_load            
+   iload                  3
+   iload                  4
+   invoke                 2197
+   istore                 3
    iload                  2
    load_int               1
    iadd                  
-   iload                  3
-   load_int               15
+   iload                  4
+   load_int               28
    iadd                  
-   istore                 3
+   istore                 4
    istore                 2
-   jump                   LABEL63
-LABEL88:
-   iload                  3
-   load_int               10
+   jump                   LABEL58
+LABEL90:
+   iload                  4
+   load_int               8
    iadd                  
-   istore                 3
+   istore                 4
    load_int               0
    load_int               0
    iload                  0
    widget_put_scroll_widget
-   iload                  3
+   iload                  4
    iload                  0
    widget_get_height_widget
-   if_icmpgt              LABEL101
-   jump                   LABEL106
-LABEL101:
+   if_icmpgt              LABEL103
+   jump                   LABEL108
+LABEL103:
    load_int               0
-   iload                  3
+   iload                  4
    iload                  0
    widget_put_scrollwidthheight_widget
-   jump                   LABEL110
-LABEL106:
+   jump                   LABEL112
+LABEL108:
    load_int               0
    load_int               0
    iload                  0
    widget_put_scrollwidthheight_widget
-LABEL110:
+LABEL112:
    iload                  1
    iload                  0
    load_int               792

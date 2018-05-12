@@ -1,0 +1,125 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      6
+.string_var_count   0
+   iload                  0
+   widget_unset_children 
+   load_int               32
+   iload                  0
+   widget_get_width_widget
+   load_int               36
+   load_int               3
+   imul                  
+   isub                  
+   load_int               2
+   idiv                  
+   iadd                  
+   istore                 2
+   load_int               0
+   istore                 3
+   load_int               -1
+   istore                 4
+   load_int               0
+   istore                 5
+LABEL19:
+   iload                  5
+   iload                  1
+   if_icmplt              LABEL23
+   jump                   LABEL109
+LABEL23:
+   iload                  0
+   load_int               5
+   iload                  5
+   widget_create_child   
+   load_int               141
+   iload                  5
+   get_itemcontainer_itemid
+   istore                 4
+   iload                  4
+   load_int               -1
+   if_icmpne              LABEL35
+   jump                   LABEL102
+LABEL35:
+   load_int               0
+   widget_put_hidden     
+   load_int               36
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  5
+   load_int               3
+   modulo                
+   istore                 3
+   iload                  3
+   load_int               0
+   if_icmpeq              LABEL50
+   jump                   LABEL60
+LABEL50:
+   load_int               0
+   iload                  5
+   load_int               3
+   idiv                  
+   iload                  2
+   imul                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   jump                   LABEL83
+LABEL60:
+   iload                  3
+   load_int               1
+   if_icmpeq              LABEL64
+   jump                   LABEL74
+LABEL64:
+   load_int               0
+   iload                  5
+   load_int               3
+   idiv                  
+   iload                  2
+   imul                  
+   load_int               1
+   load_int               0
+   widget_put_position   
+   jump                   LABEL83
+LABEL74:
+   load_int               0
+   iload                  5
+   load_int               3
+   idiv                  
+   iload                  2
+   imul                  
+   load_int               2
+   load_int               0
+   widget_put_position   
+LABEL83:
+   load_int               3355443
+   widget_put_sprite2    
+   load_int               1
+   widget_put_borderthickness
+   iload                  4
+   load_int               141
+   iload                  5
+   get_itemcontainer_stacksize
+   1200                  
+   load_int               10
+   load_string            "Examine"
+   widget_put_action     
+   load_string            "<col=ff9040>"
+   iload                  4
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   widget_put_name       
+   jump                   LABEL104
+LABEL102:
+   load_int               1
+   widget_put_hidden     
+LABEL104:
+   iload                  5
+   load_int               1
+   iadd                  
+   istore                 5
+   jump                   LABEL19
+LABEL109:
+   return                

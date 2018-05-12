@@ -1,22 +1,133 @@
-.int_stack_count    1
+.int_stack_count    2
 .string_stack_count 0
-.int_var_count      1
+.int_var_count      2
 .string_var_count   0
    iload                  0
-   load_int               1
-   if_icmpne              LABEL4
-   jump                   LABEL5
-LABEL4:
-   return                
-LABEL5:
-   load_int               2266
-   load_int               1
-   load_int               0
-   play_sound_effect     
-   load_int               1
-   load_int               14090281
-   widget_put_hidden_widget
-   load_int               1
-   load_int               14090282
-   widget_put_hidden_widget
+   switch                
+      0: LABEL3
+      1: LABEL6
+      2: LABEL9
+      3: LABEL12
+      4: LABEL15
+      5: LABEL18
+      6: LABEL21
+      7: LABEL24
+      8: LABEL27
+      9: LABEL30
+      10: LABEL33
+      11: LABEL36
+      12: LABEL39
+      13: LABEL42
+      14: LABEL45
+      15: LABEL48
+      16: LABEL51
+      17: LABEL54
+      18: LABEL57
+      19: LABEL60
+      20: LABEL63
+      21: LABEL66
+      22: LABEL69
+      23: LABEL72
+      24: LABEL75
+   jump                   LABEL77
+LABEL3:
+   iload                  1
+   put_varc               81
+   jump                   LABEL77
+LABEL6:
+   iload                  1
+   put_varc               82
+   jump                   LABEL77
+LABEL9:
+   iload                  1
+   put_varc               83
+   jump                   LABEL77
+LABEL12:
+   iload                  1
+   put_varc               84
+   jump                   LABEL77
+LABEL15:
+   iload                  1
+   put_varc               85
+   jump                   LABEL77
+LABEL18:
+   iload                  1
+   put_varc               86
+   jump                   LABEL77
+LABEL21:
+   iload                  1
+   put_varc               87
+   jump                   LABEL77
+LABEL24:
+   iload                  1
+   put_varc               88
+   jump                   LABEL77
+LABEL27:
+   iload                  1
+   put_varc               89
+   jump                   LABEL77
+LABEL30:
+   iload                  1
+   put_varc               90
+   jump                   LABEL77
+LABEL33:
+   iload                  1
+   put_varc               91
+   jump                   LABEL77
+LABEL36:
+   iload                  1
+   put_varc               92
+   jump                   LABEL77
+LABEL39:
+   iload                  1
+   put_varc               93
+   jump                   LABEL77
+LABEL42:
+   iload                  1
+   put_varc               94
+   jump                   LABEL77
+LABEL45:
+   iload                  1
+   put_varc               95
+   jump                   LABEL77
+LABEL48:
+   iload                  1
+   put_varc               96
+   jump                   LABEL77
+LABEL51:
+   iload                  1
+   put_varc               97
+   jump                   LABEL77
+LABEL54:
+   iload                  1
+   put_varc               98
+   jump                   LABEL77
+LABEL57:
+   iload                  1
+   put_varc               99
+   jump                   LABEL77
+LABEL60:
+   iload                  1
+   put_varc               100
+   jump                   LABEL77
+LABEL63:
+   iload                  1
+   put_varc               101
+   jump                   LABEL77
+LABEL66:
+   iload                  1
+   put_varc               102
+   jump                   LABEL77
+LABEL69:
+   iload                  1
+   put_varc               104
+   jump                   LABEL77
+LABEL72:
+   iload                  1
+   put_varc               105
+   jump                   LABEL77
+LABEL75:
+   iload                  1
+   put_varc               106
+LABEL77:
    return                

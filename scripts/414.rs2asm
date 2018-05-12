@@ -30,7 +30,7 @@
    load_string            ""
    sstore                 3
    iload                  1
-   load_int               39
+   load_int               43
    load_int               9
    iadd                  
    if_icmpeq              LABEL33
@@ -52,7 +52,7 @@ LABEL33:
    load_string            "</col>"
    string_append          13
    sstore                 3
-   jump                   LABEL166
+   jump                   LABEL229
 LABEL50:
    iload                  1
    load_int               35
@@ -120,13 +120,81 @@ LABEL90:
    string_append          17
    sstore                 3
 LABEL111:
-   jump                   LABEL166
+   jump                   LABEL229
 LABEL112:
+   iload                  1
+   load_int               43
+   if_icmpeq              LABEL116
+   jump                   LABEL174
+LABEL116:
+   iload                  0
+   load_int               0
+   if_icmpeq              LABEL120
+   jump                   LABEL174
+LABEL120:
+   load_int               105
+   load_int               115
+   load_int               834
+   iload                  1
+   get_enum_value        
+   sstore                 1
+   get_varbit             6251
+   load_int               1
+   if_icmpeq              LABEL130
+   jump                   LABEL152
+LABEL130:
+   load_string            "Enable"
+   sstore                 2
+   load_string            "<u=ff981f>"
+   sload                  1
+   load_string            "</u>"
+   load_string            "<br>"
+   load_string            "<br>"
+   sload                  0
+   load_string            "<br>"
+   load_string            "<br>"
+   load_string            "<col=00ff00>"
+   load_string            "Really enable it? It will "
+   load_string            "</col>"
+   load_string            "<col=ffffff>"
+   load_string            "not cost you any points"
+   load_string            "</col>"
+   load_string            "<col=00ff00>"
+   load_string            " as you have unlocked this previously."
+   load_string            "</col>"
+   string_append          17
+   sstore                 3
+   jump                   LABEL173
+LABEL152:
+   load_string            "Disable"
+   sstore                 2
+   load_string            "<u=ff981f>"
+   sload                  1
+   load_string            "</u>"
+   load_string            "<br>"
+   load_string            "<br>"
+   sload                  0
+   load_string            "<br>"
+   load_string            "<br>"
+   load_string            "<col=00ff00>"
+   load_string            "Really disable it? This feature can be toggled at your leisure for "
+   load_string            "</col>"
+   load_string            "<col=ffffff>"
+   load_string            "no future cost"
+   load_string            "</col>"
+   load_string            "<col=00ff00>"
+   load_string            "."
+   load_string            "</col>"
+   string_append          17
+   sstore                 3
+LABEL173:
+   jump                   LABEL229
+LABEL174:
    iload                  0
    load_int               1
-   if_icmpeq              LABEL116
-   jump                   LABEL145
-LABEL116:
+   if_icmpeq              LABEL178
+   jump                   LABEL208
+LABEL178:
    load_int               105
    load_int               115
    load_int               834
@@ -150,13 +218,14 @@ LABEL116:
    load_int               836
    iload                  1
    get_enum_value        
-   int_to_string         
+   load_string            ","
+   invoke                 46
    load_string            " points?"
    load_string            "</col>"
    string_append          13
    sstore                 3
-   jump                   LABEL166
-LABEL145:
+   jump                   LABEL229
+LABEL208:
    load_int               105
    load_int               115
    load_int               834
@@ -178,18 +247,18 @@ LABEL145:
    load_string            "</col>"
    string_append          11
    sstore                 3
-LABEL166:
+LABEL229:
    sload                  3
    iload                  4
    widget_put_text_widget
    load_int               0
    istore                 8
-LABEL171:
+LABEL234:
    iload                  8
    iload                  1
-   if_icmplt              LABEL175
-   jump                   LABEL186
-LABEL175:
+   if_icmplt              LABEL238
+   jump                   LABEL249
+LABEL238:
    iload                  5
    load_int               3
    iload                  8
@@ -200,8 +269,8 @@ LABEL175:
    load_int               1
    iadd                  
    istore                 8
-   jump                   LABEL171
-LABEL186:
+   jump                   LABEL234
+LABEL249:
    iload                  5
    load_int               3
    iload                  1

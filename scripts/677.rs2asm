@@ -10,8 +10,17 @@
    load_int               0
    load_int               10616864
    widget_put_hidden_widget
+   invoke                 1972
    load_int               1
-   load_int               10616873
+   if_icmpeq              LABEL12
+   jump                   LABEL15
+LABEL12:
+   load_int               0
+   load_int               10616865
+   widget_put_hidden_widget
+LABEL15:
+   load_int               1
+   load_int               10616875
    widget_put_hidden_widget
    invoke                 923
    invoke                 553

@@ -1,0 +1,229 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   iload                  0
+   switch                
+      0: LABEL3
+      1: LABEL7
+      2: LABEL11
+      3: LABEL15
+      4: LABEL19
+      5: LABEL23
+      6: LABEL27
+      7: LABEL31
+      8: LABEL35
+      9: LABEL39
+      10: LABEL43
+      11: LABEL47
+      12: LABEL51
+      13: LABEL55
+      14: LABEL59
+      15: LABEL63
+      16: LABEL67
+      17: LABEL71
+      18: LABEL75
+      19: LABEL79
+      20: LABEL83
+      21: LABEL87
+      22: LABEL91
+      23: LABEL95
+      24: LABEL99
+      25: LABEL103
+      26: LABEL107
+      27: LABEL111
+      28: LABEL115
+      29: LABEL119
+      30: LABEL123
+      31: LABEL127
+      32: LABEL131
+      33: LABEL135
+      34: LABEL139
+      35: LABEL143
+   jump                   LABEL146
+LABEL3:
+   get_varbit             6157
+   get_varbit             6166
+   return                
+   jump                   LABEL146
+LABEL7:
+   get_varbit             6168
+   get_varbit             6172
+   return                
+   jump                   LABEL146
+LABEL11:
+   get_varbit             6159
+   get_varbit             6177
+   return                
+   jump                   LABEL146
+LABEL15:
+   get_varbit             6178
+   get_varbit             6181
+   return                
+   jump                   LABEL146
+LABEL19:
+   load_int               0
+   load_int               0
+   return                
+   jump                   LABEL146
+LABEL23:
+   get_varbit             6203
+   get_varbit             6197
+   return                
+   jump                   LABEL146
+LABEL27:
+   get_varbit             6173
+   get_varbit             6201
+   return                
+   jump                   LABEL146
+LABEL31:
+   get_varbit             6167
+   get_varbit             6202
+   return                
+   jump                   LABEL146
+LABEL35:
+   get_varbit             6158
+   get_varbit             6160
+   return                
+   jump                   LABEL146
+LABEL39:
+   get_varbit             6169
+   get_varbit             6161
+   return                
+   jump                   LABEL146
+LABEL43:
+   get_varbit             6208
+   get_varbit             6163
+   return                
+   jump                   LABEL146
+LABEL47:
+   get_varbit             6199
+   get_varbit             6164
+   return                
+   jump                   LABEL146
+LABEL51:
+   get_varbit             6204
+   get_varbit             6165
+   return                
+   jump                   LABEL146
+LABEL55:
+   get_varbit             6174
+   get_varbit             6205
+   return                
+   jump                   LABEL146
+LABEL59:
+   get_varbit             6183
+   get_varbit             6206
+   return                
+   jump                   LABEL146
+LABEL63:
+   get_varbit             6176
+   get_varbit             6207
+   return                
+   jump                   LABEL146
+LABEL67:
+   get_varbit             6162
+   get_varbit             6185
+   return                
+   jump                   LABEL146
+LABEL71:
+   load_int               0
+   load_int               0
+   return                
+   jump                   LABEL146
+LABEL75:
+   load_int               0
+   load_int               0
+   return                
+   jump                   LABEL146
+LABEL79:
+   get_varbit             6179
+   get_varbit             6186
+   return                
+   jump                   LABEL146
+LABEL83:
+   load_int               0
+   load_int               0
+   return                
+   jump                   LABEL146
+LABEL87:
+   get_varbit             6180
+   get_varbit             6187
+   return                
+   jump                   LABEL146
+LABEL91:
+   get_varbit             6182
+   get_varbit             6188
+   return                
+   jump                   LABEL146
+LABEL95:
+   get_varbit             6175
+   get_varbit             6189
+   return                
+   jump                   LABEL146
+LABEL99:
+   get_varbit             6184
+   get_varbit             6210
+   return                
+   jump                   LABEL146
+LABEL103:
+   get_varbit             6170
+   get_varbit             6212
+   return                
+   jump                   LABEL146
+LABEL107:
+   get_varbit             6209
+   get_varbit             6213
+   return                
+   jump                   LABEL146
+LABEL111:
+   get_varbit             6190
+   get_varbit             6214
+   return                
+   jump                   LABEL146
+LABEL115:
+   get_varbit             6191
+   get_varbit             6215
+   return                
+   jump                   LABEL146
+LABEL119:
+   get_varbit             6216
+   get_varbit             6192
+   return                
+   jump                   LABEL146
+LABEL123:
+   load_int               0
+   load_int               0
+   return                
+   jump                   LABEL146
+LABEL127:
+   get_varbit             6217
+   get_varbit             6193
+   return                
+   jump                   LABEL146
+LABEL131:
+   get_varbit             6198
+   get_varbit             6194
+   return                
+   jump                   LABEL146
+LABEL135:
+   get_varbit             6171
+   get_varbit             6195
+   return                
+   jump                   LABEL146
+LABEL139:
+   get_varbit             6200
+   get_varbit             6196
+   return                
+   jump                   LABEL146
+LABEL143:
+   get_varbit             6211
+   get_varbit             6218
+   return                
+LABEL146:
+   load_int               0
+   load_int               0
+   return                
+   load_int               0
+   load_int               0
+   return                

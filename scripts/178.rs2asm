@@ -114,16 +114,17 @@ LABEL92:
    iload                  0
    load_int               5
    if_icmple              LABEL96
-   jump                   LABEL167
+   jump                   LABEL152
 LABEL96:
    iload                  0
    invoke                 185
-   istore                 1
-   iload                  1
-   load_int               1
-   if_icmpeq              LABEL103
-   jump                   LABEL113
-LABEL103:
+   switch                
+      1: LABEL100
+      2: LABEL110
+      3: LABEL120
+      4: LABEL130
+   jump                   LABEL140
+LABEL100:
    load_string            "<col=ffff00>"
    load_string            "Friends"
    string_append          2
@@ -133,13 +134,8 @@ LABEL103:
    iload                  0
    get_enum_value        
    widget_put_text_widget
-   jump                   LABEL162
-LABEL113:
-   iload                  1
-   load_int               2
-   if_icmpeq              LABEL117
-   jump                   LABEL127
-LABEL117:
+   jump                   LABEL147
+LABEL110:
    load_string            "<col=ff0000>"
    load_string            "Off"
    string_append          2
@@ -149,13 +145,8 @@ LABEL117:
    iload                  0
    get_enum_value        
    widget_put_text_widget
-   jump                   LABEL162
-LABEL127:
-   iload                  1
-   load_int               3
-   if_icmpeq              LABEL131
-   jump                   LABEL141
-LABEL131:
+   jump                   LABEL147
+LABEL120:
    load_string            "<col=00ffff>"
    load_string            "Hide"
    string_append          2
@@ -165,13 +156,8 @@ LABEL131:
    iload                  0
    get_enum_value        
    widget_put_text_widget
-   jump                   LABEL162
-LABEL141:
-   iload                  1
-   load_int               4
-   if_icmpeq              LABEL145
-   jump                   LABEL155
-LABEL145:
+   jump                   LABEL147
+LABEL130:
    load_string            "<col=00afff>"
    load_string            "Autochat"
    string_append          2
@@ -181,8 +167,8 @@ LABEL145:
    iload                  0
    get_enum_value        
    widget_put_text_widget
-   jump                   LABEL162
-LABEL155:
+   jump                   LABEL147
+LABEL140:
    load_string            "On"
    load_int               105
    load_int               73
@@ -190,11 +176,11 @@ LABEL155:
    iload                  0
    get_enum_value        
    widget_put_text_widget
-LABEL162:
+LABEL147:
    iload                  0
    load_int               1
    iadd                  
    istore                 0
    jump                   LABEL92
-LABEL167:
+LABEL152:
    return                

@@ -4,19 +4,19 @@
 .string_var_count   1
    invoke                 677
    load_int               1
-   load_int               10616865
-   widget_put_hidden_widget
-   load_int               0
-   load_int               0
-   load_int               0
-   load_int               0
-   load_int               10616866
-   widget_put_position_widget
-   load_int               0
    load_int               10616867
    widget_put_hidden_widget
-   load_int               10616872
-   load_int               10616871
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               10616868
+   widget_put_position_widget
+   load_int               0
+   load_int               10616869
+   widget_put_hidden_widget
+   load_int               10616874
+   load_int               10616873
    load_int               792
    load_int               789
    load_int               790
@@ -33,7 +33,7 @@
    load_int               -2147483639
    sload                  0
    load_string            "izs"
-   load_int               10616866
+   load_int               10616868
    widget_put_key_listener_widget
    iload                  0
    iload                  1
@@ -46,7 +46,7 @@
    widget_put_render_listener_widget
    load_int               138
    load_string            ""
-   load_int               10616866
+   load_int               10616868
    widget_put_dialog_abort_listener_widget
    invoke                 1972
    load_int               1

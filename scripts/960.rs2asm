@@ -143,7 +143,7 @@ LABEL100:
    iload                  17
    load_int               0
    if_icmpeq              LABEL124
-   jump                   LABEL181
+   jump                   LABEL183
 LABEL124:
    load_int               16777215
    widget_put_textcolor  
@@ -152,14 +152,14 @@ LABEL124:
    iload                  4
    load_int               -1
    if_icmpne              LABEL132
-   jump                   LABEL158
+   jump                   LABEL159
 LABEL132:
    iload                  3
    iload                  4
    widget_load_child      1
    load_int               1
    if_icmpeq              LABEL138
-   jump                   LABEL158
+   jump                   LABEL159
 LABEL138:
    load_int               244
    iload                  0
@@ -178,10 +178,11 @@ LABEL138:
    load_int               970
    load_int               -2147483644
    load_int               6
-   load_string            "ii"
+   iload                  5
+   load_string            "iii"
    widget_put_option_click_listener 1
-   jump                   LABEL180
-LABEL158:
+   jump                   LABEL182
+LABEL159:
    load_int               244
    load_int               -2147483645
    widget_get_index      
@@ -201,28 +202,29 @@ LABEL158:
    load_int               970
    load_int               -2147483644
    load_int               6
-   load_string            "ii"
+   iload                  5
+   load_string            "iii"
    iload                  3
    widget_put_option_click_listener_widget
-LABEL180:
-   jump                   LABEL212
-LABEL181:
+LABEL182:
+   jump                   LABEL214
+LABEL183:
    load_int               0
    widget_put_textcolor  
    load_int               175
    widget_put_opacity    
    iload                  4
    load_int               -1
-   if_icmpne              LABEL189
-   jump                   LABEL203
-LABEL189:
+   if_icmpne              LABEL191
+   jump                   LABEL205
+LABEL191:
    iload                  3
    iload                  4
    widget_load_child      1
    load_int               1
-   if_icmpeq              LABEL195
-   jump                   LABEL203
-LABEL195:
+   if_icmpeq              LABEL197
+   jump                   LABEL205
+LABEL197:
    load_int               40
    iload                  16
    load_string            "I"
@@ -230,8 +232,8 @@ LABEL195:
    load_int               -1
    load_string            ""
    widget_put_option_click_listener 1
-   jump                   LABEL212
-LABEL203:
+   jump                   LABEL214
+LABEL205:
    load_int               40
    iload                  16
    load_string            "I"
@@ -241,7 +243,7 @@ LABEL203:
    load_string            ""
    iload                  3
    widget_put_option_click_listener_widget
-LABEL212:
+LABEL214:
    iload                  0
    load_int               5
    iload                  1
@@ -288,135 +290,135 @@ LABEL212:
    widget_put_text_shadowed 1
    iload                  5
    load_int               0
-   if_icmple              LABEL260
-   jump                   LABEL263
-LABEL260:
+   if_icmple              LABEL262
+   jump                   LABEL265
+LABEL262:
    load_string            "-"
    widget_put_text        1
-   jump                   LABEL276
-LABEL263:
+   jump                   LABEL278
+LABEL265:
    iload                  5
    load_int               300
-   if_icmpgt              LABEL267
-   jump                   LABEL273
-LABEL267:
+   if_icmpgt              LABEL269
+   jump                   LABEL275
+LABEL269:
    iload                  5
    load_int               300
    isub                  
    int_to_string         
    widget_put_text        1
-   jump                   LABEL276
-LABEL273:
+   jump                   LABEL278
+LABEL275:
    iload                  5
    int_to_string         
    widget_put_text        1
-LABEL276:
+LABEL278:
    iload                  6
    load_int               2
    test_bit              
    load_int               1
-   if_icmpeq              LABEL282
-   jump                   LABEL294
-LABEL282:
+   if_icmpeq              LABEL284
+   jump                   LABEL296
+LABEL284:
    load_int               1237
    widget_put_spriteid   
    iload                  17
    load_int               0
-   if_icmpeq              LABEL288
-   jump                   LABEL291
-LABEL288:
+   if_icmpeq              LABEL290
+   jump                   LABEL293
+LABEL290:
    load_int               15790080
    widget_put_textcolor   1
-   jump                   LABEL293
-LABEL291:
+   jump                   LABEL295
+LABEL293:
    load_int               8355711
    widget_put_textcolor   1
-LABEL293:
-   jump                   LABEL359
-LABEL294:
+LABEL295:
+   jump                   LABEL361
+LABEL296:
    iload                  6
    load_int               29
    test_bit              
    load_int               1
-   if_icmpeq              LABEL300
-   jump                   LABEL312
-LABEL300:
+   if_icmpeq              LABEL302
+   jump                   LABEL314
+LABEL302:
    load_int               1238
    widget_put_spriteid   
    iload                  17
    load_int               0
-   if_icmpeq              LABEL306
-   jump                   LABEL309
-LABEL306:
+   if_icmpeq              LABEL308
+   jump                   LABEL311
+LABEL308:
    load_int               15790080
    widget_put_textcolor   1
-   jump                   LABEL311
-LABEL309:
+   jump                   LABEL313
+LABEL311:
    load_int               8355711
    widget_put_textcolor   1
-LABEL311:
-   jump                   LABEL359
-LABEL312:
+LABEL313:
+   jump                   LABEL361
+LABEL314:
    iload                  6
    load_int               25
    test_bit              
    load_int               1
-   if_icmpeq              LABEL318
-   jump                   LABEL330
-LABEL318:
+   if_icmpeq              LABEL320
+   jump                   LABEL332
+LABEL320:
    load_int               1338
    widget_put_spriteid   
    iload                  17
    load_int               0
-   if_icmpeq              LABEL324
-   jump                   LABEL327
-LABEL324:
+   if_icmpeq              LABEL326
+   jump                   LABEL329
+LABEL326:
    load_int               15790080
    widget_put_textcolor   1
-   jump                   LABEL329
-LABEL327:
+   jump                   LABEL331
+LABEL329:
    load_int               8355711
    widget_put_textcolor   1
-LABEL329:
-   jump                   LABEL359
-LABEL330:
+LABEL331:
+   jump                   LABEL361
+LABEL332:
    iload                  6
    load_int               0
    test_bit              
    load_int               1
-   if_icmpeq              LABEL336
-   jump                   LABEL348
-LABEL336:
+   if_icmpeq              LABEL338
+   jump                   LABEL350
+LABEL338:
    load_int               1131
    widget_put_spriteid   
    iload                  17
    load_int               0
-   if_icmpeq              LABEL342
-   jump                   LABEL345
-LABEL342:
+   if_icmpeq              LABEL344
+   jump                   LABEL347
+LABEL344:
    load_int               15790080
    widget_put_textcolor   1
-   jump                   LABEL347
-LABEL345:
+   jump                   LABEL349
+LABEL347:
    load_int               8355711
    widget_put_textcolor   1
-LABEL347:
-   jump                   LABEL359
-LABEL348:
+LABEL349:
+   jump                   LABEL361
+LABEL350:
    load_int               1130
    widget_put_spriteid   
    iload                  17
    load_int               0
-   if_icmpeq              LABEL354
-   jump                   LABEL357
-LABEL354:
+   if_icmpeq              LABEL356
+   jump                   LABEL359
+LABEL356:
    load_int               14737632
    widget_put_textcolor   1
-   jump                   LABEL359
-LABEL357:
+   jump                   LABEL361
+LABEL359:
    load_int               8355711
    widget_put_textcolor   1
-LABEL359:
+LABEL361:
    iload                  0
    load_int               5
    iload                  1
@@ -463,16 +465,16 @@ LABEL359:
    widget_put_position   
    iload                  17
    load_int               0
-   if_icmpeq              LABEL407
-   jump                   LABEL410
-LABEL407:
+   if_icmpeq              LABEL409
+   jump                   LABEL412
+LABEL409:
    load_int               16777215
    widget_put_textcolor  
-   jump                   LABEL412
-LABEL410:
+   jump                   LABEL414
+LABEL412:
    load_int               8355711
    widget_put_textcolor  
-LABEL412:
+LABEL414:
    load_int               494
    widget_put_fontid     
    load_int               1
@@ -493,37 +495,37 @@ LABEL412:
    istore                 20
    iload                  20
    load_int               0
-   if_icmple              LABEL434
-   jump                   LABEL438
-LABEL434:
+   if_icmple              LABEL436
+   jump                   LABEL440
+LABEL436:
    load_string            "-"
    load_int               1
    istore                 20
    sstore                 0
-LABEL438:
+LABEL440:
    iload                  20
    load_int               0
-   if_icmpgt              LABEL442
-   jump                   LABEL480
-LABEL442:
+   if_icmpgt              LABEL444
+   jump                   LABEL482
+LABEL444:
    sload                  0
    load_int               512
    load_int               494
    get_max_line_width    
    iload                  13
-   if_icmpgt              LABEL449
-   jump                   LABEL480
-LABEL449:
+   if_icmpgt              LABEL451
+   jump                   LABEL482
+LABEL451:
    iload                  20
    load_int               1
-   if_icmpgt              LABEL453
-   jump                   LABEL480
-LABEL453:
+   if_icmpgt              LABEL455
+   jump                   LABEL482
+LABEL455:
    iload                  19
    load_int               0
-   if_icmpeq              LABEL457
-   jump                   LABEL480
-LABEL457:
+   if_icmpeq              LABEL459
+   jump                   LABEL482
+LABEL459:
    iload                  20
    load_int               1
    isub                  
@@ -540,16 +542,16 @@ LABEL457:
    load_int               494
    get_max_line_width    
    iload                  13
-   if_icmple              LABEL475
-   jump                   LABEL479
-LABEL475:
+   if_icmple              LABEL477
+   jump                   LABEL481
+LABEL477:
    sload                  1
    load_int               1
    istore                 19
    sstore                 0
-LABEL479:
-   jump                   LABEL449
-LABEL480:
+LABEL481:
+   jump                   LABEL451
+LABEL482:
    iload                  0
    load_int               4
    iload                  1
@@ -570,37 +572,37 @@ LABEL480:
    widget_put_position   
    iload                  17
    load_int               1
-   if_icmpeq              LABEL502
-   jump                   LABEL505
-LABEL502:
+   if_icmpeq              LABEL504
+   jump                   LABEL507
+LABEL504:
    load_int               8355711
    widget_put_textcolor  
-   jump                   LABEL526
-LABEL505:
+   jump                   LABEL528
+LABEL507:
    iload                  6
    load_int               2
    test_bit              
    load_int               1
-   if_icmpeq              LABEL521
+   if_icmpeq              LABEL523
    iload                  6
    load_int               29
    test_bit              
    load_int               1
-   if_icmpeq              LABEL521
+   if_icmpeq              LABEL523
    iload                  6
    load_int               25
    test_bit              
    load_int               1
-   if_icmpeq              LABEL521
-   jump                   LABEL524
-LABEL521:
+   if_icmpeq              LABEL523
+   jump                   LABEL526
+LABEL523:
    load_int               16711680
    widget_put_textcolor  
-   jump                   LABEL526
-LABEL524:
+   jump                   LABEL528
+LABEL526:
    load_int               16750623
    widget_put_textcolor  
-LABEL526:
+LABEL528:
    load_int               494
    widget_put_fontid     
    load_int               0

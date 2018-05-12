@@ -10,77 +10,77 @@
    istore                 1
    load_int               15
    istore                 2
-   load_int               6798
+   load_int               0
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6799
+   load_int               1
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6800
+   load_int               2
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6801
+   load_int               3
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6802
+   load_int               4
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6803
+   load_int               5
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6804
+   load_int               6
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6805
+   load_int               7
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6806
+   load_int               8
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6807
+   load_int               9
    iload                  0
    iload                  1
    iload                  2
    invoke                 1409
    istore                 2
    istore                 1
-   load_int               6808
+   load_int               10
    iload                  0
    iload                  1
    iload                  2

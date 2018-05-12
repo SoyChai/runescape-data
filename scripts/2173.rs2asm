@@ -1,0 +1,131 @@
+.int_stack_count    0
+.string_stack_count 0
+.int_var_count      0
+.string_var_count   0
+   get_varbit             6275
+   load_int               5
+   if_icmpeq              LABEL4
+   jump                   LABEL20
+LABEL4:
+   load_int               1595
+   load_int               11927578
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927581
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927584
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927587
+   widget_put_spriteid_widget
+   load_int               1596
+   load_int               11927590
+   widget_put_spriteid_widget
+   jump                   LABEL115
+LABEL20:
+   get_varbit             6275
+   load_int               4
+   if_icmpeq              LABEL24
+   jump                   LABEL40
+LABEL24:
+   load_int               1595
+   load_int               11927578
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927581
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927584
+   widget_put_spriteid_widget
+   load_int               1596
+   load_int               11927587
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927590
+   widget_put_spriteid_widget
+   jump                   LABEL115
+LABEL40:
+   get_varbit             6275
+   load_int               3
+   if_icmpeq              LABEL44
+   jump                   LABEL60
+LABEL44:
+   load_int               1595
+   load_int               11927578
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927581
+   widget_put_spriteid_widget
+   load_int               1596
+   load_int               11927584
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927587
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927590
+   widget_put_spriteid_widget
+   jump                   LABEL115
+LABEL60:
+   get_varbit             6275
+   load_int               2
+   if_icmpeq              LABEL64
+   jump                   LABEL80
+LABEL64:
+   load_int               1595
+   load_int               11927578
+   widget_put_spriteid_widget
+   load_int               1596
+   load_int               11927581
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927584
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927587
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927590
+   widget_put_spriteid_widget
+   jump                   LABEL115
+LABEL80:
+   get_varbit             6275
+   load_int               1
+   if_icmpeq              LABEL84
+   jump                   LABEL100
+LABEL84:
+   load_int               1596
+   load_int               11927578
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927581
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927584
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927587
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927590
+   widget_put_spriteid_widget
+   jump                   LABEL115
+LABEL100:
+   load_int               1595
+   load_int               11927578
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927581
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927584
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927587
+   widget_put_spriteid_widget
+   load_int               1595
+   load_int               11927590
+   widget_put_spriteid_widget
+LABEL115:
+   return                

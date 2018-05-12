@@ -12,7 +12,7 @@ LABEL6:
    load_int               105
    load_int               115
    load_int               1753
-   get_settings           261
+   get_varp               261
    get_enum_value        
    widget_put_text       
 LABEL12:
@@ -32,13 +32,13 @@ LABEL12:
    load_int               105
    load_int               79
    load_int               1756
-   get_settings           261
+   get_varp               261
    get_enum_value        
    istore                 6
    load_int               105
    load_int               105
    load_int               1757
-   get_settings           261
+   get_varp               261
    get_enum_value        
    istore                 7
    iload                  6

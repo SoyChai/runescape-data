@@ -2,7 +2,7 @@
 .string_stack_count 1
 .int_var_count      2
 .string_var_count   1
-   load_int               10616871
+   load_int               10616873
    load_int               4
    load_int               0
    widget_create_child   
@@ -30,14 +30,14 @@
    widget_put_text       
    load_int               0
    load_int               0
-   load_int               10616871
+   load_int               10616873
    widget_put_scroll_widget
    load_int               0
    load_int               0
-   load_int               10616871
+   load_int               10616873
    widget_put_scrollwidthheight_widget
-   load_int               10616872
-   load_int               10616871
+   load_int               10616874
+   load_int               10616873
    load_int               0
    invoke                 72
    return                

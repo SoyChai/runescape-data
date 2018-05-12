@@ -32,7 +32,7 @@
    if_icmpeq              LABEL29
    jump                   LABEL53
 LABEL29:
-   load_int               39
+   load_int               43
    load_int               2
    iadd                  
    istore                 6
@@ -57,7 +57,7 @@ LABEL29:
    sstore                 1
    jump                   LABEL73
 LABEL53:
-   load_int               39
+   load_int               43
    load_int               1
    iadd                  
    istore                 6

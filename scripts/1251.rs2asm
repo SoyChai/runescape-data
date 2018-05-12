@@ -5,7 +5,7 @@
    load_string            "Saradomin"
    sstore                 0
    iload                  1
-   get_settings           261
+   get_varp               261
    sload                  0
    load_int               3839
    load_int               3840
@@ -23,7 +23,7 @@
    load_string            "Guthix"
    sstore                 0
    iload                  2
-   get_settings           262
+   get_varp               262
    sload                  0
    load_int               3843
    load_int               3844
@@ -41,7 +41,7 @@
    load_string            "Zamorak"
    sstore                 0
    iload                  3
-   get_settings           263
+   get_varp               263
    sload                  0
    load_int               3841
    load_int               3842
@@ -59,7 +59,7 @@
    load_string            "Bandos"
    sstore                 0
    iload                  4
-   get_settings           264
+   get_varp               264
    sload                  0
    load_int               12607
    load_int               12608
@@ -77,7 +77,7 @@
    load_string            "Armadyl"
    sstore                 0
    iload                  5
-   get_settings           265
+   get_varp               265
    sload                  0
    load_int               12609
    load_int               12610
@@ -95,7 +95,7 @@
    load_string            "Ancient"
    sstore                 0
    iload                  6
-   get_settings           266
+   get_varp               266
    sload                  0
    load_int               12611
    load_int               12612

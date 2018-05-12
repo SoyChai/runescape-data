@@ -1,6 +1,6 @@
-.int_stack_count    14
+.int_stack_count    15
 .string_stack_count 0
-.int_var_count      14
+.int_var_count      15
 .string_var_count   0
    load_int               33226754
    load_string            "Loading..."
@@ -33,6 +33,9 @@
    load_int               1
    iload                  8
    widget_put_hidden_widget
+   load_int               1
+   iload                  9
+   widget_put_hidden_widget
    iload                  1
    widget_unset_children 
    load_int               1
@@ -43,21 +46,6 @@
    load_int               33226755
    widget_unset_children 
    load_int               1
-   iload                  9
-   widget_put_hidden_widget
-   iload                  9
-   widget_unset_children 
-   load_int               33226755
-   load_int               3
-   load_int               73
-   load_int               105
-   load_int               1539
-   iload                  9
-   get_enum_value        
-   widget_create_child   
-   load_int               1
-   widget_put_hidden     
-   load_int               1
    iload                  10
    widget_put_hidden_widget
    iload                  10
@@ -88,31 +76,46 @@
    load_int               1
    widget_put_hidden     
    load_int               1
-   iload                  13
+   iload                  12
    widget_put_hidden_widget
-   iload                  13
+   iload                  12
    widget_unset_children 
    load_int               33226755
    load_int               3
    load_int               73
    load_int               105
    load_int               1539
-   iload                  13
+   iload                  12
    get_enum_value        
    widget_create_child   
    load_int               1
    widget_put_hidden     
    load_int               1
-   iload                  12
+   iload                  14
    widget_put_hidden_widget
-   iload                  12
+   iload                  14
    widget_unset_children 
    load_int               33226755
    load_int               3
    load_int               73
    load_int               105
    load_int               1539
-   iload                  12
+   iload                  14
+   get_enum_value        
+   widget_create_child   
+   load_int               1
+   widget_put_hidden     
+   load_int               1
+   iload                  13
+   widget_put_hidden_widget
+   iload                  13
+   widget_unset_children 
+   load_int               33226755
+   load_int               3
+   load_int               73
+   load_int               105
+   load_int               1539
+   iload                  13
    get_enum_value        
    widget_create_child   
    load_int               1

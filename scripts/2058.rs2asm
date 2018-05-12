@@ -1,0 +1,52 @@
+.int_stack_count    2
+.string_stack_count 1
+.int_var_count      3
+.string_var_count   1
+   iload                  1
+   widget_unset_children 
+   load_int               0
+   istore                 2
+   iload                  0
+   load_int               1
+   if_icmpeq              LABEL8
+   jump                   LABEL13
+LABEL8:
+   iload                  1
+   iload                  2
+   invoke                 2044
+   istore                 2
+   jump                   LABEL17
+LABEL13:
+   iload                  1
+   iload                  2
+   invoke                 2045
+   istore                 2
+LABEL17:
+   iload                  1
+   load_int               4
+   iload                  2
+   widget_create_child   
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_position   
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_size       
+   load_int               1
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
+   load_int               17694725
+   widget_get_textcolor_widget
+   widget_put_textcolor  
+   load_int               0
+   widget_put_text_shadowed
+   load_int               494
+   widget_put_fontid     
+   sload                  0
+   widget_put_text       
+   return                

@@ -3,10 +3,51 @@
 .int_var_count      1
 .string_var_count   0
    iload                  0
-   load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL15
-LABEL4:
+   switch                
+      1: LABEL3
+      2: LABEL15
+      3: LABEL27
+      4: LABEL39
+      5: LABEL51
+      6: LABEL63
+      7: LABEL75
+      8: LABEL87
+      9: LABEL99
+      10: LABEL111
+      11: LABEL123
+      12: LABEL135
+      13: LABEL147
+      14: LABEL159
+      15: LABEL171
+      16: LABEL183
+      17: LABEL195
+      18: LABEL207
+      19: LABEL219
+      20: LABEL231
+      31: LABEL255
+      32: LABEL267
+      33: LABEL279
+      34: LABEL291
+      35: LABEL303
+      36: LABEL315
+      37: LABEL327
+      38: LABEL339
+      39: LABEL351
+      40: LABEL363
+      41: LABEL375
+      42: LABEL387
+      43: LABEL399
+      44: LABEL411
+      45: LABEL423
+      46: LABEL435
+      47: LABEL447
+      48: LABEL459
+      49: LABEL471
+      50: LABEL483
+      51: LABEL495
+      52: LABEL243
+   jump                   LABEL506
+LABEL3:
    load_int               1
    load_string            "A basic Air missile"
    load_int               556
@@ -18,12 +59,8 @@ LABEL4:
    load_int               -1
    load_int               0
    return                
+   jump                   LABEL506
 LABEL15:
-   iload                  0
-   load_int               2
-   if_icmpeq              LABEL19
-   jump                   LABEL30
-LABEL19:
    load_int               5
    load_string            "A basic Water missile"
    load_int               555
@@ -35,12 +72,8 @@ LABEL19:
    load_int               -1
    load_int               0
    return                
-LABEL30:
-   iload                  0
-   load_int               3
-   if_icmpeq              LABEL34
-   jump                   LABEL45
-LABEL34:
+   jump                   LABEL506
+LABEL27:
    load_int               9
    load_string            "A basic Earth missile"
    load_int               557
@@ -52,12 +85,8 @@ LABEL34:
    load_int               -1
    load_int               0
    return                
-LABEL45:
-   iload                  0
-   load_int               4
-   if_icmpeq              LABEL49
-   jump                   LABEL60
-LABEL49:
+   jump                   LABEL506
+LABEL39:
    load_int               13
    load_string            "A basic Fire missile"
    load_int               554
@@ -69,12 +98,8 @@ LABEL49:
    load_int               -1
    load_int               0
    return                
-LABEL60:
-   iload                  0
-   load_int               5
-   if_icmpeq              LABEL64
-   jump                   LABEL75
-LABEL64:
+   jump                   LABEL506
+LABEL51:
    load_int               17
    load_string            "A low level Air missile"
    load_int               556
@@ -86,12 +111,8 @@ LABEL64:
    load_int               -1
    load_int               0
    return                
-LABEL75:
-   iload                  0
-   load_int               6
-   if_icmpeq              LABEL79
-   jump                   LABEL90
-LABEL79:
+   jump                   LABEL506
+LABEL63:
    load_int               23
    load_string            "A low level Water missile"
    load_int               555
@@ -103,12 +124,8 @@ LABEL79:
    load_int               -1
    load_int               0
    return                
-LABEL90:
-   iload                  0
-   load_int               7
-   if_icmpeq              LABEL94
-   jump                   LABEL105
-LABEL94:
+   jump                   LABEL506
+LABEL75:
    load_int               29
    load_string            "A low level Earth missile"
    load_int               557
@@ -120,12 +137,8 @@ LABEL94:
    load_int               -1
    load_int               0
    return                
-LABEL105:
-   iload                  0
-   load_int               8
-   if_icmpeq              LABEL109
-   jump                   LABEL120
-LABEL109:
+   jump                   LABEL506
+LABEL87:
    load_int               35
    load_string            "A low level Fire missile"
    load_int               554
@@ -137,12 +150,8 @@ LABEL109:
    load_int               -1
    load_int               0
    return                
-LABEL120:
-   iload                  0
-   load_int               9
-   if_icmpeq              LABEL124
-   jump                   LABEL135
-LABEL124:
+   jump                   LABEL506
+LABEL99:
    load_int               41
    load_string            "A medium level Air missile"
    load_int               556
@@ -154,12 +163,8 @@ LABEL124:
    load_int               -1
    load_int               0
    return                
-LABEL135:
-   iload                  0
-   load_int               10
-   if_icmpeq              LABEL139
-   jump                   LABEL150
-LABEL139:
+   jump                   LABEL506
+LABEL111:
    load_int               47
    load_string            "A medium level Water missile"
    load_int               555
@@ -171,12 +176,8 @@ LABEL139:
    load_int               -1
    load_int               0
    return                
-LABEL150:
-   iload                  0
-   load_int               11
-   if_icmpeq              LABEL154
-   jump                   LABEL165
-LABEL154:
+   jump                   LABEL506
+LABEL123:
    load_int               53
    load_string            "A medium level Earth missile"
    load_int               557
@@ -188,12 +189,8 @@ LABEL154:
    load_int               -1
    load_int               0
    return                
-LABEL165:
-   iload                  0
-   load_int               12
-   if_icmpeq              LABEL169
-   jump                   LABEL180
-LABEL169:
+   jump                   LABEL506
+LABEL135:
    load_int               59
    load_string            "A medium level Fire missile"
    load_int               554
@@ -205,12 +202,8 @@ LABEL169:
    load_int               -1
    load_int               0
    return                
-LABEL180:
-   iload                  0
-   load_int               13
-   if_icmpeq              LABEL184
-   jump                   LABEL195
-LABEL184:
+   jump                   LABEL506
+LABEL147:
    load_int               62
    load_string            "A high level Air missile"
    load_int               556
@@ -222,12 +215,8 @@ LABEL184:
    load_int               -1
    load_int               0
    return                
-LABEL195:
-   iload                  0
-   load_int               14
-   if_icmpeq              LABEL199
-   jump                   LABEL210
-LABEL199:
+   jump                   LABEL506
+LABEL159:
    load_int               65
    load_string            "A high level Water missile"
    load_int               555
@@ -239,12 +228,8 @@ LABEL199:
    load_int               -1
    load_int               0
    return                
-LABEL210:
-   iload                  0
-   load_int               15
-   if_icmpeq              LABEL214
-   jump                   LABEL225
-LABEL214:
+   jump                   LABEL506
+LABEL171:
    load_int               70
    load_string            "A high level Earth missile"
    load_int               557
@@ -256,12 +241,8 @@ LABEL214:
    load_int               -1
    load_int               0
    return                
-LABEL225:
-   iload                  0
-   load_int               16
-   if_icmpeq              LABEL229
-   jump                   LABEL240
-LABEL229:
+   jump                   LABEL506
+LABEL183:
    load_int               75
    load_string            "A high level Fire missile"
    load_int               554
@@ -273,12 +254,8 @@ LABEL229:
    load_int               -1
    load_int               0
    return                
-LABEL240:
-   iload                  0
-   load_int               17
-   if_icmpeq              LABEL244
-   jump                   LABEL255
-LABEL244:
+   jump                   LABEL506
+LABEL195:
    load_int               39
    load_string            "Hits skeletons, ghosts, shades & zombies hard"
    load_int               557
@@ -290,12 +267,8 @@ LABEL244:
    load_int               -1
    load_int               0
    return                
-LABEL255:
-   iload                  0
-   load_int               18
-   if_icmpeq              LABEL259
-   jump                   LABEL270
-LABEL259:
+   jump                   LABEL506
+LABEL207:
    load_int               50
    load_string            "A magic dart of slaying"
    load_int               4170
@@ -307,12 +280,8 @@ LABEL259:
    load_int               -1
    load_int               0
    return                
-LABEL270:
-   iload                  0
-   load_int               19
-   if_icmpeq              LABEL274
-   jump                   LABEL285
-LABEL274:
+   jump                   LABEL506
+LABEL219:
    load_int               60
    load_string            "Summons the power of Guthix"
    load_int               554
@@ -324,12 +293,8 @@ LABEL274:
    load_int               8843
    load_int               1
    return                
-LABEL285:
-   iload                  0
-   load_int               20
-   if_icmpeq              LABEL289
-   jump                   LABEL300
-LABEL289:
+   jump                   LABEL506
+LABEL231:
    load_int               60
    load_string            "Summons the power of Zamorak"
    load_int               554
@@ -341,12 +306,21 @@ LABEL289:
    load_int               2417
    load_int               1
    return                
-LABEL300:
-   iload                  0
-   load_int               31
-   if_icmpeq              LABEL304
-   jump                   LABEL315
-LABEL304:
+   jump                   LABEL506
+LABEL243:
+   load_int               60
+   load_string            "Summons the power of Saradomin"
+   load_int               554
+   load_int               2
+   load_int               565
+   load_int               2
+   load_int               556
+   load_int               4
+   load_int               2415
+   load_int               1
+   return                
+   jump                   LABEL506
+LABEL255:
    load_int               50
    load_string            "A single target smoke attack"
    load_int               562
@@ -358,12 +332,8 @@ LABEL304:
    load_int               556
    load_int               1
    return                
-LABEL315:
-   iload                  0
-   load_int               32
-   if_icmpeq              LABEL319
-   jump                   LABEL330
-LABEL319:
+   jump                   LABEL506
+LABEL267:
    load_int               52
    load_string            "A single target shadow attack"
    load_int               562
@@ -375,12 +345,8 @@ LABEL319:
    load_int               566
    load_int               1
    return                
-LABEL330:
-   iload                  0
-   load_int               33
-   if_icmpeq              LABEL334
-   jump                   LABEL345
-LABEL334:
+   jump                   LABEL506
+LABEL279:
    load_int               56
    load_string            "A single target blood attack"
    load_int               562
@@ -392,12 +358,8 @@ LABEL334:
    load_int               -1
    load_int               0
    return                
-LABEL345:
-   iload                  0
-   load_int               34
-   if_icmpeq              LABEL349
-   jump                   LABEL360
-LABEL349:
+   jump                   LABEL506
+LABEL291:
    load_int               58
    load_string            "A single target ice attack"
    load_int               562
@@ -409,12 +371,8 @@ LABEL349:
    load_int               -1
    load_int               0
    return                
-LABEL360:
-   iload                  0
-   load_int               35
-   if_icmpeq              LABEL364
-   jump                   LABEL375
-LABEL364:
+   jump                   LABEL506
+LABEL303:
    load_int               62
    load_string            "A multi-target smoke attack"
    load_int               562
@@ -426,12 +384,8 @@ LABEL364:
    load_int               556
    load_int               2
    return                
-LABEL375:
-   iload                  0
-   load_int               36
-   if_icmpeq              LABEL379
-   jump                   LABEL390
-LABEL379:
+   jump                   LABEL506
+LABEL315:
    load_int               64
    load_string            "A multi-target shadow attack"
    load_int               562
@@ -443,12 +397,8 @@ LABEL379:
    load_int               566
    load_int               2
    return                
-LABEL390:
-   iload                  0
-   load_int               37
-   if_icmpeq              LABEL394
-   jump                   LABEL405
-LABEL394:
+   jump                   LABEL506
+LABEL327:
    load_int               68
    load_string            "A multi-target blood attack"
    load_int               562
@@ -460,12 +410,8 @@ LABEL394:
    load_int               -1
    load_int               0
    return                
-LABEL405:
-   iload                  0
-   load_int               38
-   if_icmpeq              LABEL409
-   jump                   LABEL420
-LABEL409:
+   jump                   LABEL506
+LABEL339:
    load_int               70
    load_string            "A multi-target ice attack"
    load_int               562
@@ -477,12 +423,8 @@ LABEL409:
    load_int               -1
    load_int               0
    return                
-LABEL420:
-   iload                  0
-   load_int               39
-   if_icmpeq              LABEL424
-   jump                   LABEL435
-LABEL424:
+   jump                   LABEL506
+LABEL351:
    load_int               74
    load_string            "A single target strong smoke attack"
    load_int               560
@@ -494,12 +436,8 @@ LABEL424:
    load_int               556
    load_int               2
    return                
-LABEL435:
-   iload                  0
-   load_int               40
-   if_icmpeq              LABEL439
-   jump                   LABEL450
-LABEL439:
+   jump                   LABEL506
+LABEL363:
    load_int               76
    load_string            "A single target strong shadow attack"
    load_int               560
@@ -511,12 +449,8 @@ LABEL439:
    load_int               566
    load_int               2
    return                
-LABEL450:
-   iload                  0
-   load_int               41
-   if_icmpeq              LABEL454
-   jump                   LABEL465
-LABEL454:
+   jump                   LABEL506
+LABEL375:
    load_int               80
    load_string            "A single target strong blood attack"
    load_int               560
@@ -528,12 +462,8 @@ LABEL454:
    load_int               -1
    load_int               0
    return                
-LABEL465:
-   iload                  0
-   load_int               42
-   if_icmpeq              LABEL469
-   jump                   LABEL480
-LABEL469:
+   jump                   LABEL506
+LABEL387:
    load_int               82
    load_string            "A single target strong ice attack"
    load_int               560
@@ -545,12 +475,8 @@ LABEL469:
    load_int               -1
    load_int               0
    return                
-LABEL480:
-   iload                  0
-   load_int               43
-   if_icmpeq              LABEL484
-   jump                   LABEL495
-LABEL484:
+   jump                   LABEL506
+LABEL399:
    load_int               86
    load_string            "A multi-target strong smoke attack"
    load_int               560
@@ -562,12 +488,8 @@ LABEL484:
    load_int               556
    load_int               4
    return                
-LABEL495:
-   iload                  0
-   load_int               44
-   if_icmpeq              LABEL499
-   jump                   LABEL510
-LABEL499:
+   jump                   LABEL506
+LABEL411:
    load_int               88
    load_string            "A multi-target strong shadow attack"
    load_int               560
@@ -579,12 +501,8 @@ LABEL499:
    load_int               566
    load_int               3
    return                
-LABEL510:
-   iload                  0
-   load_int               45
-   if_icmpeq              LABEL514
-   jump                   LABEL525
-LABEL514:
+   jump                   LABEL506
+LABEL423:
    load_int               92
    load_string            "A multi-target strong blood attack"
    load_int               560
@@ -596,12 +514,8 @@ LABEL514:
    load_int               -1
    load_int               0
    return                
-LABEL525:
-   iload                  0
-   load_int               46
-   if_icmpeq              LABEL529
-   jump                   LABEL540
-LABEL529:
+   jump                   LABEL506
+LABEL435:
    load_int               94
    load_string            "A multi-target strong ice attack"
    load_int               560
@@ -613,12 +527,8 @@ LABEL529:
    load_int               -1
    load_int               0
    return                
-LABEL540:
-   iload                  0
-   load_int               47
-   if_icmpeq              LABEL544
-   jump                   LABEL555
-LABEL544:
+   jump                   LABEL506
+LABEL447:
    load_int               50
    load_string            "Summons the wrath of Iban"
    load_int               554
@@ -630,7 +540,59 @@ LABEL544:
    load_int               -1
    load_int               0
    return                
-LABEL555:
+   jump                   LABEL506
+LABEL459:
+   load_int               81
+   load_string            "A very high level Air missile"
+   load_int               556
+   load_int               7
+   load_int               21880
+   load_int               1
+   load_int               -1
+   load_int               0
+   load_int               -1
+   load_int               0
+   return                
+   jump                   LABEL506
+LABEL471:
+   load_int               85
+   load_string            "A very high level Water missile"
+   load_int               555
+   load_int               10
+   load_int               556
+   load_int               7
+   load_int               21880
+   load_int               1
+   load_int               -1
+   load_int               0
+   return                
+   jump                   LABEL506
+LABEL483:
+   load_int               90
+   load_string            "A very high level Earth missile"
+   load_int               557
+   load_int               10
+   load_int               556
+   load_int               7
+   load_int               21880
+   load_int               1
+   load_int               -1
+   load_int               0
+   return                
+   jump                   LABEL506
+LABEL495:
+   load_int               95
+   load_string            "A very high level Fire missile"
+   load_int               554
+   load_int               10
+   load_int               556
+   load_int               7
+   load_int               21880
+   load_int               1
+   load_int               -1
+   load_int               0
+   return                
+LABEL506:
    load_int               0
    load_string            ""
    load_int               -1

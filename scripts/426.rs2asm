@@ -76,7 +76,7 @@ LABEL55:
 LABEL60:
    return                
 LABEL61:
-   load_int               39
+   load_int               43
    iload                  9
    iadd                  
    istore                 9
@@ -175,7 +175,7 @@ LABEL147:
 LABEL153:
    jump                   LABEL175
 LABEL154:
-   get_settings           101
+   get_varp               101
    iload                  2
    if_icmplt              LABEL158
    jump                   LABEL169

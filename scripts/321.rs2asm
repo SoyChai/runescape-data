@@ -43,7 +43,7 @@ LABEL37:
    iload                  18
    load_int               -1
    if_icmpne              LABEL41
-   jump                   LABEL188
+   jump                   LABEL203
 LABEL41:
    iload                  17
    load_int               5
@@ -128,11 +128,21 @@ LABEL41:
    load_string            ","
    invoke                 46
    widget_put_text        1
+   iload                  18
+   load_int               13226
+   if_icmpeq              LABEL128
+   jump                   LABEL132
+LABEL128:
+   load_int               2
+   load_string            "Buy 1"
+   widget_put_action     
+   jump                   LABEL169
+LABEL132:
    iload                  16
    load_int               1
-   if_icmpeq              LABEL128
-   jump                   LABEL138
-LABEL128:
+   if_icmpeq              LABEL136
+   jump                   LABEL153
+LABEL136:
    load_int               2
    load_string            "Buy 1"
    widget_put_action     
@@ -142,8 +152,17 @@ LABEL128:
    load_int               4
    load_string            "Buy 10"
    widget_put_action     
-   jump                   LABEL147
-LABEL138:
+   invoke                 2082
+   load_int               0
+   if_icmpeq              LABEL149
+   jump                   LABEL152
+LABEL149:
+   load_int               5
+   load_string            "Buy 50"
+   widget_put_action     
+LABEL152:
+   jump                   LABEL169
+LABEL153:
    load_int               2
    load_string            "Buy 1 set"
    widget_put_action     
@@ -153,17 +172,15 @@ LABEL138:
    load_int               4
    load_string            "Buy 10 sets"
    widget_put_action     
-LABEL147:
-   iload                  18
-   load_int               13226
-   if_icmpeq              LABEL151
-   jump                   LABEL155
-LABEL151:
-   widget_put_actions_null
-   load_int               2
-   load_string            "Buy 1"
+   invoke                 2082
+   load_int               0
+   if_icmpeq              LABEL166
+   jump                   LABEL169
+LABEL166:
+   load_int               5
+   load_string            "Buy 50 sets"
    widget_put_action     
-LABEL155:
+LABEL169:
    load_int               1
    load_string            "Info"
    widget_put_action     
@@ -173,7 +190,8 @@ LABEL155:
    load_string            "<col=ff9040>"
    iload                  18
    get_item_name         
-   string_append          2
+   load_string            "</col>"
+   string_append          3
    widget_put_name       
    load_int               322
    load_int               -2147483644
@@ -197,7 +215,7 @@ LABEL155:
    get_enum_value        
    istore                 18
    jump                   LABEL37
-LABEL188:
+LABEL203:
    load_int               0
    load_int               0
    iload                  0
@@ -217,20 +235,20 @@ LABEL188:
    iload                  15
    iload                  0
    widget_get_height_widget
-   if_icmpgt              LABEL209
-   jump                   LABEL214
-LABEL209:
+   if_icmpgt              LABEL224
+   jump                   LABEL229
+LABEL224:
    load_int               0
    iload                  15
    iload                  0
    widget_put_scrollwidthheight_widget
-   jump                   LABEL218
-LABEL214:
+   jump                   LABEL233
+LABEL229:
    load_int               0
    load_int               0
    iload                  0
    widget_put_scrollwidthheight_widget
-LABEL218:
+LABEL233:
    iload                  3
    iload                  0
    load_int               792

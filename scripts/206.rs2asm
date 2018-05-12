@@ -317,12 +317,12 @@ LABEL263:
    string_append          3
    sstore                 2
 LABEL268:
-   get_settings           286
+   get_varp               286
    load_int               7
    test_bit              
    load_int               1
    if_icmpeq              LABEL279
-   get_settings           286
+   get_varp               286
    load_int               13
    test_bit              
    load_int               1
@@ -335,7 +335,7 @@ LABEL279:
    string_append          3
    sstore                 2
 LABEL284:
-   get_settings           286
+   get_varp               286
    load_int               9
    test_bit              
    load_int               1
@@ -348,7 +348,7 @@ LABEL290:
    string_append          3
    sstore                 2
 LABEL295:
-   get_settings           286
+   get_varp               286
    load_int               0
    test_bit              
    load_int               1
@@ -361,7 +361,7 @@ LABEL301:
    string_append          3
    sstore                 3
 LABEL306:
-   get_settings           286
+   get_varp               286
    load_int               1
    test_bit              
    load_int               1
@@ -374,7 +374,7 @@ LABEL312:
    string_append          3
    sstore                 3
 LABEL317:
-   get_settings           286
+   get_varp               286
    load_int               2
    test_bit              
    load_int               1
@@ -387,7 +387,7 @@ LABEL323:
    string_append          3
    sstore                 3
 LABEL328:
-   get_settings           286
+   get_varp               286
    load_int               4
    test_bit              
    load_int               1
@@ -404,7 +404,7 @@ LABEL334:
    string_append          7
    sstore                 3
 LABEL343:
-   get_settings           286
+   get_varp               286
    load_int               5
    test_bit              
    load_int               1
@@ -421,7 +421,7 @@ LABEL349:
    string_append          7
    sstore                 3
 LABEL358:
-   get_settings           286
+   get_varp               286
    load_int               6
    test_bit              
    load_int               1
@@ -438,7 +438,7 @@ LABEL364:
    string_append          7
    sstore                 3
 LABEL373:
-   get_settings           286
+   get_varp               286
    load_int               13
    test_bit              
    load_int               1
@@ -451,7 +451,7 @@ LABEL379:
    string_append          3
    sstore                 3
 LABEL384:
-   get_settings           286
+   get_varp               286
    load_int               12
    test_bit              
    load_int               1
@@ -464,7 +464,7 @@ LABEL390:
    string_append          3
    sstore                 3
 LABEL395:
-   get_settings           286
+   get_varp               286
    load_int               7
    test_bit              
    load_int               1
@@ -477,7 +477,7 @@ LABEL401:
    string_append          3
    sstore                 3
 LABEL406:
-   get_settings           286
+   get_varp               286
    load_int               8
    test_bit              
    load_int               1
@@ -490,7 +490,7 @@ LABEL412:
    string_append          3
    sstore                 3
 LABEL417:
-   get_settings           286
+   get_varp               286
    load_int               9
    test_bit              
    load_int               1
@@ -503,7 +503,7 @@ LABEL423:
    string_append          3
    sstore                 3
 LABEL428:
-   get_settings           286
+   get_varp               286
    load_int               10
    test_bit              
    load_int               1
@@ -516,12 +516,12 @@ LABEL434:
    string_append          3
    sstore                 3
 LABEL439:
-   get_settings           286
+   get_varp               286
    load_int               17
    test_bit              
    load_int               1
    if_icmpeq              LABEL450
-   get_settings           286
+   get_varp               286
    load_int               19
    test_bit              
    load_int               1

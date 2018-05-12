@@ -1,0 +1,281 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      5
+.string_var_count   0
+   load_int               34414
+   istore                 2
+   iload                  1
+   load_int               50
+   modulo                
+   load_int               25
+   if_icmplt              LABEL8
+   jump                   LABEL10
+LABEL8:
+   load_int               34415
+   istore                 2
+LABEL10:
+   iload                  1
+   load_int               34
+   imul                  
+   load_int               2048
+   modulo                
+   istore                 3
+   iload                  1
+   load_int               30
+   if_icmple              LABEL20
+   jump                   LABEL42
+LABEL20:
+   iload                  2
+   widget_put_modelid_1   1
+   load_int               255
+   iload                  1
+   load_int               8
+   imul                  
+   isub                  
+   widget_put_opacity    
+   load_int               16777215
+   widget_put_textcolor  
+   load_int               0
+   load_int               60
+   load_int               30
+   iload                  3
+   load_int               0
+   load_int               1580
+   iload                  1
+   load_int               50
+   imul                  
+   isub                  
+   widget_put_3d_rotation 1
+   return                
+LABEL42:
+   load_int               0
+   istore                 4
+   iload                  1
+   load_int               60
+   if_icmple              LABEL48
+   jump                   LABEL90
+LABEL48:
+   iload                  2
+   widget_put_modelid_1   1
+   iload                  1
+   load_int               30
+   isub                  
+   istore                 1
+   load_int               15
+   iload                  1
+   load_int               2
+   idiv                  
+   isub                  
+   widget_put_opacity    
+   load_int               255
+   iload                  1
+   load_int               30
+   load_int               255
+   scale                 
+   isub                  
+   istore                 4
+   load_int               255
+   iload                  1
+   load_int               30
+   load_int               127
+   scale                 
+   isub                  
+   iload                  4
+   iload                  4
+   invoke                 246
+   widget_put_textcolor  
+   load_int               0
+   load_int               60
+   load_int               30
+   iload                  3
+   load_int               0
+   load_int               80
+   iload                  1
+   load_int               30
+   load_int               20
+   scale                 
+   isub                  
+   widget_put_3d_rotation 1
+   return                
+LABEL90:
+   iload                  1
+   load_int               90
+   if_icmple              LABEL94
+   jump                   LABEL123
+LABEL94:
+   iload                  2
+   widget_put_modelid_1   1
+   iload                  1
+   load_int               60
+   isub                  
+   istore                 1
+   load_int               128
+   iload                  1
+   load_int               30
+   load_int               128
+   scale                 
+   isub                  
+   load_int               0
+   load_int               0
+   invoke                 246
+   widget_put_textcolor  
+   load_int               0
+   load_int               60
+   load_int               30
+   iload                  3
+   load_int               0
+   load_int               60
+   iload                  1
+   load_int               30
+   load_int               20
+   scale                 
+   iadd                  
+   widget_put_3d_rotation 1
+   return                
+LABEL123:
+   iload                  1
+   load_int               120
+   if_icmple              LABEL127
+   jump                   LABEL154
+LABEL127:
+   iload                  2
+   widget_put_modelid_1   1
+   iload                  1
+   load_int               90
+   isub                  
+   istore                 1
+   iload                  1
+   load_int               30
+   load_int               128
+   scale                 
+   iload                  1
+   load_int               0
+   invoke                 246
+   widget_put_textcolor  
+   load_int               0
+   load_int               60
+   load_int               30
+   iload                  3
+   load_int               0
+   load_int               80
+   iload                  1
+   load_int               30
+   load_int               20
+   scale                 
+   isub                  
+   widget_put_3d_rotation 1
+   return                
+LABEL154:
+   iload                  1
+   load_int               150
+   if_icmple              LABEL158
+   jump                   LABEL189
+LABEL158:
+   iload                  2
+   widget_put_modelid_1   1
+   iload                  1
+   load_int               120
+   isub                  
+   istore                 1
+   load_int               128
+   iload                  1
+   load_int               30
+   load_int               128
+   scale                 
+   isub                  
+   load_int               30
+   iload                  1
+   isub                  
+   load_int               0
+   invoke                 246
+   widget_put_textcolor  
+   load_int               0
+   load_int               60
+   load_int               30
+   iload                  3
+   load_int               0
+   load_int               60
+   iload                  1
+   load_int               30
+   load_int               20
+   scale                 
+   iadd                  
+   widget_put_3d_rotation 1
+   return                
+LABEL189:
+   iload                  1
+   load_int               180
+   if_icmple              LABEL193
+   jump                   LABEL219
+LABEL193:
+   iload                  2
+   widget_put_modelid_1   1
+   iload                  1
+   load_int               150
+   isub                  
+   istore                 1
+   iload                  1
+   load_int               30
+   load_int               96
+   scale                 
+   load_int               0
+   load_int               0
+   invoke                 246
+   widget_put_textcolor  
+   load_int               0
+   load_int               60
+   load_int               30
+   iload                  3
+   load_int               0
+   load_int               80
+   iload                  1
+   load_int               50
+   imul                  
+   iadd                  
+   widget_put_3d_rotation 1
+   return                
+LABEL219:
+   iload                  1
+   load_int               210
+   if_icmple              LABEL223
+   jump                   LABEL240
+LABEL223:
+   load_int               16238
+   widget_put_modelid_1   1
+   iload                  1
+   load_int               180
+   isub                  
+   istore                 1
+   load_int               96
+   iload                  1
+   load_int               30
+   load_int               96
+   scale                 
+   isub                  
+   load_int               0
+   load_int               0
+   invoke                 246
+   widget_put_textcolor  
+   return                
+LABEL240:
+   iload                  1
+   load_int               270
+   if_icmple              LABEL244
+   jump                   LABEL256
+LABEL244:
+   load_int               16238
+   widget_put_modelid_1   1
+   iload                  1
+   load_int               210
+   isub                  
+   istore                 1
+   iload                  1
+   load_int               60
+   load_int               255
+   scale                 
+   widget_put_opacity    
+   return                
+LABEL256:
+   iload                  0
+   widget_unset_children 
+   return                

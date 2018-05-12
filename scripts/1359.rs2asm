@@ -3,124 +3,141 @@
 .int_var_count      1
 .string_var_count   0
    iload                  0
-   load_int               5
-   if_icmplt              LABEL4
-   jump                   LABEL108
-LABEL4:
-   iload                  0
-   load_int               0
-   if_icmpeq              LABEL8
-   jump                   LABEL24
-LABEL8:
-   get_settings           492
+   switch                
+      0: LABEL3
+      1: LABEL20
+      2: LABEL37
+      3: LABEL54
+      4: LABEL74
+      5: LABEL91
+      6: LABEL108
+      7: LABEL125
+      8: LABEL142
+      9: LABEL159
+      10: LABEL176
+      11: LABEL193
+   jump                   LABEL209
+LABEL3:
+   get_varp               492
    load_int               4
-   if_icmpge              LABEL12
-   jump                   LABEL15
-LABEL12:
+   if_icmpge              LABEL7
+   jump                   LABEL10
+LABEL7:
    load_int               2
    return                
-   jump                   LABEL24
-LABEL15:
-   get_settings           492
+   jump                   LABEL19
+LABEL10:
+   get_varp               492
    load_int               0
-   if_icmpeq              LABEL19
-   jump                   LABEL22
+   if_icmpeq              LABEL14
+   jump                   LABEL17
+LABEL14:
+   load_int               1
+   return                
+   jump                   LABEL19
+LABEL17:
+   load_int               0
+   return                
 LABEL19:
-   load_int               1
-   return                
-   jump                   LABEL24
-LABEL22:
-   load_int               0
-   return                
-LABEL24:
-   iload                  0
-   load_int               1
-   if_icmpeq              LABEL28
-   jump                   LABEL44
-LABEL28:
+   jump                   LABEL209
+LABEL20:
    get_varbit             4982
    load_int               3
-   if_icmpge              LABEL32
-   jump                   LABEL35
-LABEL32:
+   if_icmpge              LABEL24
+   jump                   LABEL27
+LABEL24:
    load_int               2
    return                
-   jump                   LABEL44
-LABEL35:
+   jump                   LABEL36
+LABEL27:
    get_varbit             4976
    load_int               0
-   if_icmpeq              LABEL39
-   jump                   LABEL42
-LABEL39:
+   if_icmpeq              LABEL31
+   jump                   LABEL34
+LABEL31:
    load_int               1
    return                
+   jump                   LABEL36
+LABEL34:
+   load_int               0
+   return                
+LABEL36:
+   jump                   LABEL209
+LABEL37:
+   get_varbit             5078
+   load_int               3
+   if_icmpge              LABEL41
    jump                   LABEL44
-LABEL42:
-   load_int               0
+LABEL41:
+   load_int               2
    return                
+   jump                   LABEL53
 LABEL44:
-   iload                  0
-   load_int               2
+   get_varbit             5078
+   load_int               0
    if_icmpeq              LABEL48
-   jump                   LABEL64
+   jump                   LABEL51
 LABEL48:
-   get_varbit             5078
-   load_int               3
-   if_icmpge              LABEL52
-   jump                   LABEL55
-LABEL52:
-   load_int               2
-   return                
-   jump                   LABEL64
-LABEL55:
-   get_varbit             5078
-   load_int               0
-   if_icmpeq              LABEL59
-   jump                   LABEL62
-LABEL59:
    load_int               1
    return                
-   jump                   LABEL64
-LABEL62:
+   jump                   LABEL53
+LABEL51:
    load_int               0
    return                
-LABEL64:
-   iload                  0
-   load_int               3
-   if_icmpeq              LABEL68
-   jump                   LABEL87
-LABEL68:
-   get_settings           77
+LABEL53:
+   jump                   LABEL209
+LABEL54:
+   get_varp               77
    load_int               2
-   if_icmpeq              LABEL75
-   get_settings           76
+   if_icmpeq              LABEL61
+   get_varp               76
    load_int               6
-   if_icmpge              LABEL75
-   jump                   LABEL78
-LABEL75:
+   if_icmpge              LABEL61
+   jump                   LABEL64
+LABEL61:
    load_int               2
    return                
-   jump                   LABEL87
-LABEL78:
-   get_settings           77
+   jump                   LABEL73
+LABEL64:
+   get_varp               77
    load_int               0
-   if_icmpeq              LABEL82
-   jump                   LABEL85
-LABEL82:
+   if_icmpeq              LABEL68
+   jump                   LABEL71
+LABEL68:
    load_int               1
    return                
-   jump                   LABEL87
-LABEL85:
+   jump                   LABEL73
+LABEL71:
    load_int               0
    return                
-LABEL87:
-   iload                  0
-   load_int               4
-   if_icmpeq              LABEL91
-   jump                   LABEL107
-LABEL91:
+LABEL73:
+   jump                   LABEL209
+LABEL74:
    get_varbit             821
    load_int               1
+   if_icmpeq              LABEL78
+   jump                   LABEL81
+LABEL78:
+   load_int               2
+   return                
+   jump                   LABEL90
+LABEL81:
+   get_varbit             816
+   load_int               0
+   if_icmpeq              LABEL85
+   jump                   LABEL88
+LABEL85:
+   load_int               1
+   return                
+   jump                   LABEL90
+LABEL88:
+   load_int               0
+   return                
+LABEL90:
+   jump                   LABEL209
+LABEL91:
+   get_varbit             1391
+   load_int               2047
    if_icmpeq              LABEL95
    jump                   LABEL98
 LABEL95:
@@ -128,9 +145,9 @@ LABEL95:
    return                
    jump                   LABEL107
 LABEL98:
-   get_varbit             816
-   load_int               0
-   if_icmpeq              LABEL102
+   get_varbit             1383
+   load_int               4
+   if_icmplt              LABEL102
    jump                   LABEL105
 LABEL102:
    load_int               1
@@ -140,98 +157,102 @@ LABEL105:
    load_int               0
    return                
 LABEL107:
-   jump                   LABEL233
+   jump                   LABEL209
 LABEL108:
-   iload                  0
-   load_int               10
-   if_icmplt              LABEL112
-   jump                   LABEL213
-LABEL112:
-   iload                  0
-   load_int               5
-   if_icmpeq              LABEL116
-   jump                   LABEL132
-LABEL116:
-   get_varbit             1391
-   load_int               2047
-   if_icmpeq              LABEL120
-   jump                   LABEL123
-LABEL120:
-   load_int               2
-   return                
-   jump                   LABEL132
-LABEL123:
-   get_varbit             1383
-   load_int               4
-   if_icmplt              LABEL127
-   jump                   LABEL130
-LABEL127:
-   load_int               1
-   return                
-   jump                   LABEL132
-LABEL130:
-   load_int               0
-   return                
-LABEL132:
-   iload                  0
-   load_int               6
-   if_icmpeq              LABEL136
-   jump                   LABEL152
-LABEL136:
    get_varbit             3330
    load_int               30
-   if_icmpge              LABEL140
-   jump                   LABEL143
-LABEL140:
+   if_icmpge              LABEL112
+   jump                   LABEL115
+LABEL112:
    load_int               2
    return                
-   jump                   LABEL152
-LABEL143:
+   jump                   LABEL124
+LABEL115:
    get_varbit             3330
    load_int               0
-   if_icmple              LABEL147
-   jump                   LABEL150
-LABEL147:
+   if_icmple              LABEL119
+   jump                   LABEL122
+LABEL119:
    load_int               1
    return                
-   jump                   LABEL152
-LABEL150:
+   jump                   LABEL124
+LABEL122:
    load_int               0
    return                
-LABEL152:
-   iload                  0
-   load_int               7
-   if_icmpeq              LABEL156
-   jump                   LABEL172
-LABEL156:
+LABEL124:
+   jump                   LABEL209
+LABEL125:
    get_varbit             1344
    load_int               3
-   if_icmpge              LABEL160
-   jump                   LABEL163
-LABEL160:
+   if_icmpge              LABEL129
+   jump                   LABEL132
+LABEL129:
    load_int               2
    return                
-   jump                   LABEL172
-LABEL163:
+   jump                   LABEL141
+LABEL132:
    get_varbit             1344
    load_int               0
-   if_icmple              LABEL167
-   jump                   LABEL170
-LABEL167:
+   if_icmple              LABEL136
+   jump                   LABEL139
+LABEL136:
    load_int               1
    return                
-   jump                   LABEL172
-LABEL170:
+   jump                   LABEL141
+LABEL139:
    load_int               0
    return                
-LABEL172:
-   iload                  0
+LABEL141:
+   jump                   LABEL209
+LABEL142:
+   get_varp               267
    load_int               8
-   if_icmpeq              LABEL176
-   jump                   LABEL192
+   if_icmpge              LABEL146
+   jump                   LABEL149
+LABEL146:
+   load_int               2
+   return                
+   jump                   LABEL158
+LABEL149:
+   get_varp               267
+   load_int               0
+   if_icmple              LABEL153
+   jump                   LABEL156
+LABEL153:
+   load_int               1
+   return                
+   jump                   LABEL158
+LABEL156:
+   load_int               0
+   return                
+LABEL158:
+   jump                   LABEL209
+LABEL159:
+   get_varbit             3290
+   load_int               3
+   if_icmpge              LABEL163
+   jump                   LABEL166
+LABEL163:
+   load_int               2
+   return                
+   jump                   LABEL175
+LABEL166:
+   get_varbit             3290
+   load_int               0
+   if_icmple              LABEL170
+   jump                   LABEL173
+LABEL170:
+   load_int               1
+   return                
+   jump                   LABEL175
+LABEL173:
+   load_int               0
+   return                
+LABEL175:
+   jump                   LABEL209
 LABEL176:
-   get_settings           267
-   load_int               8
+   get_varbit             5347
+   load_int               3
    if_icmpge              LABEL180
    jump                   LABEL183
 LABEL180:
@@ -239,7 +260,7 @@ LABEL180:
    return                
    jump                   LABEL192
 LABEL183:
-   get_settings           267
+   get_varbit             5347
    load_int               0
    if_icmple              LABEL187
    jump                   LABEL190
@@ -251,60 +272,29 @@ LABEL190:
    load_int               0
    return                
 LABEL192:
-   iload                  0
-   load_int               9
-   if_icmpeq              LABEL196
-   jump                   LABEL212
-LABEL196:
-   get_varbit             3290
-   load_int               3
-   if_icmpge              LABEL200
-   jump                   LABEL203
+   jump                   LABEL209
+LABEL193:
+   get_varbit             6067
+   load_int               4
+   if_icmpge              LABEL197
+   jump                   LABEL200
+LABEL197:
+   load_int               2
+   return                
+   jump                   LABEL209
 LABEL200:
-   load_int               2
-   return                
-   jump                   LABEL212
-LABEL203:
-   get_varbit             3290
+   get_varbit             6067
    load_int               0
-   if_icmple              LABEL207
-   jump                   LABEL210
+   if_icmple              LABEL204
+   jump                   LABEL207
+LABEL204:
+   load_int               1
+   return                
+   jump                   LABEL209
 LABEL207:
-   load_int               1
-   return                
-   jump                   LABEL212
-LABEL210:
    load_int               0
    return                
-LABEL212:
-   jump                   LABEL233
-LABEL213:
-   iload                  0
-   load_int               10
-   if_icmpeq              LABEL217
-   jump                   LABEL233
-LABEL217:
-   get_varbit             5347
-   load_int               3
-   if_icmpge              LABEL221
-   jump                   LABEL224
-LABEL221:
-   load_int               2
-   return                
-   jump                   LABEL233
-LABEL224:
-   get_varbit             5347
-   load_int               0
-   if_icmple              LABEL228
-   jump                   LABEL231
-LABEL228:
-   load_int               1
-   return                
-   jump                   LABEL233
-LABEL231:
-   load_int               0
-   return                
-LABEL233:
+LABEL209:
    load_int               1
    return                
    load_int               0

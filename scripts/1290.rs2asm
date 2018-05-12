@@ -2,10 +2,10 @@
 .string_stack_count 0
 .int_var_count      2
 .string_var_count   0
-   get_settings           153
+   get_varp               153
    divide_by_16384       
    istore                 0
-   get_settings           153
+   get_varp               153
    and_16384             
    istore                 1
    iload                  0

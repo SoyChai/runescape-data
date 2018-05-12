@@ -1,25 +1,9 @@
-.int_stack_count    2
+.int_stack_count    3
 .string_stack_count 0
-.int_var_count      2
+.int_var_count      3
 .string_var_count   0
-   get_varbit             3983
-   load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL11
-LABEL4:
-   load_int               699
    iload                  0
-   widget_put_spriteid_widget
-   load_int               697
    iload                  1
-   widget_put_spriteid_widget
-   jump                   LABEL17
-LABEL11:
-   load_int               697
-   iload                  0
-   widget_put_spriteid_widget
-   load_int               699
-   iload                  1
-   widget_put_spriteid_widget
-LABEL17:
+   iload                  2
+   invoke                 2156
    return                

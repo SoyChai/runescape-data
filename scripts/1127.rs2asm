@@ -13,6 +13,25 @@ LABEL5:
    load_int               1
    isub                  
    istore                 2
+   invoke                 1972
+   load_int               1
+   if_icmpeq              LABEL13
+   jump                   LABEL24
+LABEL13:
+   load_int               105
+   load_int               115
+   load_int               1879
+   iload                  2
+   get_enum_value        
+   string_length         
+   load_int               0
+   if_icmple              LABEL22
+   jump                   LABEL23
+LABEL22:
+   return                
+LABEL23:
+   jump                   LABEL34
+LABEL24:
    load_int               105
    load_int               115
    load_int               1246
@@ -20,28 +39,28 @@ LABEL5:
    get_enum_value        
    string_length         
    load_int               0
-   if_icmple              LABEL18
-   jump                   LABEL19
-LABEL18:
+   if_icmple              LABEL33
+   jump                   LABEL34
+LABEL33:
    return                
-LABEL19:
+LABEL34:
    iload                  1
    iload                  6
-   if_icmpeq              LABEL23
-   jump                   LABEL26
-LABEL23:
+   if_icmpeq              LABEL38
+   jump                   LABEL41
+LABEL38:
    iload                  2
-   put_settings           1107
-   jump                   LABEL32
-LABEL26:
+   put_varp               1107
+   jump                   LABEL47
+LABEL41:
    iload                  1
    iload                  8
-   if_icmpeq              LABEL30
-   jump                   LABEL32
-LABEL30:
+   if_icmpeq              LABEL45
+   jump                   LABEL47
+LABEL45:
    iload                  2
-   put_settings           1306
-LABEL32:
+   put_varp               1306
+LABEL47:
    iload                  5
    iload                  7
    invoke                 1131

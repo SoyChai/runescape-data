@@ -4,26 +4,29 @@
 .string_var_count   0
    get_varc               5
    load_int               7
-   if_icmpeq              LABEL19
+   if_icmpeq              LABEL22
    get_varc               5
    load_int               8
-   if_icmpeq              LABEL19
+   if_icmpeq              LABEL22
    get_varc               5
    load_int               9
-   if_icmpeq              LABEL19
+   if_icmpeq              LABEL22
    get_varc               5
    load_int               11
-   if_icmpeq              LABEL19
+   if_icmpeq              LABEL22
    get_varc               5
    load_int               14
-   if_icmpeq              LABEL19
+   if_icmpeq              LABEL22
    get_varc               5
    load_int               15
-   if_icmpeq              LABEL19
-   jump                   LABEL22
-LABEL19:
+   if_icmpeq              LABEL22
+   get_varc               5
+   load_int               16
+   if_icmpeq              LABEL22
+   jump                   LABEL25
+LABEL22:
    load_int               1
    load_int               1
    invoke                 299
-LABEL22:
+LABEL25:
    return                

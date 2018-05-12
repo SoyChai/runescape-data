@@ -1,0 +1,99 @@
+.int_stack_count    4
+.string_stack_count 0
+.int_var_count      6
+.string_var_count   0
+   load_int               -1
+   istore                 4
+   load_int               16711680
+   istore                 5
+   iload                  3
+   load_int               0
+   if_icmpeq              LABEL8
+   jump                   LABEL27
+LABEL8:
+   iload                  2
+   invoke                 56
+   istore                 4
+   iload                  4
+   load_int               2
+   if_icmpeq              LABEL15
+   jump                   LABEL18
+LABEL15:
+   load_int               901389
+   istore                 5
+   jump                   LABEL27
+LABEL18:
+   iload                  4
+   load_int               1
+   if_icmpeq              LABEL22
+   jump                   LABEL25
+LABEL22:
+   load_int               16776960
+   istore                 5
+   jump                   LABEL27
+LABEL25:
+   load_int               16711680
+   istore                 5
+LABEL27:
+   iload                  0
+   iload                  1
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL33
+   jump                   LABEL42
+LABEL33:
+   iload                  3
+   load_int               1
+   if_icmpeq              LABEL37
+   jump                   LABEL40
+LABEL37:
+   load_int               200
+   widget_put_opacity    
+   jump                   LABEL42
+LABEL40:
+   load_int               255
+   widget_put_opacity    
+LABEL42:
+   iload                  0
+   iload                  1
+   load_int               1
+   iadd                  
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL50
+   jump                   LABEL59
+LABEL50:
+   iload                  3
+   load_int               1
+   if_icmpeq              LABEL54
+   jump                   LABEL57
+LABEL54:
+   load_int               16777215
+   widget_put_textcolor  
+   jump                   LABEL59
+LABEL57:
+   iload                  5
+   widget_put_textcolor  
+LABEL59:
+   iload                  0
+   iload                  1
+   load_int               2
+   iadd                  
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL67
+   jump                   LABEL76
+LABEL67:
+   iload                  3
+   load_int               1
+   if_icmpeq              LABEL71
+   jump                   LABEL74
+LABEL71:
+   load_int               16777215
+   widget_put_textcolor  
+   jump                   LABEL76
+LABEL74:
+   iload                  5
+   widget_put_textcolor  
+LABEL76:
+   return                

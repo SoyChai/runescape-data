@@ -3,19 +3,21 @@
 .int_var_count      1
 .string_var_count   0
    get_varbit             999
-   load_int               9000
+   load_int               4000
    if_icmpge              LABEL4
    jump                   LABEL8
 LABEL4:
-   load_string            "Damage: Over 9000!"
+   load_string            "Damage: Lots!"
    iload                  0
    widget_put_text_widget
-   return                
+   jump                   LABEL15
 LABEL8:
    load_string            "Damage: "
    get_varbit             999
-   int_to_string         
+   load_string            ","
+   invoke                 46
    string_append          2
    iload                  0
    widget_put_text_widget
+LABEL15:
    return                

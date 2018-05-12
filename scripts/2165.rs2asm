@@ -1,0 +1,117 @@
+.int_stack_count    0
+.string_stack_count 0
+.int_var_count      0
+.string_var_count   0
+   get_varbit             6273
+   load_int               1
+   if_icmpeq              LABEL4
+   jump                   LABEL42
+LABEL4:
+   get_varbit             6272
+   load_int               0
+   if_icmpeq              LABEL8
+   jump                   LABEL42
+LABEL8:
+   load_int               0
+   load_int               11927565
+   widget_put_hidden_widget
+   load_int               0
+   load_int               11927567
+   widget_put_hidden_widget
+   load_int               1
+   load_int               11927576
+   widget_put_hidden_widget
+   load_string            "Did you enjoy playing"
+   load_string            "<br>"
+   load_string            "Old School RuneScape today?"
+   string_append          3
+   load_int               11927566
+   widget_put_text_widget
+   load_int               0
+   load_int               102
+   load_int               1
+   load_int               2
+   load_int               11927554
+   widget_put_position_widget
+   load_int               0
+   load_int               58
+   load_int               1
+   load_int               2
+   load_int               11927555
+   widget_put_position_widget
+   load_int               0
+   load_int               14
+   load_int               1
+   load_int               2
+   load_int               11927560
+   widget_put_position_widget
+   jump                   LABEL105
+LABEL42:
+   get_varbit             6273
+   load_int               2
+   if_icmpeq              LABEL46
+   jump                   LABEL84
+LABEL46:
+   get_varbit             6272
+   load_int               0
+   if_icmpeq              LABEL50
+   jump                   LABEL84
+LABEL50:
+   load_int               0
+   load_int               11927565
+   widget_put_hidden_widget
+   load_int               1
+   load_int               11927567
+   widget_put_hidden_widget
+   load_int               0
+   load_int               11927576
+   widget_put_hidden_widget
+   load_string            "How much did you enjoy playing"
+   load_string            "<br>"
+   load_string            "Old School RuneScape today?"
+   string_append          3
+   load_int               11927566
+   widget_put_text_widget
+   load_int               0
+   load_int               102
+   load_int               1
+   load_int               2
+   load_int               11927554
+   widget_put_position_widget
+   load_int               0
+   load_int               58
+   load_int               1
+   load_int               2
+   load_int               11927555
+   widget_put_position_widget
+   load_int               0
+   load_int               14
+   load_int               1
+   load_int               2
+   load_int               11927560
+   widget_put_position_widget
+   jump                   LABEL105
+LABEL84:
+   load_int               1
+   load_int               11927565
+   widget_put_hidden_widget
+   load_int               0
+   load_int               152
+   load_int               1
+   load_int               2
+   load_int               11927554
+   widget_put_position_widget
+   load_int               0
+   load_int               86
+   load_int               1
+   load_int               2
+   load_int               11927555
+   widget_put_position_widget
+   load_int               0
+   load_int               28
+   load_int               1
+   load_int               2
+   load_int               11927560
+   widget_put_position_widget
+LABEL105:
+   return                

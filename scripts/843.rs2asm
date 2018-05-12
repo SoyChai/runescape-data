@@ -17,7 +17,7 @@
    iload                  5
    load_int               2
    if_icmpeq              LABEL16
-   jump                   LABEL109
+   jump                   LABEL122
 LABEL16:
    iload                  1
    load_int               0
@@ -37,9 +37,16 @@ LABEL16:
    load_int               0
    load_int               0
    widget_put_size       
-   load_int               1172
+   load_int               1573
+   load_int               1575
+   invoke                 2151
    widget_put_spriteid   
-   load_string            "The game client expands to fill the window."
+   load_string            "The game client expands to fill the "
+   load_string            "window"
+   load_string            "screen"
+   invoke                 1971
+   load_string            "."
+   string_append          3
    sstore                 0
    load_int               526
    load_int               -2147483645
@@ -79,11 +86,15 @@ LABEL16:
    load_int               0
    widget_put_size       
    load_int               1169
-   widget_put_spriteid   
    load_int               1171
+   invoke                 2151
+   widget_put_spriteid   
+   load_int               1572
+   load_int               1574
+   invoke                 2151
+   istore                 3
    load_string            "The game client is fixed to a static size."
    sstore                 0
-   istore                 3
    load_int               844
    load_int               -2147483645
    iload                  2
@@ -94,6 +105,8 @@ LABEL16:
    iload                  0
    widget_put_mouse_hover_listener_widget
    load_int               1169
+   load_int               1171
+   invoke                 2151
    istore                 3
    load_int               845
    load_int               -2147483645
@@ -111,8 +124,8 @@ LABEL16:
    load_string            "iIII"
    iload                  0
    widget_put_option_click_listener_widget
-   jump                   LABEL201
-LABEL109:
+   jump                   LABEL227
+LABEL122:
    iload                  0
    load_int               0
    invoke                 836
@@ -131,7 +144,9 @@ LABEL109:
    load_int               0
    load_int               0
    widget_put_size       
-   load_int               1171
+   load_int               1572
+   load_int               1574
+   invoke                 2151
    widget_put_spriteid   
    load_string            "The game client is fixed to a static size."
    sstore                 0
@@ -173,11 +188,20 @@ LABEL109:
    load_int               0
    widget_put_size       
    load_int               1170
-   widget_put_spriteid   
    load_int               1172
-   load_string            "The game client expands to fill the window."
-   sstore                 0
+   invoke                 2151
+   widget_put_spriteid   
+   load_int               1573
+   load_int               1575
+   invoke                 2151
    istore                 3
+   load_string            "The game client expands to fill the "
+   load_string            "window"
+   load_string            "screen"
+   invoke                 1971
+   load_string            "."
+   string_append          3
+   sstore                 0
    load_int               844
    load_int               -2147483645
    iload                  2
@@ -188,6 +212,8 @@ LABEL109:
    iload                  1
    widget_put_mouse_hover_listener_widget
    load_int               1170
+   load_int               1172
+   invoke                 2151
    istore                 3
    load_int               845
    load_int               -2147483645
@@ -205,7 +231,7 @@ LABEL109:
    load_string            "iIII"
    iload                  1
    widget_put_option_click_listener_widget
-LABEL201:
+LABEL227:
    load_int               846
    iload                  5
    iload                  0

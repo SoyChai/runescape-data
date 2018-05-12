@@ -1,0 +1,104 @@
+.int_stack_count    8
+.string_stack_count 0
+.int_var_count      8
+.string_var_count   0
+   load_int               255
+   widget_put_opacity     1
+   get_varbit             1777
+   iload                  3
+   if_icmpeq              LABEL6
+   jump                   LABEL23
+LABEL6:
+   load_int               699
+   widget_put_spriteid   
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   load_int               489
+   load_int               -2147483644
+   load_int               0
+   load_string            "ii"
+   iload                  0
+   widget_put_option_click_listener_widget
+   jump                   LABEL92
+LABEL23:
+   get_varp               281
+   load_int               1000
+   if_icmplt              LABEL44
+   get_varbit             1776
+   load_int               1
+   if_icmpeq              LABEL30
+   jump                   LABEL76
+LABEL30:
+   iload                  3
+   load_int               0
+   if_icmpeq              LABEL44
+   iload                  3
+   load_int               1
+   if_icmpeq              LABEL37
+   jump                   LABEL76
+LABEL37:
+   get_varbit             1777
+   load_int               3
+   if_icmpeq              LABEL44
+   get_varbit             1777
+   load_int               2
+   if_icmpeq              LABEL44
+   jump                   LABEL76
+LABEL44:
+   load_int               697
+   widget_put_spriteid   
+   load_int               244
+   load_int               -2147483645
+   iload                  1
+   load_int               225
+   load_int               -1
+   load_string            "IiiI"
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               244
+   load_int               -2147483645
+   iload                  1
+   load_int               255
+   load_int               -1
+   load_string            "IiiI"
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   load_int               2115
+   load_int               -2147483644
+   iload                  0
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   iload                  7
+   load_string            "iIiiiIIII"
+   iload                  0
+   widget_put_option_click_listener_widget
+   jump                   LABEL92
+LABEL76:
+   load_int               697
+   widget_put_spriteid   
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   load_int               489
+   load_int               -2147483644
+   load_int               2
+   load_string            "ii"
+   iload                  0
+   widget_put_option_click_listener_widget
+LABEL92:
+   return                

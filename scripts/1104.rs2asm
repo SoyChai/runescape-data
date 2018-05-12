@@ -2,14 +2,15 @@
 .string_stack_count 1
 .int_var_count      1
 .string_var_count   1
+   invoke                 2157
    iload                  0
    load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL6
-LABEL4:
+   if_icmpeq              LABEL5
+   jump                   LABEL7
+LABEL5:
    sload                  0
    put_varc_string        24
-LABEL6:
+LABEL7:
    load_int               133
    load_int               -2147483640
    load_int               -2147483639
@@ -23,20 +24,18 @@ LABEL6:
    string_append          3
    load_int               36241415
    widget_put_text_widget
-   load_int               1
    load_int               0
    load_int               1
    put_varc               140
    put_varc               6
-   put_varc               11
    get_playermod         
    load_int               1
-   if_icmpeq              LABEL32
+   if_icmpeq              LABEL31
    get_rights            
    load_int               0
-   if_icmpgt              LABEL32
-   jump                   LABEL41
-LABEL32:
+   if_icmpgt              LABEL31
+   jump                   LABEL40
+LABEL31:
    load_int               0
    put_varc               140
    load_int               16777215
@@ -45,8 +44,8 @@ LABEL32:
    load_int               36241423
    get_varc               6
    invoke                 1326
-   jump                   LABEL51
-LABEL41:
+   jump                   LABEL50
+LABEL40:
    load_int               1215
    load_int               36241423
    widget_put_spriteid_widget
@@ -57,27 +56,15 @@ LABEL41:
    widget_put_actions_null_widget
    load_int               36241422
    widget_put_actions_null_widget
-LABEL51:
+LABEL50:
    load_int               36241420
    get_varc               140
    invoke                 1326
-   load_int               10616864
-   widget_get_hidden_widget
-   load_int               0
-   if_icmpeq              LABEL59
-   jump                   LABEL62
-LABEL59:
-   load_int               1
-   load_int               1
-   invoke                 299
-LABEL62:
-   load_int               0
-   invoke                 927
    invoke                 1972
    load_int               1
-   if_icmpeq              LABEL68
-   jump                   LABEL69
-LABEL68:
+   if_icmpeq              LABEL57
+   jump                   LABEL58
+LABEL57:
    invoke                 1983
-LABEL69:
+LABEL58:
    return                

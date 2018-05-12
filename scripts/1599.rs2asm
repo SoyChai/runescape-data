@@ -1074,83 +1074,109 @@ LABEL863:
    iload                  0
    load_int               12
    if_icmpeq              LABEL867
-   jump                   LABEL903
+   jump                   LABEL918
 LABEL867:
    iload                  1
-   load_int               0
-   if_icmpeq              LABEL871
-   jump                   LABEL875
-LABEL871:
+   switch                
+      0: LABEL870
+      1: LABEL875
+      2: LABEL880
+      3: LABEL885
+      4: LABEL890
+      5: LABEL895
+      6: LABEL900
+      7: LABEL905
+      8: LABEL910
+   jump                   LABEL914
+LABEL870:
    load_int               5
    load_int               21512
    load_string            "Normal Birdhouse Trap"
    return                
+   jump                   LABEL914
 LABEL875:
-   iload                  1
-   load_int               1
-   if_icmpeq              LABEL879
-   jump                   LABEL883
-LABEL879:
    load_int               14
    load_int               21515
    load_string            "Oak Birdhouse Trap"
    return                
-LABEL883:
-   iload                  1
-   load_int               2
-   if_icmpeq              LABEL887
-   jump                   LABEL891
-LABEL887:
+   jump                   LABEL914
+LABEL880:
    load_int               24
    load_int               21518
    load_string            "Willow Birdhouse Trap"
    return                
-LABEL891:
-   iload                  1
-   load_int               3
-   if_icmpeq              LABEL895
-   jump                   LABEL899
-LABEL895:
+   jump                   LABEL914
+LABEL885:
    load_int               34
    load_int               21521
    load_string            "Teak Birdhouse Trap"
    return                
-LABEL899:
+   jump                   LABEL914
+LABEL890:
+   load_int               44
+   load_int               22192
+   load_string            "Maple Birdhouse Trap"
+   return                
+   jump                   LABEL914
+LABEL895:
+   load_int               49
+   load_int               22195
+   load_string            "Mahogany Birdhouse Trap"
+   return                
+   jump                   LABEL914
+LABEL900:
+   load_int               59
+   load_int               22198
+   load_string            "Yew Birdhouse Trap"
+   return                
+   jump                   LABEL914
+LABEL905:
+   load_int               74
+   load_int               22201
+   load_string            "Magic Birdhouse Trap"
+   return                
+   jump                   LABEL914
+LABEL910:
+   load_int               89
+   load_int               22204
+   load_string            "Redwood Birdhouse Trap"
+   return                
+LABEL914:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL903:
+LABEL918:
    iload                  0
    load_int               13
-   if_icmpeq              LABEL907
-   jump                   LABEL957
-LABEL907:
+   if_icmpeq              LABEL922
+   jump                   LABEL972
+LABEL922:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL911
-   jump                   LABEL915
-LABEL911:
+   if_icmpeq              LABEL926
+   jump                   LABEL930
+LABEL926:
    load_int               15
    load_int               13431
    load_string            "Dig for sandworms (Great Kourend Beach)"
    return                
-LABEL915:
+LABEL930:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL919
-   jump                   LABEL923
-LABEL919:
+   if_icmpeq              LABEL934
+   jump                   LABEL938
+LABEL934:
    load_int               27
    load_int               9974
    load_string            "Giant eagles(various)"
    return                
-LABEL923:
+LABEL938:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL927
-   jump                   LABEL934
-LABEL927:
+   if_icmpeq              LABEL942
+   jump                   LABEL949
+LABEL942:
    load_int               27
    load_int               9975
    load_string            "White rabbits (woodland)"
@@ -1158,22 +1184,22 @@ LABEL927:
    load_string            "Use a ferret to flush the rabbit out of its hole"
    string_append          3
    return                
-LABEL934:
+LABEL949:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL938
-   jump                   LABEL942
-LABEL938:
+   if_icmpeq              LABEL953
+   jump                   LABEL957
+LABEL953:
    load_int               44
    load_int               21655
    load_string            "Accessing drift net fishing on Fossil Island (with 47 fishing)"
    return                
-LABEL942:
+LABEL957:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL946
-   jump                   LABEL953
-LABEL946:
+   if_icmpeq              LABEL961
+   jump                   LABEL968
+LABEL961:
    load_int               71
    load_int               9952
    load_string            "Imps (worldwide)"
@@ -1181,12 +1207,12 @@ LABEL946:
    load_string            "Preferred bait: Magical beads"
    string_append          3
    return                
-LABEL953:
+LABEL968:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL957:
+LABEL972:
    load_int               -1
    load_int               -1
    load_string            ""

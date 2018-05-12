@@ -70,7 +70,7 @@ LABEL56:
    load_int               2147483647
    load_int               496
    get_max_line_width    
-   load_int               10616866
+   load_int               10616868
    widget_get_width_widget
    if_icmpgt              LABEL64
    jump                   LABEL70
@@ -78,17 +78,17 @@ LABEL64:
    load_int               2
    load_int               1
    load_int               0
-   load_int               10616866
+   load_int               10616868
    widget_put_text_alignment_widget
    jump                   LABEL75
 LABEL70:
    load_int               1
    load_int               1
    load_int               0
-   load_int               10616866
+   load_int               10616868
    widget_put_text_alignment_widget
 LABEL75:
    sload                  1
-   load_int               10616866
+   load_int               10616868
    widget_put_text_widget
    return                

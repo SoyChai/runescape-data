@@ -1,0 +1,41 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      2
+.string_var_count   0
+   load_int               7995392
+   load_int               7995393
+   load_int               7995398
+   load_int               7995399
+   load_int               7995400
+   load_int               7995405
+   load_int               7995406
+   load_int               7995414
+   load_int               7
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               1337
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               1
+   iload                  0
+   iload                  1
+   invoke                 2092
+   return                

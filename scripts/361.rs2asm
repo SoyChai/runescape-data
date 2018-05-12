@@ -1,6 +1,6 @@
-.int_stack_count    3
+.int_stack_count    4
 .string_stack_count 0
-.int_var_count      3
+.int_var_count      4
 .string_var_count   0
    iload                  0
    load_int               1
@@ -13,19 +13,20 @@ LABEL5:
    load_int               1
    load_int               0
    play_sound_effect     
-   get_settings           170
+   get_varp               170
    load_int               0
    if_icmple              LABEL13
    jump                   LABEL16
 LABEL13:
    load_int               1
-   put_settings           170
+   put_varp               170
    jump                   LABEL18
 LABEL16:
    load_int               0
-   put_settings           170
+   put_varp               170
 LABEL18:
    iload                  1
    iload                  2
+   iload                  3
    invoke                 362
    return                

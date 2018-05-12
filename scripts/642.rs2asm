@@ -3,87 +3,80 @@
 .int_var_count      5
 .string_var_count   0
    iload                  1
-   load_int               -1
-   if_icmpne              LABEL4
-   jump                   LABEL69
-LABEL4:
-   iload                  1
-   load_int               1686
-   if_icmpeq              LABEL8
-   jump                   LABEL15
-LABEL8:
+   switch                
+      1893: LABEL52
+      1686: LABEL3
+      1687: LABEL10
+      1688: LABEL17
+      1689: LABEL31
+      1690: LABEL38
+      1691: LABEL24
+      285: LABEL45
+   jump                   LABEL58
+LABEL3:
    load_int               105
    load_int               79
    iload                  1
    get_varbit             4324
    get_enum_value        
    istore                 0
-   jump                   LABEL69
-LABEL15:
-   iload                  1
-   load_int               1687
-   if_icmpeq              LABEL19
-   jump                   LABEL26
-LABEL19:
+   jump                   LABEL58
+LABEL10:
    load_int               105
    load_int               79
    iload                  1
    get_varbit             4325
    get_enum_value        
    istore                 0
-   jump                   LABEL69
-LABEL26:
-   iload                  1
-   load_int               1688
-   if_icmpeq              LABEL30
-   jump                   LABEL37
-LABEL30:
+   jump                   LABEL58
+LABEL17:
    load_int               105
    load_int               79
    iload                  1
    get_varbit             4326
    get_enum_value        
    istore                 0
-   jump                   LABEL69
-LABEL37:
-   iload                  1
-   load_int               1691
-   if_icmpeq              LABEL41
-   jump                   LABEL48
-LABEL41:
+   jump                   LABEL58
+LABEL24:
    load_int               105
    load_int               79
    iload                  1
    get_varbit             4388
    get_enum_value        
    istore                 0
-   jump                   LABEL69
-LABEL48:
-   iload                  1
-   load_int               1689
-   if_icmpeq              LABEL52
-   jump                   LABEL59
-LABEL52:
+   jump                   LABEL58
+LABEL31:
    load_int               105
    load_int               79
    iload                  1
    get_varbit             4327
    get_enum_value        
    istore                 0
-   jump                   LABEL69
-LABEL59:
-   iload                  1
-   load_int               1690
-   if_icmpeq              LABEL63
-   jump                   LABEL69
-LABEL63:
+   jump                   LABEL58
+LABEL38:
    load_int               105
    load_int               79
    iload                  1
    get_varbit             4328
    get_enum_value        
    istore                 0
-LABEL69:
+   jump                   LABEL58
+LABEL45:
+   load_int               105
+   load_int               79
+   iload                  1
+   get_varbit             3983
+   get_enum_value        
+   istore                 0
+   jump                   LABEL58
+LABEL52:
+   load_int               105
+   load_int               79
+   iload                  1
+   get_varbit             6270
+   get_enum_value        
+   istore                 0
+LABEL58:
    load_int               0
    widget_put_hidden     
    load_int               36

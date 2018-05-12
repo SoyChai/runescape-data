@@ -26,13 +26,13 @@ LABEL16:
    if_icmpeq              LABEL20
    jump                   LABEL25
 LABEL20:
-   load_string            "Level?"
+   load_string            "Level "
    iload                  2
    int_to_string         
    string_append          2
    return                
 LABEL25:
-   load_string            "level?"
+   load_string            "level "
    iload                  2
    int_to_string         
    string_append          2
@@ -41,7 +41,7 @@ LABEL30:
    iload                  0
    load_string            ","
    invoke                 46
-   load_string            "?XP"
+   load_string            " XP"
    string_append          2
    return                
    load_string            ""

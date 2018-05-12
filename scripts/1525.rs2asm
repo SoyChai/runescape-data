@@ -20,32 +20,38 @@
    load_string            "Sort by skill total"
    iload                  0
    invoke                 1527
+   load_int               33226762
+   load_int               6
+   load_int               7
+   load_string            "Sort by kill count"
+   iload                  0
+   invoke                 1527
    load_int               100
    array_initialize       105
    load_int               0
    istore                 1
    load_int               0
    istore                 2
-LABEL24:
+LABEL30:
    iload                  2
    load_int               0
-   if_icmpeq              LABEL28
-   jump                   LABEL51
-LABEL28:
+   if_icmpeq              LABEL34
+   jump                   LABEL57
+LABEL34:
    iload                  1
    load_int               100
-   if_icmplt              LABEL32
-   jump                   LABEL51
-LABEL32:
-   load_int               33226762
+   if_icmplt              LABEL38
+   jump                   LABEL57
+LABEL38:
+   load_int               33226763
    iload                  1
-   load_int               6
+   load_int               8
    imul                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL40
-   jump                   LABEL48
-LABEL40:
+   if_icmpeq              LABEL46
+   jump                   LABEL54
+LABEL46:
    iload                  1
    iload                  1
    array_store           
@@ -53,45 +59,28 @@ LABEL40:
    load_int               1
    iadd                  
    istore                 1
-   jump                   LABEL50
-LABEL48:
+   jump                   LABEL56
+LABEL54:
    load_int               1
    istore                 2
-LABEL50:
-   jump                   LABEL24
-LABEL51:
+LABEL56:
+   jump                   LABEL30
+LABEL57:
    load_string            ""
    sstore                 0
    iload                  1
    load_int               2
-   if_icmpge              LABEL57
-   jump                   LABEL94
-LABEL57:
+   if_icmpge              LABEL63
+   jump                   LABEL115
+LABEL63:
    get_varc               181
    load_int               2
-   if_icmpeq              LABEL64
+   if_icmpeq              LABEL70
    get_varc               181
    load_int               3
-   if_icmpeq              LABEL64
-   jump                   LABEL72
-LABEL64:
-   load_int               0
-   load_int               0
-   iload                  1
-   load_int               1
-   isub                  
-   load_int               4
-   invoke                 1526
-   jump                   LABEL94
-LABEL72:
-   get_varc               181
-   load_int               4
-   if_icmpeq              LABEL79
-   get_varc               181
-   load_int               5
-   if_icmpeq              LABEL79
-   jump                   LABEL87
-LABEL79:
+   if_icmpeq              LABEL70
+   jump                   LABEL78
+LABEL70:
    load_int               0
    load_int               0
    iload                  1
@@ -99,8 +88,42 @@ LABEL79:
    isub                  
    load_int               5
    invoke                 1526
-   jump                   LABEL94
-LABEL87:
+   jump                   LABEL115
+LABEL78:
+   get_varc               181
+   load_int               4
+   if_icmpeq              LABEL85
+   get_varc               181
+   load_int               5
+   if_icmpeq              LABEL85
+   jump                   LABEL93
+LABEL85:
+   load_int               0
+   load_int               0
+   iload                  1
+   load_int               1
+   isub                  
+   load_int               6
+   invoke                 1526
+   jump                   LABEL115
+LABEL93:
+   get_varc               181
+   load_int               6
+   if_icmpeq              LABEL100
+   get_varc               181
+   load_int               7
+   if_icmpeq              LABEL100
+   jump                   LABEL108
+LABEL100:
+   load_int               0
+   load_int               0
+   iload                  1
+   load_int               1
+   isub                  
+   load_int               7
+   invoke                 1526
+   jump                   LABEL115
+LABEL108:
    load_int               0
    load_int               0
    iload                  1
@@ -108,44 +131,47 @@ LABEL87:
    isub                  
    load_int               1
    invoke                 1526
-LABEL94:
+LABEL115:
    load_int               0
    istore                 3
    load_int               0
    istore                 4
    get_varc               181
    load_int               3
-   if_icmpeq              LABEL108
+   if_icmpeq              LABEL132
    get_varc               181
    load_int               5
-   if_icmpeq              LABEL108
+   if_icmpeq              LABEL132
+   get_varc               181
+   load_int               7
+   if_icmpeq              LABEL132
    get_varc               181
    load_int               1
-   if_icmpeq              LABEL108
-   jump                   LABEL192
-LABEL108:
+   if_icmpeq              LABEL132
+   jump                   LABEL232
+LABEL132:
    iload                  1
    istore                 3
-LABEL110:
+LABEL134:
    iload                  3
    load_int               0
-   if_icmpgt              LABEL114
-   jump                   LABEL191
-LABEL114:
+   if_icmpgt              LABEL138
+   jump                   LABEL231
+LABEL138:
    iload                  3
    load_int               1
    isub                  
    istore                 3
-   load_int               33226762
+   load_int               33226763
    iload                  3
    array_load            
-   load_int               6
+   load_int               8
    imul                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL127
-   jump                   LABEL138
-LABEL127:
+   if_icmpeq              LABEL151
+   jump                   LABEL162
+LABEL151:
    widget_get_relativex  
    iload                  4
    load_int               0
@@ -157,150 +183,186 @@ LABEL127:
    iload                  0
    load_int               1
    invoke                 1518
-LABEL138:
-   load_int               33226762
+LABEL162:
+   load_int               33226763
    iload                  3
    array_load            
-   load_int               6
+   load_int               8
    imul                  
    load_int               1
    iadd                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL149
-   jump                   LABEL154
-LABEL149:
+   if_icmpeq              LABEL173
+   jump                   LABEL178
+LABEL173:
    widget_get_relativex  
    iload                  4
    load_int               0
    load_int               0
    widget_put_position   
-LABEL154:
-   load_int               33226762
+LABEL178:
+   load_int               33226763
    iload                  3
    array_load            
-   load_int               6
+   load_int               8
    imul                  
    load_int               2
    iadd                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL165
-   jump                   LABEL170
-LABEL165:
+   if_icmpeq              LABEL189
+   jump                   LABEL194
+LABEL189:
    widget_get_relativex  
    iload                  4
    load_int               0
    load_int               0
    widget_put_position   
-LABEL170:
-   load_int               33226762
+LABEL194:
+   load_int               33226763
    iload                  3
    array_load            
-   load_int               6
+   load_int               8
    imul                  
    load_int               3
    iadd                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL181
-   jump                   LABEL186
-LABEL181:
-   widget_get_relativex  
-   iload                  4
-   load_int               0
-   load_int               0
-   widget_put_position   
-LABEL186:
-   iload                  4
-   load_int               14
-   iadd                  
-   istore                 4
-   jump                   LABEL110
-LABEL191:
-   jump                   LABEL273
-LABEL192:
-   iload                  3
-   iload                  1
-   if_icmplt              LABEL196
-   jump                   LABEL273
-LABEL196:
-   load_int               33226762
-   iload                  3
-   array_load            
-   load_int               6
-   imul                  
-   widget_load_child     
-   load_int               1
    if_icmpeq              LABEL205
-   jump                   LABEL216
+   jump                   LABEL210
 LABEL205:
    widget_get_relativex  
    iload                  4
    load_int               0
    load_int               0
    widget_put_position   
+LABEL210:
+   load_int               33226763
+   iload                  3
+   array_load            
+   load_int               8
+   imul                  
+   load_int               4
+   iadd                  
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL221
+   jump                   LABEL226
+LABEL221:
+   widget_get_relativex  
+   iload                  4
+   load_int               0
+   load_int               0
+   widget_put_position   
+LABEL226:
+   iload                  4
+   load_int               14
+   iadd                  
+   istore                 4
+   jump                   LABEL134
+LABEL231:
+   jump                   LABEL329
+LABEL232:
+   iload                  3
+   iload                  1
+   if_icmplt              LABEL236
+   jump                   LABEL329
+LABEL236:
+   load_int               33226763
+   iload                  3
+   array_load            
+   load_int               8
+   imul                  
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL245
+   jump                   LABEL256
+LABEL245:
+   widget_get_relativex  
+   iload                  4
+   load_int               0
+   load_int               0
+   widget_put_position   
    iload                  3
    iload                  3
    array_load            
    iload                  0
    load_int               1
    invoke                 1518
-LABEL216:
-   load_int               33226762
+LABEL256:
+   load_int               33226763
    iload                  3
    array_load            
-   load_int               6
+   load_int               8
    imul                  
    load_int               1
    iadd                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL227
-   jump                   LABEL232
-LABEL227:
+   if_icmpeq              LABEL267
+   jump                   LABEL272
+LABEL267:
    widget_get_relativex  
    iload                  4
    load_int               0
    load_int               0
    widget_put_position   
-LABEL232:
-   load_int               33226762
+LABEL272:
+   load_int               33226763
    iload                  3
    array_load            
-   load_int               6
+   load_int               8
    imul                  
    load_int               2
    iadd                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL243
-   jump                   LABEL248
-LABEL243:
+   if_icmpeq              LABEL283
+   jump                   LABEL288
+LABEL283:
    widget_get_relativex  
    iload                  4
    load_int               0
    load_int               0
    widget_put_position   
-LABEL248:
-   load_int               33226762
+LABEL288:
+   load_int               33226763
    iload                  3
    array_load            
-   load_int               6
+   load_int               8
    imul                  
    load_int               3
    iadd                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL259
-   jump                   LABEL264
-LABEL259:
+   if_icmpeq              LABEL299
+   jump                   LABEL304
+LABEL299:
    widget_get_relativex  
    iload                  4
    load_int               0
    load_int               0
    widget_put_position   
-LABEL264:
+LABEL304:
+   load_int               33226763
+   iload                  3
+   array_load            
+   load_int               8
+   imul                  
+   load_int               4
+   iadd                  
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL315
+   jump                   LABEL320
+LABEL315:
+   widget_get_relativex  
+   iload                  4
+   load_int               0
+   load_int               0
+   widget_put_position   
+LABEL320:
    iload                  4
    load_int               14
    iadd                  
@@ -309,6 +371,6 @@ LABEL264:
    load_int               1
    iadd                  
    istore                 3
-   jump                   LABEL192
-LABEL273:
+   jump                   LABEL232
+LABEL329:
    return                

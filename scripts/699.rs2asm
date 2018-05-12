@@ -16,7 +16,7 @@
    istore                 6
 LABEL12:
    iload                  6
-   load_int               46
+   load_int               47
    if_icmple              LABEL16
    jump                   LABEL86
 LABEL16:

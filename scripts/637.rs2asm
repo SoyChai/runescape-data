@@ -1,18 +1,18 @@
-.int_stack_count    4
+.int_stack_count    5
 .string_stack_count 0
-.int_var_count      11
+.int_var_count      12
 .string_var_count   0
    iload                  0
    widget_unset_children 
-   iload                  1
+   iload                  2
    widget_unset_children 
    iload                  0
    widget_get_width_widget
-   istore                 4
+   istore                 5
    iload                  0
    widget_get_height_widget
-   istore                 5
-   iload                  4
+   istore                 6
+   iload                  5
    load_int               36
    load_int               7
    imul                  
@@ -21,44 +21,44 @@
    idiv                  
    load_int               36
    iadd                  
-   istore                 6
-   load_int               0
    istore                 7
-   load_int               -1
-   istore                 8
    load_int               0
+   istore                 8
+   load_int               -1
    istore                 9
    load_int               0
    istore                 10
+   load_int               0
+   istore                 11
 LABEL28:
-   iload                  10
-   load_int               37
+   iload                  11
+   load_int               39
    if_icmple              LABEL32
    jump                   LABEL126
 LABEL32:
    iload                  0
    load_int               5
-   iload                  10
+   iload                  11
    widget_create_child   
-   iload                  10
-   load_int               32
+   iload                  11
+   iload                  1
    if_icmplt              LABEL40
    jump                   LABEL45
 LABEL40:
-   iload                  2
-   iload                  10
+   iload                  3
+   iload                  11
    test_bit              
    load_int               1
    if_icmpeq              LABEL57
 LABEL45:
-   iload                  10
-   load_int               32
+   iload                  11
+   iload                  1
    if_icmpge              LABEL49
    jump                   LABEL119
 LABEL49:
-   iload                  3
-   iload                  10
-   load_int               32
+   iload                  4
+   iload                  11
+   iload                  1
    isub                  
    test_bit              
    load_int               1
@@ -68,30 +68,30 @@ LABEL57:
    load_int               105
    load_int               79
    load_int               985
-   iload                  10
+   iload                  11
    get_enum_value        
-   istore                 8
+   istore                 9
    load_int               36
    load_int               32
    load_int               0
    load_int               0
    widget_put_size       
    load_int               40
-   iload                  7
+   iload                  8
    load_int               7
    idiv                  
    imul                  
-   istore                 9
-   iload                  6
+   istore                 10
    iload                  7
+   iload                  8
    load_int               7
    modulo                
    imul                  
-   iload                  9
+   iload                  10
    load_int               0
    load_int               0
    widget_put_position   
-   iload                  8
+   iload                  9
    load_int               1
    1200                  
    load_int               3355443
@@ -117,39 +117,39 @@ LABEL103:
    load_string            "Examine"
    widget_put_action     
    load_string            "<col=ff9040>"
-   iload                  8
+   iload                  9
    get_item_name         
    load_string            "</col>"
    string_append          3
    widget_put_name       
    load_int               0
    widget_put_hidden     
-   iload                  7
+   iload                  8
    load_int               1
    iadd                  
-   istore                 7
+   istore                 8
    jump                   LABEL121
 LABEL119:
    load_int               1
    widget_put_hidden     
 LABEL121:
-   iload                  10
+   iload                  11
    load_int               1
    iadd                  
-   istore                 10
+   istore                 11
    jump                   LABEL28
 LABEL126:
-   iload                  7
+   iload                  8
    load_int               0
    if_icmple              LABEL130
    jump                   LABEL157
 LABEL130:
    iload                  0
    load_int               4
-   iload                  10
+   iload                  11
    widget_create_child   
-   iload                  4
    iload                  5
+   iload                  6
    load_int               0
    load_int               0
    widget_put_size       
@@ -172,22 +172,22 @@ LABEL130:
    widget_put_text       
    jump                   LABEL161
 LABEL157:
-   iload                  9
+   iload                  10
    load_int               32
    iadd                  
-   istore                 9
+   istore                 10
 LABEL161:
    load_int               0
    load_int               0
    iload                  0
    widget_put_scroll_widget
-   iload                  9
-   iload                  5
+   iload                  10
+   iload                  6
    if_icmpgt              LABEL169
    jump                   LABEL174
 LABEL169:
    load_int               0
-   iload                  9
+   iload                  10
    iload                  0
    widget_put_scrollwidthheight_widget
    jump                   LABEL178
@@ -197,7 +197,7 @@ LABEL174:
    iload                  0
    widget_put_scrollwidthheight_widget
 LABEL178:
-   iload                  1
+   iload                  2
    iload                  0
    load_int               792
    load_int               789

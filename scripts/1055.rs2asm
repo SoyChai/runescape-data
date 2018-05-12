@@ -1,6 +1,6 @@
-.int_stack_count    11
+.int_stack_count    12
 .string_stack_count 0
-.int_var_count      11
+.int_var_count      12
 .string_var_count   0
    iload                  1
    load_int               5341
@@ -14,7 +14,7 @@
    invoke                 1057
    iload                  3
    load_int               952
-   load_string            "All-purpose spade"
+   load_string            "Spade"
    load_int               1
    invoke                 1057
    iload                  4
@@ -33,23 +33,28 @@
    load_int               1
    invoke                 1057
    iload                  7
-   load_int               1925
-   load_string            "Empty buckets"
-   load_int               255
+   load_int               6036
+   load_string            "Plant Cure"
+   load_int               1000
    invoke                 1057
    iload                  8
-   load_int               6032
-   load_string            "Normal Compost"
-   load_int               255
+   load_int               1925
+   load_string            "Empty buckets"
+   load_int               1000
    invoke                 1057
    iload                  9
-   load_int               6034
-   load_string            "Supercompost"
-   load_int               255
+   load_int               6032
+   load_string            "Normal Compost"
+   load_int               1000
    invoke                 1057
    iload                  10
+   load_int               6034
+   load_string            "Supercompost"
+   load_int               1000
+   invoke                 1057
+   iload                  11
    load_int               21483
    load_string            "Ultracompost"
-   load_int               255
+   load_int               1000
    invoke                 1057
    return                

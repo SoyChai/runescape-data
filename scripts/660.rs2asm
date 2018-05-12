@@ -3,1238 +3,1199 @@
 .int_var_count      2
 .string_var_count   0
    iload                  0
-   load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL28
-LABEL4:
+   switch                
+      1: LABEL3
+      2: LABEL28
+      3: LABEL99
+      4: LABEL177
+      5: LABEL67
+      6: LABEL244
+      7: LABEL152
+      8: LABEL269
+      9: LABEL301
+      10: LABEL340
+      11: LABEL372
+      12: LABEL761
+      13: LABEL485
+      14: LABEL503
+      15: LABEL577
+      16: LABEL616
+      17: LABEL711
+      18: LABEL736
+      19: LABEL432
+      20: LABEL793
+      21: LABEL818
+      22: LABEL906
+      23: LABEL910
+   jump                   LABEL913
+LABEL3:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL8
-   jump                   LABEL11
-LABEL8:
+   if_icmpeq              LABEL7
+   jump                   LABEL10
+LABEL7:
    load_string            "Weapons"
    load_int               0
    return                
-LABEL11:
+LABEL10:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL15
-   jump                   LABEL18
-LABEL15:
+   if_icmpeq              LABEL14
+   jump                   LABEL17
+LABEL14:
    load_string            "Armour"
    load_int               1
    return                
-LABEL18:
+LABEL17:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL22
-   jump                   LABEL25
-LABEL22:
+   if_icmpeq              LABEL21
+   jump                   LABEL24
+LABEL21:
    load_string            "Salamanders"
    load_int               1
    return                
-LABEL25:
+LABEL24:
    load_string            ""
    load_int               -1
    return                
+   jump                   LABEL913
 LABEL28:
-   iload                  0
-   load_int               2
-   if_icmpeq              LABEL32
-   jump                   LABEL70
-LABEL32:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL36
-   jump                   LABEL39
-LABEL36:
+   if_icmpeq              LABEL32
+   jump                   LABEL35
+LABEL32:
    load_string            "Weapons"
    load_int               1
    return                
-LABEL39:
+LABEL35:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL43
-   jump                   LABEL46
-LABEL43:
+   if_icmpeq              LABEL39
+   jump                   LABEL42
+LABEL39:
    load_string            "Armour"
    load_int               1
    return                
-LABEL46:
+LABEL42:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL50
-   jump                   LABEL53
-LABEL50:
+   if_icmpeq              LABEL46
+   jump                   LABEL49
+LABEL46:
    load_string            "Shortcuts"
    load_int               1
    return                
-LABEL53:
+LABEL49:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL57
-   jump                   LABEL60
-LABEL57:
+   if_icmpeq              LABEL53
+   jump                   LABEL56
+LABEL53:
    load_string            "Areas"
    load_int               1
    return                
-LABEL60:
+LABEL56:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL64
-   jump                   LABEL67
-LABEL64:
+   if_icmpeq              LABEL60
+   jump                   LABEL63
+LABEL60:
    load_string            "Barbarian"
    load_int               1
    return                
-LABEL67:
+LABEL63:
    load_string            ""
    load_int               -1
    return                
-LABEL70:
-   iload                  0
-   load_int               5
-   if_icmpeq              LABEL74
-   jump                   LABEL98
-LABEL74:
+   jump                   LABEL913
+LABEL67:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL78
-   jump                   LABEL81
-LABEL78:
+   if_icmpeq              LABEL71
+   jump                   LABEL74
+LABEL71:
    load_string            "Armour"
    load_int               0
    return                
-LABEL81:
+LABEL74:
    iload                  1
    load_int               1
+   if_icmpeq              LABEL78
+   jump                   LABEL81
+LABEL78:
+   load_string            "Penance"
+   load_int               1
+   return                
+LABEL81:
+   iload                  1
+   load_int               2
    if_icmpeq              LABEL85
    jump                   LABEL88
 LABEL85:
-   load_string            "Penance"
+   load_string            "Prayers"
    load_int               1
    return                
 LABEL88:
    iload                  1
-   load_int               2
+   load_int               3
    if_icmpeq              LABEL92
    jump                   LABEL95
 LABEL92:
-   load_string            "Prayers"
+   load_string            "Shields"
    load_int               1
    return                
 LABEL95:
    load_string            ""
    load_int               -1
    return                
-LABEL98:
-   iload                  0
-   load_int               3
-   if_icmpeq              LABEL102
-   jump                   LABEL154
-LABEL102:
+   jump                   LABEL913
+LABEL99:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL106
-   jump                   LABEL109
-LABEL106:
+   if_icmpeq              LABEL103
+   jump                   LABEL106
+LABEL103:
    load_string            "Bows"
    load_int               0
    return                
-LABEL109:
+LABEL106:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL113
-   jump                   LABEL116
-LABEL113:
+   if_icmpeq              LABEL110
+   jump                   LABEL113
+LABEL110:
    load_string            "Thrown"
    load_int               1
    return                
-LABEL116:
+LABEL113:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL120
-   jump                   LABEL123
-LABEL120:
+   if_icmpeq              LABEL117
+   jump                   LABEL120
+LABEL117:
    load_string            "Crossbows"
    load_int               0
    return                
-LABEL123:
+LABEL120:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL127
-   jump                   LABEL130
-LABEL127:
+   if_icmpeq              LABEL124
+   jump                   LABEL127
+LABEL124:
    load_string            "Armour"
    load_int               0
    return                
-LABEL130:
+LABEL127:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL134
-   jump                   LABEL137
-LABEL134:
+   if_icmpeq              LABEL131
+   jump                   LABEL134
+LABEL131:
    load_string            "Miscellaneous"
    load_int               1
    return                
-LABEL137:
+LABEL134:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL141
-   jump                   LABEL144
-LABEL141:
+   if_icmpeq              LABEL138
+   jump                   LABEL141
+LABEL138:
    load_string            "Shortcuts"
    load_int               1
    return                
-LABEL144:
+LABEL141:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL148
-   jump                   LABEL151
-LABEL148:
+   if_icmpeq              LABEL145
+   jump                   LABEL148
+LABEL145:
    load_string            "Salamanders"
    load_int               1
    return                
-LABEL151:
+LABEL148:
    load_string            ""
    load_int               -1
    return                
-LABEL154:
-   iload                  0
-   load_int               7
-   if_icmpeq              LABEL158
-   jump                   LABEL175
-LABEL158:
+   jump                   LABEL913
+LABEL152:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL162
-   jump                   LABEL165
-LABEL162:
+   if_icmpeq              LABEL156
+   jump                   LABEL159
+LABEL156:
    load_string            "Prayers"
    load_int               0
    return                
-LABEL165:
+LABEL159:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL169
-   jump                   LABEL172
-LABEL169:
+   if_icmpeq              LABEL163
+   jump                   LABEL166
+LABEL163:
    load_string            "Equipment"
    load_int               1
    return                
-LABEL172:
-   load_string            ""
-   load_int               -1
-   return                
-LABEL175:
-   iload                  0
-   load_int               4
-   if_icmpeq              LABEL179
-   jump                   LABEL245
-LABEL179:
-   iload                  1
-   load_int               0
-   if_icmpeq              LABEL183
-   jump                   LABEL186
-LABEL183:
-   load_string            "Normal Spells"
-   load_int               0
-   return                
-LABEL186:
-   iload                  1
-   load_int               1
-   if_icmpeq              LABEL190
-   jump                   LABEL193
-LABEL190:
-   load_string            "Ancient Magicks"
-   load_int               1
-   return                
-LABEL193:
+LABEL166:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL197
-   jump                   LABEL200
-LABEL197:
-   load_string            "Lunar Spells"
-   load_int               1
-   return                
-LABEL200:
-   iload                  1
-   load_int               3
-   if_icmpeq              LABEL204
-   jump                   LABEL207
-LABEL204:
-   load_string            "Arceuus Spells"
-   load_int               1
-   return                
-LABEL207:
-   iload                  1
-   load_int               4
-   if_icmpeq              LABEL211
-   jump                   LABEL214
-LABEL211:
-   load_string            "Armour"
-   load_int               1
-   return                
-LABEL214:
-   iload                  1
-   load_int               5
-   if_icmpeq              LABEL218
-   jump                   LABEL221
-LABEL218:
-   load_string            "Bolts"
-   load_int               1
-   return                
-LABEL221:
-   iload                  1
-   load_int               6
-   if_icmpeq              LABEL225
-   jump                   LABEL228
-LABEL225:
-   load_string            "Weapons"
-   load_int               1
-   return                
-LABEL228:
-   iload                  1
-   load_int               7
-   if_icmpeq              LABEL232
-   jump                   LABEL235
-LABEL232:
-   load_string            "Equipment"
-   load_int               1
-   return                
-LABEL235:
-   iload                  1
-   load_int               8
-   if_icmpeq              LABEL239
-   jump                   LABEL242
-LABEL239:
-   load_string            "Salamanders"
-   load_int               1
-   return                
-LABEL242:
-   load_string            ""
-   load_int               -1
-   return                
-LABEL245:
-   iload                  0
-   load_int               6
-   if_icmpeq              LABEL249
-   jump                   LABEL273
-LABEL249:
-   iload                  1
-   load_int               0
-   if_icmpeq              LABEL253
-   jump                   LABEL256
-LABEL253:
-   load_string            "Hitpoints"
-   load_int               0
-   return                
-LABEL256:
-   iload                  1
-   load_int               1
-   if_icmpeq              LABEL260
-   jump                   LABEL263
-LABEL260:
-   load_string            "Healing"
-   load_int               0
-   return                
-LABEL263:
-   iload                  1
-   load_int               2
-   if_icmpeq              LABEL267
-   jump                   LABEL270
-LABEL267:
-   load_string            "Equipment"
-   load_int               1
-   return                
-LABEL270:
-   load_string            ""
-   load_int               -1
-   return                
-LABEL273:
-   iload                  0
-   load_int               8
-   if_icmpeq              LABEL277
-   jump                   LABEL308
-LABEL277:
-   iload                  1
-   load_int               0
-   if_icmpeq              LABEL281
-   jump                   LABEL284
-LABEL281:
-   load_string            "Courses"
-   load_int               1
-   return                
-LABEL284:
-   iload                  1
-   load_int               1
-   if_icmpeq              LABEL288
-   jump                   LABEL291
-LABEL288:
-   load_string            "Areas"
-   load_int               1
-   return                
-LABEL291:
-   iload                  1
-   load_int               2
-   if_icmpeq              LABEL295
-   jump                   LABEL298
-LABEL295:
-   load_string            "Shortcuts"
-   load_int               1
-   return                
-LABEL298:
-   iload                  1
-   load_int               3
-   if_icmpeq              LABEL302
-   jump                   LABEL305
-LABEL302:
-   load_string            "Barbarian"
-   load_int               1
-   return                
-LABEL305:
-   load_string            ""
-   load_int               -1
-   return                
-LABEL308:
-   iload                  0
-   load_int               9
-   if_icmpeq              LABEL312
-   jump                   LABEL350
-LABEL312:
-   iload                  1
-   load_int               0
-   if_icmpeq              LABEL316
-   jump                   LABEL319
-LABEL316:
-   load_string            "Potions"
-   load_int               1
-   return                
-LABEL319:
-   iload                  1
-   load_int               1
-   if_icmpeq              LABEL323
-   jump                   LABEL326
-LABEL323:
-   load_string            "Herbs"
-   load_int               1
-   return                
-LABEL326:
-   iload                  1
-   load_int               2
-   if_icmpeq              LABEL330
-   jump                   LABEL333
-LABEL330:
-   load_string            "Barbarian Potions"
-   load_int               1
-   return                
-LABEL333:
-   iload                  1
-   load_int               3
-   if_icmpeq              LABEL337
-   jump                   LABEL340
-LABEL337:
-   load_string            "Raids"
-   load_int               1
-   return                
-LABEL340:
-   iload                  1
-   load_int               4
-   if_icmpeq              LABEL344
-   jump                   LABEL347
-LABEL344:
+   if_icmpeq              LABEL170
+   jump                   LABEL173
+LABEL170:
    load_string            "Other"
    load_int               1
    return                
-LABEL347:
+LABEL173:
    load_string            ""
    load_int               -1
    return                
-LABEL350:
-   iload                  0
-   load_int               10
-   if_icmpeq              LABEL354
-   jump                   LABEL385
-LABEL354:
+   jump                   LABEL913
+LABEL177:
    iload                  1
    load_int               0
+   if_icmpeq              LABEL181
+   jump                   LABEL184
+LABEL181:
+   load_string            "Normal Spells"
+   load_int               0
+   return                
+LABEL184:
+   iload                  1
+   load_int               1
+   if_icmpeq              LABEL188
+   jump                   LABEL191
+LABEL188:
+   load_string            "Ancient Magicks"
+   load_int               1
+   return                
+LABEL191:
+   iload                  1
+   load_int               2
+   if_icmpeq              LABEL195
+   jump                   LABEL198
+LABEL195:
+   load_string            "Lunar Spells"
+   load_int               1
+   return                
+LABEL198:
+   iload                  1
+   load_int               3
+   if_icmpeq              LABEL202
+   jump                   LABEL205
+LABEL202:
+   load_string            "Arceuus Spells"
+   load_int               1
+   return                
+LABEL205:
+   iload                  1
+   load_int               4
+   if_icmpeq              LABEL209
+   jump                   LABEL212
+LABEL209:
+   load_string            "Armour"
+   load_int               1
+   return                
+LABEL212:
+   iload                  1
+   load_int               5
+   if_icmpeq              LABEL216
+   jump                   LABEL219
+LABEL216:
+   load_string            "Bolts"
+   load_int               1
+   return                
+LABEL219:
+   iload                  1
+   load_int               6
+   if_icmpeq              LABEL223
+   jump                   LABEL226
+LABEL223:
+   load_string            "Weapons"
+   load_int               1
+   return                
+LABEL226:
+   iload                  1
+   load_int               7
+   if_icmpeq              LABEL230
+   jump                   LABEL233
+LABEL230:
+   load_string            "Equipment"
+   load_int               1
+   return                
+LABEL233:
+   iload                  1
+   load_int               8
+   if_icmpeq              LABEL237
+   jump                   LABEL240
+LABEL237:
+   load_string            "Salamanders"
+   load_int               1
+   return                
+LABEL240:
+   load_string            ""
+   load_int               -1
+   return                
+   jump                   LABEL913
+LABEL244:
+   iload                  1
+   load_int               0
+   if_icmpeq              LABEL248
+   jump                   LABEL251
+LABEL248:
+   load_string            "Hitpoints"
+   load_int               0
+   return                
+LABEL251:
+   iload                  1
+   load_int               1
+   if_icmpeq              LABEL255
+   jump                   LABEL258
+LABEL255:
+   load_string            "Healing"
+   load_int               0
+   return                
+LABEL258:
+   iload                  1
+   load_int               2
+   if_icmpeq              LABEL262
+   jump                   LABEL265
+LABEL262:
+   load_string            "Equipment"
+   load_int               1
+   return                
+LABEL265:
+   load_string            ""
+   load_int               -1
+   return                
+   jump                   LABEL913
+LABEL269:
+   iload                  1
+   load_int               0
+   if_icmpeq              LABEL273
+   jump                   LABEL276
+LABEL273:
+   load_string            "Courses"
+   load_int               1
+   return                
+LABEL276:
+   iload                  1
+   load_int               1
+   if_icmpeq              LABEL280
+   jump                   LABEL283
+LABEL280:
+   load_string            "Areas"
+   load_int               1
+   return                
+LABEL283:
+   iload                  1
+   load_int               2
+   if_icmpeq              LABEL287
+   jump                   LABEL290
+LABEL287:
+   load_string            "Shortcuts"
+   load_int               1
+   return                
+LABEL290:
+   iload                  1
+   load_int               3
+   if_icmpeq              LABEL294
+   jump                   LABEL297
+LABEL294:
+   load_string            "Barbarian"
+   load_int               1
+   return                
+LABEL297:
+   load_string            ""
+   load_int               -1
+   return                
+   jump                   LABEL913
+LABEL301:
+   iload                  1
+   load_int               0
+   if_icmpeq              LABEL305
+   jump                   LABEL308
+LABEL305:
+   load_string            "Potions"
+   load_int               1
+   return                
+LABEL308:
+   iload                  1
+   load_int               1
+   if_icmpeq              LABEL312
+   jump                   LABEL315
+LABEL312:
+   load_string            "Herbs"
+   load_int               1
+   return                
+LABEL315:
+   iload                  1
+   load_int               2
+   if_icmpeq              LABEL319
+   jump                   LABEL322
+LABEL319:
+   load_string            "Barbarian Potions"
+   load_int               1
+   return                
+LABEL322:
+   iload                  1
+   load_int               3
+   if_icmpeq              LABEL326
+   jump                   LABEL329
+LABEL326:
+   load_string            "Raids"
+   load_int               1
+   return                
+LABEL329:
+   iload                  1
+   load_int               4
+   if_icmpeq              LABEL333
+   jump                   LABEL336
+LABEL333:
+   load_string            "Other"
+   load_int               1
+   return                
+LABEL336:
+   load_string            ""
+   load_int               -1
+   return                
+   jump                   LABEL913
+LABEL340:
+   iload                  1
+   load_int               0
+   if_icmpeq              LABEL344
+   jump                   LABEL347
+LABEL344:
+   load_string            "Pickpocket"
+   load_int               1
+   return                
+LABEL347:
+   iload                  1
+   load_int               1
+   if_icmpeq              LABEL351
+   jump                   LABEL354
+LABEL351:
+   load_string            "Stalls"
+   load_int               1
+   return                
+LABEL354:
+   iload                  1
+   load_int               2
    if_icmpeq              LABEL358
    jump                   LABEL361
 LABEL358:
-   load_string            "Pickpocket"
+   load_string            "Chests"
    load_int               1
    return                
 LABEL361:
    iload                  1
-   load_int               1
+   load_int               3
    if_icmpeq              LABEL365
    jump                   LABEL368
 LABEL365:
-   load_string            "Stalls"
+   load_string            "Other"
    load_int               1
    return                
 LABEL368:
-   iload                  1
-   load_int               2
-   if_icmpeq              LABEL372
-   jump                   LABEL375
-LABEL372:
-   load_string            "Chests"
-   load_int               1
-   return                
-LABEL375:
-   iload                  1
-   load_int               3
-   if_icmpeq              LABEL379
-   jump                   LABEL382
-LABEL379:
-   load_string            "Other"
-   load_int               1
-   return                
-LABEL382:
    load_string            ""
    load_int               -1
    return                
-LABEL385:
-   iload                  0
-   load_int               11
-   if_icmpeq              LABEL389
-   jump                   LABEL448
-LABEL389:
+   jump                   LABEL913
+LABEL372:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL393
-   jump                   LABEL396
-LABEL393:
+   if_icmpeq              LABEL376
+   jump                   LABEL379
+LABEL376:
    load_string            "Weaving"
    load_int               1
    return                
-LABEL396:
+LABEL379:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL400
-   jump                   LABEL403
-LABEL400:
+   if_icmpeq              LABEL383
+   jump                   LABEL386
+LABEL383:
    load_string            "Armour"
    load_int               0
    return                
-LABEL403:
+LABEL386:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL407
-   jump                   LABEL410
-LABEL407:
+   if_icmpeq              LABEL390
+   jump                   LABEL393
+LABEL390:
    load_string            "Spinning"
    load_int               0
    return                
-LABEL410:
+LABEL393:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL414
-   jump                   LABEL417
-LABEL414:
+   if_icmpeq              LABEL397
+   jump                   LABEL400
+LABEL397:
    load_string            "Pottery"
    load_int               0
    return                
-LABEL417:
+LABEL400:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL421
-   jump                   LABEL424
-LABEL421:
+   if_icmpeq              LABEL404
+   jump                   LABEL407
+LABEL404:
    load_string            "Glass"
    load_int               1
    return                
-LABEL424:
+LABEL407:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL428
-   jump                   LABEL431
-LABEL428:
+   if_icmpeq              LABEL411
+   jump                   LABEL414
+LABEL411:
    load_string            "Jewellery"
    load_int               0
    return                
-LABEL431:
+LABEL414:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL435
-   jump                   LABEL438
-LABEL435:
+   if_icmpeq              LABEL418
+   jump                   LABEL421
+LABEL418:
    load_string            "Weaponry"
    load_int               1
    return                
-LABEL438:
+LABEL421:
    iload                  1
    load_int               7
-   if_icmpeq              LABEL442
-   jump                   LABEL445
-LABEL442:
+   if_icmpeq              LABEL425
+   jump                   LABEL428
+LABEL425:
    load_string            "Other"
    load_int               1
    return                
-LABEL445:
+LABEL428:
    load_string            ""
    load_int               -1
    return                
-LABEL448:
-   iload                  0
-   load_int               19
-   if_icmpeq              LABEL452
-   jump                   LABEL497
-LABEL452:
+   jump                   LABEL913
+LABEL432:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL456
-   jump                   LABEL459
-LABEL456:
+   if_icmpeq              LABEL436
+   jump                   LABEL439
+LABEL436:
    load_string            "Arrows"
    load_int               1
    return                
-LABEL459:
+LABEL439:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL463
-   jump                   LABEL466
-LABEL463:
+   if_icmpeq              LABEL443
+   jump                   LABEL446
+LABEL443:
    load_string            "Bows"
    load_int               1
    return                
-LABEL466:
+LABEL446:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL470
-   jump                   LABEL473
-LABEL470:
+   if_icmpeq              LABEL450
+   jump                   LABEL453
+LABEL450:
    load_string            "Bolts"
    load_int               1
    return                
-LABEL473:
+LABEL453:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL477
-   jump                   LABEL480
-LABEL477:
+   if_icmpeq              LABEL457
+   jump                   LABEL460
+LABEL457:
    load_string            "Darts"
    load_int               1
    return                
-LABEL480:
+LABEL460:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL484
-   jump                   LABEL487
-LABEL484:
+   if_icmpeq              LABEL464
+   jump                   LABEL467
+LABEL464:
    load_string            "Crossbows"
    load_int               1
    return                
-LABEL487:
+LABEL467:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL491
-   jump                   LABEL494
-LABEL491:
+   if_icmpeq              LABEL471
+   jump                   LABEL474
+LABEL471:
    load_string            "Javelins"
    load_int               1
    return                
-LABEL494:
+LABEL474:
+   iload                  1
+   load_int               6
+   if_icmpeq              LABEL478
+   jump                   LABEL481
+LABEL478:
+   load_string            "Shields"
+   load_int               1
+   return                
+LABEL481:
    load_string            ""
    load_int               -1
    return                
-LABEL497:
-   iload                  0
-   load_int               13
-   if_icmpeq              LABEL501
-   jump                   LABEL518
-LABEL501:
+   jump                   LABEL913
+LABEL485:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL505
-   jump                   LABEL508
-LABEL505:
+   if_icmpeq              LABEL489
+   jump                   LABEL492
+LABEL489:
    load_string            "Rocks"
    load_int               0
    return                
-LABEL508:
+LABEL492:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL512
-   jump                   LABEL515
-LABEL512:
+   if_icmpeq              LABEL496
+   jump                   LABEL499
+LABEL496:
    load_string            "Equipment"
    load_int               0
    return                
-LABEL515:
+LABEL499:
    load_string            ""
    load_int               -1
    return                
-LABEL518:
-   iload                  0
-   load_int               14
-   if_icmpeq              LABEL522
-   jump                   LABEL595
-LABEL522:
+   jump                   LABEL913
+LABEL503:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL526
-   jump                   LABEL529
-LABEL526:
+   if_icmpeq              LABEL507
+   jump                   LABEL510
+LABEL507:
    load_string            "Smelting"
    load_int               0
    return                
-LABEL529:
+LABEL510:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL533
-   jump                   LABEL536
-LABEL533:
+   if_icmpeq              LABEL514
+   jump                   LABEL517
+LABEL514:
    load_string            "Bronze"
    load_int               0
    return                
-LABEL536:
+LABEL517:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL540
-   jump                   LABEL543
-LABEL540:
+   if_icmpeq              LABEL521
+   jump                   LABEL524
+LABEL521:
    load_string            "Blurite"
    load_int               1
    return                
-LABEL543:
+LABEL524:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL547
-   jump                   LABEL550
-LABEL547:
+   if_icmpeq              LABEL528
+   jump                   LABEL531
+LABEL528:
    load_string            "Iron"
    load_int               0
    return                
-LABEL550:
+LABEL531:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL554
-   jump                   LABEL557
-LABEL554:
+   if_icmpeq              LABEL535
+   jump                   LABEL538
+LABEL535:
    load_string            "Steel"
    load_int               0
    return                
-LABEL557:
+LABEL538:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL561
-   jump                   LABEL564
-LABEL561:
+   if_icmpeq              LABEL542
+   jump                   LABEL545
+LABEL542:
    load_string            "Mithril"
    load_int               0
    return                
-LABEL564:
+LABEL545:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL568
-   jump                   LABEL571
-LABEL568:
+   if_icmpeq              LABEL549
+   jump                   LABEL552
+LABEL549:
    load_string            "Adamant"
    load_int               0
    return                
-LABEL571:
+LABEL552:
    iload                  1
    load_int               7
-   if_icmpeq              LABEL575
-   jump                   LABEL578
-LABEL575:
+   if_icmpeq              LABEL556
+   jump                   LABEL559
+LABEL556:
    load_string            "Rune"
    load_int               0
    return                
-LABEL578:
+LABEL559:
    iload                  1
    load_int               8
-   if_icmpeq              LABEL582
-   jump                   LABEL585
-LABEL582:
+   if_icmpeq              LABEL563
+   jump                   LABEL566
+LABEL563:
    load_string            "Lovakite"
    load_int               1
    return                
-LABEL585:
+LABEL566:
    iload                  1
    load_int               9
-   if_icmpeq              LABEL589
-   jump                   LABEL592
-LABEL589:
+   if_icmpeq              LABEL570
+   jump                   LABEL573
+LABEL570:
    load_string            "Other"
    load_int               1
    return                
-LABEL592:
+LABEL573:
    load_string            ""
    load_int               -1
    return                
-LABEL595:
-   iload                  0
-   load_int               15
-   if_icmpeq              LABEL599
-   jump                   LABEL637
-LABEL599:
+   jump                   LABEL913
+LABEL577:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL603
-   jump                   LABEL606
-LABEL603:
+   if_icmpeq              LABEL581
+   jump                   LABEL584
+LABEL581:
    load_string            "Catches"
    load_int               0
    return                
-LABEL606:
+LABEL584:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL610
-   jump                   LABEL613
-LABEL610:
+   if_icmpeq              LABEL588
+   jump                   LABEL591
+LABEL588:
    load_string            "Barbarian"
    load_int               1
    return                
-LABEL613:
+LABEL591:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL617
-   jump                   LABEL620
-LABEL617:
+   if_icmpeq              LABEL595
+   jump                   LABEL598
+LABEL595:
    load_string            "Equipment"
    load_int               1
    return                
-LABEL620:
+LABEL598:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL624
-   jump                   LABEL627
-LABEL624:
+   if_icmpeq              LABEL602
+   jump                   LABEL605
+LABEL602:
    load_string            "Raids"
    load_int               1
    return                
-LABEL627:
+LABEL605:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL631
-   jump                   LABEL634
-LABEL631:
+   if_icmpeq              LABEL609
+   jump                   LABEL612
+LABEL609:
    load_string            "Other"
    load_int               1
    return                
-LABEL634:
+LABEL612:
    load_string            ""
    load_int               -1
    return                
-LABEL637:
-   iload                  0
-   load_int               16
-   if_icmpeq              LABEL641
-   jump                   LABEL735
-LABEL641:
+   jump                   LABEL913
+LABEL616:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL645
-   jump                   LABEL648
-LABEL645:
+   if_icmpeq              LABEL620
+   jump                   LABEL623
+LABEL620:
    load_string            "Meats"
    load_int               0
    return                
-LABEL648:
+LABEL623:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL652
-   jump                   LABEL655
-LABEL652:
+   if_icmpeq              LABEL627
+   jump                   LABEL630
+LABEL627:
    load_string            "Bread"
    load_int               0
    return                
-LABEL655:
+LABEL630:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL659
-   jump                   LABEL662
-LABEL659:
+   if_icmpeq              LABEL634
+   jump                   LABEL637
+LABEL634:
    load_string            "Pies"
    load_int               0
    return                
-LABEL662:
+LABEL637:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL666
-   jump                   LABEL669
-LABEL666:
+   if_icmpeq              LABEL641
+   jump                   LABEL644
+LABEL641:
    load_string            "Stews"
    load_int               0
    return                
-LABEL669:
+LABEL644:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL673
-   jump                   LABEL676
-LABEL673:
+   if_icmpeq              LABEL648
+   jump                   LABEL651
+LABEL648:
    load_string            "Pizzas"
    load_int               0
    return                
-LABEL676:
+LABEL651:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL680
-   jump                   LABEL683
-LABEL680:
+   if_icmpeq              LABEL655
+   jump                   LABEL658
+LABEL655:
    load_string            "Cakes"
    load_int               0
    return                
-LABEL683:
+LABEL658:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL687
-   jump                   LABEL690
-LABEL687:
+   if_icmpeq              LABEL662
+   jump                   LABEL665
+LABEL662:
    load_string            "Wine"
    load_int               0
    return                
-LABEL690:
+LABEL665:
    iload                  1
    load_int               7
-   if_icmpeq              LABEL694
-   jump                   LABEL697
-LABEL694:
+   if_icmpeq              LABEL669
+   jump                   LABEL672
+LABEL669:
    load_string            "Hot Drinks"
    load_int               1
    return                
-LABEL697:
+LABEL672:
    iload                  1
    load_int               8
-   if_icmpeq              LABEL701
-   jump                   LABEL704
-LABEL701:
+   if_icmpeq              LABEL676
+   jump                   LABEL679
+LABEL676:
    load_string            "Brewing"
    load_int               1
    return                
-LABEL704:
+LABEL679:
    iload                  1
    load_int               9
-   if_icmpeq              LABEL708
-   jump                   LABEL711
-LABEL708:
+   if_icmpeq              LABEL683
+   jump                   LABEL686
+LABEL683:
    load_string            "Vegetable"
    load_int               1
    return                
-LABEL711:
+LABEL686:
    iload                  1
    load_int               10
-   if_icmpeq              LABEL715
-   jump                   LABEL718
-LABEL715:
+   if_icmpeq              LABEL690
+   jump                   LABEL693
+LABEL690:
    load_string            "Dairy"
    load_int               1
    return                
-LABEL718:
+LABEL693:
    iload                  1
    load_int               11
+   if_icmpeq              LABEL697
+   jump                   LABEL700
+LABEL697:
+   load_string            "Gnome"
+   load_int               1
+   return                
+LABEL700:
+   iload                  1
+   load_int               12
+   if_icmpeq              LABEL704
+   jump                   LABEL707
+LABEL704:
+   load_string            "Raids"
+   load_int               1
+   return                
+LABEL707:
+   load_string            ""
+   load_int               -1
+   return                
+   jump                   LABEL913
+LABEL711:
+   iload                  1
+   load_int               0
+   if_icmpeq              LABEL715
+   jump                   LABEL718
+LABEL715:
+   load_string            "Burning"
+   load_int               0
+   return                
+LABEL718:
+   iload                  1
+   load_int               1
    if_icmpeq              LABEL722
    jump                   LABEL725
 LABEL722:
-   load_string            "Gnome"
+   load_string            "Barbarian"
    load_int               1
    return                
 LABEL725:
    iload                  1
-   load_int               12
+   load_int               2
    if_icmpeq              LABEL729
    jump                   LABEL732
 LABEL729:
-   load_string            "Raids"
+   load_string            "Equipment"
    load_int               1
    return                
 LABEL732:
    load_string            ""
    load_int               -1
    return                
-LABEL735:
-   iload                  0
-   load_int               17
-   if_icmpeq              LABEL739
-   jump                   LABEL763
-LABEL739:
+   jump                   LABEL913
+LABEL736:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL743
-   jump                   LABEL746
-LABEL743:
-   load_string            "Burning"
-   load_int               0
-   return                
-LABEL746:
-   iload                  1
-   load_int               1
-   if_icmpeq              LABEL750
-   jump                   LABEL753
-LABEL750:
-   load_string            "Barbarian"
-   load_int               1
-   return                
-LABEL753:
-   iload                  1
-   load_int               2
-   if_icmpeq              LABEL757
-   jump                   LABEL760
-LABEL757:
-   load_string            "Equipment"
-   load_int               1
-   return                
-LABEL760:
-   load_string            ""
-   load_int               -1
-   return                
-LABEL763:
-   iload                  0
-   load_int               18
-   if_icmpeq              LABEL767
-   jump                   LABEL791
-LABEL767:
-   iload                  1
-   load_int               0
-   if_icmpeq              LABEL771
-   jump                   LABEL774
-LABEL771:
+   if_icmpeq              LABEL740
+   jump                   LABEL743
+LABEL740:
    load_string            "Trees"
    load_int               0
    return                
-LABEL774:
+LABEL743:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL778
-   jump                   LABEL781
-LABEL778:
+   if_icmpeq              LABEL747
+   jump                   LABEL750
+LABEL747:
    load_string            "Axes"
    load_int               0
    return                
-LABEL781:
+LABEL750:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL785
-   jump                   LABEL788
-LABEL785:
+   if_icmpeq              LABEL754
+   jump                   LABEL757
+LABEL754:
    load_string            "Other"
    load_int               0
    return                
-LABEL788:
+LABEL757:
    load_string            ""
    load_int               -1
    return                
-LABEL791:
-   iload                  0
-   load_int               12
-   if_icmpeq              LABEL795
-   jump                   LABEL826
-LABEL795:
+   jump                   LABEL913
+LABEL761:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL799
-   jump                   LABEL802
-LABEL799:
+   if_icmpeq              LABEL765
+   jump                   LABEL768
+LABEL765:
    load_string            "Runes"
    load_int               0
    return                
-LABEL802:
+LABEL768:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL806
-   jump                   LABEL809
-LABEL806:
+   if_icmpeq              LABEL772
+   jump                   LABEL775
+LABEL772:
    load_string            "Multiple Runes"
    load_int               0
    return                
-LABEL809:
+LABEL775:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL813
-   jump                   LABEL816
-LABEL813:
+   if_icmpeq              LABEL779
+   jump                   LABEL782
+LABEL779:
    load_string            "Rune Pouches"
    load_int               1
    return                
-LABEL816:
+LABEL782:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL820
-   jump                   LABEL823
-LABEL820:
+   if_icmpeq              LABEL786
+   jump                   LABEL789
+LABEL786:
    load_string            "Infusing"
    load_int               1
    return                
-LABEL823:
+LABEL789:
    load_string            ""
    load_int               -1
    return                
-LABEL826:
-   iload                  0
-   load_int               20
-   if_icmpeq              LABEL830
-   jump                   LABEL854
-LABEL830:
+   jump                   LABEL913
+LABEL793:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL834
-   jump                   LABEL837
-LABEL834:
+   if_icmpeq              LABEL797
+   jump                   LABEL800
+LABEL797:
    load_string            "Monsters"
    load_int               1
    return                
-LABEL837:
+LABEL800:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL841
-   jump                   LABEL844
-LABEL841:
+   if_icmpeq              LABEL804
+   jump                   LABEL807
+LABEL804:
    load_string            "Equipment"
    load_int               1
    return                
-LABEL844:
+LABEL807:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL848
-   jump                   LABEL851
-LABEL848:
+   if_icmpeq              LABEL811
+   jump                   LABEL814
+LABEL811:
    load_string            "Slayer Masters"
    load_int               1
    return                
-LABEL851:
+LABEL814:
    load_string            ""
    load_int               -1
    return                
-LABEL854:
-   iload                  0
-   load_int               21
-   if_icmpeq              LABEL858
-   jump                   LABEL945
-LABEL858:
+   jump                   LABEL913
+LABEL818:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL862
-   jump                   LABEL865
-LABEL862:
+   if_icmpeq              LABEL822
+   jump                   LABEL825
+LABEL822:
    load_string            "Allotments"
    load_int               1
    return                
-LABEL865:
+LABEL825:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL869
-   jump                   LABEL872
-LABEL869:
+   if_icmpeq              LABEL829
+   jump                   LABEL832
+LABEL829:
    load_string            "Hops"
    load_int               1
    return                
-LABEL872:
+LABEL832:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL876
-   jump                   LABEL879
-LABEL876:
+   if_icmpeq              LABEL836
+   jump                   LABEL839
+LABEL836:
    load_string            "Trees"
    load_int               1
    return                
-LABEL879:
+LABEL839:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL883
-   jump                   LABEL886
-LABEL883:
+   if_icmpeq              LABEL843
+   jump                   LABEL846
+LABEL843:
    load_string            "Fruit Trees"
    load_int               1
    return                
-LABEL886:
+LABEL846:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL890
-   jump                   LABEL893
-LABEL890:
+   if_icmpeq              LABEL850
+   jump                   LABEL853
+LABEL850:
    load_string            "Bushes"
    load_int               1
    return                
-LABEL893:
+LABEL853:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL897
-   jump                   LABEL900
-LABEL897:
+   if_icmpeq              LABEL857
+   jump                   LABEL860
+LABEL857:
    load_string            "Flowers"
    load_int               1
    return                
-LABEL900:
+LABEL860:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL904
-   jump                   LABEL907
-LABEL904:
+   if_icmpeq              LABEL864
+   jump                   LABEL867
+LABEL864:
    load_string            "Herbs"
    load_int               1
    return                
-LABEL907:
+LABEL867:
    iload                  1
    load_int               7
-   if_icmpeq              LABEL911
-   jump                   LABEL914
-LABEL911:
+   if_icmpeq              LABEL871
+   jump                   LABEL874
+LABEL871:
    load_string            "Special"
    load_int               1
    return                
-LABEL914:
+LABEL874:
    iload                  1
    load_int               8
-   if_icmpeq              LABEL918
-   jump                   LABEL921
-LABEL918:
+   if_icmpeq              LABEL878
+   jump                   LABEL881
+LABEL878:
    load_string            "Scarecrows"
    load_int               1
    return                
-LABEL921:
+LABEL881:
    iload                  1
    load_int               9
-   if_icmpeq              LABEL925
-   jump                   LABEL928
-LABEL925:
+   if_icmpeq              LABEL885
+   jump                   LABEL888
+LABEL885:
    load_string            "Multiple roots"
    load_int               1
    return                
-LABEL928:
+LABEL888:
    iload                  1
    load_int               10
-   if_icmpeq              LABEL932
-   jump                   LABEL935
-LABEL932:
+   if_icmpeq              LABEL892
+   jump                   LABEL895
+LABEL892:
    load_string            "Tithe Farm"
    load_int               1
    return                
-LABEL935:
+LABEL895:
    iload                  1
    load_int               11
-   if_icmpeq              LABEL939
-   jump                   LABEL942
-LABEL939:
+   if_icmpeq              LABEL899
+   jump                   LABEL902
+LABEL899:
    load_string            "Raids"
    load_int               1
    return                
-LABEL942:
+LABEL902:
    load_string            ""
    load_int               -1
    return                
-LABEL945:
-   iload                  0
-   load_int               22
-   if_icmpeq              LABEL949
-   jump                   LABEL952
-LABEL949:
+   jump                   LABEL913
+LABEL906:
    iload                  1
    invoke                 658
    return                
-LABEL952:
-   iload                  0
-   load_int               23
-   if_icmpeq              LABEL956
-   jump                   LABEL959
-LABEL956:
+   jump                   LABEL913
+LABEL910:
    iload                  1
    invoke                 1598
    return                
-LABEL959:
+LABEL913:
    load_string            ""
    load_int               -1
    return                

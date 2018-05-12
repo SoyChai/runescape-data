@@ -2,6 +2,11 @@
 .string_stack_count 0
 .int_var_count      6
 .string_var_count   1
+   load_int               1162
+   load_int               1565
+   invoke                 2151
+   iload                  0
+   widget_put_spriteid_widget
    get_varc               75
    iload                  2
    widget_put_hidden_widget
@@ -19,16 +24,51 @@
    load_string            "IIi"
    iload                  4
    widget_put_drag_release_listener_widget
-   load_string            "Click here to enable zooming using the mouse scroll wheel."
+   load_string            "Click"
+   load_string            "Tap"
+   invoke                 1971
+   load_string            " here to enable zooming using "
+   load_string            "the mouse scroll wheel"
+   load_string            "your fingers"
+   invoke                 1971
+   load_string            "."
+   string_append          4
    sstore                 0
    get_varc               75
    load_int               1
-   if_icmpeq              LABEL23
-   jump                   LABEL25
-LABEL23:
-   load_string            "Click here to disable zooming using the mouse scroll wheel."
+   if_icmpeq              LABEL36
+   jump                   LABEL46
+LABEL36:
+   load_string            "Click"
+   load_string            "Tap"
+   invoke                 1971
+   load_string            " here to disable zooming using "
+   load_string            "the mouse scroll wheel"
+   load_string            "your fingers"
+   invoke                 1971
+   load_string            "."
+   string_append          4
    sstore                 0
-LABEL25:
+LABEL46:
+   load_int               832
+   load_int               1
+   iload                  1
+   load_string            "iI"
+   iload                  1
+   widget_put_mouse_enter_listener_widget
+   load_int               832
+   load_int               0
+   iload                  1
+   load_string            "iI"
+   iload                  1
+   widget_put_mouse_exit_listener_widget
+   invoke                 900
+   load_int               1745
+   if_icmpeq              LABEL62
+   jump                   LABEL63
+LABEL62:
+   return                
+LABEL63:
    load_int               526
    iload                  0
    load_int               -1
@@ -43,17 +83,5 @@ LABEL25:
    iload                  5
    load_string            "I"
    iload                  0
-   widget_put_mouse_exit_listener_widget
-   load_int               832
-   load_int               1
-   iload                  1
-   load_string            "iI"
-   iload                  1
-   widget_put_mouse_enter_listener_widget
-   load_int               832
-   load_int               0
-   iload                  1
-   load_string            "iI"
-   iload                  1
    widget_put_mouse_exit_listener_widget
    return                

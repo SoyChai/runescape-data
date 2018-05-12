@@ -54,7 +54,7 @@ LABEL42:
 LABEL44:
    return                
 LABEL45:
-   load_int               33226763
+   load_int               33226764
    load_int               0
    widget_load_child      1
    load_int               0
@@ -68,18 +68,18 @@ LABEL52:
    load_int               0
    play_sound_effect     
    load_int               1
-   load_int               33226777
+   load_int               33226778
    widget_put_hidden_widget
    load_int               0
-   load_int               33226778
+   load_int               33226779
    widget_put_hidden_widget
-   load_int               33226778
+   load_int               33226779
    widget_unset_children 
-   load_int               33226778
+   load_int               33226779
    load_int               0
    invoke                 715
    istore                 2
-   load_int               33226778
+   load_int               33226779
    load_int               4
    iload                  2
    widget_create_child   
@@ -109,7 +109,7 @@ LABEL52:
    widget_put_text_shadowed
    sload                  0
    widget_put_text       
-   load_int               33226778
+   load_int               33226779
    widget_get_width_widget
    load_int               216
    isub                  
@@ -148,7 +148,7 @@ LABEL115:
    invoke                 632
    sstore                 1
    sstore                 2
-   load_int               33226778
+   load_int               33226779
    load_int               5
    iload                  2
    widget_create_child   
@@ -156,7 +156,7 @@ LABEL115:
    load_int               1
    iadd                  
    istore                 2
-   load_int               33226778
+   load_int               33226779
    load_int               4
    iload                  2
    widget_create_child    1
@@ -220,14 +220,14 @@ LABEL115:
    load_int               526
    load_int               -2147483645
    load_int               -2147483643
-   load_int               33226785
+   load_int               33226786
    sload                  3
    load_int               25
    load_int               200
    load_string            "IiIsii"
    widget_put_mouse_hover_listener 1
    load_int               40
-   load_int               33226785
+   load_int               33226786
    load_string            "I"
    widget_put_mouse_exit_listener 1
    iload                  7
@@ -248,7 +248,7 @@ LABEL115:
 LABEL232:
    load_int               1522
    load_string            ""
-   load_int               33226778
+   load_int               33226779
    widget_put_mouse_press_listener_widget
    iload                  1
    invoke                 1525

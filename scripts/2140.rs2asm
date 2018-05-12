@@ -1,0 +1,61 @@
+.int_stack_count    3
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   load_int               7510
+   iload                  1
+   widget_put_modelid_2_widget
+   load_int               579
+   iload                  1
+   widget_put_animation_widget
+   iload                  2
+   widget_unset_children 
+   iload                  2
+   load_int               5
+   load_int               0
+   widget_create_child   
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_position   
+   load_int               36
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               1
+   widget_put_borderthickness
+   load_int               3355443
+   widget_put_sprite2    
+   load_int               1
+   load_string            "Withdraw-1"
+   widget_put_action     
+   load_int               2
+   load_string            "Withdraw-5"
+   widget_put_action     
+   load_int               3
+   load_string            "Withdraw-X"
+   widget_put_action     
+   load_int               4
+   load_string            "Withdraw-All"
+   widget_put_action     
+   load_int               10
+   load_string            "Examine"
+   widget_put_action     
+   load_string            "<col=ff9040>"
+   load_int               21652
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   widget_put_name       
+   invoke                 2142
+   load_int               2141
+   iload                  2
+   widget_get_index      
+   load_int               1632
+   load_int               1
+   load_string            "IiY"
+   iload                  0
+   widget_put_config_listener_widget
+   return                

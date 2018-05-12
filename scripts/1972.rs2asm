@@ -2,7 +2,7 @@
 .string_stack_count 0
 .int_var_count      0
 .string_var_count   0
-   6518                  
+   get_is_mobile         
    return                
    load_int               -1
    return                

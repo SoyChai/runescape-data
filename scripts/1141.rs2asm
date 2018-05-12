@@ -2,7 +2,7 @@
 .string_stack_count 0
 .int_var_count      2
 .string_var_count   0
-   get_settings           1295
+   get_varp               1295
    iload                  1
    load_int               1
    isub                  

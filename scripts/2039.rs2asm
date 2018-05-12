@@ -1,0 +1,80 @@
+.int_stack_count    3
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   iload                  2
+   widget_unset_children 
+   iload                  2
+   load_int               4
+   load_int               0
+   widget_create_child   
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               0
+   widget_put_position   
+   load_int               0
+   load_int               32
+   load_int               1
+   load_int               1
+   widget_put_size       
+   load_int               495
+   widget_put_fontid     
+   load_int               1
+   load_int               0
+   load_int               0
+   widget_put_text_alignment
+   load_int               0
+   widget_put_text_shadowed
+   load_string            "Show Tutors"
+   widget_put_text       
+   load_int               1
+   iload                  1
+   invoke                 2041
+   load_int               2040
+   load_int               0
+   iload                  2
+   widget_get_index      
+   iload                  1
+   load_string            "1IiI"
+   iload                  2
+   widget_put_mouse_hover_listener_widget
+   load_int               2040
+   load_int               1
+   iload                  2
+   widget_get_index      
+   iload                  1
+   load_string            "1IiI"
+   iload                  2
+   widget_put_mouse_exit_listener_widget
+   iload                  0
+   widget_unset_children 
+   iload                  0
+   load_int               6
+   load_int               0
+   widget_create_child   
+   load_int               32
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               3062
+   widget_put_modelid_1  
+   load_int               0
+   load_int               0
+   load_int               512
+   load_int               68
+   load_int               0
+   load_int               1526
+   widget_put_3d_rotation
+   load_int               646
+   widget_put_animation  
+   iload                  0
+   invoke                 2043
+   load_int               2042
+   iload                  0
+   widget_get_index      
+   load_string            "Ii"
+   iload                  0
+   widget_put_render_listener_widget
+   return                

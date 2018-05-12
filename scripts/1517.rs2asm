@@ -1,7 +1,7 @@
 .int_stack_count    1
 .string_stack_count 1
 .int_var_count      4
-.string_var_count   5
+.string_var_count   6
    load_int               73
    load_int               73
    invoke                 900
@@ -40,14 +40,20 @@ LABEL16:
    invoke                 632
    sstore                 0
    sstore                 3
+   load_string            ""
+   sstore                 4
+   sload                  0
+   invoke                 632
+   sstore                 0
+   sstore                 4
    get_varc               178
    load_int               14
    imul                  
    istore                 1
-   load_int               33226762
+   load_int               33226763
    load_int               3
    get_varc               178
-   load_int               6
+   load_int               8
    imul                  
    widget_create_child   
    load_int               0
@@ -71,26 +77,26 @@ LABEL16:
    invoke                 1518
    sload                  1
    string_remove_html    
-   sstore                 4
+   sstore                 5
    load_string            "<col=ff9040>"
-   sload                  4
+   sload                  5
    load_string            "</col>"
    string_append          3
    widget_put_name       
    load_int               1521
    load_int               -2147483644
    get_varc               178
-   sload                  4
+   sload                  5
    sload                  0
    load_string            "iiss"
    widget_put_option_click_listener
    load_int               33226759
    widget_get_width_widget
    istore                 2
-   load_int               33226762
+   load_int               33226763
    load_int               4
    get_varc               178
-   load_int               6
+   load_int               8
    imul                  
    load_int               1
    iadd                  
@@ -122,10 +128,10 @@ LABEL16:
    load_int               33226760
    widget_get_width_widget
    istore                 2
-   load_int               33226762
+   load_int               33226763
    load_int               4
    get_varc               178
-   load_int               6
+   load_int               8
    imul                  
    load_int               2
    iadd                  
@@ -152,12 +158,46 @@ LABEL16:
    widget_put_text_shadowed
    sload                  2
    widget_put_text       
-   load_int               33226762
+   iload                  3
+   iload                  2
+   iadd                  
+   istore                 3
+   load_int               33226763
    load_int               4
    get_varc               178
-   load_int               6
+   load_int               8
    imul                  
    load_int               3
+   iadd                  
+   widget_create_child   
+   iload                  2
+   load_int               14
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  3
+   iload                  1
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               16750623
+   widget_put_textcolor  
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
+   load_int               1
+   widget_put_text_shadowed
+   sload                  3
+   widget_put_text       
+   load_int               33226763
+   load_int               4
+   get_varc               178
+   load_int               8
+   imul                  
+   load_int               4
    iadd                  
    widget_create_child   
    iload                  3
@@ -182,14 +222,14 @@ LABEL16:
    widget_put_text_alignment
    load_int               1
    widget_put_text_shadowed
-   sload                  3
+   sload                  4
    widget_put_text       
-   load_int               33226762
+   load_int               33226763
    load_int               4
    get_varc               178
-   load_int               6
+   load_int               8
    imul                  
-   load_int               4
+   load_int               5
    iadd                  
    widget_create_child   
    load_int               1
@@ -210,12 +250,12 @@ LABEL16:
    get_varc               178
    concat_int            
    widget_put_text       
-   load_int               33226762
+   load_int               33226763
    load_int               4
    get_varc               178
-   load_int               6
+   load_int               8
    imul                  
-   load_int               5
+   load_int               6
    iadd                  
    widget_create_child   
    load_int               1
@@ -231,6 +271,32 @@ LABEL16:
    load_int               1
    widget_put_text_shadowed
    sload                  3
+   load_int               4
+   invoke                 1503
+   get_varc               178
+   concat_int            
+   widget_put_text       
+   load_int               33226763
+   load_int               4
+   get_varc               178
+   load_int               8
+   imul                  
+   load_int               7
+   iadd                  
+   widget_create_child   
+   load_int               1
+   widget_put_hidden     
+   load_int               16750623
+   widget_put_textcolor  
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
+   load_int               1
+   widget_put_text_shadowed
+   sload                  4
    load_int               4
    invoke                 1503
    get_varc               178

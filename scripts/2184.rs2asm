@@ -1,0 +1,94 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      8
+.string_var_count   0
+   load_int               140
+   istore                 2
+   iload                  0
+   load_int               1
+   if_icmpeq              LABEL6
+   jump                   LABEL8
+LABEL6:
+   load_int               142
+   istore                 2
+LABEL8:
+   load_int               -1
+   istore                 3
+   load_int               0
+   istore                 4
+   load_int               0
+   istore                 5
+   load_int               14
+   istore                 6
+   load_int               6
+   istore                 7
+LABEL18:
+   iload                  5
+   load_int               28
+   if_icmplt              LABEL22
+   jump                   LABEL81
+LABEL22:
+   load_int               611
+   iload                  1
+   get_itemcontainer_itemid
+   istore                 3
+   load_int               73
+   load_int               73
+   iload                  2
+   load_int               10092602
+   get_enum_value        
+   load_int               5
+   iload                  5
+   widget_create_child   
+   iload                  6
+   iload                  7
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               36
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               3355443
+   widget_put_sprite2    
+   load_int               1
+   widget_put_borderthickness
+   load_int               611
+   iload                  1
+   get_itemcontainer_stacksize
+   istore                 4
+   iload                  3
+   iload                  4
+   1200                  
+   iload                  5
+   load_int               1
+   iadd                  
+   istore                 5
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  5
+   load_int               4
+   modulo                
+   load_int               0
+   if_icmpeq              LABEL69
+   jump                   LABEL76
+LABEL69:
+   load_int               14
+   iload                  7
+   load_int               36
+   iadd                  
+   istore                 7
+   istore                 6
+   jump                   LABEL80
+LABEL76:
+   iload                  6
+   load_int               43
+   iadd                  
+   istore                 6
+LABEL80:
+   jump                   LABEL18
+LABEL81:
+   return                

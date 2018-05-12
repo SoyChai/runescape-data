@@ -44,20 +44,25 @@ LABEL29:
    get_itemcontainer_stacksizes_total
    load_int               0
    if_icmpgt              LABEL38
-   jump                   LABEL76
+   jump                   LABEL84
 LABEL38:
    load_int               93
    load_int               2357
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL49
+   if_icmpgt              LABEL53
+   get_ismembers         
+   load_int               1
+   if_icmpeq              LABEL47
+   jump                   LABEL84
+LABEL47:
    load_int               93
    load_int               2365
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL49
-   jump                   LABEL76
-LABEL49:
+   if_icmpgt              LABEL53
+   jump                   LABEL84
+LABEL53:
    iload                  1
    load_int               1
    iload                  3
@@ -84,13 +89,17 @@ LABEL49:
    load_string            "Make-X"
    iload                  3
    widget_put_action_widget
-   jump                   LABEL82
-LABEL76:
+   load_int               5
+   load_string            "Make-All"
+   iload                  3
+   widget_put_action_widget
+   jump                   LABEL90
+LABEL84:
    iload                  2
    load_int               1
    iload                  3
    2200                  
    iload                  3
    widget_put_actions_null_widget
-LABEL82:
+LABEL90:
    return                

@@ -19,23 +19,23 @@ LABEL11:
    load_int               1
    load_int               0
    play_sound_effect     
-   get_settings           92
+   get_varp               92
    iload                  3
    test_bit              
    load_int               1
    if_icmpeq              LABEL21
    jump                   LABEL26
 LABEL21:
-   get_settings           92
+   get_varp               92
    iload                  3
    clear_bit             
-   put_settings           92
+   put_varp               92
    jump                   LABEL30
 LABEL26:
-   get_settings           92
+   get_varp               92
    iload                  3
    set_bit               
-   put_settings           92
+   put_varp               92
 LABEL30:
    iload                  1
    iload                  2

@@ -15,6 +15,21 @@ LABEL9:
    load_int               0
    return                
 LABEL11:
+   iload                  0
+   iload                  1
+   invoke                 2175
+   load_int               1
+   if_icmpeq              LABEL17
+   jump                   LABEL23
+LABEL17:
+   invoke                 2174
+   load_int               0
+   if_icmpeq              LABEL21
+   jump                   LABEL23
+LABEL21:
+   load_int               0
+   return                
+LABEL23:
    load_int               1
    return                
    load_int               -1

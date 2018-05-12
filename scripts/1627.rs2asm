@@ -1,28 +1,31 @@
-.int_stack_count    2
+.int_stack_count    3
 .string_stack_count 0
-.int_var_count      2
+.int_var_count      3
 .string_var_count   0
    load_int               40
-   iload                  1
+   iload                  2
    load_string            "I"
    iload                  0
    widget_put_mouse_exit_listener_widget
    iload                  0
    iload                  1
+   iload                  2
    invoke                 1630
    load_int               1628
    iload                  0
    iload                  1
+   iload                  2
    load_int               1055
    load_int               1
-   load_string            "IIY"
+   load_string            "IIIY"
    iload                  0
    widget_put_config_listener_widget
    load_int               1629
    load_int               -2147483644
    iload                  0
    iload                  1
-   load_string            "iII"
+   iload                  2
+   load_string            "iIII"
    iload                  0
    widget_put_option_click_listener_widget
    return                

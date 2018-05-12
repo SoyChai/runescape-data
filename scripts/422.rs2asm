@@ -10,12 +10,12 @@
    istore                 8
    load_string            "Creature"
    sstore                 0
-   get_settings           262
+   get_varp               262
    load_int               98
    if_icmpeq              LABEL12
    jump                   LABEL52
 LABEL12:
-   get_settings           261
+   get_varp               261
    load_int               0
    if_icmpgt              LABEL16
    jump                   LABEL32
@@ -24,11 +24,11 @@ LABEL16:
    load_int               105
    load_int               115
    load_int               1174
-   get_settings           263
+   get_varp               263
    get_enum_value        
    sstore                 0
    istore                 8
-   get_settings           261
+   get_varp               261
    int_to_string         
    load_string            " x "
    sload                  0
@@ -37,7 +37,7 @@ LABEL16:
    widget_put_text_widget
    jump                   LABEL51
 LABEL32:
-   get_settings           261
+   get_varp               261
    load_int               -1
    if_icmpeq              LABEL36
    jump                   LABEL48
@@ -46,7 +46,7 @@ LABEL36:
    load_int               105
    load_int               115
    load_int               1174
-   get_settings           263
+   get_varp               263
    get_enum_value        
    sstore                 0
    istore                 8
@@ -61,12 +61,12 @@ LABEL48:
 LABEL51:
    jump                   LABEL79
 LABEL52:
-   get_settings           261
+   get_varp               261
    load_int               0
    if_icmpgt              LABEL56
    jump                   LABEL76
 LABEL56:
-   get_settings           262
+   get_varp               262
    load_int               0
    if_icmpne              LABEL60
    jump                   LABEL76
@@ -75,11 +75,11 @@ LABEL60:
    load_int               105
    load_int               115
    load_int               693
-   get_settings           262
+   get_varp               262
    get_enum_value        
    sstore                 0
    istore                 8
-   get_settings           261
+   get_varp               261
    int_to_string         
    load_string            " x "
    sload                  0
@@ -230,17 +230,17 @@ LABEL161:
    if_icmpeq              LABEL213
    jump                   LABEL253
 LABEL213:
-   get_settings           262
+   get_varp               262
    load_int               97
    if_icmpne              LABEL217
    jump                   LABEL253
 LABEL217:
-   get_settings           262
+   get_varp               262
    load_int               105
    if_icmpne              LABEL221
    jump                   LABEL253
 LABEL221:
-   get_settings           262
+   get_varp               262
    load_int               98
    if_icmpne              LABEL225
    jump                   LABEL253

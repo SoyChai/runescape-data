@@ -19,52 +19,45 @@
    iload                  12
    invoke                 21
    iload                  0
-   load_int               14286849
-   if_icmpeq              LABEL29
-   iload                  0
-   load_int               14286941
-   if_icmpeq              LABEL29
-   iload                  0
-   load_int               14286943
-   if_icmpeq              LABEL29
-   iload                  0
-   load_int               14286989
-   if_icmpeq              LABEL29
-   jump                   LABEL43
-LABEL29:
+   switch                
+      14286875: LABEL59
+      14286947: LABEL19
+      14286864: LABEL33
+      14286849: LABEL19
+      14286945: LABEL19
+      14286993: LABEL19
+      14286886: LABEL85
+      14286951: LABEL111
+   jump                   LABEL132
+LABEL19:
    get_varbit             1771
    load_int               1
-   if_icmpeq              LABEL33
-   jump                   LABEL38
-LABEL33:
+   if_icmpeq              LABEL23
+   jump                   LABEL28
+LABEL23:
    load_int               10
    load_string            "Animation"
    iload                  0
    widget_put_action_widget
-   jump                   LABEL42
-LABEL38:
+   jump                   LABEL32
+LABEL28:
    load_int               10
    load_string            ""
    iload                  0
    widget_put_action_widget
-LABEL42:
-   jump                   LABEL158
-LABEL43:
-   iload                  0
-   load_int               14286864
-   if_icmpeq              LABEL47
-   jump                   LABEL73
-LABEL47:
+LABEL32:
+   jump                   LABEL132
+LABEL33:
    get_varbit             4585
    load_int               1
-   if_icmpeq              LABEL51
-   jump                   LABEL64
-LABEL51:
+   if_icmpeq              LABEL37
+   jump                   LABEL50
+LABEL37:
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL55
-   jump                   LABEL64
-LABEL55:
+   if_icmpeq              LABEL41
+   jump                   LABEL50
+LABEL41:
    load_int               1
    load_string            ""
    iload                  0
@@ -73,8 +66,8 @@ LABEL55:
    load_string            "Cast"
    iload                  0
    widget_put_action_widget
-   jump                   LABEL72
-LABEL64:
+   jump                   LABEL58
+LABEL50:
    load_int               1
    load_string            "Cast"
    iload                  0
@@ -83,102 +76,87 @@ LABEL64:
    load_string            ""
    iload                  0
    widget_put_action_widget
-LABEL72:
-   jump                   LABEL158
-LABEL73:
-   iload                  0
-   load_int               14286875
-   if_icmpeq              LABEL77
-   jump                   LABEL103
-LABEL77:
+LABEL58:
+   jump                   LABEL132
+LABEL59:
    get_varbit             4560
    load_int               1
-   if_icmpeq              LABEL81
-   jump                   LABEL94
-LABEL81:
+   if_icmpeq              LABEL63
+   jump                   LABEL76
+LABEL63:
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL85
-   jump                   LABEL94
+   if_icmpeq              LABEL67
+   jump                   LABEL76
+LABEL67:
+   load_int               1
+   load_string            ""
+   iload                  0
+   widget_put_action_widget
+   load_int               3
+   load_string            "Cast"
+   iload                  0
+   widget_put_action_widget
+   jump                   LABEL84
+LABEL76:
+   load_int               1
+   load_string            "Cast"
+   iload                  0
+   widget_put_action_widget
+   load_int               3
+   load_string            ""
+   iload                  0
+   widget_put_action_widget
+LABEL84:
+   jump                   LABEL132
 LABEL85:
-   load_int               1
-   load_string            ""
-   iload                  0
-   widget_put_action_widget
-   load_int               3
-   load_string            "Cast"
-   iload                  0
-   widget_put_action_widget
-   jump                   LABEL102
-LABEL94:
-   load_int               1
-   load_string            "Cast"
-   iload                  0
-   widget_put_action_widget
-   load_int               3
-   load_string            ""
-   iload                  0
-   widget_put_action_widget
-LABEL102:
-   jump                   LABEL158
-LABEL103:
-   iload                  0
-   load_int               14286886
-   if_icmpeq              LABEL107
-   jump                   LABEL133
-LABEL107:
    get_varbit             4548
    load_int               1
-   if_icmpeq              LABEL111
-   jump                   LABEL124
-LABEL111:
+   if_icmpeq              LABEL89
+   jump                   LABEL102
+LABEL89:
    get_ismembers         
    load_int               1
+   if_icmpeq              LABEL93
+   jump                   LABEL102
+LABEL93:
+   load_int               1
+   load_string            ""
+   iload                  0
+   widget_put_action_widget
+   load_int               3
+   load_string            "Cast"
+   iload                  0
+   widget_put_action_widget
+   jump                   LABEL110
+LABEL102:
+   load_int               1
+   load_string            "Cast"
+   iload                  0
+   widget_put_action_widget
+   load_int               3
+   load_string            ""
+   iload                  0
+   widget_put_action_widget
+LABEL110:
+   jump                   LABEL132
+LABEL111:
+   get_varbit             5006
+   load_int               10
    if_icmpeq              LABEL115
    jump                   LABEL124
 LABEL115:
-   load_int               1
-   load_string            ""
-   iload                  0
-   widget_put_action_widget
-   load_int               3
-   load_string            "Cast"
-   iload                  0
-   widget_put_action_widget
-   jump                   LABEL132
-LABEL124:
-   load_int               1
-   load_string            "Cast"
-   iload                  0
-   widget_put_action_widget
-   load_int               3
-   load_string            ""
-   iload                  0
-   widget_put_action_widget
-LABEL132:
-   jump                   LABEL158
-LABEL133:
-   iload                  0
-   load_int               14286947
-   if_icmpeq              LABEL137
-   jump                   LABEL158
-LABEL137:
-   get_varbit             5006
-   load_int               10
-   if_icmpeq              LABEL141
-   jump                   LABEL150
-LABEL141:
    get_varbit             5037
    load_int               1
-   if_icmpeq              LABEL145
-   jump                   LABEL150
-LABEL145:
+   if_icmpeq              LABEL119
+   jump                   LABEL124
+LABEL119:
    load_int               2
    load_string            "Steve"
    iload                  0
    widget_put_action_widget
-   jump                   LABEL158
-LABEL150:
+   jump                   LABEL132
+LABEL124:
    load_int               2
    load_int               105
    load_int               115
@@ -187,5 +165,5 @@ LABEL150:
    get_enum_value        
    iload                  0
    widget_put_action_widget
-LABEL158:
+LABEL132:
    return                

@@ -1,0 +1,30 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   load_int               1
+   load_int               38993938
+   widget_put_hidden_widget
+   load_int               1
+   load_int               38993946
+   widget_put_hidden_widget
+   load_int               12
+   load_int               12
+   load_int               1
+   load_int               1
+   load_int               38993923
+   widget_put_size_widget
+   iload                  0
+   load_int               1
+   if_icmpeq              LABEL16
+   jump                   LABEL19
+LABEL16:
+   load_int               1
+   load_int               38993954
+   widget_put_hidden_widget
+LABEL19:
+   load_int               0
+   3126                  
+   load_int               0
+   6632                  
+   return                

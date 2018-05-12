@@ -35,7 +35,7 @@ LABEL19:
    invoke                 84
    iload                  2
    invoke                 89
-   jump                   LABEL176
+   jump                   LABEL168
 LABEL29:
    iload                  0
    load_int               2
@@ -80,7 +80,7 @@ LABEL59:
    iload                  2
    invoke                 89
 LABEL64:
-   jump                   LABEL176
+   jump                   LABEL168
 LABEL65:
    iload                  0
    load_int               3
@@ -102,7 +102,7 @@ LABEL74:
    invoke                 84
    iload                  2
    invoke                 89
-   jump                   LABEL176
+   jump                   LABEL168
 LABEL83:
    iload                  0
    load_int               4
@@ -117,7 +117,7 @@ LABEL87:
    invoke                 84
    iload                  2
    invoke                 89
-   jump                   LABEL176
+   jump                   LABEL168
 LABEL96:
    iload                  0
    load_int               5
@@ -132,18 +132,22 @@ LABEL100:
    invoke                 84
    iload                  2
    invoke                 89
-   jump                   LABEL176
+   jump                   LABEL168
 LABEL109:
    iload                  1
    load_int               2
    if_icmpeq              LABEL113
-   jump                   LABEL162
+   jump                   LABEL154
 LABEL113:
    iload                  0
-   load_int               6
-   if_icmpeq              LABEL117
-   jump                   LABEL126
-LABEL117:
+   switch                
+      6: LABEL116
+      7: LABEL125
+      8: LABEL130
+      9: LABEL132
+      10: LABEL134
+   jump                   LABEL153
+LABEL116:
    iload                  1
    load_int               3
    invoke                 184
@@ -152,71 +156,62 @@ LABEL117:
    invoke                 84
    iload                  2
    invoke                 89
-   jump                   LABEL161
-LABEL126:
-   iload                  0
-   load_int               8
-   if_icmpeq              LABEL130
-   jump                   LABEL132
+   jump                   LABEL153
+LABEL125:
+   get_gamecycle         
+   put_varc               199
+   iload                  2
+   invoke                 84
+   jump                   LABEL153
 LABEL130:
    invoke                 548
-   jump                   LABEL161
+   jump                   LABEL153
 LABEL132:
-   iload                  0
-   load_int               9
-   if_icmpeq              LABEL136
-   jump                   LABEL138
-LABEL136:
    invoke                 550
-   jump                   LABEL161
-LABEL138:
-   iload                  0
-   load_int               10
-   if_icmpeq              LABEL142
-   jump                   LABEL161
-LABEL142:
+   jump                   LABEL153
+LABEL134:
    get_varc_string        28
    string_length         
    load_int               0
-   if_icmpgt              LABEL147
-   jump                   LABEL158
-LABEL147:
+   if_icmpgt              LABEL139
+   jump                   LABEL150
+LABEL139:
    get_varc               62
    load_int               1
-   if_icmpeq              LABEL151
-   jump                   LABEL154
-LABEL151:
+   if_icmpeq              LABEL143
+   jump                   LABEL146
+LABEL143:
    load_int               0
    put_varc               62
-   jump                   LABEL156
-LABEL154:
+   jump                   LABEL148
+LABEL146:
    load_int               1
    put_varc               62
-LABEL156:
+LABEL148:
    invoke                 95
-   jump                   LABEL161
-LABEL158:
+   jump                   LABEL153
+LABEL150:
    load_int               0
    put_varc               62
    invoke                 95
-LABEL161:
-   jump                   LABEL176
-LABEL162:
+LABEL153:
+   jump                   LABEL168
+LABEL154:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL166
-   jump                   LABEL176
-LABEL166:
+   if_icmpeq              LABEL158
+   jump                   LABEL168
+LABEL158:
    iload                  0
    load_int               6
-   if_icmpeq              LABEL170
-   jump                   LABEL176
-LABEL170:
+   if_icmpeq              LABEL162
+   jump                   LABEL168
+LABEL162:
    get_gamecycle         
    put_varc               175
    iload                  2
    invoke                 84
    iload                  2
    invoke                 89
-LABEL176:
+LABEL168:
    return                

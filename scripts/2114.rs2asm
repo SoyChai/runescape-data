@@ -1,0 +1,57 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   1
+   iload                  0
+   get_gamecycle         
+   isub                  
+   istore                 0
+   iload                  0
+   load_int               0
+   if_icmple              LABEL8
+   jump                   LABEL13
+LABEL8:
+   load_int               -1
+   load_string            ""
+   load_int               19922951
+   widget_put_render_listener_widget
+   return                
+LABEL13:
+   iload                  0
+   load_int               50
+   idiv                  
+   istore                 0
+   iload                  0
+   load_int               60
+   idiv                  
+   istore                 1
+   iload                  0
+   load_int               60
+   modulo                
+   istore                 2
+   load_string            "Time Left: "
+   iload                  1
+   int_to_string         
+   load_string            ":"
+   iload                  2
+   int_to_string         
+   string_append          4
+   sstore                 0
+   iload                  2
+   load_int               10
+   if_icmplt              LABEL37
+   jump                   LABEL45
+LABEL37:
+   load_string            "Time Left: "
+   iload                  1
+   int_to_string         
+   load_string            ":0"
+   iload                  2
+   int_to_string         
+   string_append          4
+   sstore                 0
+LABEL45:
+   sload                  0
+   load_int               19922952
+   widget_put_text_widget
+   return                

@@ -84,7 +84,7 @@ LABEL70:
    load_int               90
    load_int               0
    load_int               1
-   load_int               39387192
+   load_int               39387197
    widget_put_position_widget
    jump                   LABEL83
 LABEL77:
@@ -92,11 +92,11 @@ LABEL77:
    load_int               90
    load_int               2
    load_int               1
-   load_int               39387192
+   load_int               39387197
    widget_put_position_widget
 LABEL83:
    load_int               0
-   load_int               39387192
+   load_int               39387197
    widget_put_hidden_widget
 LABEL86:
    jump                   LABEL93
@@ -105,7 +105,7 @@ LABEL87:
    load_int               10747966
    widget_put_hidden_widget
    load_int               1
-   load_int               39387192
+   load_int               39387197
    widget_put_hidden_widget
 LABEL93:
    load_int               73

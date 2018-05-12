@@ -3,44 +3,32 @@
 .int_var_count      2
 .string_var_count   0
    iload                  0
-   load_int               2
-   if_icmpeq              LABEL4
-   jump                   LABEL9
-LABEL4:
+   switch                
+      2: LABEL3
+      3: LABEL8
+      4: LABEL13
+      5: LABEL16
+   jump                   LABEL20
+LABEL3:
    iload                  1
    5005                  
    5016                  
    chatfilter_update     
-   jump                   LABEL33
-LABEL9:
-   iload                  0
-   load_int               3
-   if_icmpeq              LABEL13
-   jump                   LABEL18
+   jump                   LABEL20
+LABEL8:
+   5000                  
+   iload                  1
+   5016                  
+   chatfilter_update     
+   jump                   LABEL20
 LABEL13:
-   5000                  
    iload                  1
-   5016                  
-   chatfilter_update     
-   jump                   LABEL33
-LABEL18:
-   iload                  0
-   load_int               4
-   if_icmpeq              LABEL22
-   jump                   LABEL25
-LABEL22:
-   iload                  1
-   put_settings           1054
-   jump                   LABEL33
-LABEL25:
-   iload                  0
-   load_int               5
-   if_icmpeq              LABEL29
-   jump                   LABEL33
-LABEL29:
+   put_varp               1054
+   jump                   LABEL20
+LABEL16:
    5000                  
    5005                  
    iload                  1
    chatfilter_update     
-LABEL33:
+LABEL20:
    return                

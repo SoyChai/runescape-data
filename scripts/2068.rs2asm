@@ -1,0 +1,47 @@
+.int_stack_count    7
+.string_stack_count 0
+.int_var_count      7
+.string_var_count   0
+   iload                  1
+   load_int               1759
+   load_string            "Ball of Wool"
+   load_int               1737
+   load_int               0
+   load_int               0
+   invoke                 2069
+   iload                  2
+   load_int               1777
+   load_string            "Bow string"
+   load_int               1779
+   load_int               1
+   load_int               0
+   invoke                 2069
+   iload                  3
+   load_int               6038
+   load_string            "Magic string"
+   load_int               6051
+   load_int               2
+   load_int               0
+   invoke                 2069
+   iload                  4
+   load_int               9438
+   load_string            "Crossbow string"
+   load_int               6043
+   load_int               0
+   load_int               2
+   invoke                 2069
+   iload                  5
+   load_int               9438
+   load_string            "Crossbow string"
+   load_int               9436
+   load_int               1
+   load_int               2
+   invoke                 2069
+   iload                  6
+   load_int               954
+   load_string            "Rope"
+   load_int               10814
+   load_int               2
+   load_int               2
+   invoke                 2069
+   return                

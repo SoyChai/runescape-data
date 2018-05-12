@@ -9,7 +9,7 @@
    if_icmpeq              LABEL6
    jump                   LABEL17
 LABEL6:
-   get_settings           1065
+   get_varp               1065
    load_int               -1
    if_icmpeq              LABEL10
    jump                   LABEL17
@@ -434,7 +434,7 @@ LABEL408:
    if_icmpeq              LABEL417
    jump                   LABEL439
 LABEL417:
-   get_settings           1065
+   get_varp               1065
    load_int               -1
    if_icmpne              LABEL421
    jump                   LABEL427

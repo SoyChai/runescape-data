@@ -29,7 +29,7 @@ LABEL20:
    iload                  5
    get_item_name         
    load_string            " "
-   load_string            "?"
+   load_string            " "
    invoke                 1299
    string_append          2
    concat_string         
@@ -42,7 +42,7 @@ LABEL31:
    iload                  5
    get_item_name         
    load_string            " "
-   load_string            "?"
+   load_string            " "
    invoke                 1299
    string_append          3
    concat_string         

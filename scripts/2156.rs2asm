@@ -1,0 +1,47 @@
+.int_stack_count    3
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   get_varbit             6269
+   load_int               0
+   if_icmpeq              LABEL4
+   jump                   LABEL14
+LABEL4:
+   load_int               699
+   iload                  0
+   widget_put_spriteid_widget
+   load_int               697
+   iload                  1
+   widget_put_spriteid_widget
+   load_int               697
+   iload                  2
+   widget_put_spriteid_widget
+   jump                   LABEL37
+LABEL14:
+   get_varbit             6269
+   load_int               1
+   if_icmpeq              LABEL18
+   jump                   LABEL28
+LABEL18:
+   load_int               697
+   iload                  0
+   widget_put_spriteid_widget
+   load_int               699
+   iload                  1
+   widget_put_spriteid_widget
+   load_int               697
+   iload                  2
+   widget_put_spriteid_widget
+   jump                   LABEL37
+LABEL28:
+   load_int               697
+   iload                  0
+   widget_put_spriteid_widget
+   load_int               697
+   iload                  1
+   widget_put_spriteid_widget
+   load_int               699
+   iload                  2
+   widget_put_spriteid_widget
+LABEL37:
+   return                

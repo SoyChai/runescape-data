@@ -9,17 +9,17 @@
 LABEL4:
    return                
 LABEL5:
-   get_settings           173
+   get_varp               173
    load_int               0
    if_icmple              LABEL9
    jump                   LABEL12
 LABEL9:
    load_int               1
-   put_settings           173
+   put_varp               173
    jump                   LABEL14
 LABEL12:
    load_int               0
-   put_settings           173
+   put_varp               173
 LABEL14:
    iload                  1
    iload                  2

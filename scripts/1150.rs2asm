@@ -24,8 +24,8 @@ LABEL16:
    iload                  0
    widget_put_render_listener_widget
    iload                  3
-   load_int               1
-   if_icmpeq              LABEL24
+   load_int               -1
+   if_icmpne              LABEL24
    jump                   LABEL25
 LABEL24:
    cancel_login          

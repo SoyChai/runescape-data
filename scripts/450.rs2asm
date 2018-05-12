@@ -32,7 +32,7 @@
    istore                 8
 LABEL28:
    iload                  8
-   load_int               85
+   load_int               94
    if_icmple              LABEL32
    jump                   LABEL173
 LABEL32:

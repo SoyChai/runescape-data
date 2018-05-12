@@ -3,56 +3,36 @@
 .int_var_count      2
 .string_var_count   0
    iload                  0
-   load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL7
-LABEL4:
+   switch                
+      0: LABEL18
+      1: LABEL3
+      2: LABEL6
+      3: LABEL9
+      4: LABEL12
+      5: LABEL15
+   jump                   LABEL28
+LABEL3:
    iload                  1
    put_varc               44
-   jump                   LABEL49
-LABEL7:
-   iload                  0
-   load_int               2
-   if_icmpeq              LABEL11
-   jump                   LABEL14
-LABEL11:
+   jump                   LABEL28
+LABEL6:
    iload                  1
    put_varc               45
-   jump                   LABEL49
-LABEL14:
-   iload                  0
-   load_int               3
-   if_icmpeq              LABEL18
-   jump                   LABEL21
+   jump                   LABEL28
+LABEL9:
+   iload                  1
+   put_varc               46
+   jump                   LABEL28
+LABEL12:
+   iload                  1
+   put_varc               47
+   jump                   LABEL28
+LABEL15:
+   iload                  1
+   put_varc               48
+   jump                   LABEL28
 LABEL18:
    iload                  1
-   put_varc               46
-   jump                   LABEL49
-LABEL21:
-   iload                  0
-   load_int               4
-   if_icmpeq              LABEL25
-   jump                   LABEL28
-LABEL25:
-   iload                  1
-   put_varc               47
-   jump                   LABEL49
-LABEL28:
-   iload                  0
-   load_int               5
-   if_icmpeq              LABEL32
-   jump                   LABEL35
-LABEL32:
-   iload                  1
-   put_varc               48
-   jump                   LABEL49
-LABEL35:
-   iload                  0
-   load_int               0
-   if_icmpeq              LABEL39
-   jump                   LABEL49
-LABEL39:
-   iload                  1
    iload                  1
    iload                  1
    iload                  1
@@ -62,5 +42,5 @@ LABEL39:
    put_varc               46
    put_varc               45
    put_varc               44
-LABEL49:
+LABEL28:
    return                

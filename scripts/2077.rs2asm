@@ -1,0 +1,46 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   iload                  0
+   widget_unset_children 
+   iload                  0
+   load_int               4
+   load_int               0
+   widget_create_child   
+   iload                  0
+   load_int               4
+   load_int               1
+   widget_create_child    1
+   load_int               496
+   widget_put_fontid     
+   load_int               495
+   widget_put_fontid      1
+   load_int               0
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
+   load_int               2
+   load_int               1
+   load_int               0
+   widget_put_text_alignment 1
+   load_int               1
+   widget_put_text_shadowed
+   load_int               1
+   widget_put_text_shadowed 1
+   load_int               16750623
+   widget_put_textcolor  
+   load_int               16750623
+   widget_put_textcolor   1
+   invoke                 2079
+   load_int               2078
+   iload                  0
+   widget_get_index      
+   widget_get_index       1
+   load_int               1010
+   load_int               1227
+   load_int               2
+   load_string            "IiiY"
+   iload                  0
+   widget_put_config_listener_widget
+   return                

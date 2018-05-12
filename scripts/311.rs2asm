@@ -5,7 +5,7 @@
    load_string            ","
    sstore                 0
    load_string            "Reward points: "
-   get_settings           1060
+   get_varp               1060
    sload                  0
    invoke                 46
    string_append          2

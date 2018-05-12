@@ -1,6 +1,6 @@
-.int_stack_count    1
+.int_stack_count    2
 .string_stack_count 1
-.int_var_count      1
+.int_var_count      2
 .string_var_count   1
    get_varc               41
    load_int               0
@@ -25,7 +25,7 @@ LABEL12:
       3: LABEL42
       4: LABEL58
       5: LABEL71
-   jump                   LABEL91
+   jump                   LABEL92
 LABEL15:
    load_int               105
    load_int               49
@@ -39,7 +39,7 @@ LABEL23:
    load_int               1
    return                
 LABEL25:
-   jump                   LABEL91
+   jump                   LABEL92
 LABEL26:
    iload                  0
    load_int               1
@@ -58,7 +58,7 @@ LABEL39:
    load_int               1
    return                
 LABEL41:
-   jump                   LABEL91
+   jump                   LABEL92
 LABEL42:
    iload                  0
    load_int               3
@@ -77,7 +77,7 @@ LABEL55:
    load_int               1
    return                
 LABEL57:
-   jump                   LABEL91
+   jump                   LABEL92
 LABEL58:
    iload                  0
    load_int               9
@@ -93,7 +93,7 @@ LABEL68:
    load_int               1
    return                
 LABEL70:
-   jump                   LABEL91
+   jump                   LABEL92
 LABEL71:
    iload                  0
    load_int               101
@@ -111,14 +111,15 @@ LABEL81:
 LABEL83:
    iload                  0
    sload                  0
+   iload                  1
    invoke                 210
    load_int               1
-   if_icmpeq              LABEL89
-   jump                   LABEL91
-LABEL89:
+   if_icmpeq              LABEL90
+   jump                   LABEL92
+LABEL90:
    load_int               1
    return                
-LABEL91:
+LABEL92:
    load_int               0
    return                
    load_int               -1

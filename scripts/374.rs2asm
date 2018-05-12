@@ -7,7 +7,7 @@
    load_string            "(currently on)"
    string_append          3
    sstore                 0
-   get_settings           1074
+   get_varp               1074
    load_int               0
    if_icmple              LABEL9
    jump                   LABEL13

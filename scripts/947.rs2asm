@@ -2,19 +2,19 @@
 .string_stack_count 0
 .int_var_count      3
 .string_var_count   0
-   get_settings           343
+   get_varp               343
    int_to_string         
    load_string            "%"
    string_append          2
    iload                  0
    widget_put_text_widget
-   get_settings           344
+   get_varp               344
    int_to_string         
    load_string            "%"
    string_append          2
    iload                  1
    widget_put_text_widget
-   get_settings           345
+   get_varp               345
    int_to_string         
    load_string            "%"
    string_append          2

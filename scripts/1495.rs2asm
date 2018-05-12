@@ -1,0 +1,20 @@
+.int_stack_count    2
+.string_stack_count 1
+.int_var_count      2
+.string_var_count   1
+   load_int               526
+   iload                  0
+   load_int               -1
+   iload                  1
+   sload                  0
+   load_int               25
+   load_int               512
+   load_string            "IiIsii"
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               40
+   iload                  1
+   load_string            "I"
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   return                

@@ -12,19 +12,19 @@
 LABEL7:
    invoke                 677
    sload                  0
-   load_int               10616865
+   load_int               10616867
    widget_put_text_widget
    load_string            "Click"
    load_string            "Tap"
    invoke                 1971
    load_string            " to continue"
    string_append          2
-   load_int               10616866
+   load_int               10616868
    widget_put_text_widget
    load_int               1
    load_int               1
    load_int               0
-   load_int               10616866
+   load_int               10616868
    widget_put_text_alignment_widget
    load_int               1
    put_varc               5
@@ -35,7 +35,7 @@ LABEL7:
    widget_put_mouse_press_listener_widget
    load_int               -1
    load_string            ""
-   load_int               10616866
+   load_int               10616868
    widget_put_key_listener_widget
 LABEL34:
    return                

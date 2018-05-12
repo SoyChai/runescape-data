@@ -27,4 +27,5 @@ LABEL17:
    iload                  2
    iload                  3
    invoke                 843
+   invoke                 2155
    return                

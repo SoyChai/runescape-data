@@ -29,7 +29,16 @@
    load_int               3
    load_string            "Buy-10"
    widget_put_action     
+   invoke                 2082
+   load_int               0
+   if_icmpeq              LABEL31
+   jump                   LABEL34
+LABEL31:
    load_int               4
+   load_string            "Buy-50"
+   widget_put_action     
+LABEL34:
+   load_int               5
    load_string            "Buy-X"
    widget_put_action     
    load_int               10

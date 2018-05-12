@@ -7,17 +7,18 @@
    load_int               924
    load_int               1054
    load_int               1055
+   load_int               1021
    load_int               499
-   load_int               3
+   load_int               4
    load_string            "Y"
    load_int               10616832
    widget_put_config_listener_widget
    load_int               80
    load_int               -2147483645
    get_isresized         
-   load_int               10617379
+   load_int               10617381
    widget_get_index_widget
-   load_int               10617378
+   load_int               10617380
    widget_get_index_widget
    invoke                 900
    load_string            "Ii11g"
@@ -108,19 +109,19 @@
    iload                  0
    get_enum_value        
    istore                 1
-LABEL106:
+LABEL107:
    iload                  1
    load_int               -1
-   if_icmpne              LABEL110
-   jump                   LABEL155
-LABEL110:
-   load_int               10616876
+   if_icmpne              LABEL111
+   jump                   LABEL156
+LABEL111:
+   load_int               10616878
    load_int               4
    iload                  0
    load_int               2
    imul                  
    widget_create_child   
-   load_int               10616876
+   load_int               10616878
    load_int               4
    iload                  0
    load_int               2
@@ -158,14 +159,14 @@ LABEL110:
    iload                  0
    get_enum_value        
    istore                 1
-   jump                   LABEL106
-LABEL155:
+   jump                   LABEL107
+LABEL156:
    load_int               0
    load_int               0
-   load_int               10616876
+   load_int               10616878
    widget_put_scroll_widget
-   load_int               10617377
-   load_int               10616876
+   load_int               10617379
+   load_int               10616878
    load_int               -1
    load_int               -1
    load_int               -1
@@ -180,59 +181,5 @@ LABEL155:
    invoke                 178
    invoke                 553
    invoke                 84
-   invoke                 900
-   load_int               1745
-   if_icmpeq              LABEL179
-   jump                   LABEL200
-LABEL179:
-   load_int               10616833
-   widget_load           
-   load_int               1
-   if_icmpeq              LABEL184
-   jump                   LABEL189
-LABEL184:
-   load_int               0
-   load_int               0
-   load_int               0
-   load_int               0
-   widget_put_position   
-LABEL189:
-   load_int               10616861
-   widget_load           
-   load_int               1
-   if_icmpeq              LABEL194
-   jump                   LABEL199
-LABEL194:
-   load_int               0
-   load_int               0
-   load_int               0
-   load_int               2
-   widget_put_position   
-LABEL199:
-   jump                   LABEL220
-LABEL200:
-   load_int               10616833
-   widget_load           
-   load_int               1
-   if_icmpeq              LABEL205
-   jump                   LABEL210
-LABEL205:
-   load_int               0
-   load_int               0
-   load_int               0
-   load_int               2
-   widget_put_position   
-LABEL210:
-   load_int               10616861
-   widget_load           
-   load_int               1
-   if_icmpeq              LABEL215
-   jump                   LABEL220
-LABEL215:
-   load_int               0
-   load_int               0
-   load_int               0
-   load_int               0
-   widget_put_position   
-LABEL220:
+   invoke                 2155
    return                

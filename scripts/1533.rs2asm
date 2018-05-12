@@ -5,7 +5,7 @@
    load_int               0
    istore                 1
    iload                  0
-   load_int               33226764
+   load_int               33226765
    if_icmpeq              LABEL6
    jump                   LABEL9
 LABEL6:
@@ -14,7 +14,7 @@ LABEL6:
    jump                   LABEL22
 LABEL9:
    iload                  0
-   load_int               33226768
+   load_int               33226769
    if_icmpeq              LABEL13
    jump                   LABEL16
 LABEL13:
@@ -23,7 +23,7 @@ LABEL13:
    jump                   LABEL22
 LABEL16:
    iload                  0
-   load_int               33226772
+   load_int               33226773
    if_icmpeq              LABEL20
    jump                   LABEL22
 LABEL20:

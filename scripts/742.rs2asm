@@ -3,24 +3,24 @@
 .int_var_count      0
 .string_var_count   1
    load_int               0
-   load_int               4325434
+   load_int               4325464
    widget_put_hidden_widget
    load_int               1
-   load_int               4325437
+   load_int               4325467
    widget_put_hidden_widget
    load_string            "The relevant Old School bonds will be taken from your account."
    load_string            "<br>"
    load_string            "Click the 'Confirm' button to continue."
    string_append          3
-   load_int               4325431
+   load_int               4325460
    widget_put_text_widget
    load_string            "Confirm"
-   load_int               4325438
+   load_int               4325468
    widget_put_text_widget
    load_int               16777215
-   load_int               4325438
+   load_int               4325468
    widget_put_textcolor_widget
    sload                  0
-   load_int               4325434
+   load_int               4325464
    widget_put_name_widget
    return                

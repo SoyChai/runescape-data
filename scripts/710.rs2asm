@@ -1,16 +1,9 @@
-.int_stack_count    2
+.int_stack_count    0
 .string_stack_count 0
-.int_var_count      2
+.int_var_count      0
 .string_var_count   0
-   iload                  0
-   iload                  1
-   widget_load_child     
    load_int               1
-   if_icmpeq              LABEL6
-   jump                   LABEL9
-LABEL6:
-   iload                  0
-   iload                  1
-   invoke                 716
-LABEL9:
+   3126                  
+   load_int               1
+   6632                  
    return                

@@ -1,0 +1,47 @@
+.int_stack_count    7
+.string_stack_count 1
+.int_var_count      7
+.string_var_count   1
+   load_int               270
+   load_int               -1
+   invoke                 1701
+   load_int               1
+   if_icmpeq              LABEL6
+   jump                   LABEL35
+LABEL6:
+   iload                  4
+   load_int               -1
+   if_icmpne              LABEL10
+   jump                   LABEL13
+LABEL10:
+   iload                  1
+   iload                  4
+   if_icmpeq              LABEL28
+LABEL13:
+   iload                  0
+   load_int               -1
+   if_icmpne              LABEL17
+   jump                   LABEL35
+LABEL17:
+   sload                  0
+   string_length         
+   load_int               0
+   if_icmpgt              LABEL22
+   jump                   LABEL35
+LABEL22:
+   sload                  0
+   iload                  0
+   string_indexof        
+   load_int               -1
+   if_icmpne              LABEL28
+   jump                   LABEL35
+LABEL28:
+   iload                  2
+   iload                  3
+   sload                  0
+   iload                  4
+   iload                  5
+   iload                  6
+   invoke                 2052
+LABEL35:
+   return                

@@ -22,12 +22,13 @@
    load_int               1293
    load_int               1434
    load_int               1542
+   load_int               1676
    load_int               1327
    load_int               1377
    load_int               1378
    load_int               1601
    load_int               1602
-   load_int               8
+   load_int               9
    load_string            "1Y"
    iload                  0
    widget_put_config_listener_widget

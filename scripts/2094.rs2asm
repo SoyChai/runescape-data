@@ -1,0 +1,136 @@
+.int_stack_count    6
+.string_stack_count 2
+.int_var_count      9
+.string_var_count   2
+   iload                  0
+   widget_unset_children 
+   load_int               0
+   istore                 6
+   iload                  0
+   load_int               3
+   iload                  6
+   widget_create_child    1
+   iload                  6
+   istore                 7
+   iload                  6
+   load_int               1
+   iadd                  
+   istore                 6
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_size        1
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_position    1
+   load_int               1
+   widget_put_filled      1
+   load_int               16777215
+   widget_put_textcolor   1
+   iload                  0
+   iload                  6
+   invoke                 715
+   istore                 6
+   iload                  0
+   load_int               4
+   iload                  6
+   widget_create_child   
+   iload                  6
+   load_int               1
+   iadd                  
+   istore                 6
+   load_int               30
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_size       
+   load_int               5
+   load_int               0
+   load_int               2
+   load_int               1
+   widget_put_position   
+   load_int               16750623
+   widget_put_textcolor  
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   widget_put_text_shadowed
+   load_int               0
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
+   iload                  0
+   widget_get_height_widget
+   load_int               30
+   if_icmplt              LABEL65
+   jump                   LABEL73
+LABEL65:
+   load_string            "<col=ffffff>"
+   sload                  0
+   load_string            "</col>"
+   load_string            " - "
+   sload                  1
+   string_append          5
+   widget_put_text       
+   jump                   LABEL80
+LABEL73:
+   load_string            "<col=ffffff>"
+   sload                  0
+   load_string            "</col>"
+   load_string            "<br>"
+   sload                  1
+   string_append          5
+   widget_put_text       
+LABEL80:
+   iload                  0
+   load_int               5
+   iload                  6
+   widget_create_child   
+   iload                  6
+   istore                 8
+   iload                  6
+   load_int               1
+   iadd                  
+   istore                 6
+   load_int               17
+   load_int               17
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               5
+   load_int               0
+   load_int               0
+   load_int               1
+   widget_put_position   
+   iload                  0
+   iload                  7
+   iload                  8
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   invoke                 2096
+   load_int               2095
+   iload                  0
+   iload                  7
+   iload                  8
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   load_int               499
+   load_int               281
+   load_int               2
+   load_string            "IiiiIIIIY"
+   iload                  0
+   widget_put_config_listener_widget
+   load_int               1
+   sload                  0
+   iload                  0
+   widget_put_action_widget
+   return                

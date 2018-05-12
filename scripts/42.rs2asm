@@ -27,7 +27,7 @@ LABEL5:
    istore                 1
    iload                  0
    iload                  1
-   6201                  
+   set_zoom_distance     
    load_int               0
    istore                 2
    load_int               0
@@ -73,7 +73,7 @@ LABEL48:
    load_int               256
    idiv                  
    iadd                  
-   5530                  
+   set_camera_focal_point_height
    iload                  0
    iload                  1
    put_varc               74

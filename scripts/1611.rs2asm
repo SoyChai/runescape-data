@@ -64,4 +64,7 @@
    load_string            ""
    iload                  0
    widget_put_render_listener_widget
+   iload                  2
+   return                
+   load_int               0
    return                

@@ -9,6 +9,18 @@
 LABEL4:
    close_window          
 LABEL5:
+   get_varc               203
+   load_int               0
+   if_icmpeq              LABEL12
+   get_varc               203
+   load_int               -1
+   if_icmpeq              LABEL12
+   jump                   LABEL15
+LABEL12:
+   load_string            "You must set a name before you can chat."
+   send_game_message     
+   return                
+LABEL15:
    invoke                 677
    load_string            ""
    load_int               0
@@ -27,13 +39,13 @@ LABEL5:
    load_int               -2147483639
    sload                  0
    load_string            "izs"
-   load_int               10616866
+   load_int               10616868
    widget_put_key_listener_widget
    invoke                 1972
    load_int               1
-   if_icmpeq              LABEL29
-   jump                   LABEL30
-LABEL29:
+   if_icmpeq              LABEL39
+   jump                   LABEL40
+LABEL39:
    invoke                 1983
-LABEL30:
+LABEL40:
    return                

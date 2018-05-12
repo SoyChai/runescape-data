@@ -2,18 +2,6 @@
 .string_stack_count 0
 .int_var_count      1
 .string_var_count   0
-   invoke                 1942
-   load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL8
-LABEL4:
-   load_string            "The Graveyard of Shadows"
    iload                  0
-   widget_put_text_widget
-   jump                   LABEL11
-LABEL8:
-   load_string            "North of Falador"
-   iload                  0
-   widget_put_text_widget
-LABEL11:
+   invoke                 2084
    return                

@@ -1,6 +1,6 @@
-.int_stack_count    11
+.int_stack_count    12
 .string_stack_count 0
-.int_var_count      11
+.int_var_count      12
 .string_var_count   0
    iload                  1
    load_int               5341
@@ -27,18 +27,22 @@
    load_string            "Trowel"
    invoke                 1058
    iload                  7
+   load_int               6036
+   load_string            "Plant Cure"
+   invoke                 1058
+   iload                  8
    load_int               1925
    load_string            "Buckets"
    invoke                 1058
-   iload                  8
+   iload                  9
    load_int               6032
    load_string            "Compost"
    invoke                 1058
-   iload                  9
+   iload                  10
    load_int               6034
    load_string            "Supercompost"
    invoke                 1058
-   iload                  10
+   iload                  11
    load_int               21483
    load_string            "Ultracompost"
    invoke                 1058

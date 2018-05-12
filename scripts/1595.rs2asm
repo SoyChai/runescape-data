@@ -1,6 +1,6 @@
-.int_stack_count    3
+.int_stack_count    4
 .string_stack_count 1
-.int_var_count      4
+.int_var_count      5
 .string_var_count   2
    load_string            ""
    sstore                 1
@@ -28,7 +28,7 @@ LABEL20:
    iload                  0
    widget_unset_children 
    load_int               0
-   istore                 3
+   istore                 4
    load_int               93
    load_int               2996
    get_itemcontainer_stacksizes_total
@@ -38,10 +38,10 @@ LABEL20:
 LABEL30:
    iload                  0
    invoke                 134
-   istore                 3
+   istore                 4
    iload                  0
    load_int               4
-   iload                  3
+   iload                  4
    widget_create_child   
    load_int               0
    load_int               0
@@ -69,19 +69,19 @@ LABEL30:
    load_string            ""
    iload                  0
    widget_put_option_click_listener_widget
-   jump                   LABEL139
+   jump                   LABEL161
 LABEL64:
    iload                  2
    load_int               1
    if_icmpeq              LABEL68
-   jump                   LABEL104
+   jump                   LABEL115
 LABEL68:
    iload                  0
    invoke                 198
-   istore                 3
+   istore                 4
    iload                  0
    load_int               4
-   iload                  3
+   iload                  4
    widget_create_child   
    load_int               0
    load_int               0
@@ -105,20 +105,34 @@ LABEL68:
    widget_put_text_shadowed
    sload                  1
    widget_put_text       
+   iload                  3
+   load_int               -1
+   if_icmpne              LABEL101
+   jump                   LABEL108
+LABEL101:
+   load_int               2032
+   load_int               0
+   iload                  3
+   load_string            "1I"
+   iload                  0
+   widget_put_option_click_listener_widget
+   jump                   LABEL114
+LABEL108:
    load_int               489
    load_int               -2147483644
    load_int               2
    load_string            "ii"
    iload                  0
    widget_put_option_click_listener_widget
-   jump                   LABEL139
-LABEL104:
+LABEL114:
+   jump                   LABEL161
+LABEL115:
    iload                  0
    invoke                 208
-   istore                 3
+   istore                 4
    iload                  0
    load_int               4
-   iload                  3
+   iload                  4
    widget_create_child   
    load_int               0
    load_int               0
@@ -142,11 +156,24 @@ LABEL104:
    widget_put_text_shadowed
    sload                  1
    widget_put_text       
+   iload                  3
+   load_int               -1
+   if_icmpne              LABEL148
+   jump                   LABEL155
+LABEL148:
+   load_int               2032
+   load_int               0
+   iload                  3
+   load_string            "1I"
+   iload                  0
+   widget_put_option_click_listener_widget
+   jump                   LABEL161
+LABEL155:
    load_int               489
    load_int               -2147483644
    load_int               2
    load_string            "ii"
    iload                  0
    widget_put_option_click_listener_widget
-LABEL139:
+LABEL161:
    return                

@@ -24,7 +24,7 @@ LABEL14:
 LABEL18:
    return                
 LABEL19:
-   6204                  
+   get_zoom_distance     
    istore                 2
    istore                 3
    iload                  3

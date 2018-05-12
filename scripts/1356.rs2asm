@@ -3,7 +3,7 @@
 .int_var_count      1
 .string_var_count   0
    load_string            "Quest Points: "
-   get_settings           101
+   get_varp               101
    int_to_string         
    string_append          2
    iload                  0

@@ -1,8 +1,8 @@
-.int_stack_count    13
+.int_stack_count    15
 .string_stack_count 0
-.int_var_count      13
+.int_var_count      16
 .string_var_count   0
-   iload                  1
+   iload                  2
    load_string            "Iron Man"
    load_string            "Iron Woman"
    switch_male_or_female 
@@ -16,30 +16,47 @@
    switch_male_or_female 
    load_string            " Mode"
    string_append          2
-   iload                  2
+   iload                  3
    widget_put_text_widget
-   load_string            "<col=ffffff>"
+   iload                  4
+   load_int               0
+   load_string            "None"
+   load_string            "No "
+   load_string            "Iron Man"
+   load_string            "Iron Woman"
+   switch_male_or_female 
+   load_string            " restrictions will apply to this account."
+   string_append          3
+   iload                  4
+   iload                  5
+   iload                  6
+   iload                  7
+   invoke                 2094
+   iload                  5
+   load_int               1
    load_string            "Standard "
    load_string            "Iron Man"
    load_string            "Iron Woman"
    switch_male_or_female 
-   load_string            "</col>"
-   load_string            "<br>"
+   string_append          2
    load_string            "An "
    load_string            "Iron Man"
    load_string            "Iron Woman"
    switch_male_or_female 
    load_string            " cannot trade, stake, receive PK loot, scavenge dropped items, nor play certain multiplayer minigames."
-   string_append          8
-   iload                  3
-   widget_put_text_widget
-   load_string            "<col=ffffff>"
+   string_append          3
+   iload                  4
+   iload                  5
+   iload                  6
+   iload                  7
+   invoke                 2094
+   iload                  6
+   load_int               3
    load_string            "Hardcore "
    load_string            "Iron Man"
    load_string            "Iron Woman"
    switch_male_or_female 
-   load_string            "</col>"
-   load_string            "<br>"
+   string_append          2
    load_string            "In addition to the standard "
    load_string            "Iron Man"
    load_string            "Iron Woman"
@@ -53,16 +70,19 @@
    load_string            "Iron Woman"
    switch_male_or_female 
    load_string            "."
-   string_append          12
+   string_append          7
    iload                  4
-   widget_put_text_widget
-   load_string            "<col=ffffff>"
+   iload                  5
+   iload                  6
+   iload                  7
+   invoke                 2094
+   iload                  7
+   load_int               2
    load_string            "Ultimate "
    load_string            "Iron Man"
    load_string            "Iron Woman"
    switch_male_or_female 
-   load_string            "</col>"
-   load_string            "<br>"
+   string_append          2
    load_string            "In addition to the standard "
    load_string            "Iron Man"
    load_string            "Iron Woman"
@@ -72,85 +92,139 @@
    load_string            "Iron Woman"
    switch_male_or_female 
    load_string            " cannot use banks, nor retain any items on death in dangerous areas."
-   string_append          10
+   string_append          5
+   iload                  4
    iload                  5
-   widget_put_text_widget
-   load_string            "<col=ffffff>"
-   load_string            "None"
-   load_string            "</col>"
-   load_string            " - No "
-   load_string            "Iron Man"
-   load_string            "Iron Woman"
-   switch_male_or_female 
-   load_string            " restrictions will apply to this account."
-   string_append          6
    iload                  6
-   widget_put_text_widget
-   load_string            "<col=ffffff>"
-   load_string            "PIN"
-   load_string            "</col>"
-   load_string            "<br>"
-   load_string            "You must enter your Bank PIN to request that "
-   load_string            "Iron Man"
-   load_string            "Iron Woman"
-   switch_male_or_female 
-   load_string            " restrictions be removed. Changes take effect after a "
-   load_int               7
-   int_to_string         
-   load_string            "-day delay, in case you change your mind."
-   string_append          9
    iload                  7
-   widget_put_text_widget
-   load_string            "<col=ffffff>"
-   load_string            "Permanent"
-   load_string            "</col>"
-   load_string            " - The "
-   load_string            "Iron Man"
-   load_string            "Iron Woman"
-   switch_male_or_female 
-   load_string            " restrictions can never be removed."
-   string_append          6
+   invoke                 2094
    iload                  8
-   widget_put_text_widget
+   widget_unset_children 
+   load_int               0
+   istore                 15
+   iload                  8
+   load_int               3
+   iload                  15
+   widget_create_child    1
+   iload                  15
+   load_int               1
+   iadd                  
+   istore                 15
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_size        1
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_position    1
+   load_int               1
+   widget_put_filled      1
+   load_int               16777215
+   widget_put_textcolor   1
+   iload                  8
+   iload                  15
+   invoke                 715
+   istore                 15
+   iload                  8
+   load_int               5
+   iload                  15
+   widget_create_child   
+   iload                  15
+   load_int               1
+   iadd                  
+   istore                 15
+   load_int               29
+   load_int               22
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               1
+   widget_put_position   
+   load_int               1342
+   widget_put_spriteid   
+   iload                  8
+   load_int               4
+   iload                  15
+   widget_create_child   
+   iload                  15
+   load_int               1
+   iadd                  
+   istore                 15
+   load_int               33
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_size       
+   load_int               3
+   load_int               0
+   load_int               2
+   load_int               1
+   widget_put_position   
+   load_int               16750623
+   widget_put_textcolor  
+   load_int               494
+   widget_put_fontid     
+   load_int               1
+   widget_put_text_shadowed
+   load_int               0
+   load_int               1
+   load_int               0
+   widget_put_text_alignment
    load_string            "<col=ffffff>"
    load_string            "Deactivation settings"
    load_string            "</col>"
    load_string            "<br>"
-   load_string            "Set restrictions on deactivating or downgrading your "
+   load_string            "Avoid accidentally downgrading your "
    load_string            "Iron Man"
    load_string            "Iron Woman"
    switch_male_or_female 
    load_string            " status."
    string_append          7
+   widget_put_text       
+   iload                  1
+   iload                  8
+   iload                  9
+   iload                  10
    iload                  11
-   widget_put_text_widget
-   get_varbit             1777
-   load_int               0
-   if_icmpeq              LABEL126
-   jump                   LABEL134
-LABEL126:
-   load_string            "<col=ffffff>"
-   load_string            "Selected"
-   load_string            "</col>"
-   load_string            " - None."
-   string_append          4
    iload                  12
-   widget_put_text_widget
-   jump                  
-LABEL134:
-   iload                  0
+   iload                  13
+   iload                  14
+   invoke                 2121
+   load_int               2120
+   iload                  1
+   iload                  8
+   widget_get_index       1
    iload                  9
    iload                  10
-   invoke                 689
-   load_int               688
-   iload                  0
-   iload                  9
-   iload                  10
+   iload                  11
+   iload                  12
+   iload                  13
+   iload                  14
    load_int               499
    load_int               281
-   load_int               1425
-   load_int               3
-   load_string            "IIIY"
+   load_int               2
+   load_string            "IIiIIIIIIY"
    iload                  0
    widget_put_config_listener_widget
+   iload                  12
+   load_int               1
+   load_string            "PIN"
+   iload                  12
+   iload                  13
+   invoke                 2116
+   iload                  13
+   load_int               0
+   load_string            "Permanent"
+   iload                  12
+   iload                  13
+   invoke                 2116
+   load_int               1
+   iload                  10
+   widget_put_hidden_widget
    return                

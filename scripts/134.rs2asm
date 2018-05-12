@@ -31,12 +31,12 @@
    load_int               297
    load_int               0
    load_int               0
-   load_int               0
-   load_int               0
-   iload                  1
-   iload                  2
-   load_int               0
-   load_int               0
+   load_int               1
+   load_int               1
+   load_int               2
+   load_int               2
+   load_int               1
+   load_int               1
    invoke                 98
    iload                  0
    load_int               1

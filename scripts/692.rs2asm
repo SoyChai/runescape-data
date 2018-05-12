@@ -1,25 +1,65 @@
-.int_stack_count    2
+.int_stack_count    5
 .string_stack_count 0
-.int_var_count      2
+.int_var_count      7
 .string_var_count   0
-   iload                  0
-   load_int               1
-   if_icmpne              LABEL4
-   jump                   LABEL5
-LABEL4:
-   return                
-LABEL5:
-   iload                  1
-   set_varbit             1776
-   load_int               2266
-   load_int               1
+   load_int               -1
+   istore                 5
    load_int               0
-   play_sound_effect     
+   istore                 6
+LABEL4:
+   iload                  6
+   iload                  1
+   if_icmplt              LABEL8
+   jump                   LABEL52
+LABEL8:
+   iload                  6
+   invoke                 1484
+   istore                 5
+   iload                  0
+   iload                  6
+   widget_load_child     
    load_int               1
-   load_int               14090281
-   widget_put_hidden_widget
+   if_icmpeq              LABEL17
+   jump                   LABEL47
+LABEL17:
+   iload                  5
+   load_int               -1
+   if_icmpne              LABEL21
+   jump                   LABEL45
+LABEL21:
+   iload                  0
+   iload                  1
+   iload                  5
+   iadd                  
+   widget_load_child      1
    load_int               1
-   load_int               14090282
-   widget_put_hidden_widget
-   invoke                 690
+   if_icmpeq              LABEL29
+   jump                   LABEL45
+LABEL29:
+   load_int               0
+   widget_put_hidden     
+   iload                  6
+   load_int               5
+   modulo                
+   iload                  3
+   imul                  
+   iload                  6
+   load_int               5
+   idiv                  
+   iload                  4
+   imul                  
+   load_int               0
+   load_int               0
+   widget_put_position    1
+   jump                   LABEL47
+LABEL45:
+   load_int               1
+   widget_put_hidden     
+LABEL47:
+   iload                  6
+   load_int               1
+   iadd                  
+   istore                 6
+   jump                   LABEL4
+LABEL52:
    return                

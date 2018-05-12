@@ -1,14 +1,19 @@
-.int_stack_count    2
+.int_stack_count    3
 .string_stack_count 0
-.int_var_count      2
+.int_var_count      3
 .string_var_count   1
    load_string            "Options on your follower are moved lower down the right-click menus (currently off)"
    sstore                 0
+   load_int               1166
+   load_int               1567
+   invoke                 2151
+   iload                  1
+   widget_put_spriteid_widget
    get_varbit             5599
    load_int               1
-   if_icmpeq              LABEL6
-   jump                   LABEL14
-LABEL6:
+   if_icmpeq              LABEL11
+   jump                   LABEL19
+LABEL11:
    load_int               1
    6512                  
    load_string            "Options on your follower are moved lower down the right-click menus (currently on)"
@@ -16,18 +21,18 @@ LABEL6:
    load_int               762
    iload                  0
    widget_put_spriteid_widget
-   jump                   LABEL19
-LABEL14:
+   jump                   LABEL24
+LABEL19:
    load_int               0
    6512                  
    load_int               761
    iload                  0
    widget_put_spriteid_widget
-LABEL19:
+LABEL24:
    load_int               526
    iload                  0
    load_int               -1
-   iload                  1
+   iload                  2
    sload                  0
    load_int               25
    load_int               190

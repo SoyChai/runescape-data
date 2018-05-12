@@ -20,13 +20,13 @@ LABEL11:
    load_string            ""
    widget_put_render_listener
 LABEL14:
-   load_int               33226784
+   load_int               33226785
    load_string            "Refresh"
    load_int               33226755
    load_int               73
    load_int               105
    load_int               1539
-   load_int               33226784
+   load_int               33226785
    get_enum_value        
    invoke                 890
    return                

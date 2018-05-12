@@ -29,95 +29,95 @@
       22: LABEL63
    jump                   LABEL71
 LABEL3:
-   get_settings           1437
+   get_varp               1437
    return                
    jump                   LABEL71
 LABEL6:
-   get_settings           1438
+   get_varp               1438
    return                
    jump                   LABEL71
 LABEL9:
-   get_settings           1439
+   get_varp               1439
    return                
    jump                   LABEL71
 LABEL12:
-   get_settings           1436
+   get_varp               1436
    return                
    jump                   LABEL71
 LABEL15:
-   get_settings           1435
+   get_varp               1435
    return                
    jump                   LABEL71
 LABEL18:
-   get_settings           1440
+   get_varp               1440
    return                
    jump                   LABEL71
 LABEL21:
-   get_settings           1453
+   get_varp               1453
    return                
    jump                   LABEL71
 LABEL24:
-   get_settings           1447
+   get_varp               1447
    return                
    jump                   LABEL71
 LABEL27:
-   get_settings           1452
+   get_varp               1452
    return                
    jump                   LABEL71
 LABEL30:
-   get_settings           1443
+   get_varp               1443
    return                
    jump                   LABEL71
 LABEL33:
-   get_settings           1449
+   get_varp               1449
    return                
    jump                   LABEL71
 LABEL36:
-   get_settings           1441
+   get_varp               1441
    return                
    jump                   LABEL71
 LABEL39:
-   get_settings           1442
+   get_varp               1442
    return                
    jump                   LABEL71
 LABEL42:
-   get_settings           1444
+   get_varp               1444
    return                
    jump                   LABEL71
 LABEL45:
-   get_settings           1450
+   get_varp               1450
    return                
    jump                   LABEL71
 LABEL48:
-   get_settings           1457
+   get_varp               1457
    return                
    jump                   LABEL71
 LABEL51:
-   get_settings           1445
+   get_varp               1445
    return                
    jump                   LABEL71
 LABEL54:
-   get_settings           1446
+   get_varp               1446
    return                
    jump                   LABEL71
 LABEL57:
-   get_settings           1454
+   get_varp               1454
    return                
    jump                   LABEL71
 LABEL60:
-   get_settings           1455
+   get_varp               1455
    return                
    jump                   LABEL71
 LABEL63:
-   get_settings           1456
+   get_varp               1456
    return                
    jump                   LABEL71
 LABEL66:
-   get_settings           1451
+   get_varp               1451
    return                
    jump                   LABEL71
 LABEL69:
-   get_settings           1448
+   get_varp               1448
    return                
 LABEL71:
    load_int               -1

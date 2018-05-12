@@ -15,19 +15,19 @@ LABEL8:
    load_int               0
    iload                  0
    widget_put_hidden_widget
-   get_settings           1136
+   get_varp               1136
    int_to_string         
    load_int               5898267
    widget_put_text_widget
-   get_settings           1135
+   get_varp               1135
    int_to_string         
    load_int               5898268
    widget_put_text_widget
-   get_settings           1134
+   get_varp               1134
    int_to_string         
    load_int               5898266
    widget_put_text_widget
-   get_settings           1133
+   get_varp               1133
    int_to_string         
    load_int               5898269
    widget_put_text_widget

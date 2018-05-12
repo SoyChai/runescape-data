@@ -1,0 +1,105 @@
+.int_stack_count    7
+.string_stack_count 1
+.int_var_count      7
+.string_var_count   3
+   load_int               0
+   iload                  1
+   iload                  2
+   iload                  5
+   iload                  6
+   invoke                 2054
+   load_int               2049
+   load_int               1
+   iload                  1
+   iload                  2
+   iload                  5
+   iload                  6
+   load_string            "1oIii"
+   iload                  2
+   widget_put_mouse_enter_listener_widget
+   load_int               2049
+   load_int               0
+   iload                  1
+   iload                  2
+   iload                  5
+   iload                  6
+   load_string            "1oIii"
+   iload                  2
+   widget_put_mouse_exit_listener_widget
+   load_int               105
+   load_int               115
+   load_int               1812
+   iload                  0
+   get_enum_value        
+   sstore                 1
+   sload                  0
+   sstore                 2
+   sload                  1
+   string_length         
+   load_int               0
+   if_icmpgt              LABEL37
+   jump                   LABEL47
+LABEL37:
+   load_string            "<col=7f7f7f>"
+   load_string            "("
+   sload                  1
+   load_string            ")"
+   load_string            "</col>"
+   load_string            " "
+   string_append          6
+   sload                  2
+   concat_string         
+   sstore                 2
+LABEL47:
+   load_int               526
+   iload                  2
+   load_int               -1
+   load_int               17694744
+   sload                  2
+   load_int               25
+   load_int               479
+   load_string            "IiIsii"
+   iload                  2
+   widget_put_mouse_hover_listener_widget
+   load_int               2050
+   load_int               -2147483644
+   iload                  1
+   iload                  2
+   sload                  1
+   iload                  3
+   iload                  5
+   iload                  6
+   load_string            "ioIsiii"
+   iload                  2
+   widget_put_option_click_listener_widget
+   load_int               2051
+   load_int               -2147483639
+   load_int               -2147483640
+   iload                  1
+   iload                  2
+   sload                  1
+   iload                  3
+   iload                  5
+   iload                  6
+   load_string            "zioIsiii"
+   iload                  2
+   widget_put_key_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  2
+   widget_put_render_listener_widget
+   load_int               1
+   load_int               105
+   load_int               115
+   load_int               1809
+   iload                  4
+   get_enum_value        
+   iload                  2
+   widget_put_action_widget
+   load_string            "<col=ff9040>"
+   sload                  0
+   load_string            "</col>"
+   string_append          3
+   iload                  2
+   widget_put_name_widget
+   return                

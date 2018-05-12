@@ -50,49 +50,57 @@ LABEL38:
    load_int               0
    istore                 5
    iload                  0
-   load_int               556
-   if_icmpeq              LABEL44
-   jump                   LABEL138
-LABEL44:
+   switch                
+      2417: LABEL447
+      1409: LABEL463
+      554: LABEL328
+      4170: LABEL455
+      555: LABEL138
+      8843: LABEL435
+      556: LABEL43
+      557: LABEL233
+      2415: LABEL475
+   jump                   LABEL486
+LABEL43:
    get_varbit             4145
    load_int               1
-   if_icmpeq              LABEL48
-   jump                   LABEL50
-LABEL48:
+   if_icmpeq              LABEL47
+   jump                   LABEL49
+LABEL47:
    load_int               2147483647
    return                
-LABEL50:
+LABEL49:
    load_int               111
    load_int               49
    load_int               988
    iload                  4
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL58
-   jump                   LABEL60
-LABEL58:
+   if_icmpeq              LABEL57
+   jump                   LABEL59
+LABEL57:
    load_int               2147483647
    return                
-LABEL60:
+LABEL59:
    invoke                 234
    load_int               1
-   if_icmpeq              LABEL64
-   jump                   LABEL68
-LABEL64:
+   if_icmpeq              LABEL63
+   jump                   LABEL67
+LABEL63:
    load_int               93
    load_int               11688
    get_itemcontainer_stacksizes_total
    return                
-LABEL68:
+LABEL67:
    load_int               93
    load_int               556
    get_itemcontainer_stacksizes_total
    istore                 5
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL76
-   jump                   LABEL136
-LABEL76:
+   if_icmpeq              LABEL75
+   jump                   LABEL135
+LABEL75:
    iload                  5
    load_int               93
    load_int               4697
@@ -123,89 +131,85 @@ LABEL76:
    iload                  1
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL108
-   jump                   LABEL112
-LABEL108:
+   if_icmpeq              LABEL107
+   jump                   LABEL111
+LABEL107:
    iload                  5
    get_varbit             1624
    invoke                 673
    istore                 5
-LABEL112:
+LABEL111:
    load_int               105
    load_int               49
    load_int               983
    iload                  2
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL120
-   jump                   LABEL124
-LABEL120:
+   if_icmpeq              LABEL119
+   jump                   LABEL123
+LABEL119:
    iload                  5
    get_varbit             1625
    invoke                 673
    istore                 5
-LABEL124:
+LABEL123:
    load_int               105
    load_int               49
    load_int               983
    iload                  3
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL132
-   jump                   LABEL136
-LABEL132:
+   if_icmpeq              LABEL131
+   jump                   LABEL135
+LABEL131:
    iload                  5
    get_varbit             1626
    invoke                 673
    istore                 5
-LABEL136:
+LABEL135:
    iload                  5
    return                
+   jump                   LABEL486
 LABEL138:
-   iload                  0
-   load_int               555
-   if_icmpeq              LABEL142
-   jump                   LABEL236
-LABEL142:
    get_varbit             4145
    load_int               1
-   if_icmpeq              LABEL146
-   jump                   LABEL148
-LABEL146:
+   if_icmpeq              LABEL142
+   jump                   LABEL144
+LABEL142:
    load_int               2147483647
    return                
-LABEL148:
+LABEL144:
    load_int               111
    load_int               49
    load_int               989
    iload                  4
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL156
-   jump                   LABEL158
-LABEL156:
+   if_icmpeq              LABEL152
+   jump                   LABEL154
+LABEL152:
    load_int               2147483647
    return                
-LABEL158:
+LABEL154:
    invoke                 234
    load_int               1
-   if_icmpeq              LABEL162
-   jump                   LABEL166
-LABEL162:
+   if_icmpeq              LABEL158
+   jump                   LABEL162
+LABEL158:
    load_int               93
    load_int               11687
    get_itemcontainer_stacksizes_total
    return                
-LABEL166:
+LABEL162:
    load_int               93
    load_int               555
    get_itemcontainer_stacksizes_total
    istore                 5
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL174
-   jump                   LABEL234
-LABEL174:
+   if_icmpeq              LABEL170
+   jump                   LABEL230
+LABEL170:
    iload                  5
    load_int               93
    load_int               4694
@@ -236,89 +240,85 @@ LABEL174:
    iload                  1
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL206
-   jump                   LABEL210
-LABEL206:
+   if_icmpeq              LABEL202
+   jump                   LABEL206
+LABEL202:
    iload                  5
    get_varbit             1624
    invoke                 673
    istore                 5
-LABEL210:
+LABEL206:
    load_int               105
    load_int               49
    load_int               987
    iload                  2
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL218
-   jump                   LABEL222
-LABEL218:
+   if_icmpeq              LABEL214
+   jump                   LABEL218
+LABEL214:
    iload                  5
    get_varbit             1625
    invoke                 673
    istore                 5
-LABEL222:
+LABEL218:
    load_int               105
    load_int               49
    load_int               987
    iload                  3
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL230
-   jump                   LABEL234
-LABEL230:
+   if_icmpeq              LABEL226
+   jump                   LABEL230
+LABEL226:
    iload                  5
    get_varbit             1626
    invoke                 673
    istore                 5
-LABEL234:
+LABEL230:
    iload                  5
    return                
-LABEL236:
-   iload                  0
-   load_int               557
-   if_icmpeq              LABEL240
-   jump                   LABEL334
-LABEL240:
+   jump                   LABEL486
+LABEL233:
    get_varbit             4145
    load_int               1
-   if_icmpeq              LABEL244
-   jump                   LABEL246
-LABEL244:
+   if_icmpeq              LABEL237
+   jump                   LABEL239
+LABEL237:
    load_int               2147483647
    return                
-LABEL246:
+LABEL239:
    load_int               111
    load_int               49
    load_int               996
    iload                  4
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL254
-   jump                   LABEL256
-LABEL254:
+   if_icmpeq              LABEL247
+   jump                   LABEL249
+LABEL247:
    load_int               2147483647
    return                
-LABEL256:
+LABEL249:
    invoke                 234
    load_int               1
-   if_icmpeq              LABEL260
-   jump                   LABEL264
-LABEL260:
+   if_icmpeq              LABEL253
+   jump                   LABEL257
+LABEL253:
    load_int               93
    load_int               11689
    get_itemcontainer_stacksizes_total
    return                
-LABEL264:
+LABEL257:
    load_int               93
    load_int               557
    get_itemcontainer_stacksizes_total
    istore                 5
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL272
-   jump                   LABEL332
-LABEL272:
+   if_icmpeq              LABEL265
+   jump                   LABEL325
+LABEL265:
    iload                  5
    load_int               93
    load_int               4696
@@ -349,51 +349,59 @@ LABEL272:
    iload                  1
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL304
-   jump                   LABEL308
-LABEL304:
+   if_icmpeq              LABEL297
+   jump                   LABEL301
+LABEL297:
    iload                  5
    get_varbit             1624
    invoke                 673
    istore                 5
-LABEL308:
+LABEL301:
    load_int               105
    load_int               49
    load_int               993
    iload                  2
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL316
-   jump                   LABEL320
-LABEL316:
+   if_icmpeq              LABEL309
+   jump                   LABEL313
+LABEL309:
    iload                  5
    get_varbit             1625
    invoke                 673
    istore                 5
-LABEL320:
+LABEL313:
    load_int               105
    load_int               49
    load_int               993
    iload                  3
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL328
-   jump                   LABEL332
-LABEL328:
+   if_icmpeq              LABEL321
+   jump                   LABEL325
+LABEL321:
    iload                  5
    get_varbit             1626
    invoke                 673
    istore                 5
-LABEL332:
+LABEL325:
    iload                  5
    return                
-LABEL334:
-   iload                  0
-   load_int               554
-   if_icmpeq              LABEL338
-   jump                   LABEL444
-LABEL338:
+   jump                   LABEL486
+LABEL328:
    get_varbit             4145
+   load_int               1
+   if_icmpeq              LABEL332
+   jump                   LABEL334
+LABEL332:
+   load_int               2147483647
+   return                
+LABEL334:
+   load_int               111
+   load_int               49
+   load_int               997
+   iload                  4
+   get_enum_value        
    load_int               1
    if_icmpeq              LABEL342
    jump                   LABEL344
@@ -401,52 +409,40 @@ LABEL342:
    load_int               2147483647
    return                
 LABEL344:
-   load_int               111
-   load_int               49
-   load_int               997
-   iload                  4
-   get_enum_value        
-   load_int               1
-   if_icmpeq              LABEL352
-   jump                   LABEL354
-LABEL352:
-   load_int               2147483647
-   return                
-LABEL354:
    invoke                 234
    load_int               1
-   if_icmpeq              LABEL358
-   jump                   LABEL362
-LABEL358:
+   if_icmpeq              LABEL348
+   jump                   LABEL352
+LABEL348:
    load_int               93
    load_int               11686
    get_itemcontainer_stacksizes_total
    return                
-LABEL362:
+LABEL352:
    load_int               94
    load_int               5
    get_itemcontainer_itemid
    load_int               20714
-   if_icmpeq              LABEL368
-   jump                   LABEL374
-LABEL368:
+   if_icmpeq              LABEL358
+   jump                   LABEL364
+LABEL358:
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL372
-   jump                   LABEL374
-LABEL372:
+   if_icmpeq              LABEL362
+   jump                   LABEL364
+LABEL362:
    load_int               2147483647
    return                
-LABEL374:
+LABEL364:
    load_int               93
    load_int               554
    get_itemcontainer_stacksizes_total
    istore                 5
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL382
-   jump                   LABEL442
-LABEL382:
+   if_icmpeq              LABEL372
+   jump                   LABEL432
+LABEL372:
    iload                  5
    load_int               93
    load_int               4694
@@ -477,152 +473,122 @@ LABEL382:
    iload                  1
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL414
-   jump                   LABEL418
-LABEL414:
+   if_icmpeq              LABEL404
+   jump                   LABEL408
+LABEL404:
    iload                  5
    get_varbit             1624
    invoke                 673
    istore                 5
-LABEL418:
+LABEL408:
    load_int               105
    load_int               49
    load_int               994
    iload                  2
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL426
-   jump                   LABEL430
-LABEL426:
+   if_icmpeq              LABEL416
+   jump                   LABEL420
+LABEL416:
    iload                  5
    get_varbit             1625
    invoke                 673
    istore                 5
-LABEL430:
+LABEL420:
    load_int               105
    load_int               49
    load_int               994
    iload                  3
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL438
-   jump                   LABEL442
-LABEL438:
+   if_icmpeq              LABEL428
+   jump                   LABEL432
+LABEL428:
    iload                  5
    get_varbit             1626
    invoke                 673
    istore                 5
-LABEL442:
+LABEL432:
    iload                  5
    return                
-LABEL444:
-   iload                  0
-   load_int               8843
-   if_icmpeq              LABEL448
-   jump                   LABEL459
-LABEL448:
+   jump                   LABEL486
+LABEL435:
    iload                  4
    load_int               2416
-   if_icmpeq              LABEL455
+   if_icmpeq              LABEL442
    iload                  4
    load_int               8841
-   if_icmpeq              LABEL455
-   jump                   LABEL457
-LABEL455:
+   if_icmpeq              LABEL442
+   jump                   LABEL444
+LABEL442:
    load_int               1
    return                
-LABEL457:
+LABEL444:
    load_int               0
    return                
-LABEL459:
-   iload                  0
-   load_int               2417
-   if_icmpeq              LABEL463
-   jump                   LABEL480
+   jump                   LABEL486
+LABEL447:
+   iload                  4
+   switch                
+      2417: LABEL450
+      12902: LABEL450
+      12904: LABEL450
+      11791: LABEL450
+   jump                   LABEL452
+LABEL450:
+   load_int               1
+   return                
+LABEL452:
+   load_int               0
+   return                
+   jump                   LABEL486
+LABEL455:
+   iload                  4
+   switch                
+      12902: LABEL458
+      21255: LABEL458
+      12904: LABEL458
+      22296: LABEL458
+      4170: LABEL458
+      11791: LABEL458
+   jump                   LABEL460
+LABEL458:
+   load_int               1
+   return                
+LABEL460:
+   load_int               0
+   return                
+   jump                   LABEL486
 LABEL463:
    iload                  4
-   load_int               2417
-   if_icmpeq              LABEL476
-   iload                  4
-   load_int               11791
-   if_icmpeq              LABEL476
-   iload                  4
-   load_int               12902
-   if_icmpeq              LABEL476
-   iload                  4
-   load_int               12904
-   if_icmpeq              LABEL476
-   jump                   LABEL478
-LABEL476:
-   load_int               1
-   return                
-LABEL478:
-   load_int               0
-   return                
-LABEL480:
-   iload                  0
-   load_int               4170
-   if_icmpeq              LABEL484
-   jump                   LABEL504
-LABEL484:
-   iload                  4
-   load_int               4170
-   if_icmpeq              LABEL500
-   iload                  4
-   load_int               21255
-   if_icmpeq              LABEL500
-   iload                  4
-   load_int               11791
-   if_icmpeq              LABEL500
-   iload                  4
-   load_int               12902
-   if_icmpeq              LABEL500
-   iload                  4
-   load_int               12904
-   if_icmpeq              LABEL500
-   jump                   LABEL502
-LABEL500:
-   load_int               1
-   return                
-LABEL502:
-   load_int               0
-   return                
-LABEL504:
-   iload                  0
    load_int               1409
-   if_icmpeq              LABEL508
-   jump                   LABEL519
-LABEL508:
-   iload                  4
-   load_int               1409
-   if_icmpeq              LABEL515
+   if_icmpeq              LABEL470
    iload                  4
    load_int               12658
-   if_icmpeq              LABEL515
-   jump                   LABEL517
-LABEL515:
+   if_icmpeq              LABEL470
+   jump                   LABEL472
+LABEL470:
    load_int               1
    return                
-LABEL517:
+LABEL472:
    load_int               0
    return                
-LABEL519:
-   iload                  0
-   load_int               2415
-   if_icmpeq              LABEL523
-   jump                   LABEL531
-LABEL523:
+   jump                   LABEL486
+LABEL475:
    iload                  4
    iload                  0
-   if_icmpeq              LABEL527
-   jump                   LABEL529
-LABEL527:
+   if_icmpeq              LABEL482
+   iload                  4
+   load_int               22296
+   if_icmpeq              LABEL482
+   jump                   LABEL484
+LABEL482:
    load_int               1
    return                
-LABEL529:
+LABEL484:
    load_int               0
    return                
-LABEL531:
+LABEL486:
    load_int               111
    load_int               111
    load_int               13
@@ -631,145 +597,166 @@ LABEL531:
    istore                 6
    iload                  6
    load_int               -1
-   if_icmpne              LABEL541
-   jump                   LABEL565
-LABEL541:
-   get_varbit             4145
-   load_int               1
-   if_icmpeq              LABEL545
-   jump                   LABEL547
-LABEL545:
-   load_int               2147483647
-   return                
-LABEL547:
+   if_icmpne              LABEL496
+   jump                   LABEL514
+LABEL496:
    invoke                 234
    load_int               1
-   if_icmpeq              LABEL551
-   jump                   LABEL565
-LABEL551:
+   if_icmpeq              LABEL500
+   jump                   LABEL514
+LABEL500:
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL559
+   if_icmpeq              LABEL508
    iload                  6
    get_item_ismembers    
    load_int               0
-   if_icmpeq              LABEL559
-   jump                   LABEL563
-LABEL559:
+   if_icmpeq              LABEL508
+   jump                   LABEL512
+LABEL508:
    load_int               93
    iload                  6
    get_itemcontainer_stacksizes_total
    return                
-LABEL563:
+LABEL512:
    load_int               0
    return                
-LABEL565:
+LABEL514:
+   get_varbit             4145
+   load_int               1
+   if_icmpeq              LABEL518
+   jump                   LABEL538
+LABEL518:
+   load_int               111
+   load_int               105
+   load_int               55
+   iload                  0
+   get_enum_value        
+   load_int               0
+   if_icmpne              LABEL526
+   jump                   LABEL538
+LABEL526:
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL569
-   jump                   LABEL642
-LABEL569:
+   if_icmpeq              LABEL534
+   iload                  0
+   get_item_ismembers    
+   load_int               0
+   if_icmpeq              LABEL534
+   jump                   LABEL536
+LABEL534:
+   load_int               2147483647
+   return                
+LABEL536:
+   load_int               0
+   return                
+LABEL538:
+   get_ismembers         
+   load_int               1
+   if_icmpeq              LABEL542
+   jump                   LABEL615
+LABEL542:
    load_int               93
    iload                  0
    get_itemcontainer_stacksizes_total
    istore                 5
    iload                  0
    load_int               562
-   if_icmpeq              LABEL577
-   jump                   LABEL584
-LABEL577:
+   if_icmpeq              LABEL550
+   jump                   LABEL557
+LABEL550:
    iload                  5
    load_int               93
    load_int               11712
    get_itemcontainer_stacksizes_total
    invoke                 673
    istore                 5
-   jump                   LABEL605
-LABEL584:
+   jump                   LABEL578
+LABEL557:
    iload                  0
    load_int               560
-   if_icmpeq              LABEL588
-   jump                   LABEL595
-LABEL588:
+   if_icmpeq              LABEL561
+   jump                   LABEL568
+LABEL561:
    iload                  5
    load_int               93
    load_int               11713
    get_itemcontainer_stacksizes_total
    invoke                 673
    istore                 5
-   jump                   LABEL605
-LABEL595:
+   jump                   LABEL578
+LABEL568:
    iload                  0
    load_int               565
-   if_icmpeq              LABEL599
-   jump                   LABEL605
-LABEL599:
+   if_icmpeq              LABEL572
+   jump                   LABEL578
+LABEL572:
    iload                  5
    load_int               93
    load_int               11714
    get_itemcontainer_stacksizes_total
    invoke                 673
    istore                 5
-LABEL605:
+LABEL578:
    iload                  0
    load_int               105
    load_int               79
    load_int               982
    iload                  1
    get_enum_value        
-   if_icmpeq              LABEL613
-   jump                   LABEL617
-LABEL613:
+   if_icmpeq              LABEL586
+   jump                   LABEL590
+LABEL586:
    iload                  5
    get_varbit             1624
    invoke                 673
    istore                 5
-LABEL617:
+LABEL590:
    iload                  0
    load_int               105
    load_int               79
    load_int               982
    iload                  2
    get_enum_value        
-   if_icmpeq              LABEL625
-   jump                   LABEL629
-LABEL625:
+   if_icmpeq              LABEL598
+   jump                   LABEL602
+LABEL598:
    iload                  5
    get_varbit             1625
    invoke                 673
    istore                 5
-LABEL629:
+LABEL602:
    iload                  0
    load_int               105
    load_int               79
    load_int               982
    iload                  3
    get_enum_value        
-   if_icmpeq              LABEL637
-   jump                   LABEL641
-LABEL637:
+   if_icmpeq              LABEL610
+   jump                   LABEL614
+LABEL610:
    iload                  5
    get_varbit             1626
    invoke                 673
    istore                 5
-LABEL641:
-   jump                   LABEL654
-LABEL642:
+LABEL614:
+   jump                   LABEL627
+LABEL615:
    iload                  0
    get_item_ismembers    
    load_int               0
-   if_icmpeq              LABEL647
-   jump                   LABEL652
-LABEL647:
+   if_icmpeq              LABEL620
+   jump                   LABEL625
+LABEL620:
    load_int               93
    iload                  0
    get_itemcontainer_stacksizes_total
    istore                 5
-   jump                   LABEL654
-LABEL652:
+   jump                   LABEL627
+LABEL625:
    load_int               0
    istore                 5
-LABEL654:
+LABEL627:
    iload                  5
    return                
    load_int               0

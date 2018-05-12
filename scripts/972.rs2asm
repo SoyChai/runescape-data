@@ -14,7 +14,7 @@ LABEL5:
    load_int               0
    play_sound_effect     
    iload                  3
-   put_settings           211
+   put_varp               211
    iload                  1
    iload                  2
    iload                  3

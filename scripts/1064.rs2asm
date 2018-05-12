@@ -2,69 +2,8 @@
 .string_stack_count 0
 .int_var_count      6
 .string_var_count   0
-   iload                  0
-   load_int               5341
-   if_icmpeq              LABEL4
-   jump                   LABEL9
-LABEL4:
-   load_int               93
-   load_int               5341
-   get_itemcontainer_stacksizes_total
-   load_int               5341
-   return                
-LABEL9:
-   iload                  0
-   load_int               5343
-   if_icmpeq              LABEL13
-   jump                   LABEL18
-LABEL13:
-   load_int               93
-   load_int               5343
-   get_itemcontainer_stacksizes_total
-   load_int               5343
-   return                
-LABEL18:
-   iload                  0
-   load_int               952
-   if_icmpeq              LABEL22
-   jump                   LABEL27
-LABEL22:
-   load_int               93
-   load_int               952
-   get_itemcontainer_stacksizes_total
-   load_int               952
-   return                
-LABEL27:
    load_int               0
    istore                 1
-   iload                  0
-   load_int               5329
-   if_icmpeq              LABEL33
-   jump                   LABEL53
-LABEL33:
-   load_int               93
-   load_int               7409
-   get_itemcontainer_stacksizes_total
-   istore                 1
-   iload                  1
-   load_int               0
-   if_icmpgt              LABEL41
-   jump                   LABEL48
-LABEL41:
-   iload                  1
-   load_int               93
-   load_int               5329
-   get_itemcontainer_stacksizes_total
-   iadd                  
-   load_int               7409
-   return                
-LABEL48:
-   load_int               93
-   load_int               5329
-   get_itemcontainer_stacksizes_total
-   load_int               5329
-   return                
-LABEL53:
    load_int               0
    istore                 2
    load_int               -1
@@ -74,18 +13,73 @@ LABEL53:
    load_int               -1
    istore                 5
    iload                  0
-   load_int               6797
-   if_icmpeq              LABEL65
-   jump                   LABEL107
-LABEL65:
+   switch                
+      6032: LABEL113
+      5329: LABEL31
+      6034: LABEL119
+      6036: LABEL101
+      1925: LABEL107
+      952: LABEL25
+      21483: LABEL125
+      5341: LABEL13
+      6797: LABEL52
+      5325: LABEL95
+      5343: LABEL19
+   jump                   LABEL130
+LABEL13:
+   load_int               93
+   load_int               5341
+   get_itemcontainer_stacksizes_total
+   load_int               5341
+   return                
+   jump                   LABEL130
+LABEL19:
+   load_int               93
+   load_int               5343
+   get_itemcontainer_stacksizes_total
+   load_int               5343
+   return                
+   jump                   LABEL130
+LABEL25:
+   load_int               93
+   load_int               952
+   get_itemcontainer_stacksizes_total
+   load_int               952
+   return                
+   jump                   LABEL130
+LABEL31:
+   load_int               93
+   load_int               7409
+   get_itemcontainer_stacksizes_total
+   istore                 1
+   iload                  1
+   load_int               0
+   if_icmpgt              LABEL39
+   jump                   LABEL46
+LABEL39:
+   iload                  1
+   load_int               93
+   load_int               5329
+   get_itemcontainer_stacksizes_total
+   iadd                  
+   load_int               7409
+   return                
+LABEL46:
+   load_int               93
+   load_int               5329
+   get_itemcontainer_stacksizes_total
+   load_int               5329
+   return                
+   jump                   LABEL130
+LABEL52:
    load_int               15
    istore                 2
-LABEL67:
+LABEL54:
    iload                  2
    load_int               0
-   if_icmpge              LABEL71
-   jump                   LABEL104
-LABEL71:
+   if_icmpge              LABEL58
+   jump                   LABEL91
+LABEL58:
    load_int               105
    load_int               79
    load_int               136
@@ -94,95 +88,82 @@ LABEL71:
    istore                 3
    iload                  3
    load_int               -1
-   if_icmpne              LABEL81
-   jump                   LABEL99
-LABEL81:
+   if_icmpne              LABEL68
+   jump                   LABEL86
+LABEL68:
    load_int               93
    iload                  3
    get_itemcontainer_stacksizes_total
    istore                 4
    iload                  4
    load_int               0
-   if_icmpgt              LABEL89
-   jump                   LABEL99
-LABEL89:
+   if_icmpgt              LABEL76
+   jump                   LABEL86
+LABEL76:
    iload                  1
    iload                  4
    iadd                  
    istore                 1
    iload                  5
    load_int               -1
-   if_icmpeq              LABEL97
-   jump                   LABEL99
-LABEL97:
+   if_icmpeq              LABEL84
+   jump                   LABEL86
+LABEL84:
    iload                  3
    istore                 5
-LABEL99:
+LABEL86:
    iload                  2
    load_int               1
    isub                  
    istore                 2
-   jump                   LABEL67
-LABEL104:
+   jump                   LABEL54
+LABEL91:
    iload                  1
    iload                  5
    return                
+   jump                   LABEL130
+LABEL95:
+   load_int               93
+   load_int               5325
+   get_itemcontainer_stacksizes_total
+   load_int               5325
+   return                
+   jump                   LABEL130
+LABEL101:
+   load_int               93
+   load_int               6036
+   get_itemcontainer_stacksizes_total
+   load_int               6036
+   return                
+   jump                   LABEL130
 LABEL107:
-   iload                  0
-   load_int               5325
-   if_icmpeq              LABEL111
-   jump                   LABEL116
-LABEL111:
-   load_int               93
-   load_int               5325
-   get_itemcontainer_stacksizes_total
-   load_int               5325
-   return                
-LABEL116:
-   iload                  0
-   load_int               1925
-   if_icmpeq              LABEL120
-   jump                   LABEL125
-LABEL120:
    load_int               93
    load_int               1925
    get_itemcontainer_stacksizes_total
    load_int               1925
    return                
+   jump                   LABEL130
+LABEL113:
+   load_int               93
+   load_int               6032
+   get_itemcontainer_stacksizes_total
+   load_int               6032
+   return                
+   jump                   LABEL130
+LABEL119:
+   load_int               93
+   load_int               6034
+   get_itemcontainer_stacksizes_total
+   load_int               6034
+   return                
+   jump                   LABEL130
 LABEL125:
-   iload                  0
-   load_int               6032
-   if_icmpeq              LABEL129
-   jump                   LABEL134
-LABEL129:
-   load_int               93
-   load_int               6032
-   get_itemcontainer_stacksizes_total
-   load_int               6032
-   return                
-LABEL134:
-   iload                  0
-   load_int               6034
-   if_icmpeq              LABEL138
-   jump                   LABEL143
-LABEL138:
-   load_int               93
-   load_int               6034
-   get_itemcontainer_stacksizes_total
-   load_int               6034
-   return                
-LABEL143:
-   iload                  0
-   load_int               21483
-   if_icmpeq              LABEL147
-   jump                   LABEL152
-LABEL147:
    load_int               93
    load_int               21483
    get_itemcontainer_stacksizes_total
    load_int               21483
    return                
-LABEL152:
+LABEL130:
    load_int               0
    load_int               -1
    return                

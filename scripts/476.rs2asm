@@ -2,12 +2,12 @@
 .string_stack_count 0
 .int_var_count      5
 .string_var_count   0
-   get_settings           261
+   get_varp               261
    iload                  3
    if_icmpge              LABEL4
    jump                   LABEL28
 LABEL4:
-   get_settings           262
+   get_varp               262
    iload                  4
    if_icmpge              LABEL8
    jump                   LABEL28

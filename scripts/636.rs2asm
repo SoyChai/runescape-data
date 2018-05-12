@@ -23,7 +23,7 @@ LABEL12:
    jump                   LABEL37
 LABEL16:
    iload                  0
-   load_int               37
+   load_int               39
    if_icmple              LABEL20
    jump                   LABEL37
 LABEL20:
@@ -51,12 +51,13 @@ LABEL37:
    iload                  1
    load_int               0
    if_icmpeq              LABEL41
-   jump                   LABEL46
+   jump                   LABEL47
 LABEL41:
    load_int               9699342
+   load_int               31
    load_int               9699343
    load_int               0
    load_int               0
    invoke                 637
-LABEL46:
+LABEL47:
    return                

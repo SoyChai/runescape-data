@@ -9,7 +9,7 @@
    load_int               2
    imul                  
    iadd                  
-   get_settings           263
+   get_varp               263
    iadd                  
    return                
    load_int               0

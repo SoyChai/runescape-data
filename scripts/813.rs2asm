@@ -3,16 +3,16 @@
 .int_var_count      3
 .string_var_count   0
    load_int               93
-   get_settings           1151
+   get_varp               1151
    get_itemcontainer_stacksizes_total
    istore                 0
    load_int               0
    istore                 1
-   get_settings           1151
+   get_varp               1151
    get_item_note_1       
    istore                 2
    iload                  2
-   get_settings           1151
+   get_varp               1151
    if_icmpne              LABEL13
    jump                   LABEL31
 LABEL13:
@@ -38,11 +38,11 @@ LABEL26:
 LABEL30:
    jump                   LABEL55
 LABEL31:
-   get_settings           1151
+   get_varp               1151
    get_item_note_2       
    istore                 2
    iload                  2
-   get_settings           1151
+   get_varp               1151
    if_icmpne              LABEL38
    jump                   LABEL55
 LABEL38:

@@ -11,7 +11,7 @@
    load_string            "Free Quests"
    sload                  1
    load_int               30998532
-   load_int               19
+   load_int               20
    load_int               1374
    load_int               1377
    invoke                 1412
@@ -20,7 +20,7 @@
    load_string            "Members' Quests"
    sload                  2
    load_int               30998533
-   load_int               113
+   load_int               116
    load_int               1375
    load_int               1378
    invoke                 1412
@@ -29,7 +29,7 @@
    load_string            "Miniquests"
    sload                  3
    load_int               30998534
-   load_int               11
+   load_int               12
    load_int               1376
    load_int               1379
    invoke                 1412

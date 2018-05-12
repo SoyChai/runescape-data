@@ -558,8 +558,8 @@ LABEL440:
    if_icmpeq              LABEL517
    jump                   LABEL549
 LABEL517:
-   sload                  3
-   is_friend             
+   iload                  9
+   3626                  
    load_int               1
    if_icmpeq              LABEL522
    jump                   LABEL528
@@ -571,8 +571,8 @@ LABEL522:
    widget_put_action     
    jump                   LABEL549
 LABEL528:
-   sload                  3
-   is_ignore             
+   iload                  9
+   3627                  
    load_int               1
    if_icmpeq              LABEL533
    jump                   LABEL539

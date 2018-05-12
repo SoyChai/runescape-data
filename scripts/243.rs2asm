@@ -2,833 +2,788 @@
 .string_stack_count 0
 .int_var_count      2
 .string_var_count   0
+   iload                  1
+   switch                
+      -1: LABEL3
+      1409: LABEL172
+      4675: LABEL449
+      22296: LABEL354
+      8841: LABEL129
+      4170: LABEL86
+      11791: LABEL259
+   jump                   LABEL515
+LABEL3:
    iload                  0
-   load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL18
-LABEL4:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL14
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL14
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL14
-   jump                   LABEL17
+   switch                
+      1: LABEL6
+      2: LABEL10
+      3: LABEL14
+      4: LABEL18
+      5: LABEL22
+      6: LABEL26
+      7: LABEL30
+      8: LABEL34
+      9: LABEL38
+      10: LABEL42
+      11: LABEL46
+      12: LABEL50
+      13: LABEL54
+      14: LABEL58
+      15: LABEL62
+      16: LABEL66
+      48: LABEL70
+      49: LABEL74
+      50: LABEL78
+      51: LABEL82
+   jump                   LABEL85
+LABEL6:
+   load_int               -60
+   load_int               -62
+   return                
+   jump                   LABEL85
+LABEL10:
+   load_int               -20
+   load_int               -62
+   return                
+   jump                   LABEL85
 LABEL14:
-   load_int               23
-   load_int               11
+   load_int               20
+   load_int               -62
    return                
-LABEL17:
-   jump                   LABEL644
+   jump                   LABEL85
 LABEL18:
-   iload                  0
-   load_int               2
-   if_icmpeq              LABEL22
-   jump                   LABEL36
+   load_int               60
+   load_int               -62
+   return                
+   jump                   LABEL85
 LABEL22:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL32
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL32
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL32
-   jump                   LABEL35
-LABEL32:
-   load_int               63
-   load_int               11
+   load_int               -60
+   load_int               -31
    return                
-LABEL35:
-   jump                   LABEL644
-LABEL36:
-   iload                  0
-   load_int               3
-   if_icmpeq              LABEL40
-   jump                   LABEL54
-LABEL40:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL50
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL50
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL50
-   jump                   LABEL53
+   jump                   LABEL85
+LABEL26:
+   load_int               -20
+   load_int               -31
+   return                
+   jump                   LABEL85
+LABEL30:
+   load_int               20
+   load_int               -31
+   return                
+   jump                   LABEL85
+LABEL34:
+   load_int               60
+   load_int               -31
+   return                
+   jump                   LABEL85
+LABEL38:
+   load_int               -60
+   load_int               0
+   return                
+   jump                   LABEL85
+LABEL42:
+   load_int               -20
+   load_int               0
+   return                
+   jump                   LABEL85
+LABEL46:
+   load_int               20
+   load_int               0
+   return                
+   jump                   LABEL85
 LABEL50:
-   load_int               103
-   load_int               11
+   load_int               60
+   load_int               0
    return                
-LABEL53:
-   jump                   LABEL644
+   jump                   LABEL85
 LABEL54:
-   iload                  0
-   load_int               4
-   if_icmpeq              LABEL58
-   jump                   LABEL72
+   load_int               -60
+   load_int               31
+   return                
+   jump                   LABEL85
 LABEL58:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL68
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL68
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL68
-   jump                   LABEL71
-LABEL68:
-   load_int               143
-   load_int               11
+   load_int               -20
+   load_int               31
    return                
-LABEL71:
-   jump                   LABEL644
-LABEL72:
+   jump                   LABEL85
+LABEL62:
+   load_int               20
+   load_int               31
+   return                
+   jump                   LABEL85
+LABEL66:
+   load_int               60
+   load_int               31
+   return                
+   jump                   LABEL85
+LABEL70:
+   load_int               -60
+   load_int               61
+   return                
+   jump                   LABEL85
+LABEL74:
+   load_int               -20
+   load_int               61
+   return                
+   jump                   LABEL85
+LABEL78:
+   load_int               20
+   load_int               61
+   return                
+   jump                   LABEL85
+LABEL82:
+   load_int               60
+   load_int               61
+   return                
+LABEL85:
+   jump                   LABEL515
+LABEL86:
    iload                  0
-   load_int               5
-   if_icmpeq              LABEL76
-   jump                   LABEL94
-LABEL76:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL80
-   jump                   LABEL83
-LABEL80:
-   load_int               23
-   load_int               52
+   switch                
+      16: LABEL109
+      48: LABEL113
+      17: LABEL89
+      49: LABEL117
+      18: LABEL93
+      50: LABEL121
+      51: LABEL125
+      13: LABEL97
+      14: LABEL101
+      15: LABEL105
+   jump                   LABEL128
+LABEL89:
+   load_int               -33
+   load_int               -52
    return                
-LABEL83:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL90
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL90
-   jump                   LABEL93
-LABEL90:
-   load_int               23
-   load_int               44
-   return                
+   jump                   LABEL128
 LABEL93:
-   jump                   LABEL644
-LABEL94:
-   iload                  0
-   load_int               6
-   if_icmpeq              LABEL98
-   jump                   LABEL116
-LABEL98:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL102
-   jump                   LABEL105
-LABEL102:
-   load_int               63
-   load_int               52
+   load_int               33
+   load_int               -52
    return                
+   jump                   LABEL128
+LABEL97:
+   load_int               -60
+   load_int               0
+   return                
+   jump                   LABEL128
+LABEL101:
+   load_int               -20
+   load_int               0
+   return                
+   jump                   LABEL128
 LABEL105:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL112
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL112
-   jump                   LABEL115
-LABEL112:
-   load_int               63
-   load_int               44
+   load_int               20
+   load_int               0
    return                
-LABEL115:
-   jump                   LABEL644
-LABEL116:
-   iload                  0
-   load_int               7
-   if_icmpeq              LABEL120
-   jump                   LABEL138
-LABEL120:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL124
-   jump                   LABEL127
-LABEL124:
-   load_int               103
+   jump                   LABEL128
+LABEL109:
+   load_int               60
+   load_int               0
+   return                
+   jump                   LABEL128
+LABEL113:
+   load_int               -60
    load_int               52
    return                
-LABEL127:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL134
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL134
-   jump                   LABEL137
-LABEL134:
-   load_int               103
-   load_int               44
-   return                
-LABEL137:
-   jump                   LABEL644
-LABEL138:
-   iload                  0
-   load_int               8
-   if_icmpeq              LABEL142
-   jump                   LABEL160
-LABEL142:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL146
-   jump                   LABEL149
-LABEL146:
-   load_int               143
+   jump                   LABEL128
+LABEL117:
+   load_int               -20
    load_int               52
    return                
-LABEL149:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL156
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL156
-   jump                   LABEL159
+   jump                   LABEL128
+LABEL121:
+   load_int               20
+   load_int               52
+   return                
+   jump                   LABEL128
+LABEL125:
+   load_int               60
+   load_int               52
+   return                
+LABEL128:
+   jump                   LABEL515
+LABEL129:
+   iload                  0
+   switch                
+      16: LABEL152
+      48: LABEL156
+      17: LABEL132
+      49: LABEL160
+      50: LABEL164
+      19: LABEL136
+      51: LABEL168
+      13: LABEL140
+      14: LABEL144
+      15: LABEL148
+   jump                   LABEL171
+LABEL132:
+   load_int               -33
+   load_int               -52
+   return                
+   jump                   LABEL171
+LABEL136:
+   load_int               33
+   load_int               -52
+   return                
+   jump                   LABEL171
+LABEL140:
+   load_int               -60
+   load_int               0
+   return                
+   jump                   LABEL171
+LABEL144:
+   load_int               -20
+   load_int               0
+   return                
+   jump                   LABEL171
+LABEL148:
+   load_int               20
+   load_int               0
+   return                
+   jump                   LABEL171
+LABEL152:
+   load_int               60
+   load_int               0
+   return                
+   jump                   LABEL171
 LABEL156:
-   load_int               143
-   load_int               44
+   load_int               -60
+   load_int               52
    return                
-LABEL159:
-   jump                   LABEL644
+   jump                   LABEL171
 LABEL160:
-   iload                  0
-   load_int               9
-   if_icmpeq              LABEL164
-   jump                   LABEL182
+   load_int               -20
+   load_int               52
+   return                
+   jump                   LABEL171
 LABEL164:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL168
+   load_int               20
+   load_int               52
+   return                
    jump                   LABEL171
 LABEL168:
-   load_int               23
-   load_int               95
+   load_int               60
+   load_int               52
    return                
 LABEL171:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL178
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL178
-   jump                   LABEL181
-LABEL178:
-   load_int               23
-   load_int               77
-   return                
-LABEL181:
-   jump                   LABEL644
-LABEL182:
+   jump                   LABEL515
+LABEL172:
    iload                  0
-   load_int               10
-   if_icmpeq              LABEL186
-   jump                   LABEL204
-LABEL186:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL190
-   jump                   LABEL193
-LABEL190:
-   load_int               63
-   load_int               95
+   switch                
+      1: LABEL175
+      2: LABEL179
+      3: LABEL183
+      4: LABEL187
+      5: LABEL191
+      6: LABEL195
+      7: LABEL199
+      8: LABEL203
+      9: LABEL207
+      10: LABEL211
+      11: LABEL215
+      12: LABEL219
+      13: LABEL223
+      14: LABEL227
+      15: LABEL231
+      47: LABEL255
+      16: LABEL235
+      48: LABEL239
+      49: LABEL243
+      50: LABEL247
+      51: LABEL251
+   jump                   LABEL258
+LABEL175:
+   load_int               -60
+   load_int               -66
    return                
-LABEL193:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL200
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL200
-   jump                   LABEL203
-LABEL200:
-   load_int               63
-   load_int               77
+   jump                   LABEL258
+LABEL179:
+   load_int               -20
+   load_int               -66
    return                
-LABEL203:
-   jump                   LABEL644
-LABEL204:
-   iload                  0
-   load_int               11
-   if_icmpeq              LABEL208
-   jump                   LABEL226
-LABEL208:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL212
-   jump                   LABEL215
-LABEL212:
-   load_int               103
-   load_int               95
-   return                
-LABEL215:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL222
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL222
-   jump                   LABEL225
-LABEL222:
-   load_int               103
-   load_int               77
-   return                
-LABEL225:
-   jump                   LABEL644
-LABEL226:
-   iload                  0
-   load_int               12
-   if_icmpeq              LABEL230
-   jump                   LABEL248
-LABEL230:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL234
-   jump                   LABEL237
-LABEL234:
-   load_int               143
-   load_int               95
-   return                
-LABEL237:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL244
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL244
-   jump                   LABEL247
-LABEL244:
-   load_int               143
-   load_int               77
-   return                
-LABEL247:
-   jump                   LABEL644
-LABEL248:
-   iload                  0
-   load_int               13
-   if_icmpeq              LABEL252
-   jump                   LABEL280
-LABEL252:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL256
-   jump                   LABEL259
-LABEL256:
-   load_int               23
-   load_int               138
-   return                
-LABEL259:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL266
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL266
-   jump                   LABEL269
-LABEL266:
-   load_int               23
-   load_int               112
-   return                
-LABEL269:
-   iload                  1
-   load_int               4170
-   if_icmpeq              LABEL276
-   iload                  1
-   load_int               8841
-   if_icmpeq              LABEL276
-   jump                   LABEL279
-LABEL276:
-   load_int               49
-   load_int               74
-   return                
-LABEL279:
-   jump                   LABEL644
-LABEL280:
-   iload                  0
-   load_int               14
-   if_icmpeq              LABEL284
-   jump                   LABEL312
-LABEL284:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL288
-   jump                   LABEL291
-LABEL288:
-   load_int               63
-   load_int               138
-   return                
-LABEL291:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL298
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL298
-   jump                   LABEL301
-LABEL298:
-   load_int               63
-   load_int               112
-   return                
-LABEL301:
-   iload                  1
-   load_int               4170
-   if_icmpeq              LABEL308
-   iload                  1
-   load_int               8841
-   if_icmpeq              LABEL308
-   jump                   LABEL311
-LABEL308:
-   load_int               115
-   load_int               74
-   return                
-LABEL311:
-   jump                   LABEL644
-LABEL312:
-   iload                  0
-   load_int               15
-   if_icmpeq              LABEL316
-   jump                   LABEL344
-LABEL316:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL320
-   jump                   LABEL323
-LABEL320:
-   load_int               103
-   load_int               138
-   return                
-LABEL323:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL330
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL330
-   jump                   LABEL333
-LABEL330:
-   load_int               103
-   load_int               112
-   return                
-LABEL333:
-   iload                  1
-   load_int               4170
-   if_icmpeq              LABEL340
-   iload                  1
-   load_int               8841
-   if_icmpeq              LABEL340
-   jump                   LABEL343
-LABEL340:
-   load_int               49
-   load_int               126
-   return                
-LABEL343:
-   jump                   LABEL644
-LABEL344:
-   iload                  0
-   load_int               16
-   if_icmpeq              LABEL348
-   jump                   LABEL376
-LABEL348:
-   iload                  1
-   load_int               -1
-   if_icmpeq              LABEL352
-   jump                   LABEL355
-LABEL352:
-   load_int               143
-   load_int               138
-   return                
-LABEL355:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL362
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL362
-   jump                   LABEL365
-LABEL362:
-   load_int               143
-   load_int               112
-   return                
-LABEL365:
-   iload                  1
-   load_int               4170
-   if_icmpeq              LABEL372
-   iload                  1
-   load_int               8841
-   if_icmpeq              LABEL372
-   jump                   LABEL375
-LABEL372:
-   load_int               115
-   load_int               126
-   return                
-LABEL375:
-   jump                   LABEL644
-LABEL376:
-   iload                  0
-   load_int               17
-   if_icmpeq              LABEL380
-   jump                   LABEL398
-LABEL380:
-   iload                  1
-   load_int               4170
-   if_icmpeq              LABEL387
-   iload                  1
-   load_int               8841
-   if_icmpeq              LABEL387
-   jump                   LABEL390
-LABEL387:
-   load_int               49
-   load_int               22
-   return                
-LABEL390:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL394
-   jump                   LABEL397
-LABEL394:
-   load_int               23
-   load_int               143
-   return                
-LABEL397:
-   jump                   LABEL644
-LABEL398:
-   iload                  0
-   load_int               18
-   if_icmpeq              LABEL402
-   jump                   LABEL417
-LABEL402:
-   iload                  1
-   load_int               4170
-   if_icmpeq              LABEL406
-   jump                   LABEL409
-LABEL406:
-   load_int               115
-   load_int               22
-   return                
-LABEL409:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL413
-   jump                   LABEL416
-LABEL413:
-   load_int               63
-   load_int               143
-   return                
-LABEL416:
-   jump                   LABEL644
-LABEL417:
-   iload                  0
-   load_int               19
-   if_icmpeq              LABEL421
-   jump                   LABEL429
-LABEL421:
-   iload                  1
-   load_int               8841
-   if_icmpeq              LABEL425
-   jump                   LABEL428
-LABEL425:
-   load_int               115
-   load_int               22
-   return                
-LABEL428:
-   jump                   LABEL644
-LABEL429:
-   iload                  0
+   jump                   LABEL258
+LABEL183:
    load_int               20
-   if_icmpeq              LABEL433
-   jump                   LABEL441
-LABEL433:
-   iload                  1
-   load_int               11791
-   if_icmpeq              LABEL437
-   jump                   LABEL440
-LABEL437:
-   load_int               103
-   load_int               143
+   load_int               -66
    return                
-LABEL440:
-   jump                   LABEL644
-LABEL441:
-   iload                  0
-   load_int               31
-   if_icmpeq              LABEL445
-   jump                   LABEL453
-LABEL445:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL449
-   jump                   LABEL452
-LABEL449:
-   load_int               23
-   load_int               11
+   jump                   LABEL258
+LABEL187:
+   load_int               60
+   load_int               -66
    return                
-LABEL452:
-   jump                   LABEL644
-LABEL453:
-   iload                  0
-   load_int               32
-   if_icmpeq              LABEL457
-   jump                   LABEL465
-LABEL457:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL461
-   jump                   LABEL464
-LABEL461:
-   load_int               63
-   load_int               11
+   jump                   LABEL258
+LABEL191:
+   load_int               -60
+   load_int               -40
    return                
-LABEL464:
-   jump                   LABEL644
-LABEL465:
-   iload                  0
-   load_int               33
-   if_icmpeq              LABEL469
-   jump                   LABEL477
-LABEL469:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL473
-   jump                   LABEL476
-LABEL473:
-   load_int               103
-   load_int               11
+   jump                   LABEL258
+LABEL195:
+   load_int               -20
+   load_int               -40
    return                
-LABEL476:
-   jump                   LABEL644
-LABEL477:
-   iload                  0
-   load_int               34
-   if_icmpeq              LABEL481
-   jump                   LABEL489
-LABEL481:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL485
-   jump                   LABEL488
-LABEL485:
-   load_int               143
-   load_int               11
+   jump                   LABEL258
+LABEL199:
+   load_int               20
+   load_int               -40
    return                
-LABEL488:
-   jump                   LABEL644
-LABEL489:
-   iload                  0
-   load_int               35
-   if_icmpeq              LABEL493
-   jump                   LABEL501
-LABEL493:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL497
-   jump                   LABEL500
-LABEL497:
-   load_int               23
-   load_int               54
+   jump                   LABEL258
+LABEL203:
+   load_int               60
+   load_int               -40
    return                
-LABEL500:
-   jump                   LABEL644
-LABEL501:
-   iload                  0
-   load_int               36
-   if_icmpeq              LABEL505
-   jump                   LABEL513
-LABEL505:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL509
-   jump                   LABEL512
-LABEL509:
-   load_int               63
-   load_int               54
+   jump                   LABEL258
+LABEL207:
+   load_int               -60
+   load_int               -14
    return                
-LABEL512:
-   jump                   LABEL644
-LABEL513:
-   iload                  0
-   load_int               37
-   if_icmpeq              LABEL517
-   jump                   LABEL525
-LABEL517:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL521
-   jump                   LABEL524
-LABEL521:
-   load_int               103
-   load_int               54
+   jump                   LABEL258
+LABEL211:
+   load_int               -20
+   load_int               -14
    return                
-LABEL524:
-   jump                   LABEL644
-LABEL525:
-   iload                  0
-   load_int               38
-   if_icmpeq              LABEL529
-   jump                   LABEL537
-LABEL529:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL533
-   jump                   LABEL536
-LABEL533:
-   load_int               143
-   load_int               54
+   jump                   LABEL258
+LABEL215:
+   load_int               20
+   load_int               -14
    return                
-LABEL536:
-   jump                   LABEL644
-LABEL537:
-   iload                  0
+   jump                   LABEL258
+LABEL219:
+   load_int               60
+   load_int               -14
+   return                
+   jump                   LABEL258
+LABEL223:
+   load_int               -60
+   load_int               13
+   return                
+   jump                   LABEL258
+LABEL227:
+   load_int               -20
+   load_int               13
+   return                
+   jump                   LABEL258
+LABEL231:
+   load_int               20
+   load_int               13
+   return                
+   jump                   LABEL258
+LABEL235:
+   load_int               60
+   load_int               13
+   return                
+   jump                   LABEL258
+LABEL239:
+   load_int               -60
    load_int               39
-   if_icmpeq              LABEL541
-   jump                   LABEL549
-LABEL541:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL545
-   jump                   LABEL548
-LABEL545:
-   load_int               23
-   load_int               97
    return                
-LABEL548:
-   jump                   LABEL644
-LABEL549:
+   jump                   LABEL258
+LABEL243:
+   load_int               -20
+   load_int               39
+   return                
+   jump                   LABEL258
+LABEL247:
+   load_int               20
+   load_int               39
+   return                
+   jump                   LABEL258
+LABEL251:
+   load_int               60
+   load_int               39
+   return                
+   jump                   LABEL258
+LABEL255:
+   load_int               -60
+   load_int               64
+   return                
+LABEL258:
+   jump                   LABEL515
+LABEL259:
    iload                  0
-   load_int               40
-   if_icmpeq              LABEL553
-   jump                   LABEL561
-LABEL553:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL557
-   jump                   LABEL560
-LABEL557:
-   load_int               63
-   load_int               97
+   switch                
+      1: LABEL262
+      2: LABEL266
+      3: LABEL270
+      4: LABEL274
+      5: LABEL278
+      6: LABEL282
+      7: LABEL286
+      8: LABEL290
+      9: LABEL294
+      10: LABEL298
+      11: LABEL302
+      12: LABEL306
+      13: LABEL310
+      14: LABEL314
+      15: LABEL318
+      16: LABEL322
+      48: LABEL326
+      49: LABEL330
+      17: LABEL342
+      50: LABEL334
+      18: LABEL346
+      51: LABEL338
+      20: LABEL350
+   jump                   LABEL353
+LABEL262:
+   load_int               -60
+   load_int               -66
    return                
-LABEL560:
-   jump                   LABEL644
-LABEL561:
+   jump                   LABEL353
+LABEL266:
+   load_int               -20
+   load_int               -66
+   return                
+   jump                   LABEL353
+LABEL270:
+   load_int               20
+   load_int               -66
+   return                
+   jump                   LABEL353
+LABEL274:
+   load_int               60
+   load_int               -66
+   return                
+   jump                   LABEL353
+LABEL278:
+   load_int               -60
+   load_int               -40
+   return                
+   jump                   LABEL353
+LABEL282:
+   load_int               -20
+   load_int               -40
+   return                
+   jump                   LABEL353
+LABEL286:
+   load_int               20
+   load_int               -40
+   return                
+   jump                   LABEL353
+LABEL290:
+   load_int               60
+   load_int               -40
+   return                
+   jump                   LABEL353
+LABEL294:
+   load_int               -60
+   load_int               -14
+   return                
+   jump                   LABEL353
+LABEL298:
+   load_int               -20
+   load_int               -14
+   return                
+   jump                   LABEL353
+LABEL302:
+   load_int               20
+   load_int               -14
+   return                
+   jump                   LABEL353
+LABEL306:
+   load_int               60
+   load_int               -14
+   return                
+   jump                   LABEL353
+LABEL310:
+   load_int               -60
+   load_int               13
+   return                
+   jump                   LABEL353
+LABEL314:
+   load_int               -20
+   load_int               13
+   return                
+   jump                   LABEL353
+LABEL318:
+   load_int               20
+   load_int               13
+   return                
+   jump                   LABEL353
+LABEL322:
+   load_int               60
+   load_int               13
+   return                
+   jump                   LABEL353
+LABEL326:
+   load_int               -60
+   load_int               39
+   return                
+   jump                   LABEL353
+LABEL330:
+   load_int               -20
+   load_int               39
+   return                
+   jump                   LABEL353
+LABEL334:
+   load_int               20
+   load_int               39
+   return                
+   jump                   LABEL353
+LABEL338:
+   load_int               60
+   load_int               39
+   return                
+   jump                   LABEL353
+LABEL342:
+   load_int               -60
+   load_int               64
+   return                
+   jump                   LABEL353
+LABEL346:
+   load_int               -20
+   load_int               64
+   return                
+   jump                   LABEL353
+LABEL350:
+   load_int               20
+   load_int               64
+   return                
+LABEL353:
+   jump                   LABEL515
+LABEL354:
    iload                  0
-   load_int               41
-   if_icmpeq              LABEL565
-   jump                   LABEL573
-LABEL565:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL569
-   jump                   LABEL572
-LABEL569:
-   load_int               103
-   load_int               97
+   switch                
+      1: LABEL357
+      2: LABEL361
+      3: LABEL365
+      4: LABEL369
+      5: LABEL373
+      6: LABEL377
+      7: LABEL381
+      8: LABEL385
+      9: LABEL389
+      10: LABEL393
+      11: LABEL397
+      12: LABEL401
+      13: LABEL405
+      14: LABEL409
+      15: LABEL413
+      16: LABEL417
+      48: LABEL421
+      49: LABEL425
+      17: LABEL437
+      50: LABEL429
+      18: LABEL441
+      51: LABEL433
+      52: LABEL445
+   jump                   LABEL448
+LABEL357:
+   load_int               -60
+   load_int               -66
    return                
-LABEL572:
-   jump                   LABEL644
-LABEL573:
+   jump                   LABEL448
+LABEL361:
+   load_int               -20
+   load_int               -66
+   return                
+   jump                   LABEL448
+LABEL365:
+   load_int               20
+   load_int               -66
+   return                
+   jump                   LABEL448
+LABEL369:
+   load_int               60
+   load_int               -66
+   return                
+   jump                   LABEL448
+LABEL373:
+   load_int               -60
+   load_int               -40
+   return                
+   jump                   LABEL448
+LABEL377:
+   load_int               -20
+   load_int               -40
+   return                
+   jump                   LABEL448
+LABEL381:
+   load_int               20
+   load_int               -40
+   return                
+   jump                   LABEL448
+LABEL385:
+   load_int               60
+   load_int               -40
+   return                
+   jump                   LABEL448
+LABEL389:
+   load_int               -60
+   load_int               -14
+   return                
+   jump                   LABEL448
+LABEL393:
+   load_int               -20
+   load_int               -14
+   return                
+   jump                   LABEL448
+LABEL397:
+   load_int               20
+   load_int               -14
+   return                
+   jump                   LABEL448
+LABEL401:
+   load_int               60
+   load_int               -14
+   return                
+   jump                   LABEL448
+LABEL405:
+   load_int               -60
+   load_int               13
+   return                
+   jump                   LABEL448
+LABEL409:
+   load_int               -20
+   load_int               13
+   return                
+   jump                   LABEL448
+LABEL413:
+   load_int               20
+   load_int               13
+   return                
+   jump                   LABEL448
+LABEL417:
+   load_int               60
+   load_int               13
+   return                
+   jump                   LABEL448
+LABEL421:
+   load_int               -60
+   load_int               39
+   return                
+   jump                   LABEL448
+LABEL425:
+   load_int               -20
+   load_int               39
+   return                
+   jump                   LABEL448
+LABEL429:
+   load_int               20
+   load_int               39
+   return                
+   jump                   LABEL448
+LABEL433:
+   load_int               60
+   load_int               39
+   return                
+   jump                   LABEL448
+LABEL437:
+   load_int               -60
+   load_int               64
+   return                
+   jump                   LABEL448
+LABEL441:
+   load_int               -20
+   load_int               64
+   return                
+   jump                   LABEL448
+LABEL445:
+   load_int               20
+   load_int               64
+   return                
+LABEL448:
+   jump                   LABEL515
+LABEL449:
    iload                  0
-   load_int               42
-   if_icmpeq              LABEL577
-   jump                   LABEL585
-LABEL577:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL581
-   jump                   LABEL584
-LABEL581:
-   load_int               143
-   load_int               97
+   switch                
+      32: LABEL456
+      33: LABEL460
+      34: LABEL464
+      35: LABEL468
+      36: LABEL472
+      37: LABEL476
+      38: LABEL480
+      39: LABEL484
+      40: LABEL488
+      41: LABEL492
+      42: LABEL496
+      43: LABEL500
+      44: LABEL504
+      45: LABEL508
+      46: LABEL512
+      31: LABEL452
+   jump                   LABEL515
+LABEL452:
+   load_int               -60
+   load_int               -60
    return                
-LABEL584:
-   jump                   LABEL644
-LABEL585:
-   iload                  0
-   load_int               43
-   if_icmpeq              LABEL589
-   jump                   LABEL597
-LABEL589:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL593
-   jump                   LABEL596
-LABEL593:
-   load_int               23
-   load_int               140
+   jump                   LABEL515
+LABEL456:
+   load_int               -20
+   load_int               -60
    return                
-LABEL596:
-   jump                   LABEL644
-LABEL597:
-   iload                  0
-   load_int               44
-   if_icmpeq              LABEL601
-   jump                   LABEL609
-LABEL601:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL605
-   jump                   LABEL608
-LABEL605:
-   load_int               63
-   load_int               140
+   jump                   LABEL515
+LABEL460:
+   load_int               20
+   load_int               -60
    return                
-LABEL608:
-   jump                   LABEL644
-LABEL609:
-   iload                  0
-   load_int               45
-   if_icmpeq              LABEL613
-   jump                   LABEL621
-LABEL613:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL617
-   jump                   LABEL620
-LABEL617:
-   load_int               103
-   load_int               140
+   jump                   LABEL515
+LABEL464:
+   load_int               60
+   load_int               -60
    return                
-LABEL620:
-   jump                   LABEL644
-LABEL621:
-   iload                  0
-   load_int               46
-   if_icmpeq              LABEL625
-   jump                   LABEL633
-LABEL625:
-   iload                  1
-   load_int               4675
-   if_icmpeq              LABEL629
-   jump                   LABEL632
-LABEL629:
-   load_int               143
-   load_int               140
+   jump                   LABEL515
+LABEL468:
+   load_int               -60
+   load_int               -20
    return                
-LABEL632:
-   jump                   LABEL644
-LABEL633:
-   iload                  0
-   load_int               47
-   if_icmpeq              LABEL637
-   jump                   LABEL644
-LABEL637:
-   iload                  1
-   load_int               1409
-   if_icmpeq              LABEL641
-   jump                   LABEL644
-LABEL641:
-   load_int               23
-   load_int               143
+   jump                   LABEL515
+LABEL472:
+   load_int               -20
+   load_int               -20
    return                
-LABEL644:
+   jump                   LABEL515
+LABEL476:
+   load_int               20
+   load_int               -20
+   return                
+   jump                   LABEL515
+LABEL480:
+   load_int               60
+   load_int               -20
+   return                
+   jump                   LABEL515
+LABEL484:
+   load_int               -60
+   load_int               20
+   return                
+   jump                   LABEL515
+LABEL488:
+   load_int               -20
+   load_int               20
+   return                
+   jump                   LABEL515
+LABEL492:
+   load_int               20
+   load_int               20
+   return                
+   jump                   LABEL515
+LABEL496:
+   load_int               60
+   load_int               20
+   return                
+   jump                   LABEL515
+LABEL500:
+   load_int               -60
+   load_int               60
+   return                
+   jump                   LABEL515
+LABEL504:
+   load_int               -20
+   load_int               60
+   return                
+   jump                   LABEL515
+LABEL508:
+   load_int               20
+   load_int               60
+   return                
+   jump                   LABEL515
+LABEL512:
+   load_int               60
+   load_int               60
+   return                
+LABEL515:
    load_int               -1
    load_int               -1
    return                

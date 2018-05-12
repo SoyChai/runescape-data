@@ -2,22 +2,34 @@
 .string_stack_count 1
 .int_var_count      0
 .string_var_count   2
+   get_varc               203
+   load_int               0
+   if_icmpeq              LABEL7
+   get_varc               203
+   load_int               -1
+   if_icmpeq              LABEL7
+   jump                   LABEL10
+LABEL7:
+   load_string            "You must set a name before you can chat."
+   send_game_message     
+   return                
+LABEL10:
    get_varc               11
    load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL7
-LABEL4:
+   if_icmpeq              LABEL14
+   jump                   LABEL17
+LABEL14:
    load_string            "You can't do that right now."
    send_game_message     
    return                
-LABEL7:
+LABEL17:
    sload                  0
    put_varc_string        23
    invoke                 677
    load_string            "Enter message to send to "
    get_varc_string        23
    string_append          2
-   load_int               10616865
+   load_int               10616867
    widget_put_text_widget
    load_int               6
    put_varc               5
@@ -30,13 +42,13 @@ LABEL7:
    load_int               -2147483639
    sload                  1
    load_string            "izs"
-   load_int               10616866
+   load_int               10616868
    widget_put_key_listener_widget
    invoke                 1972
    load_int               1
-   if_icmpeq              LABEL32
-   jump                   LABEL33
-LABEL32:
+   if_icmpeq              LABEL42
+   jump                   LABEL43
+LABEL42:
    invoke                 1983
-LABEL33:
+LABEL43:
    return                

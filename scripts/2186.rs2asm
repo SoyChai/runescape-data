@@ -1,0 +1,43 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   iload                  0
+   switch                
+      1: LABEL3
+      2: LABEL5
+      3: LABEL7
+      4: LABEL9
+      5: LABEL11
+      6: LABEL13
+      7: LABEL15
+      12: LABEL17
+   jump                   LABEL19
+LABEL3:
+   invoke                 2187
+   jump                   LABEL20
+LABEL5:
+   invoke                 2188
+   jump                   LABEL20
+LABEL7:
+   invoke                 2189
+   jump                   LABEL20
+LABEL9:
+   invoke                 2190
+   jump                   LABEL20
+LABEL11:
+   invoke                 2191
+   jump                   LABEL20
+LABEL13:
+   invoke                 2192
+   jump                   LABEL20
+LABEL15:
+   invoke                 2193
+   jump                   LABEL20
+LABEL17:
+   invoke                 2194
+   jump                   LABEL20
+LABEL19:
+   return                
+LABEL20:
+   return                

@@ -20,7 +20,7 @@
    istore                 3
 LABEL16:
    iload                  2
-   load_int               37
+   load_int               39
    if_icmple              LABEL20
    jump                   LABEL73
 LABEL20:
@@ -95,7 +95,7 @@ LABEL73:
    istore                 2
 LABEL86:
    iload                  2
-   load_int               37
+   load_int               39
    if_icmple              LABEL90
    jump                   LABEL163
 LABEL90:
@@ -138,7 +138,7 @@ LABEL90:
    sload                  1
    widget_put_text       
    iload                  2
-   load_int               37
+   load_int               39
    if_icmplt              LABEL132
    jump                   LABEL158
 LABEL132:
@@ -176,7 +176,7 @@ LABEL158:
    jump                   LABEL86
 LABEL163:
    load_int               40
-   load_int               37
+   load_int               39
    load_int               1
    iadd                  
    imul                  

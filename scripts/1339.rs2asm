@@ -46,7 +46,7 @@ LABEL38:
    if_icmplt              LABEL42
    jump                   LABEL95
 LABEL42:
-   get_settings           1356
+   get_varp               1356
    iload                  1
    test_bit              
    load_int               1

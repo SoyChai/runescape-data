@@ -24,7 +24,7 @@ LABEL4:
    iload                  0
    widget_put_config_listener_widget
 LABEL20:
-   get_settings           261
+   get_varp               261
    iload                  2
    if_icmpeq              LABEL24
    jump                   LABEL28

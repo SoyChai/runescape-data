@@ -20,7 +20,7 @@ LABEL14:
    iload                  4
    load_int               -1
    if_icmpne              LABEL18
-   jump                   LABEL90
+   jump                   LABEL97
 LABEL18:
    iload                  0
    load_int               5
@@ -46,8 +46,8 @@ LABEL18:
    load_int               0
    load_int               0
    widget_put_position   
-   get_settings           1137
-   get_settings           1138
+   get_varp               1137
+   get_varp               1138
    if_icmpgt              LABEL46
    jump                   LABEL52
 LABEL46:
@@ -73,12 +73,21 @@ LABEL52:
    load_int               2
    load_string            "Buy-1"
    widget_put_action     
-   load_int               8
+   load_int               3
    load_string            "Buy-5"
    widget_put_action     
-   load_int               9
+   load_int               4
    load_string            "Buy-10"
    widget_put_action     
+   invoke                 2082
+   load_int               0
+   if_icmpeq              LABEL76
+   jump                   LABEL79
+LABEL76:
+   load_int               5
+   load_string            "Buy-50"
+   widget_put_action     
+LABEL79:
    load_int               10
    load_string            "Examine"
    widget_put_action     
@@ -97,17 +106,17 @@ LABEL52:
    get_enum_value        
    istore                 4
    jump                   LABEL14
-LABEL90:
+LABEL97:
    iload                  2
    load_int               0
-   if_icmpgt              LABEL94
-   jump                   LABEL98
-LABEL94:
+   if_icmpgt              LABEL101
+   jump                   LABEL105
+LABEL101:
    iload                  2
    load_int               32
    iadd                  
    istore                 2
-LABEL98:
+LABEL105:
    load_int               0
    load_int               0
    iload                  0
@@ -115,9 +124,9 @@ LABEL98:
    iload                  2
    iload                  0
    widget_get_height_widget
-   if_icmpgt              LABEL107
-   jump                   LABEL121
-LABEL107:
+   if_icmpgt              LABEL114
+   jump                   LABEL128
+LABEL114:
    load_int               0
    iload                  2
    iload                  0
@@ -131,11 +140,11 @@ LABEL107:
    load_int               773
    load_int               788
    invoke                 31
-   jump                   LABEL125
-LABEL121:
+   jump                   LABEL132
+LABEL128:
    load_int               0
    load_int               0
    iload                  0
    widget_put_scrollwidthheight_widget
-LABEL125:
+LABEL132:
    return                

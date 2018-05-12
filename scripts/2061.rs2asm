@@ -1,0 +1,69 @@
+.int_stack_count    0
+.string_stack_count 1
+.int_var_count      4
+.string_var_count   1
+   load_int               2266
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   sload                  0
+   invoke                 212
+   sstore                 0
+   sload                  0
+   string_length         
+   istore                 0
+   load_int               28
+   int_to_string         
+   string_length         
+   istore                 1
+   iload                  0
+   iload                  1
+   if_icmpgt              LABEL18
+   jump                   LABEL21
+LABEL18:
+   load_int               28
+   put_varc               200
+   return                
+LABEL21:
+   load_int               0
+   istore                 2
+   load_int               0
+   istore                 3
+LABEL25:
+   iload                  0
+   load_int               0
+   if_icmpgt              LABEL29
+   jump                   LABEL57
+LABEL29:
+   load_string            "0123456789"
+   sload                  0
+   load_int               0
+   load_int               1
+   string_substring      
+   load_int               0
+   string_indexof_from   
+   istore                 2
+   iload                  3
+   iload                  2
+   load_int               10
+   iload                  0
+   load_int               1
+   isub                  
+   pow                   
+   imul                  
+   iadd                  
+   istore                 3
+   sload                  0
+   load_int               1
+   iload                  0
+   string_substring      
+   sstore                 0
+   iload                  0
+   load_int               1
+   isub                  
+   istore                 0
+   jump                   LABEL25
+LABEL57:
+   iload                  3
+   put_varc               200
+   return                

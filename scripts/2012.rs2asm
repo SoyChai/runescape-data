@@ -4,7 +4,7 @@
 .string_var_count   0
    load_string            "Points: "
    load_string            "<col=ffa82f>"
-   get_settings           261
+   get_varp               261
    load_string            ","
    invoke                 46
    load_string            "</col>"

@@ -3,10 +3,12 @@
 .int_var_count      5
 .string_var_count   0
    get_varbit             4070
-   load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL17
-LABEL4:
+   switch                
+      1: LABEL3
+      2: LABEL16
+      3: LABEL29
+   jump                   LABEL42
+LABEL3:
    load_int               1
    iload                  0
    widget_put_hidden_widget
@@ -19,13 +21,8 @@ LABEL4:
    load_int               1
    iload                  3
    widget_put_hidden_widget
-   jump                   LABEL63
-LABEL17:
-   get_varbit             4070
-   load_int               2
-   if_icmpeq              LABEL21
-   jump                   LABEL34
-LABEL21:
+   jump                   LABEL54
+LABEL16:
    load_int               1
    iload                  0
    widget_put_hidden_widget
@@ -38,13 +35,8 @@ LABEL21:
    load_int               1
    iload                  3
    widget_put_hidden_widget
-   jump                   LABEL63
-LABEL34:
-   get_varbit             4070
-   load_int               3
-   if_icmpeq              LABEL38
-   jump                   LABEL51
-LABEL38:
+   jump                   LABEL54
+LABEL29:
    load_int               1
    iload                  0
    widget_put_hidden_widget
@@ -57,8 +49,8 @@ LABEL38:
    load_int               0
    iload                  3
    widget_put_hidden_widget
-   jump                   LABEL63
-LABEL51:
+   jump                   LABEL54
+LABEL42:
    load_int               0
    iload                  0
    widget_put_hidden_widget
@@ -71,7 +63,7 @@ LABEL51:
    load_int               1
    iload                  3
    widget_put_hidden_widget
-LABEL63:
+LABEL54:
    iload                  4
    widget_unset_children 
    return                

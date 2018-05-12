@@ -1,0 +1,29 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   1
+   load_string            "North of Falador"
+   sstore                 0
+   get_varbit             1497
+   load_int               2
+   if_icmpeq              LABEL6
+   jump                   LABEL8
+LABEL6:
+   load_string            "Demonic Ruins (Annakarl)"
+   sstore                 0
+LABEL8:
+   invoke                 1942
+   load_int               1
+   if_icmpeq              LABEL12
+   jump                   LABEL16
+LABEL12:
+   load_string            "The Graveyard of Shadows"
+   iload                  0
+   widget_put_text_widget
+   jump                   LABEL19
+LABEL16:
+   sload                  0
+   iload                  0
+   widget_put_text_widget
+LABEL19:
+   return                

@@ -34,7 +34,7 @@ LABEL22:
    get_item_name         
    load_string            "</col>"
    load_string            "<br>"
-   load_string            "x?"
+   load_string            "x "
    iload                  6
    load_string            ","
    invoke                 46
@@ -47,7 +47,7 @@ LABEL34:
    get_item_name         
    load_string            "</col>"
    load_string            "<br>"
-   load_string            "x?"
+   load_string            "x "
    iload                  6
    load_string            ","
    invoke                 46

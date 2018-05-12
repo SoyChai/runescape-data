@@ -237,7 +237,7 @@ LABEL219:
    get_item_name         
    load_string            "</col>"
    load_string            "<br>"
-   load_string            "x?"
+   load_string            "x "
    iload                  3
    load_string            ","
    invoke                 46
@@ -318,14 +318,14 @@ LABEL237:
    if_icmpeq              LABEL302
    jump                   LABEL305
 LABEL302:
-   load_string            "1?coin"
+   load_string            "1 coin"
    sstore                 0
    jump                   LABEL311
 LABEL305:
    iload                  4
    load_string            ","
    invoke                 46
-   load_string            "?coins"
+   load_string            " coins"
    string_append          2
    sstore                 0
 LABEL311:
@@ -337,7 +337,7 @@ LABEL315:
    sload                  0
    load_string            "<br>"
    load_string            "<col=9f9f9f>"
-   load_string            "=?"
+   load_string            "= "
    iload                  4
    iload                  3
    idiv                  

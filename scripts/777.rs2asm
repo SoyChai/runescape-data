@@ -5,7 +5,7 @@
    iload                  1
    load_int               1
    if_icmpne              LABEL7
-   get_settings           1151
+   get_varp               1151
    load_int               -1
    if_icmpeq              LABEL7
    jump                   LABEL8
@@ -14,7 +14,7 @@ LABEL7:
 LABEL8:
    load_int               2147483647
    istore                 17
-   get_settings           1151
+   get_varp               1151
    load_int               13190
    if_icmpeq              LABEL14
    jump                   LABEL21

@@ -632,7 +632,7 @@ LABEL464:
    load_int               0
    load_int               0
    widget_put_size        1
-   get_settings           261
+   get_varp               261
    iload                  4
    if_icmpeq              LABEL583
    jump                   LABEL586

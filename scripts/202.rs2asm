@@ -3,6 +3,7 @@
 .int_var_count      2
 .string_var_count   0
    load_int               9699342
+   load_int               31
    load_int               9699343
    iload                  0
    iload                  1

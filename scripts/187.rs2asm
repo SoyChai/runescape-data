@@ -45,7 +45,7 @@ LABEL34:
    load_int               0
    load_int               38862877
    widget_put_hidden_widget
-   get_settings           301
+   get_varp               301
    load_int               0
    if_icmpgt              LABEL41
    jump                   LABEL45
@@ -59,7 +59,7 @@ LABEL45:
    load_int               38862882
    widget_put_textcolor_widget
 LABEL48:
-   get_settings           300
+   get_varp               300
    istore                 3
    iload                  3
    load_int               0

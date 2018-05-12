@@ -3,8 +3,9 @@
 .int_var_count      2
 .string_var_count   0
    iload                  0
+   load_int               32
    iload                  1
-   get_settings           866
+   get_varp               866
    get_varbit             2168
    invoke                 637
    return                

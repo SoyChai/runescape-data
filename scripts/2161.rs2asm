@@ -1,0 +1,43 @@
+.int_stack_count    2
+.string_stack_count 1
+.int_var_count      2
+.string_var_count   1
+   iload                  0
+   load_int               -1
+   if_icmpeq              LABEL9
+   load_int               608
+   load_int               -1
+   invoke                 1701
+   load_int               0
+   if_icmpeq              LABEL9
+   jump                   LABEL10
+LABEL9:
+   return                
+LABEL10:
+   sload                  0
+   iload                  0
+   string_indexof        
+   load_int               -1
+   if_icmpne              LABEL16
+   jump                   LABEL34
+LABEL16:
+   iload                  1
+   invoke                 2067
+   pop_int               
+   load_int               -1
+   load_string            ""
+   iload                  1
+   widget_put_key_listener_widget
+   load_int               2162
+   iload                  1
+   sload                  0
+   get_gamecycle         
+   load_int               40
+   iadd                  
+   load_string            "Isi"
+   iload                  1
+   widget_put_render_listener_widget
+   iload                  1
+   widget_advance_dialogue_window
+LABEL34:
+   return                

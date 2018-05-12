@@ -1,0 +1,318 @@
+.int_stack_count    4
+.string_stack_count 1
+.int_var_count      7
+.string_var_count   2
+   iload                  1
+   load_int               1759
+   if_icmpeq              LABEL4
+   jump                   LABEL25
+LABEL4:
+   get_ismembers         
+   load_int               1
+   if_icmpeq              LABEL8
+   jump                   LABEL25
+LABEL8:
+   load_int               12
+   get_boostedskilllevels
+   iload                  3
+   if_icmpge              LABEL13
+   jump                   LABEL25
+LABEL13:
+   load_int               93
+   load_int               3693
+   get_itemcontainer_stacksizes_total
+   load_int               0
+   if_icmpgt              LABEL19
+   jump                   LABEL25
+LABEL19:
+   load_int               3694
+   load_string            "Golden Wool"
+   load_int               3693
+   istore                 2
+   sstore                 0
+   istore                 1
+LABEL25:
+   iload                  0
+   widget_unset_children 
+   load_int               0
+   istore                 4
+   iload                  0
+   load_int               6
+   iload                  4
+   widget_create_child   
+   iload                  4
+   load_int               1
+   iadd                  
+   istore                 4
+   load_int               60
+   istore                 5
+   iload                  5
+   load_int               80
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               0
+   widget_put_position   
+   iload                  1
+   load_int               1
+   1205                  
+   iload                  0
+   load_int               4
+   iload                  4
+   widget_create_child   
+   iload                  4
+   load_int               1
+   iadd                  
+   istore                 4
+   iload                  0
+   load_int               4
+   iload                  4
+   widget_create_child    1
+   iload                  4
+   load_int               1
+   iadd                  
+   istore                 4
+   load_int               0
+   load_int               80
+   load_int               1
+   load_int               1
+   widget_put_size       
+   load_int               0
+   load_int               80
+   load_int               1
+   load_int               1
+   widget_put_size        1
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               2
+   widget_put_position   
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               2
+   widget_put_position    1
+   load_int               1
+   widget_put_text_shadowed
+   load_int               1
+   widget_put_text_shadowed 1
+   load_int               495
+   widget_put_fontid     
+   load_int               494
+   widget_put_fontid      1
+   load_int               1
+   load_int               0
+   load_int               0
+   widget_put_text_alignment
+   load_int               1
+   load_int               2
+   load_int               0
+   widget_put_text_alignment 1
+   iload                  5
+   sload                  0
+   load_int               512
+   load_int               495
+   get_max_line_width    
+   invoke                 1045
+   istore                 5
+   sload                  0
+   widget_put_text       
+   load_int               0
+   istore                 6
+   load_string            ""
+   sstore                 1
+   get_ismembers         
+   load_int               0
+   if_icmpeq              LABEL121
+   jump                   LABEL151
+LABEL121:
+   iload                  1
+   get_item_ismembers    
+   load_int               1
+   if_icmpeq              LABEL130
+   iload                  2
+   get_item_ismembers    
+   load_int               1
+   if_icmpeq              LABEL130
+   jump                   LABEL151
+LABEL130:
+   load_string            "Members only"
+   sstore                 1
+   load_int               16711680
+   widget_put_textcolor  
+   load_int               16711680
+   widget_put_textcolor   1
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_option_click_listener_widget
+   iload                  0
+   widget_put_actions_null_widget
+   jump                   LABEL281
+LABEL151:
+   load_int               12
+   get_boostedskilllevels
+   iload                  3
+   if_icmplt              LABEL156
+   jump                   LABEL180
+LABEL156:
+   load_string            "Level "
+   iload                  3
+   int_to_string         
+   string_append          2
+   sstore                 1
+   load_int               16711680
+   widget_put_textcolor  
+   load_int               16711680
+   widget_put_textcolor   1
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_option_click_listener_widget
+   iload                  0
+   widget_put_actions_null_widget
+   jump                   LABEL281
+LABEL180:
+   load_int               93
+   iload                  2
+   get_itemcontainer_stacksizes_total
+   istore                 6
+   iload                  2
+   load_int               6043
+   if_icmpeq              LABEL188
+   jump                   LABEL209
+LABEL188:
+   iload                  6
+   load_int               93
+   load_int               6045
+   get_itemcontainer_stacksizes_total
+   iadd                  
+   load_int               93
+   load_int               6047
+   get_itemcontainer_stacksizes_total
+   iadd                  
+   load_int               93
+   load_int               6049
+   get_itemcontainer_stacksizes_total
+   iadd                  
+   load_int               93
+   load_int               6051
+   get_itemcontainer_stacksizes_total
+   iadd                  
+   istore                 6
+   load_string            "Tree roots"
+   sstore                 1
+   jump                   LABEL212
+LABEL209:
+   iload                  2
+   get_item_name         
+   sstore                 1
+LABEL212:
+   iload                  6
+   load_int               0
+   if_icmpgt              LABEL216
+   jump                   LABEL229
+LABEL216:
+   load_int               16750623
+   widget_put_textcolor  
+   load_int               16750623
+   widget_put_textcolor   1
+   load_int               2072
+   load_int               -2147483645
+   load_int               16750623
+   widget_get_index      
+   widget_get_index       1
+   load_string            "Iiii"
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   jump                   LABEL241
+LABEL229:
+   load_int               16711680
+   widget_put_textcolor  
+   load_int               16711680
+   widget_put_textcolor   1
+   load_int               2072
+   load_int               -2147483645
+   load_int               16711680
+   widget_get_index      
+   widget_get_index       1
+   load_string            "Iiii"
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+LABEL241:
+   load_int               2072
+   load_int               -2147483645
+   load_int               16777215
+   widget_get_index      
+   widget_get_index       1
+   load_string            "Iiii"
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               489
+   load_int               -2147483644
+   load_int               62
+   load_string            "ii"
+   iload                  0
+   widget_put_option_click_listener_widget
+   load_int               1
+   load_string            "Spin-1"
+   iload                  0
+   widget_put_action_widget
+   load_int               2
+   load_string            "Spin-5"
+   iload                  0
+   widget_put_action_widget
+   load_int               3
+   load_string            "Spin-10"
+   iload                  0
+   widget_put_action_widget
+   load_int               4
+   load_string            "Spin-X"
+   iload                  0
+   widget_put_action_widget
+   load_int               5
+   load_string            "Spin-All"
+   iload                  0
+   widget_put_action_widget
+   load_string            "<col=ff9040>"
+   sload                  0
+   load_string            "</col>"
+   string_append          3
+   iload                  0
+   widget_put_name_widget
+LABEL281:
+   sload                  1
+   widget_put_text        1
+   iload                  5
+   sload                  1
+   load_int               512
+   load_int               494
+   get_max_line_width    
+   invoke                 1045
+   istore                 5
+   iload                  5
+   load_int               105
+   load_int               0
+   load_int               0
+   iload                  0
+   widget_put_size_widget
+   return                

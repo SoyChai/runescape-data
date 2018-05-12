@@ -1,0 +1,71 @@
+.int_stack_count    5
+.string_stack_count 1
+.int_var_count      5
+.string_var_count   1
+   load_int               1
+   load_int               -1
+   iload                  1
+   iload                  3
+   iload                  4
+   invoke                 2054
+   load_int               -1
+   load_string            ""
+   iload                  1
+   widget_put_mouse_enter_listener_widget
+   load_int               40
+   load_int               17694744
+   load_string            "I"
+   iload                  1
+   widget_put_mouse_exit_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  1
+   widget_put_option_click_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  1
+   widget_put_key_listener_widget
+   load_int               2053
+   get_gamecycle         
+   load_int               40
+   iadd                  
+   iload                  0
+   iload                  1
+   sload                  0
+   iload                  2
+   iload                  3
+   iload                  4
+   load_string            "ioIsiii"
+   iload                  1
+   widget_put_render_listener_widget
+   get_varc               200
+   load_int               1
+   if_icmpge              LABEL40
+   jump                   LABEL56
+LABEL40:
+   get_varc               200
+   load_int               28
+   if_icmple              LABEL44
+   jump                   LABEL56
+LABEL44:
+   load_int               2266
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   iload                  1
+   get_varc               200
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL54
+   jump                   LABEL55
+LABEL54:
+   widget_advance_dialogue
+LABEL55:
+   jump                   LABEL60
+LABEL56:
+   load_int               2277
+   load_int               1
+   load_int               0
+   play_sound_effect     
+LABEL60:
+   return                

@@ -1,6 +1,6 @@
-.int_stack_count    1
+.int_stack_count    2
 .string_stack_count 1
-.int_var_count      1
+.int_var_count      2
 .string_var_count   2
    get_varc               41
    load_int               5
@@ -39,7 +39,7 @@ LABEL13:
    iload                  0
    load_int               9
    if_icmpeq              LABEL34
-   jump                   LABEL79
+   jump                   LABEL78
 LABEL34:
    sload                  0
    string_remove_html    
@@ -61,7 +61,7 @@ LABEL46:
    string_compare        
    load_int               0
    if_icmpeq              LABEL53
-   jump                   LABEL79
+   jump                   LABEL78
 LABEL53:
    iload                  0
    load_int               1
@@ -85,17 +85,16 @@ LABEL68:
    5016                  
    load_int               1
    if_icmpeq              LABEL72
-   jump                   LABEL79
+   jump                   LABEL78
 LABEL72:
-   sload                  0
-   is_friend             
+   iload                  1
    load_int               1
-   if_icmpeq              LABEL77
-   jump                   LABEL79
-LABEL77:
+   if_icmpeq              LABEL76
+   jump                   LABEL78
+LABEL76:
    load_int               1
    return                
-LABEL79:
+LABEL78:
    load_int               0
    return                
    load_int               -1

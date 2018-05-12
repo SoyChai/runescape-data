@@ -186,7 +186,7 @@ LABEL143:
    string_append          2
    iload                  8
    widget_put_text_widget
-   get_settings           380
+   get_varp               380
    int_to_string         
    load_string            " Min"
    string_append          2

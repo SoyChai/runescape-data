@@ -2,11 +2,11 @@
 .string_stack_count 0
 .int_var_count      4
 .string_var_count   0
-   load_int               10616873
+   load_int               10616875
    widget_get_hidden_widget
    load_int               1
    if_icmpeq              LABEL9
-   load_int               10616874
+   load_int               10616876
    widget_get_hidden_widget
    load_int               1
    if_icmpeq              LABEL9
@@ -14,15 +14,21 @@
 LABEL9:
    return                
 LABEL10:
+   get_varc               203
+   load_int               0
+   if_icmpeq              LABEL22
+   get_varc               203
+   load_int               -1
+   if_icmpeq              LABEL22
    load_int               -1
    load_int               162
    invoke                 1701
    load_int               0
-   if_icmpeq              LABEL16
-   jump                   LABEL17
-LABEL16:
+   if_icmpeq              LABEL22
+   jump                   LABEL23
+LABEL22:
    return                
-LABEL17:
+LABEL23:
    get_varc_string        1
    string_length         
    istore                 2
@@ -30,139 +36,139 @@ LABEL17:
    istore                 3
    get_rights            
    load_int               0
-   if_icmpgt              LABEL26
-   jump                   LABEL28
-LABEL26:
+   if_icmpgt              LABEL32
+   jump                   LABEL34
+LABEL32:
    load_int               1
    istore                 3
-LABEL28:
+LABEL34:
    iload                  3
    load_int               1
-   if_icmpeq              LABEL32
-   jump                   LABEL43
-LABEL32:
+   if_icmpeq              LABEL38
+   jump                   LABEL49
+LABEL38:
    load_string            "`"
    iload                  1
    string_indexof        
    load_int               -1
-   if_icmpne              LABEL38
-   jump                   LABEL43
-LABEL38:
+   if_icmpne              LABEL44
+   jump                   LABEL49
+LABEL44:
    iload                  2
    load_int               0
-   if_icmpeq              LABEL42
-   jump                   LABEL43
-LABEL42:
+   if_icmpeq              LABEL48
+   jump                   LABEL49
+LABEL48:
    return                
-LABEL43:
+LABEL49:
    iload                  0
    load_int               84
-   if_icmpeq              LABEL47
-   jump                   LABEL152
-LABEL47:
+   if_icmpeq              LABEL53
+   jump                   LABEL158
+LABEL53:
    iload                  2
    load_int               0
-   if_icmpgt              LABEL51
-   jump                   LABEL152
-LABEL51:
+   if_icmpgt              LABEL57
+   jump                   LABEL158
+LABEL57:
    get_varc_string        1
    load_string            "/"
    load_int               0
    string_indexof_from   
    load_int               0
-   if_icmpeq              LABEL58
-   jump                   LABEL85
-LABEL58:
+   if_icmpeq              LABEL64
+   jump                   LABEL91
+LABEL64:
    get_clanchatcount     
    load_int               0
-   if_icmpgt              LABEL62
-   jump                   LABEL81
-LABEL62:
+   if_icmpgt              LABEL68
+   jump                   LABEL87
+LABEL68:
    iload                  2
    load_int               1
-   if_icmple              LABEL66
-   jump                   LABEL67
-LABEL66:
+   if_icmple              LABEL72
+   jump                   LABEL73
+LABEL72:
    return                
-LABEL67:
+LABEL73:
    get_varbit             4394
    load_int               1
-   if_icmpeq              LABEL71
-   jump                   LABEL77
-LABEL71:
+   if_icmpeq              LABEL77
+   jump                   LABEL83
+LABEL77:
    get_clanchatcount     
    load_int               0
-   if_icmpgt              LABEL75
-   jump                   LABEL76
-LABEL75:
+   if_icmpgt              LABEL81
+   jump                   LABEL82
+LABEL81:
    part_clanchat         
-LABEL76:
-   jump                   LABEL80
-LABEL77:
+LABEL82:
+   jump                   LABEL86
+LABEL83:
    get_varc_string        1
    load_int               2
    invoke                 96
-LABEL80:
-   jump                   LABEL84
-LABEL81:
+LABEL86:
+   jump                   LABEL90
+LABEL87:
    get_varc_string        1
    load_int               0
    invoke                 96
-LABEL84:
-   jump                   LABEL147
-LABEL85:
+LABEL90:
+   jump                   LABEL153
+LABEL91:
    get_varc_string        1
    load_string            "::"
    load_int               0
    string_indexof_from   
    load_int               0
-   if_icmpeq              LABEL92
-   jump                   LABEL144
-LABEL92:
+   if_icmpeq              LABEL98
+   jump                   LABEL150
+LABEL98:
    iload                  2
    load_int               2
-   if_icmpgt              LABEL96
-   jump                   LABEL140
-LABEL96:
+   if_icmpgt              LABEL102
+   jump                   LABEL146
+LABEL102:
    get_varc_string        1
    load_string            "::toggleroof"
    load_int               0
    string_indexof_from   
    load_int               0
-   if_icmpeq              LABEL103
-   jump                   LABEL117
-LABEL103:
+   if_icmpeq              LABEL109
+   jump                   LABEL123
+LABEL109:
    get_hideroofs         
    load_int               1
-   if_icmpeq              LABEL107
-   jump                   LABEL112
-LABEL107:
+   if_icmpeq              LABEL113
+   jump                   LABEL118
+LABEL113:
    load_int               0
    set_hideroofs         
    load_string            "Roofs will only be removed selectively."
    send_game_message     
-   jump                   LABEL116
-LABEL112:
+   jump                   LABEL122
+LABEL118:
    load_int               1
    set_hideroofs         
    load_string            "Roofs are now all hidden."
    send_game_message     
-LABEL116:
-   jump                   LABEL139
-LABEL117:
+LABEL122:
+   jump                   LABEL145
+LABEL123:
    get_varc_string        1
    load_string            "::bank"
    load_int               0
    string_indexof_from   
    load_int               0
-   if_icmpeq              LABEL124
-   jump                   LABEL128
-LABEL124:
+   if_icmpeq              LABEL130
+   jump                   LABEL134
+LABEL130:
    load_string            "Hey, everyone, I just tried to do something very silly!"
    load_int               0
    invoke                 96
-   jump                   LABEL139
-LABEL128:
+   jump                   LABEL145
+LABEL134:
    get_varc_string        1
    invoke                 224
    put_varc_string        1
@@ -174,81 +180,81 @@ LABEL128:
    iload                  2
    string_substring      
    run_command           
-LABEL139:
-   jump                   LABEL143
-LABEL140:
+LABEL145:
+   jump                   LABEL149
+LABEL146:
    get_varc_string        1
    load_int               0
    invoke                 96
-LABEL143:
-   jump                   LABEL147
-LABEL144:
+LABEL149:
+   jump                   LABEL153
+LABEL150:
    get_varc_string        1
    load_int               0
    invoke                 96
-LABEL147:
+LABEL153:
    get_varc_string        1
    invoke                 77
    load_string            ""
    put_varc_string        1
-   jump                   LABEL220
-LABEL152:
+   jump                   LABEL226
+LABEL158:
    iload                  0
    load_int               104
-   if_icmpeq              LABEL156
-   jump                   LABEL162
-LABEL156:
+   if_icmpeq              LABEL162
+   jump                   LABEL168
+LABEL162:
    iload                  3
    load_int               1
-   if_icmpeq              LABEL160
-   jump                   LABEL161
-LABEL160:
+   if_icmpeq              LABEL166
+   jump                   LABEL167
+LABEL166:
    invoke                 75
-LABEL161:
-   jump                   LABEL220
-LABEL162:
+LABEL167:
+   jump                   LABEL226
+LABEL168:
    iload                  0
    load_int               105
-   if_icmpeq              LABEL166
-   jump                   LABEL172
-LABEL166:
+   if_icmpeq              LABEL172
+   jump                   LABEL178
+LABEL172:
    iload                  3
    load_int               1
-   if_icmpeq              LABEL170
-   jump                   LABEL171
-LABEL170:
+   if_icmpeq              LABEL176
+   jump                   LABEL177
+LABEL176:
    invoke                 76
-LABEL171:
-   jump                   LABEL220
-LABEL172:
+LABEL177:
+   jump                   LABEL226
+LABEL178:
    iload                  0
    load_int               80
-   if_icmpeq              LABEL176
-   jump                   LABEL214
-LABEL176:
+   if_icmpeq              LABEL182
+   jump                   LABEL220
+LABEL182:
    get_varc_string       
    string_length         
    load_int               0
-   if_icmpgt              LABEL181
-   jump                   LABEL201
-LABEL181:
+   if_icmpgt              LABEL187
+   jump                   LABEL207
+LABEL187:
    get_varc_string       
    is_friend             
    load_int               1
-   if_icmpeq              LABEL186
-   jump                   LABEL189
-LABEL186:
+   if_icmpeq              LABEL192
+   jump                   LABEL195
+LABEL192:
    get_varc_string       
    invoke                 107
    return                
-LABEL189:
+LABEL195:
    get_varc               60
    get_gamecycle         
-   if_icmpgt              LABEL193
-   jump                   LABEL194
-LABEL193:
+   if_icmpgt              LABEL199
+   jump                   LABEL200
+LABEL199:
    return                
-LABEL194:
+LABEL200:
    get_gamecycle         
    load_int               50
    iadd                  
@@ -256,14 +262,14 @@ LABEL194:
    load_string            "That player was not found on your Friends list."
    send_game_message     
    return                
-LABEL201:
+LABEL207:
    get_varc               60
    get_gamecycle         
-   if_icmpgt              LABEL205
-   jump                   LABEL206
-LABEL205:
+   if_icmpgt              LABEL211
+   jump                   LABEL212
+LABEL211:
    return                
-LABEL206:
+LABEL212:
    get_gamecycle         
    load_int               50
    iadd                  
@@ -271,14 +277,14 @@ LABEL206:
    load_string            "You haven't received any messages to which you can reply."
    send_game_message     
    return                
-   jump                   LABEL220
-LABEL214:
+   jump                   LABEL226
+LABEL220:
    get_varc_string        1
    load_int               0
    iload                  0
    iload                  1
    invoke                 74
    put_varc_string        1
-LABEL220:
+LABEL226:
    invoke                 223
    return                

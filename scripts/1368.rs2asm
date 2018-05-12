@@ -33,7 +33,7 @@ LABEL19:
    load_string            ""
    widget_put_mouse_exit_listener
    iload                  2
-   put_settings           261
+   put_varp               261
 LABEL29:
    iload                  6
    load_int               16

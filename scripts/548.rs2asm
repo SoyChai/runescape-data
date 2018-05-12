@@ -33,7 +33,7 @@ LABEL15:
    load_int               -2147483639
    sload                  0
    load_string            "izs"
-   load_int               10616866
+   load_int               10616868
    widget_put_key_listener_widget
    invoke                 1972
    load_int               1

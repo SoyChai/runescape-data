@@ -14,6 +14,6 @@ LABEL5:
    load_int               0
    play_sound_effect     
    iload                  1
-   put_settings           1204
+   put_varp               1204
    invoke                 1935
    return                

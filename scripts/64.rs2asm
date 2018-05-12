@@ -2,21 +2,33 @@
 .string_stack_count 0
 .int_var_count      0
 .string_var_count   0
-   get_varbit             3637
-   int_to_string         
-   load_string            "/"
-   load_int               225
-   int_to_string         
-   string_append          3
-   load_int               34865155
-   widget_put_text_widget
-   get_varbit             3637
-   load_int               225
-   if_icmpge              LABEL12
-   jump                   LABEL15
-LABEL12:
-   load_int               65280
-   load_int               34865155
-   widget_put_textcolor_widget
-LABEL15:
+   load_int               16842752
+   load_int               3
+   load_int               0
+   widget_create_child   
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   widget_put_size       
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               2
+   widget_put_position   
+   load_int               1
+   widget_put_filled     
+   load_int               0
+   widget_put_textcolor  
+   load_int               0
+   1123                  
+   load_int               4
+   1125                  
+   load_int               2080
+   get_gamecycle         
+   get_gamecycle         
+   load_int               60
+   iadd                  
+   load_string            "ii"
+   widget_put_render_listener
    return                

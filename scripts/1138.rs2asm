@@ -3,7 +3,7 @@
 .int_var_count      0
 .string_var_count   0
    get_flags             
-   load_int               29
+   load_int               25
    test_bit              
    load_int               1
    if_icmpeq              LABEL6
@@ -12,6 +12,16 @@ LABEL6:
    load_int               1
    return                
 LABEL8:
+   get_flags             
+   load_int               29
+   test_bit              
+   load_int               1
+   if_icmpeq              LABEL14
+   jump                   LABEL16
+LABEL14:
+   load_int               1
+   return                
+LABEL16:
    load_int               0
    return                
    load_int               -1

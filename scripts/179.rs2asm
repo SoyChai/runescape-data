@@ -3,45 +3,33 @@
 .int_var_count      1
 .string_var_count   0
    iload                  0
-   load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL6
-LABEL4:
+   switch                
+      1: LABEL3
+      2: LABEL6
+      3: LABEL9
+      4: LABEL12
+      5: LABEL15
+   jump                   LABEL17
+LABEL3:
    get_varc               44
    return                
+   jump                   LABEL17
 LABEL6:
-   iload                  0
-   load_int               2
-   if_icmpeq              LABEL10
-   jump                   LABEL12
-LABEL10:
    get_varc               45
    return                
-LABEL12:
-   iload                  0
-   load_int               3
-   if_icmpeq              LABEL16
-   jump                   LABEL18
-LABEL16:
+   jump                   LABEL17
+LABEL9:
    get_varc               46
    return                
-LABEL18:
-   iload                  0
-   load_int               4
-   if_icmpeq              LABEL22
-   jump                   LABEL24
-LABEL22:
+   jump                   LABEL17
+LABEL12:
    get_varc               47
    return                
-LABEL24:
-   iload                  0
-   load_int               5
-   if_icmpeq              LABEL28
-   jump                   LABEL30
-LABEL28:
+   jump                   LABEL17
+LABEL15:
    get_varc               48
    return                
-LABEL30:
+LABEL17:
    load_int               0
    return                
    load_int               0

@@ -1,0 +1,49 @@
+.int_stack_count    1
+.string_stack_count 1
+.int_var_count      2
+.string_var_count   1
+   load_int               -1
+   istore                 1
+   iload                  0
+   load_int               9
+   if_icmpeq              LABEL6
+   jump                   LABEL15
+LABEL6:
+   get_gamecycle         
+   put_varc               202
+   invoke                 553
+   istore                 1
+   iload                  1
+   invoke                 84
+   iload                  1
+   invoke                 89
+   jump                   LABEL38
+LABEL15:
+   sload                  0
+   string_length         
+   load_int               0
+   if_icmpgt              LABEL20
+   jump                   LABEL38
+LABEL20:
+   load_int               2266
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   iload                  0
+   load_int               6
+   if_icmpeq              LABEL28
+   jump                   LABEL32
+LABEL28:
+   sload                  0
+   load_int               1
+   open_url              
+   jump                   LABEL38
+LABEL32:
+   load_string            "Link destination: "
+   load_string            "<col=ef1020>"
+   sload                  0
+   load_string            "</col>"
+   string_append          4
+   send_game_message     
+LABEL38:
+   return                

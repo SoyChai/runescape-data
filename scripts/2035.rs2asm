@@ -1,0 +1,159 @@
+.int_stack_count    5
+.string_stack_count 1
+.int_var_count      7
+.string_var_count   2
+   load_string            ""
+   sstore                 1
+   iload                  3
+   load_int               1
+   if_icmpeq              LABEL6
+   jump                   LABEL12
+LABEL6:
+   sload                  0
+   load_string            "<br>"
+   load_string            "1 ticket"
+   string_append          3
+   sstore                 1
+   jump                   LABEL20
+LABEL12:
+   sload                  0
+   load_string            "<br>"
+   iload                  3
+   load_string            ","
+   invoke                 46
+   load_string            " tickets"
+   string_append          4
+   sstore                 1
+LABEL20:
+   load_int               0
+   istore                 5
+   iload                  2
+   load_int               -1
+   if_icmpne              LABEL26
+   jump                   LABEL35
+LABEL26:
+   load_int               93
+   iload                  2
+   get_itemcontainer_stacksizes_total
+   load_int               0
+   if_icmpgt              LABEL32
+   jump                   LABEL34
+LABEL32:
+   load_int               1
+   istore                 5
+LABEL34:
+   jump                   LABEL73
+LABEL35:
+   load_int               93
+   load_int               11850
+   get_itemcontainer_stacksizes_total
+   load_int               0
+   if_icmpgt              LABEL41
+   jump                   LABEL73
+LABEL41:
+   load_int               93
+   load_int               11854
+   get_itemcontainer_stacksizes_total
+   load_int               0
+   if_icmpgt              LABEL47
+   jump                   LABEL73
+LABEL47:
+   load_int               93
+   load_int               11856
+   get_itemcontainer_stacksizes_total
+   load_int               0
+   if_icmpgt              LABEL53
+   jump                   LABEL73
+LABEL53:
+   load_int               93
+   load_int               11852
+   get_itemcontainer_stacksizes_total
+   load_int               0
+   if_icmpgt              LABEL59
+   jump                   LABEL73
+LABEL59:
+   load_int               93
+   load_int               11858
+   get_itemcontainer_stacksizes_total
+   load_int               0
+   if_icmpgt              LABEL65
+   jump                   LABEL73
+LABEL65:
+   load_int               93
+   load_int               11860
+   get_itemcontainer_stacksizes_total
+   load_int               0
+   if_icmpgt              LABEL71
+   jump                   LABEL73
+LABEL71:
+   load_int               1
+   istore                 5
+LABEL73:
+   iload                  0
+   widget_unset_children 
+   load_int               0
+   istore                 6
+   load_int               93
+   load_int               2996
+   get_itemcontainer_stacksizes_total
+   iload                  3
+   if_icmplt              LABEL86
+   iload                  5
+   load_int               0
+   if_icmpeq              LABEL86
+   jump                   LABEL100
+LABEL86:
+   iload                  0
+   invoke                 134
+   istore                 6
+   iload                  0
+   iload                  6
+   iload                  1
+   sload                  1
+   load_int               16711680
+   invoke                 2036
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_option_click_listener_widget
+   jump                   LABEL135
+LABEL100:
+   iload                  4
+   load_int               1
+   if_icmpeq              LABEL104
+   jump                   LABEL120
+LABEL104:
+   iload                  0
+   invoke                 198
+   istore                 6
+   iload                  0
+   iload                  6
+   iload                  1
+   sload                  1
+   load_int               16777215
+   invoke                 2036
+   load_int               489
+   load_int               -2147483644
+   load_int               2
+   load_string            "ii"
+   iload                  0
+   widget_put_option_click_listener_widget
+   jump                   LABEL135
+LABEL120:
+   iload                  0
+   invoke                 208
+   istore                 6
+   iload                  0
+   iload                  6
+   iload                  1
+   sload                  1
+   load_int               16750623
+   invoke                 2036
+   load_int               489
+   load_int               -2147483644
+   load_int               2
+   load_string            "ii"
+   iload                  0
+   widget_put_option_click_listener_widget
+LABEL135:
+   return                

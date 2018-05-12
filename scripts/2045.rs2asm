@@ -1,0 +1,150 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      2
+.string_var_count   0
+   iload                  0
+   iload                  1
+   load_int               1545
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   load_int               2
+   load_int               2
+   load_int               1
+   load_int               1
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  0
+   iload                  1
+   load_int               1554
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               9
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  0
+   iload                  1
+   load_int               1555
+   load_int               0
+   load_int               0
+   load_int               2
+   load_int               0
+   load_int               9
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  0
+   iload                  1
+   load_int               1556
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               2
+   load_int               9
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  0
+   iload                  1
+   load_int               1557
+   load_int               0
+   load_int               0
+   load_int               2
+   load_int               2
+   load_int               9
+   load_int               9
+   load_int               0
+   load_int               0
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  0
+   iload                  1
+   load_int               1558
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               9
+   load_int               18
+   load_int               0
+   load_int               1
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  0
+   iload                  1
+   load_int               1559
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               0
+   load_int               18
+   load_int               9
+   load_int               1
+   load_int               0
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  0
+   iload                  1
+   load_int               1560
+   load_int               0
+   load_int               0
+   load_int               2
+   load_int               1
+   load_int               9
+   load_int               18
+   load_int               0
+   load_int               1
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   iload                  0
+   iload                  1
+   load_int               1561
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               2
+   load_int               18
+   load_int               9
+   load_int               1
+   load_int               0
+   invoke                 98
+   iload                  1
+   load_int               1
+   iadd                  
+   return                
+   load_int               0
+   return                

@@ -65,31 +65,45 @@ LABEL29:
    iload                  7
    load_int               0
    if_icmplt              LABEL59
-   jump                   LABEL69
+   jump                   LABEL80
 LABEL59:
+   get_varc               203
+   load_int               1
+   if_icmpeq              LABEL63
+   jump                   LABEL70
+LABEL63:
    load_string            "Loading ignore list"
    load_string            "<br>"
    load_string            "Please wait..."
    string_append          3
    iload                  5
    widget_put_text_widget
+   jump                   LABEL76
+LABEL70:
+   load_string            "You must set a name"
+   load_string            "<br>"
+   load_string            "before using this."
+   string_append          3
+   iload                  5
+   widget_put_text_widget
+LABEL76:
    load_int               1
    iload                  0
    widget_put_hidden_widget
-   jump                   LABEL309
-LABEL69:
+   jump                   LABEL320
+LABEL80:
    load_string            ""
    iload                  5
    widget_put_text_widget
    load_int               0
    iload                  0
    widget_put_hidden_widget
-LABEL75:
+LABEL86:
    iload                  8
    iload                  7
-   if_icmplt              LABEL79
-   jump                   LABEL175
-LABEL79:
+   if_icmplt              LABEL90
+   jump                   LABEL186
+LABEL90:
    iload                  8
    iload                  8
    array_store           
@@ -152,9 +166,9 @@ LABEL79:
    sload                  1
    string_length         
    load_int               0
-   if_icmpgt              LABEL143
-   jump                   LABEL164
-LABEL143:
+   if_icmpgt              LABEL154
+   jump                   LABEL175
+LABEL154:
    load_string            "Previous name:"
    load_string            "<br>"
    sload                  1
@@ -175,34 +189,34 @@ LABEL143:
    widget_put_mouse_exit_listener
    load_int               0
    widget_put_hidden      1
-   jump                   LABEL170
-LABEL164:
+   jump                   LABEL181
+LABEL175:
    load_int               40
    iload                  6
    load_string            "I"
    widget_put_mouse_enter_listener
    load_int               1
    widget_put_hidden      1
-LABEL170:
+LABEL181:
    iload                  8
    load_int               1
    iadd                  
    istore                 8
-   jump                   LABEL75
-LABEL175:
+   jump                   LABEL86
+LABEL186:
    iload                  7
    load_int               2
-   if_icmpge              LABEL179
-   jump                   LABEL193
-LABEL179:
+   if_icmpge              LABEL190
+   jump                   LABEL204
+LABEL190:
    get_varc               184
    load_int               2
-   if_icmpeq              LABEL186
+   if_icmpeq              LABEL197
    get_varc               184
    load_int               3
-   if_icmpeq              LABEL186
-   jump                   LABEL193
-LABEL186:
+   if_icmpeq              LABEL197
+   jump                   LABEL204
+LABEL197:
    load_int               0
    load_int               0
    iload                  7
@@ -210,28 +224,28 @@ LABEL186:
    isub                  
    iload                  3
    invoke                 1655
-LABEL193:
-   iload                  7
-   load_int               1
-   if_icmpge              LABEL197
-   jump                   LABEL309
-LABEL197:
-   get_varc               184
-   load_int               3
-   if_icmpeq              LABEL204
-   get_varc               184
-   load_int               1
-   if_icmpeq              LABEL204
-   jump                   LABEL255
 LABEL204:
    iload                  7
+   load_int               1
+   if_icmpge              LABEL208
+   jump                   LABEL320
+LABEL208:
+   get_varc               184
+   load_int               3
+   if_icmpeq              LABEL215
+   get_varc               184
+   load_int               1
+   if_icmpeq              LABEL215
+   jump                   LABEL266
+LABEL215:
+   iload                  7
    istore                 8
-LABEL206:
+LABEL217:
    iload                  8
    load_int               0
-   if_icmpgt              LABEL210
-   jump                   LABEL254
-LABEL210:
+   if_icmpgt              LABEL221
+   jump                   LABEL265
+LABEL221:
    iload                  8
    load_int               1
    isub                  
@@ -243,9 +257,9 @@ LABEL210:
    imul                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL223
-   jump                   LABEL249
-LABEL223:
+   if_icmpeq              LABEL234
+   jump                   LABEL260
+LABEL234:
    iload                  3
    iload                  8
    array_load            
@@ -255,9 +269,9 @@ LABEL223:
    iadd                  
    widget_load_child      1
    load_int               1
-   if_icmpeq              LABEL234
-   jump                   LABEL249
-LABEL234:
+   if_icmpeq              LABEL245
+   jump                   LABEL260
+LABEL245:
    load_int               0
    iload                  9
    load_int               1
@@ -273,23 +287,23 @@ LABEL234:
    load_int               0
    load_int               0
    widget_put_position    1
-LABEL249:
+LABEL260:
    iload                  9
    load_int               15
    iadd                  
    istore                 9
-   jump                   LABEL206
-LABEL254:
-   jump                   LABEL305
-LABEL255:
+   jump                   LABEL217
+LABEL265:
+   jump                   LABEL316
+LABEL266:
    load_int               0
    istore                 8
-LABEL257:
+LABEL268:
    iload                  8
    iload                  7
-   if_icmplt              LABEL261
-   jump                   LABEL305
-LABEL261:
+   if_icmplt              LABEL272
+   jump                   LABEL316
+LABEL272:
    iload                  3
    iload                  8
    array_load            
@@ -297,9 +311,9 @@ LABEL261:
    imul                  
    widget_load_child     
    load_int               1
-   if_icmpeq              LABEL270
-   jump                   LABEL296
-LABEL270:
+   if_icmpeq              LABEL281
+   jump                   LABEL307
+LABEL281:
    iload                  3
    iload                  8
    array_load            
@@ -309,9 +323,9 @@ LABEL270:
    iadd                  
    widget_load_child      1
    load_int               1
-   if_icmpeq              LABEL281
-   jump                   LABEL296
-LABEL281:
+   if_icmpeq              LABEL292
+   jump                   LABEL307
+LABEL292:
    load_int               0
    iload                  9
    load_int               1
@@ -327,7 +341,7 @@ LABEL281:
    load_int               0
    load_int               0
    widget_put_position    1
-LABEL296:
+LABEL307:
    iload                  9
    load_int               15
    iadd                  
@@ -336,19 +350,19 @@ LABEL296:
    iadd                  
    istore                 8
    istore                 9
-   jump                   LABEL257
-LABEL305:
+   jump                   LABEL268
+LABEL316:
    iload                  9
    load_int               5
    iadd                  
    istore                 9
-LABEL309:
+LABEL320:
    iload                  9
    iload                  3
    widget_get_height_widget
-   if_icmpgt              LABEL314
-   jump                   LABEL324
-LABEL314:
+   if_icmpgt              LABEL325
+   jump                   LABEL335
+LABEL325:
    load_int               0
    iload                  9
    iload                  3
@@ -358,8 +372,8 @@ LABEL314:
    iload                  3
    widget_get_scrolly_widget
    invoke                 72
-   jump                   LABEL332
-LABEL324:
+   jump                   LABEL343
+LABEL335:
    load_int               0
    load_int               0
    iload                  3
@@ -368,5 +382,5 @@ LABEL324:
    iload                  3
    load_int               0
    invoke                 72
-LABEL332:
+LABEL343:
    return                

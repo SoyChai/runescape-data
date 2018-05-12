@@ -13,7 +13,7 @@ LABEL5:
    load_int               1
    load_int               0
    play_sound_effect     
-   get_settings           1295
+   get_varp               1295
    iload                  2
    load_int               1
    isub                  

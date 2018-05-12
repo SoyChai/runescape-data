@@ -292,14 +292,14 @@ LABEL140:
    if_icmpne              LABEL268
    jump                   LABEL274
 LABEL268:
-   get_settings           261
+   get_varp               261
    load_int               1
    invoke                 1028
    iload                  14
    widget_put_text_widget
    jump                   LABEL278
 LABEL274:
-   get_settings           261
+   get_varp               261
    invoke                 1029
    iload                  14
    widget_put_text_widget
@@ -530,23 +530,23 @@ LABEL364:
    if_icmpne              LABEL495
    jump                   LABEL506
 LABEL495:
-   get_settings           261
+   get_varp               261
    load_int               1
    invoke                 1028
    iload                  15
    widget_put_text_widget
-   get_settings           262
+   get_varp               262
    load_int               1
    invoke                 1028
    iload                  16
    widget_put_text_widget
    jump                   LABEL514
 LABEL506:
-   get_settings           261
+   get_varp               261
    invoke                 1029
    iload                  15
    widget_put_text_widget
-   get_settings           262
+   get_varp               262
    invoke                 1029
    iload                  16
    widget_put_text_widget

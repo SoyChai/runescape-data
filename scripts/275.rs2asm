@@ -12,7 +12,7 @@
    iload                  2
    load_int               0
    if_icmple              LABEL11
-   jump                   LABEL26
+   jump                   LABEL37
 LABEL11:
    iload                  1
    load_int               20655
@@ -21,18 +21,31 @@ LABEL11:
 LABEL15:
    load_int               725
    istore                 2
-   jump                   LABEL22
+   jump                   LABEL33
 LABEL18:
+   iload                  1
+   load_int               385
+   6515                  
+   load_int               1
+   if_icmpeq              LABEL24
+   jump                   LABEL29
+LABEL24:
+   load_int               108
+   load_int               11864
+   get_itemcontainer_stacksizes_total
+   istore                 2
+   jump                   LABEL33
+LABEL29:
    load_int               108
    iload                  1
    get_itemcontainer_stacksizes_total
    istore                 2
-LABEL22:
+LABEL33:
    iload                  2
    load_int               1000
    imul                  
    istore                 2
-LABEL26:
+LABEL37:
    iload                  2
    load_string            ","
    invoke                 46

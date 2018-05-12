@@ -1,238 +1,303 @@
 .int_stack_count    1
 .string_stack_count 0
-.int_var_count      8
+.int_var_count      9
 .string_var_count   0
+   load_int               0
+   istore                 1
    iload                  0
    widget_unset_children 
    iload                  0
    widget_get_width_widget
-   istore                 1
-   load_int               1
    istore                 2
-   load_int               0
+   load_int               1
    istore                 3
-   load_int               -1
+   load_int               0
    istore                 4
    load_int               -1
    istore                 5
-   load_int               27
+   load_int               -1
    istore                 6
+   load_int               27
+   istore                 7
    get_varbit             4803
    load_int               1
-   if_icmpeq              LABEL19
-   jump                   LABEL29
-LABEL19:
+   if_icmpeq              LABEL21
+   jump                   LABEL25
+LABEL21:
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+LABEL25:
    get_varbit             4804
    load_int               1
-   if_icmpeq              LABEL23
-   jump                   LABEL26
-LABEL23:
-   load_int               21
-   istore                 6
-   jump                   LABEL28
-LABEL26:
-   load_int               25
-   istore                 6
-LABEL28:
-   jump                   LABEL35
+   if_icmpeq              LABEL29
+   jump                   LABEL33
 LABEL29:
-   get_varbit             4804
+   iload                  1
    load_int               1
-   if_icmpeq              LABEL33
-   jump                   LABEL35
+   iadd                  
+   istore                 1
 LABEL33:
-   load_int               23
-   istore                 6
-LABEL35:
+   get_varbit             6007
+   load_int               1
+   if_icmpeq              LABEL37
+   jump                   LABEL41
+LABEL37:
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+LABEL41:
+   iload                  7
+   iload                  1
+   load_int               3
+   imul                  
+   isub                  
+   istore                 7
    load_int               105
    load_int               105
    load_int               998
-   iload                  3
+   iload                  4
    get_enum_value        
-   istore                 7
-LABEL41:
-   iload                  7
+   istore                 8
+LABEL53:
+   iload                  8
    load_int               -1
-   if_icmpne              LABEL45
-   jump                   LABEL198
-LABEL45:
+   if_icmpne              LABEL57
+   jump                   LABEL257
+LABEL57:
    iload                  0
    load_int               3
-   iload                  3
+   iload                  4
    widget_create_child   
    load_int               105
    load_int               105
    load_int               999
-   iload                  3
-   get_enum_value        
-   istore                 4
    iload                  4
+   get_enum_value        
+   istore                 5
+   iload                  5
    load_int               8
-   if_icmpeq              LABEL59
-   jump                   LABEL102
-LABEL59:
+   if_icmpeq              LABEL71
+   jump                   LABEL114
+LABEL71:
    get_varbit             4803
    load_int               1
-   if_icmpeq              LABEL63
-   jump                   LABEL99
-LABEL63:
-   iload                  4
-   get_settings           262
-   if_icmpeq              LABEL67
-   jump                   LABEL69
-LABEL67:
-   iload                  2
-   istore                 5
-LABEL69:
-   load_int               0
-   widget_put_hidden     
-   load_int               2
-   iload                  6
-   load_int               1
-   load_int               0
-   widget_put_size       
-   load_int               1
-   iload                  2
-   load_int               0
-   load_int               0
-   widget_put_position   
-   load_int               1
-   widget_put_filled     
-   iload                  7
-   widget_put_textcolor  
-   load_int               1
-   load_string            "Select colour"
-   widget_put_action     
-   load_int               697
-   load_int               -2147483644
-   iload                  4
-   iload                  0
-   load_string            "iiI"
-   widget_put_option_click_listener
-   iload                  2
-   iload                  6
-   iadd                  
-   istore                 2
-   jump                   LABEL101
-LABEL99:
-   load_int               1
-   widget_put_hidden     
-LABEL101:
-   jump                   LABEL187
-LABEL102:
-   iload                  4
-   load_int               9
-   if_icmpeq              LABEL109
-   iload                  4
-   load_int               10
-   if_icmpeq              LABEL109
-   jump                   LABEL152
-LABEL109:
-   get_varbit             4804
-   load_int               1
-   if_icmpeq              LABEL113
-   jump                   LABEL149
-LABEL113:
-   iload                  4
-   get_settings           262
-   if_icmpeq              LABEL117
-   jump                   LABEL119
-LABEL117:
-   iload                  2
-   istore                 5
-LABEL119:
-   load_int               0
-   widget_put_hidden     
-   load_int               2
-   iload                  6
-   load_int               1
-   load_int               0
-   widget_put_size       
-   load_int               1
-   iload                  2
-   load_int               0
-   load_int               0
-   widget_put_position   
-   load_int               1
-   widget_put_filled     
-   iload                  7
-   widget_put_textcolor  
-   load_int               1
-   load_string            "Select colour"
-   widget_put_action     
-   load_int               697
-   load_int               -2147483644
-   iload                  4
-   iload                  0
-   load_string            "iiI"
-   widget_put_option_click_listener
-   iload                  2
-   iload                  6
-   iadd                  
-   istore                 2
-   jump                   LABEL151
-LABEL149:
-   load_int               1
-   widget_put_hidden     
-LABEL151:
-   jump                   LABEL187
-LABEL152:
-   iload                  4
-   get_settings           262
-   if_icmpeq              LABEL156
-   jump                   LABEL158
-LABEL156:
-   iload                  2
-   istore                 5
-LABEL158:
-   load_int               0
-   widget_put_hidden     
-   load_int               2
-   iload                  6
-   load_int               1
-   load_int               0
-   widget_put_size       
-   load_int               1
-   iload                  2
-   load_int               0
-   load_int               0
-   widget_put_position   
-   load_int               1
-   widget_put_filled     
-   iload                  7
-   widget_put_textcolor  
-   load_int               1
-   load_string            "Select colour"
-   widget_put_action     
-   load_int               697
-   load_int               -2147483644
-   iload                  4
-   iload                  0
-   load_string            "iiI"
-   widget_put_option_click_listener
-   iload                  2
-   iload                  6
-   iadd                  
-   istore                 2
-LABEL187:
+   if_icmpeq              LABEL75
+   jump                   LABEL111
+LABEL75:
+   iload                  5
+   get_varp               262
+   if_icmpeq              LABEL79
+   jump                   LABEL81
+LABEL79:
    iload                  3
+   istore                 6
+LABEL81:
+   load_int               0
+   widget_put_hidden     
+   load_int               2
+   iload                  7
    load_int               1
+   load_int               0
+   widget_put_size       
+   load_int               1
+   iload                  3
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               1
+   widget_put_filled     
+   iload                  8
+   widget_put_textcolor  
+   load_int               1
+   load_string            "Select colour"
+   widget_put_action     
+   load_int               697
+   load_int               -2147483644
+   iload                  5
+   iload                  0
+   load_string            "iiI"
+   widget_put_option_click_listener
+   iload                  3
+   iload                  7
    iadd                  
    istore                 3
+   jump                   LABEL113
+LABEL111:
+   load_int               1
+   widget_put_hidden     
+LABEL113:
+   jump                   LABEL246
+LABEL114:
+   iload                  5
+   load_int               9
+   if_icmpeq              LABEL121
+   iload                  5
+   load_int               10
+   if_icmpeq              LABEL121
+   jump                   LABEL164
+LABEL121:
+   get_varbit             4804
+   load_int               1
+   if_icmpeq              LABEL125
+   jump                   LABEL161
+LABEL125:
+   iload                  5
+   get_varp               262
+   if_icmpeq              LABEL129
+   jump                   LABEL131
+LABEL129:
+   iload                  3
+   istore                 6
+LABEL131:
+   load_int               0
+   widget_put_hidden     
+   load_int               2
+   iload                  7
+   load_int               1
+   load_int               0
+   widget_put_size       
+   load_int               1
+   iload                  3
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               1
+   widget_put_filled     
+   iload                  8
+   widget_put_textcolor  
+   load_int               1
+   load_string            "Select colour"
+   widget_put_action     
+   load_int               697
+   load_int               -2147483644
+   iload                  5
+   iload                  0
+   load_string            "iiI"
+   widget_put_option_click_listener
+   iload                  3
+   iload                  7
+   iadd                  
+   istore                 3
+   jump                   LABEL163
+LABEL161:
+   load_int               1
+   widget_put_hidden     
+LABEL163:
+   jump                   LABEL246
+LABEL164:
+   iload                  5
+   load_int               11
+   if_icmpeq              LABEL168
+   jump                   LABEL211
+LABEL168:
+   get_varbit             6007
+   load_int               1
+   if_icmpeq              LABEL172
+   jump                   LABEL208
+LABEL172:
+   iload                  5
+   get_varp               262
+   if_icmpeq              LABEL176
+   jump                   LABEL178
+LABEL176:
+   iload                  3
+   istore                 6
+LABEL178:
+   load_int               0
+   widget_put_hidden     
+   load_int               2
+   iload                  7
+   load_int               1
+   load_int               0
+   widget_put_size       
+   load_int               1
+   iload                  3
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               1
+   widget_put_filled     
+   iload                  8
+   widget_put_textcolor  
+   load_int               1
+   load_string            "Select colour"
+   widget_put_action     
+   load_int               697
+   load_int               -2147483644
+   iload                  5
+   iload                  0
+   load_string            "iiI"
+   widget_put_option_click_listener
+   iload                  3
+   iload                  7
+   iadd                  
+   istore                 3
+   jump                   LABEL210
+LABEL208:
+   load_int               1
+   widget_put_hidden     
+LABEL210:
+   jump                   LABEL246
+LABEL211:
+   iload                  5
+   get_varp               262
+   if_icmpeq              LABEL215
+   jump                   LABEL217
+LABEL215:
+   iload                  3
+   istore                 6
+LABEL217:
+   load_int               0
+   widget_put_hidden     
+   load_int               2
+   iload                  7
+   load_int               1
+   load_int               0
+   widget_put_size       
+   load_int               1
+   iload                  3
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               1
+   widget_put_filled     
+   iload                  8
+   widget_put_textcolor  
+   load_int               1
+   load_string            "Select colour"
+   widget_put_action     
+   load_int               697
+   load_int               -2147483644
+   iload                  5
+   iload                  0
+   load_string            "iiI"
+   widget_put_option_click_listener
+   iload                  3
+   iload                  7
+   iadd                  
+   istore                 3
+LABEL246:
+   iload                  4
+   load_int               1
+   iadd                  
+   istore                 4
    load_int               105
    load_int               105
    load_int               998
-   iload                  3
+   iload                  4
    get_enum_value        
-   istore                 7
-   jump                   LABEL41
-LABEL198:
+   istore                 8
+   jump                   LABEL53
+LABEL257:
    iload                  0
    load_int               3
-   iload                  3
+   iload                  4
    widget_create_child   
    load_int               0
-   iload                  2
+   iload                  3
    load_int               1
    iadd                  
    load_int               1
@@ -247,30 +312,30 @@ LABEL198:
    widget_put_filled     
    load_int               0
    widget_put_textcolor  
-   iload                  3
+   iload                  4
    load_int               1
    iadd                  
-   istore                 3
-   iload                  5
+   istore                 4
+   iload                  6
    load_int               -1
-   if_icmpne              LABEL226
-   jump                   LABEL248
-LABEL226:
+   if_icmpne              LABEL285
+   jump                   LABEL307
+LABEL285:
    iload                  0
    load_int               5
-   iload                  3
+   iload                  4
    widget_create_child   
-   load_int               25
-   load_int               25
+   load_int               16
+   load_int               16
    load_int               0
    load_int               0
    widget_put_size       
-   load_int               442
+   load_int               299
    widget_put_spriteid   
    load_int               0
-   iload                  5
-   load_int               25
    iload                  6
+   load_int               16
+   iload                  7
    isub                  
    load_int               2
    idiv                  
@@ -278,5 +343,5 @@ LABEL226:
    load_int               1
    load_int               0
    widget_put_position   
-LABEL248:
+LABEL307:
    return                

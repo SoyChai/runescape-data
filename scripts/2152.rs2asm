@@ -1,0 +1,51 @@
+.int_stack_count    0
+.string_stack_count 0
+.int_var_count      2
+.string_var_count   0
+   load_int               2
+   istore                 0
+   load_int               0
+   istore                 1
+   invoke                 900
+   load_int               1745
+   if_icmpeq              LABEL8
+   jump                   LABEL19
+LABEL8:
+   load_int               0
+   istore                 0
+   load_int               2
+   istore                 1
+   load_int               10616863
+   widget_load           
+   load_int               1
+   if_icmpeq              LABEL17
+   jump                   LABEL19
+LABEL17:
+   load_int               0
+   widget_put_hidden     
+LABEL19:
+   load_int               10616833
+   widget_load           
+   load_int               1
+   if_icmpeq              LABEL24
+   jump                   LABEL29
+LABEL24:
+   load_int               0
+   load_int               0
+   load_int               0
+   iload                  0
+   widget_put_position   
+LABEL29:
+   load_int               10616861
+   widget_load           
+   load_int               1
+   if_icmpeq              LABEL34
+   jump                   LABEL39
+LABEL34:
+   load_int               0
+   load_int               0
+   load_int               0
+   iload                  1
+   widget_put_position   
+LABEL39:
+   return                

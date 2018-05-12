@@ -7,7 +7,7 @@
    load_string            "(not applicable)"
    string_append          3
    sstore                 0
-   get_settings           287
+   get_varp               287
    load_int               0
    if_icmpeq              LABEL12
    get_isresized         

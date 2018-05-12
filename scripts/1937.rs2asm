@@ -1,6 +1,6 @@
-.int_stack_count    27
+.int_stack_count    29
 .string_stack_count 0
-.int_var_count      27
+.int_var_count      29
 .string_var_count   0
    iload                  1
    iload                  2
@@ -28,6 +28,8 @@
    iload                  24
    iload                  25
    iload                  26
+   iload                  27
+   iload                  28
    invoke                 1939
    load_int               1938
    iload                  1
@@ -56,13 +58,15 @@
    iload                  24
    iload                  25
    iload                  26
+   iload                  27
+   iload                  28
    load_int               1589
    load_int               1590
    load_int               1591
    load_int               1592
    load_int               1593
    load_int               5
-   load_string            "IIIIIIIIIIIIIIIIIIIIIIIIIIY"
+   load_string            "IIIIIIIIIIIIIIIIIIIIIIIIIIIIY"
    iload                  0
    widget_put_config_listener_widget
    return                

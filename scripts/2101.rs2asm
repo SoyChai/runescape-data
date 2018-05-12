@@ -1,0 +1,82 @@
+.int_stack_count    7
+.string_stack_count 0
+.int_var_count      9
+.string_var_count   0
+   load_int               19857408
+   widget_get_width_widget
+   istore                 7
+   load_int               1
+   load_int               4
+   iload                  7
+   scale                 
+   istore                 8
+   iload                  8
+   load_int               150
+   invoke                 1045
+   istore                 8
+   iload                  8
+   load_int               500
+   invoke                 1046
+   istore                 8
+   iload                  0
+   iload                  8
+   if_icmpeq              LABEL20
+   jump                   LABEL21
+LABEL20:
+   return                
+LABEL21:
+   iload                  8
+   load_int               38
+   load_int               0
+   load_int               0
+   iload                  1
+   widget_put_size_widget
+   get_varbit             4692
+   load_int               2
+   if_icmpeq              LABEL31
+   jump                   LABEL44
+LABEL31:
+   load_int               0
+   load_int               5
+   load_int               1
+   load_int               0
+   iload                  1
+   widget_put_position_widget
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               0
+   iload                  2
+   widget_put_position_widget
+   jump                   LABEL56
+LABEL44:
+   load_int               5
+   load_int               22
+   load_int               0
+   load_int               0
+   iload                  1
+   widget_put_position_widget
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   iload                  2
+   widget_put_position_widget
+LABEL56:
+   load_int               2100
+   iload                  8
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   load_string            "iIIIIII"
+   load_int               19857408
+   widget_put_render_listener_widget
+   iload                  5
+   iload                  6
+   iload                  2
+   iload                  4
+   invoke                 2103
+   return                

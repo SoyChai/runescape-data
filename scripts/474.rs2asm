@@ -10,7 +10,7 @@
    istore                 5
 LABEL6:
    iload                  5
-   load_int               85
+   load_int               94
    if_icmple              LABEL10
    jump                   LABEL106
 LABEL10:

@@ -24,55 +24,12 @@
    load_string            "I"
    iload                  0
    widget_put_mouse_exit_listener_widget
-   iload                  0
-   load_int               14286982
-   if_icmpeq              LABEL29
-   iload                  0
-   load_int               14286981
-   if_icmpeq              LABEL29
-   jump                   LABEL41
-LABEL29:
-   get_varbit             2451
-   load_int               1
-   if_icmpeq              LABEL33
-   jump                   LABEL37
-LABEL33:
-   load_int               150
-   iload                  0
-   widget_put_opacity_widget
-   jump                   LABEL40
-LABEL37:
-   load_int               0
-   iload                  0
-   widget_put_opacity_widget
-LABEL40:
-   jump                   LABEL56
-LABEL41:
-   iload                  0
-   load_int               14286967
-   if_icmpeq              LABEL45
-   jump                   LABEL56
-LABEL45:
-   get_varbit             5438
-   load_int               0
-   if_icmpgt              LABEL49
-   jump                   LABEL53
-LABEL49:
-   load_int               150
-   iload                  0
-   widget_put_opacity_widget
-   jump                   LABEL56
-LABEL53:
-   load_int               0
-   iload                  0
-   widget_put_opacity_widget
-LABEL56:
    load_int               6
    get_boostedskilllevels
    iload                  4
-   if_icmplt              LABEL61
-   jump                   LABEL68
-LABEL61:
+   if_icmplt              LABEL27
+   jump                   LABEL34
+LABEL27:
    iload                  3
    iload                  0
    widget_put_spriteid_widget
@@ -80,180 +37,245 @@ LABEL61:
    iload                  0
    widget_put_opacity_widget
    return                
-LABEL68:
+LABEL34:
    iload                  0
-   load_int               14286862
-   if_icmpeq              LABEL72
-   jump                   LABEL125
-LABEL72:
+   switch                
+      14286971: LABEL49
+      14286942: LABEL192
+      14286975: LABEL139
+      14286943: LABEL206
+      14286940: LABEL164
+      14286941: LABEL178
+      14286986: LABEL37
+      14286985: LABEL37
+      14286862: LABEL61
+      14286883: LABEL115
+      14286944: LABEL139
+      14286913: LABEL139
+      14286852: LABEL220
+   jump                   LABEL228
+LABEL37:
+   get_varbit             2451
+   load_int               1
+   if_icmpeq              LABEL41
+   jump                   LABEL45
+LABEL41:
+   load_int               150
+   iload                  0
+   widget_put_opacity_widget
+   jump                   LABEL48
+LABEL45:
+   load_int               0
+   iload                  0
+   widget_put_opacity_widget
+LABEL48:
+   jump                   LABEL228
+LABEL49:
+   get_varbit             5438
+   load_int               0
+   if_icmpgt              LABEL53
+   jump                   LABEL57
+LABEL53:
+   load_int               150
+   iload                  0
+   widget_put_opacity_widget
+   jump                   LABEL60
+LABEL57:
+   load_int               0
+   iload                  0
+   widget_put_opacity_widget
+LABEL60:
+   jump                   LABEL228
+LABEL61:
    load_int               93
    load_int               13125
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL113
+   if_icmpgt              LABEL102
    load_int               93
    load_int               13126
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL113
+   if_icmpgt              LABEL102
    load_int               93
    load_int               13127
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL113
+   if_icmpgt              LABEL102
    load_int               94
    load_int               13125
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL113
+   if_icmpgt              LABEL102
    load_int               94
    load_int               13126
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL113
+   if_icmpgt              LABEL102
    load_int               94
    load_int               13127
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL113
+   if_icmpgt              LABEL102
    load_int               93
    load_int               13128
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL113
+   if_icmpgt              LABEL102
    load_int               94
    load_int               13128
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL113
-   jump                   LABEL125
-LABEL113:
+   if_icmpgt              LABEL102
+   jump                   LABEL114
+LABEL102:
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL117
-   jump                   LABEL125
-LABEL117:
+   if_icmpeq              LABEL106
+   jump                   LABEL114
+LABEL106:
    get_varbit             4554
    load_int               30
-   if_icmplt              LABEL121
-   jump                   LABEL125
-LABEL121:
+   if_icmplt              LABEL110
+   jump                   LABEL114
+LABEL110:
    iload                  2
    iload                  0
    widget_put_spriteid_widget
    return                
-LABEL125:
-   iload                  0
-   load_int               14286883
-   if_icmpeq              LABEL129
-   jump                   LABEL152
-LABEL129:
+LABEL114:
+   jump                   LABEL228
+LABEL115:
    load_int               93
    load_int               13128
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL140
+   if_icmpgt              LABEL126
    load_int               94
    load_int               13128
    get_itemcontainer_stacksizes_total
    load_int               0
-   if_icmpgt              LABEL140
-   jump                   LABEL152
-LABEL140:
+   if_icmpgt              LABEL126
+   jump                   LABEL138
+LABEL126:
    get_ismembers         
    load_int               1
-   if_icmpeq              LABEL144
-   jump                   LABEL152
-LABEL144:
+   if_icmpeq              LABEL130
+   jump                   LABEL138
+LABEL130:
    get_varbit             4554
    load_int               30
-   if_icmplt              LABEL148
+   if_icmplt              LABEL134
+   jump                   LABEL138
+LABEL134:
+   iload                  2
+   iload                  0
+   widget_put_spriteid_widget
+   return                
+LABEL138:
+   jump                   LABEL228
+LABEL139:
+   get_varbit             236
+   load_int               1
+   if_icmpeq              LABEL143
+   jump                   LABEL148
+LABEL143:
+   load_int               10
+   load_string            "Disable warning"
+   iload                  0
+   widget_put_action_widget
    jump                   LABEL152
 LABEL148:
-   iload                  2
+   load_int               10
+   load_string            "Enable warning"
    iload                  0
-   widget_put_spriteid_widget
-   return                
+   widget_put_action_widget
 LABEL152:
-   iload                  5
-   load_int               -1
-   if_icmpne              LABEL156
-   jump                   LABEL168
-LABEL156:
-   iload                  5
-   invoke                 19
-   iload                  6
-   if_icmplt              LABEL161
-   jump                   LABEL168
-LABEL161:
+   get_varbit             2010
+   load_int               0
+   if_icmpeq              LABEL159
+   get_varbit             5604
+   load_int               5
+   if_icmpge              LABEL159
+   jump                   LABEL163
+LABEL159:
    iload                  3
    iload                  0
    widget_put_spriteid_widget
-   load_int               0
-   iload                  0
-   widget_put_opacity_widget
    return                
+LABEL163:
+   jump                   LABEL228
+LABEL164:
+   get_varbit             6284
+   load_int               1
+   if_icmpeq              LABEL168
+   jump                   LABEL173
 LABEL168:
-   iload                  7
-   load_int               -1
-   if_icmpne              LABEL172
-   jump                   LABEL184
-LABEL172:
-   iload                  7
-   invoke                 19
-   iload                  8
-   if_icmplt              LABEL177
-   jump                   LABEL184
+   load_int               10
+   load_string            "Disable warning"
+   iload                  0
+   widget_put_action_widget
+   jump                   LABEL177
+LABEL173:
+   load_int               10
+   load_string            "Enable warning"
+   iload                  0
+   widget_put_action_widget
 LABEL177:
-   iload                  3
+   jump                   LABEL228
+LABEL178:
+   get_varbit             6285
+   load_int               1
+   if_icmpeq              LABEL182
+   jump                   LABEL187
+LABEL182:
+   load_int               10
+   load_string            "Disable warning"
    iload                  0
-   widget_put_spriteid_widget
-   load_int               0
+   widget_put_action_widget
+   jump                   LABEL191
+LABEL187:
+   load_int               10
+   load_string            "Enable warning"
    iload                  0
-   widget_put_opacity_widget
-   return                
-LABEL184:
-   iload                  9
-   load_int               -1
-   if_icmpne              LABEL188
-   jump                   LABEL200
-LABEL188:
-   iload                  9
-   invoke                 19
-   iload                  10
-   if_icmplt              LABEL193
-   jump                   LABEL200
-LABEL193:
-   iload                  3
+   widget_put_action_widget
+LABEL191:
+   jump                   LABEL228
+LABEL192:
+   get_varbit             6286
+   load_int               1
+   if_icmpeq              LABEL196
+   jump                   LABEL201
+LABEL196:
+   load_int               10
+   load_string            "Disable warning"
    iload                  0
-   widget_put_spriteid_widget
-   load_int               0
+   widget_put_action_widget
+   jump                   LABEL205
+LABEL201:
+   load_int               10
+   load_string            "Enable warning"
    iload                  0
-   widget_put_opacity_widget
-   return                
-LABEL200:
-   iload                  11
-   load_int               -1
-   if_icmpne              LABEL204
-   jump                   LABEL216
-LABEL204:
-   iload                  11
-   invoke                 19
-   iload                  12
-   if_icmplt              LABEL209
-   jump                   LABEL216
-LABEL209:
-   iload                  3
+   widget_put_action_widget
+LABEL205:
+   jump                   LABEL228
+LABEL206:
+   get_varbit             6286
+   load_int               1
+   if_icmpeq              LABEL210
+   jump                   LABEL215
+LABEL210:
+   load_int               10
+   load_string            "Disable warning"
    iload                  0
-   widget_put_spriteid_widget
-   load_int               0
+   widget_put_action_widget
+   jump                   LABEL219
+LABEL215:
+   load_int               10
+   load_string            "Enable warning"
    iload                  0
-   widget_put_opacity_widget
-   return                
-LABEL216:
-   iload                  0
-   load_int               14286852
-   if_icmpeq              LABEL220
+   widget_put_action_widget
+LABEL219:
    jump                   LABEL228
 LABEL220:
    get_ismembers         
@@ -266,30 +288,82 @@ LABEL224:
    widget_put_spriteid_widget
    return                
 LABEL228:
-   iload                  0
-   load_int               14286911
-   if_icmpeq              LABEL238
-   iload                  0
-   load_int               14286940
-   if_icmpeq              LABEL238
-   iload                  0
-   load_int               14286971
-   if_icmpeq              LABEL238
-   jump                   LABEL249
-LABEL238:
-   get_varbit             2010
-   load_int               0
-   if_icmpeq              LABEL245
-   get_varbit             5604
-   load_int               5
-   if_icmpge              LABEL245
-   jump                   LABEL249
-LABEL245:
+   iload                  5
+   load_int               -1
+   if_icmpne              LABEL232
+   jump                   LABEL244
+LABEL232:
+   iload                  5
+   invoke                 19
+   iload                  6
+   if_icmplt              LABEL237
+   jump                   LABEL244
+LABEL237:
    iload                  3
    iload                  0
    widget_put_spriteid_widget
+   load_int               0
+   iload                  0
+   widget_put_opacity_widget
    return                
-LABEL249:
+LABEL244:
+   iload                  7
+   load_int               -1
+   if_icmpne              LABEL248
+   jump                   LABEL260
+LABEL248:
+   iload                  7
+   invoke                 19
+   iload                  8
+   if_icmplt              LABEL253
+   jump                   LABEL260
+LABEL253:
+   iload                  3
+   iload                  0
+   widget_put_spriteid_widget
+   load_int               0
+   iload                  0
+   widget_put_opacity_widget
+   return                
+LABEL260:
+   iload                  9
+   load_int               -1
+   if_icmpne              LABEL264
+   jump                   LABEL276
+LABEL264:
+   iload                  9
+   invoke                 19
+   iload                  10
+   if_icmplt              LABEL269
+   jump                   LABEL276
+LABEL269:
+   iload                  3
+   iload                  0
+   widget_put_spriteid_widget
+   load_int               0
+   iload                  0
+   widget_put_opacity_widget
+   return                
+LABEL276:
+   iload                  11
+   load_int               -1
+   if_icmpne              LABEL280
+   jump                   LABEL292
+LABEL280:
+   iload                  11
+   invoke                 19
+   iload                  12
+   if_icmplt              LABEL285
+   jump                   LABEL292
+LABEL285:
+   iload                  3
+   iload                  0
+   widget_put_spriteid_widget
+   load_int               0
+   iload                  0
+   widget_put_opacity_widget
+   return                
+LABEL292:
    iload                  2
    iload                  0
    widget_put_spriteid_widget

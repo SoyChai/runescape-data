@@ -192,7 +192,7 @@
    widget_put_size       
    load_int               16711680
    widget_put_textcolor  
-   get_settings           1295
+   get_varp               1295
    iload                  1
    load_int               1
    isub                  

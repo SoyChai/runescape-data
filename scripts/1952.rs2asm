@@ -10,7 +10,7 @@
    istore                 1
    iload                  0
    istore                 2
-   get_settings           1604
+   get_varp               1604
    istore                 3
    iload                  3
    int_to_string         

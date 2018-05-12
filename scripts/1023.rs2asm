@@ -57,8 +57,8 @@ LABEL42:
 LABEL44:
    iload                  25
    iload                  26
-   put_settings           262
-   put_settings           261
+   put_varp               262
+   put_varp               261
 LABEL48:
    iload                  3
    iload                  4

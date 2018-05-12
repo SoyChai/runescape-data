@@ -12,7 +12,7 @@ LABEL6:
    iload                  7
    iload                  1
    if_icmplt              LABEL10
-   jump                   LABEL101
+   jump                   LABEL109
 LABEL10:
    iload                  0
    iload                  7
@@ -21,7 +21,7 @@ LABEL10:
    widget_load_child     
    load_int               1
    if_icmpeq              LABEL18
-   jump                   LABEL96
+   jump                   LABEL104
 LABEL18:
    iload                  2
    iload                  7
@@ -30,7 +30,7 @@ LABEL18:
    iload                  5
    load_int               -1
    if_icmpne              LABEL26
-   jump                   LABEL84
+   jump                   LABEL92
 LABEL26:
    load_int               0
    widget_put_hidden     
@@ -42,22 +42,22 @@ LABEL26:
    iload                  5
    iload                  3
    if_icmpeq              LABEL37
-   jump                   LABEL75
+   jump                   LABEL80
 LABEL37:
    iload                  4
    load_int               1
    if_icmpgt              LABEL41
-   jump                   LABEL55
+   jump                   LABEL56
 LABEL41:
    iload                  4
    load_int               5
    if_icmpne              LABEL45
-   jump                   LABEL55
+   jump                   LABEL56
 LABEL45:
    iload                  4
    load_int               10
    if_icmpne              LABEL49
-   jump                   LABEL55
+   jump                   LABEL56
 LABEL49:
    load_int               9
    load_string            "Buy "
@@ -65,14 +65,19 @@ LABEL49:
    int_to_string         
    string_append          2
    widget_put_action     
-LABEL55:
+   jump                   LABEL59
+LABEL56:
+   load_int               9
+   load_string            ""
+   widget_put_action     
+LABEL59:
    load_int               19660802
    load_int               0
    widget_load_child      1
    load_int               1
-   if_icmpeq              LABEL61
-   jump                   LABEL75
-LABEL61:
+   if_icmpeq              LABEL65
+   jump                   LABEL79
+LABEL65:
    load_int               34
    load_int               34
    load_int               0
@@ -87,7 +92,13 @@ LABEL61:
    widget_put_spriteid    1
    load_int               180
    widget_put_opacity     1
-LABEL75:
+LABEL79:
+   jump                   LABEL83
+LABEL80:
+   load_int               9
+   load_string            ""
+   widget_put_action     
+LABEL83:
    load_string            "<col=ff9040>"
    iload                  5
    get_item_name         
@@ -96,8 +107,8 @@ LABEL75:
    widget_put_name       
    widget_get_relativey  
    istore                 6
-   jump                   LABEL96
-LABEL84:
+   jump                   LABEL104
+LABEL92:
    load_int               1
    widget_put_hidden     
    load_int               6512
@@ -110,33 +121,33 @@ LABEL84:
    load_int               -1
    load_string            ""
    widget_put_render_listener
-LABEL96:
+LABEL104:
    iload                  7
    load_int               1
    iadd                  
    istore                 7
    jump                   LABEL6
-LABEL101:
+LABEL109:
    iload                  6
    load_int               -1
-   if_icmpne              LABEL105
-   jump                   LABEL110
-LABEL105:
+   if_icmpne              LABEL113
+   jump                   LABEL118
+LABEL113:
    iload                  6
    load_int               32
    iadd                  
    istore                 6
-   jump                   LABEL112
-LABEL110:
+   jump                   LABEL120
+LABEL118:
    load_int               0
    istore                 6
-LABEL112:
+LABEL120:
    iload                  6
    iload                  0
    widget_get_height_widget
-   if_icmpgt              LABEL117
-   jump                   LABEL130
-LABEL117:
+   if_icmpgt              LABEL125
+   jump                   LABEL138
+LABEL125:
    load_int               0
    iload                  6
    iload                  0
@@ -149,8 +160,8 @@ LABEL117:
    load_int               0
    load_int               19660803
    widget_put_hidden_widget
-   jump                   LABEL145
-LABEL130:
+   jump                   LABEL153
+LABEL138:
    load_int               0
    load_int               0
    load_int               19660802
@@ -166,5 +177,5 @@ LABEL130:
    load_int               1
    load_int               19660803
    widget_put_hidden_widget
-LABEL145:
+LABEL153:
    return                

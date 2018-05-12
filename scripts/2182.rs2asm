@@ -1,0 +1,189 @@
+.int_stack_count    6
+.string_stack_count 2
+.int_var_count      7
+.string_var_count   5
+   load_int               140
+   istore                 6
+   iload                  5
+   load_int               1
+   if_icmpeq              LABEL6
+   jump                   LABEL8
+LABEL6:
+   load_int               142
+   istore                 6
+LABEL8:
+   sload                  0
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092553
+   get_enum_value        
+   widget_put_text_widget
+   sload                  1
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092555
+   get_enum_value        
+   widget_put_text_widget
+   iload                  0
+   int_to_string         
+   load_string            " / "
+   iload                  1
+   int_to_string         
+   string_append          3
+   sstore                 2
+   sload                  2
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092596
+   get_enum_value        
+   widget_put_text_widget
+   iload                  0
+   load_int               100
+   imul                  
+   iload                  1
+   idiv                  
+   load_int               500
+   imul                  
+   load_int               100
+   idiv                  
+   istore                 0
+   iload                  0
+   load_int               500
+   if_icmpgt              LABEL50
+   jump                   LABEL52
+LABEL50:
+   load_int               500
+   istore                 0
+LABEL52:
+   iload                  0
+   load_int               6
+   load_int               0
+   load_int               1
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092595
+   get_enum_value        
+   widget_put_size_widget
+   load_int               500
+   iload                  0
+   isub                  
+   load_int               6
+   load_int               0
+   load_int               1
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092594
+   get_enum_value        
+   widget_put_size_widget
+   iload                  2
+   int_to_string         
+   load_string            " / "
+   iload                  3
+   int_to_string         
+   string_append          3
+   sstore                 3
+   sload                  3
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092584
+   get_enum_value        
+   widget_put_text_widget
+   iload                  2
+   load_int               100
+   imul                  
+   iload                  3
+   idiv                  
+   load_int               247
+   imul                  
+   load_int               100
+   idiv                  
+   istore                 2
+   iload                  2
+   load_int               247
+   if_icmpgt              LABEL102
+   jump                   LABEL104
+LABEL102:
+   load_int               247
+   istore                 2
+LABEL104:
+   iload                  2
+   load_int               6
+   load_int               0
+   load_int               1
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092583
+   get_enum_value        
+   widget_put_size_widget
+   load_int               247
+   iload                  2
+   isub                  
+   load_int               6
+   load_int               0
+   load_int               1
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092582
+   get_enum_value        
+   widget_put_size_widget
+   iload                  4
+   load_int               10
+   idiv                  
+   istore                 4
+   iload                  4
+   load_int               100
+   if_icmpgt              LABEL134
+   jump                   LABEL136
+LABEL134:
+   load_int               100
+   istore                 4
+LABEL136:
+   iload                  4
+   int_to_string         
+   load_string            "%"
+   string_append          2
+   sstore                 4
+   sload                  4
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092590
+   get_enum_value        
+   widget_put_text_widget
+   iload                  4
+   load_int               247
+   imul                  
+   load_int               100
+   idiv                  
+   istore                 4
+   iload                  4
+   load_int               6
+   load_int               0
+   load_int               1
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092589
+   get_enum_value        
+   widget_put_size_widget
+   load_int               247
+   iload                  4
+   isub                  
+   load_int               6
+   load_int               0
+   load_int               1
+   load_int               73
+   load_int               73
+   iload                  6
+   load_int               10092588
+   get_enum_value        
+   widget_put_size_widget
+   return                

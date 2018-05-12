@@ -1,0 +1,18 @@
+.int_stack_count    5
+.string_stack_count 1
+.int_var_count      5
+.string_var_count   1
+   get_gamecycle         
+   iload                  0
+   if_icmplt              LABEL4
+   jump                   LABEL5
+LABEL4:
+   return                
+LABEL5:
+   iload                  1
+   sload                  0
+   iload                  2
+   iload                  3
+   iload                  4
+   invoke                 2125
+   return                

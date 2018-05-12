@@ -1,0 +1,60 @@
+.int_stack_count    0
+.string_stack_count 0
+.int_var_count      0
+.string_var_count   0
+   invoke                 900
+   load_int               1745
+   if_icmpeq              LABEL4
+   jump                   LABEL25
+LABEL4:
+   load_int               10616833
+   widget_load           
+   load_int               1
+   if_icmpeq              LABEL9
+   jump                   LABEL14
+LABEL9:
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   widget_put_position   
+LABEL14:
+   load_int               10616861
+   widget_load           
+   load_int               1
+   if_icmpeq              LABEL19
+   jump                   LABEL24
+LABEL19:
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               2
+   widget_put_position   
+LABEL24:
+   jump                   LABEL45
+LABEL25:
+   load_int               10616833
+   widget_load           
+   load_int               1
+   if_icmpeq              LABEL30
+   jump                   LABEL35
+LABEL30:
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               2
+   widget_put_position   
+LABEL35:
+   load_int               10616861
+   widget_load           
+   load_int               1
+   if_icmpeq              LABEL40
+   jump                   LABEL45
+LABEL40:
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   widget_put_position   
+LABEL45:
+   return                

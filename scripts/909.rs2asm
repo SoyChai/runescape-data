@@ -65,14 +65,14 @@ LABEL56:
    6200                  
    load_int               256
    load_int               180
-   6201                  
+   set_zoom_distance     
    load_int               0
    load_int               0
    load_int               0
    load_int               0
    6202                  
    load_int               50
-   5530                  
+   set_camera_focal_point_height
    jump                   LABEL83
 LABEL70:
    load_int               256
@@ -80,14 +80,14 @@ LABEL70:
    6200                  
    load_int               256
    load_int               256
-   6201                  
+   set_zoom_distance     
    load_int               256
    load_int               256
    load_int               256
    load_int               256
    6202                  
    load_int               50
-   5530                  
+   set_camera_focal_point_height
 LABEL83:
    iload                  2
    load_int               -1

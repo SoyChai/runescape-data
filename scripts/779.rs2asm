@@ -166,7 +166,7 @@ LABEL130:
    sstore                 0
    load_int               0
    istore                 15
-   get_settings           1151
+   get_varp               1151
    load_int               -1
    if_icmpne              LABEL138
    jump                   LABEL274
@@ -178,7 +178,7 @@ LABEL138:
    if_icmpeq              LABEL144
    jump                   LABEL147
 LABEL144:
-   get_settings           1151
+   get_varp               1151
    get_varbit             4396
    1205                  
 LABEL147:
@@ -189,7 +189,7 @@ LABEL147:
    if_icmpeq              LABEL153
    jump                   LABEL156
 LABEL153:
-   get_settings           1151
+   get_varp               1151
    get_item_name         
    widget_put_text       
 LABEL156:

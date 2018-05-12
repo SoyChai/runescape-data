@@ -1,0 +1,30 @@
+.int_stack_count    3
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   iload                  0
+   iload                  1
+   load_int               2
+   imul                  
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL8
+   jump                   LABEL22
+LABEL8:
+   iload                  0
+   iload                  1
+   load_int               2
+   imul                  
+   load_int               1
+   iadd                  
+   widget_load_child      1
+   load_int               1
+   if_icmpeq              LABEL18
+   jump                   LABEL22
+LABEL18:
+   iload                  2
+   widget_put_textcolor  
+   iload                  2
+   widget_put_textcolor   1
+LABEL22:
+   return                

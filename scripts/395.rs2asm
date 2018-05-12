@@ -143,7 +143,7 @@ LABEL127:
    if_icmpeq              LABEL131
    jump                   LABEL227
 LABEL131:
-   get_settings           1588
+   get_varp               1588
    load_int               0
    if_icmpgt              LABEL135
    jump                   LABEL227

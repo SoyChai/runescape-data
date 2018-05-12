@@ -13,23 +13,10 @@
    iload                  0
    load_int               1
    if_icmpeq              LABEL12
-   jump                   LABEL24
+   jump                   LABEL13
 LABEL12:
-   load_int               1
-   put_varc               11
-   load_int               10616864
-   widget_get_hidden_widget
-   load_int               0
-   if_icmpeq              LABEL19
-   jump                   LABEL22
-LABEL19:
-   load_int               1
-   load_int               1
-   invoke                 299
-LABEL22:
-   load_int               0
-   invoke                 927
-LABEL24:
+   invoke                 2157
+LABEL13:
    iload                  1
    iload                  2
    iload                  3
@@ -53,12 +40,12 @@ LABEL24:
    istore                 8
    load_string            ""
    sstore                 2
-LABEL47:
+LABEL36:
    iload                  8
    load_int               -1
-   if_icmpne              LABEL51
-   jump                   LABEL80
-LABEL51:
+   if_icmpne              LABEL40
+   jump                   LABEL69
+LABEL40:
    sload                  1
    load_int               0
    iload                  8
@@ -87,8 +74,8 @@ LABEL51:
    load_int               0
    string_indexof_from   
    istore                 8
-   jump                   LABEL47
-LABEL80:
+   jump                   LABEL36
+LABEL69:
    sload                  1
    iload                  2
    iload                  4
@@ -110,9 +97,9 @@ LABEL80:
    iload                  7
    iload                  2
    widget_get_height_widget
-   if_icmpgt              LABEL103
-   jump                   LABEL112
-LABEL103:
+   if_icmpgt              LABEL92
+   jump                   LABEL101
+LABEL92:
    iload                  3
    iload                  2
    load_int               798
@@ -122,5 +109,5 @@ LABEL103:
    load_int               793
    load_int               794
    invoke                 31
-LABEL112:
+LABEL101:
    return                

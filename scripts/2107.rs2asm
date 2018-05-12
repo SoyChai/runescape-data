@@ -1,0 +1,51 @@
+.int_stack_count    3
+.string_stack_count 0
+.int_var_count      6
+.string_var_count   0
+   load_int               0
+   istore                 3
+   iload                  0
+   load_int               1
+   if_icmpeq              LABEL6
+   jump                   LABEL9
+LABEL6:
+   load_int               1
+   istore                 3
+   jump                   LABEL17
+LABEL9:
+   iload                  0
+   load_int               2
+   if_icmpeq              LABEL13
+   jump                   LABEL16
+LABEL13:
+   load_int               3
+   istore                 3
+   jump                   LABEL17
+LABEL16:
+   return                
+LABEL17:
+   load_int               2266
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   load_int               0
+   istore                 4
+   load_int               0
+   istore                 5
+   iload                  2
+   invoke                 2110
+   istore                 5
+   istore                 4
+   iload                  5
+   iload                  3
+   iadd                  
+   load_int               4
+   modulo                
+   istore                 5
+   iload                  2
+   iload                  4
+   iload                  5
+   invoke                 2111
+   iload                  1
+   invoke                 2106
+   return                

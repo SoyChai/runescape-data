@@ -13,4 +13,5 @@ LABEL5:
    iload                  0
    iload                  1
    invoke                 1611
+   pop_int               
    return                

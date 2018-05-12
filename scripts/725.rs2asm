@@ -2,9 +2,9 @@
 .string_stack_count 0
 .int_var_count      0
 .string_var_count   0
-   get_settings           1202
+   get_varp               1202
    put_varc               67
-   get_settings           1203
+   get_varp               1203
    put_varc               68
    invoke                 729
    return                

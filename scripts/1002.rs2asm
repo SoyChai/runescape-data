@@ -7,8 +7,8 @@
    if_icmpeq              LABEL4
    jump                   LABEL7
 LABEL4:
-   get_settings           1229
-   get_settings           1253
+   get_varp               1229
+   get_varp               1253
    return                
 LABEL7:
    iload                  0
@@ -16,8 +16,8 @@ LABEL7:
    if_icmpeq              LABEL11
    jump                   LABEL14
 LABEL11:
-   get_settings           1230
-   get_settings           1254
+   get_varp               1230
+   get_varp               1254
    return                
 LABEL14:
    iload                  0
@@ -25,8 +25,8 @@ LABEL14:
    if_icmpeq              LABEL18
    jump                   LABEL21
 LABEL18:
-   get_settings           1231
-   get_settings           1255
+   get_varp               1231
+   get_varp               1255
    return                
 LABEL21:
    iload                  0
@@ -34,8 +34,8 @@ LABEL21:
    if_icmpeq              LABEL25
    jump                   LABEL28
 LABEL25:
-   get_settings           1232
-   get_settings           1256
+   get_varp               1232
+   get_varp               1256
    return                
 LABEL28:
    iload                  0
@@ -43,8 +43,8 @@ LABEL28:
    if_icmpeq              LABEL32
    jump                   LABEL35
 LABEL32:
-   get_settings           1233
-   get_settings           1257
+   get_varp               1233
+   get_varp               1257
    return                
 LABEL35:
    iload                  0
@@ -52,8 +52,8 @@ LABEL35:
    if_icmpeq              LABEL39
    jump                   LABEL42
 LABEL39:
-   get_settings           1234
-   get_settings           1258
+   get_varp               1234
+   get_varp               1258
    return                
 LABEL42:
    iload                  0
@@ -61,8 +61,8 @@ LABEL42:
    if_icmpeq              LABEL46
    jump                   LABEL49
 LABEL46:
-   get_settings           1235
-   get_settings           1259
+   get_varp               1235
+   get_varp               1259
    return                
 LABEL49:
    iload                  0
@@ -70,8 +70,8 @@ LABEL49:
    if_icmpeq              LABEL53
    jump                   LABEL56
 LABEL53:
-   get_settings           1236
-   get_settings           1260
+   get_varp               1236
+   get_varp               1260
    return                
 LABEL56:
    iload                  0
@@ -79,8 +79,8 @@ LABEL56:
    if_icmpeq              LABEL60
    jump                   LABEL63
 LABEL60:
-   get_settings           1237
-   get_settings           1261
+   get_varp               1237
+   get_varp               1261
    return                
 LABEL63:
    iload                  0
@@ -88,8 +88,8 @@ LABEL63:
    if_icmpeq              LABEL67
    jump                   LABEL70
 LABEL67:
-   get_settings           1238
-   get_settings           1262
+   get_varp               1238
+   get_varp               1262
    return                
 LABEL70:
    iload                  0
@@ -97,8 +97,8 @@ LABEL70:
    if_icmpeq              LABEL74
    jump                   LABEL77
 LABEL74:
-   get_settings           1239
-   get_settings           1263
+   get_varp               1239
+   get_varp               1263
    return                
 LABEL77:
    iload                  0
@@ -106,8 +106,8 @@ LABEL77:
    if_icmpeq              LABEL81
    jump                   LABEL84
 LABEL81:
-   get_settings           1240
-   get_settings           1264
+   get_varp               1240
+   get_varp               1264
    return                
 LABEL84:
    iload                  0
@@ -115,8 +115,8 @@ LABEL84:
    if_icmpeq              LABEL88
    jump                   LABEL91
 LABEL88:
-   get_settings           1241
-   get_settings           1265
+   get_varp               1241
+   get_varp               1265
    return                
 LABEL91:
    iload                  0
@@ -124,8 +124,8 @@ LABEL91:
    if_icmpeq              LABEL95
    jump                   LABEL98
 LABEL95:
-   get_settings           1242
-   get_settings           1266
+   get_varp               1242
+   get_varp               1266
    return                
 LABEL98:
    iload                  0
@@ -133,8 +133,8 @@ LABEL98:
    if_icmpeq              LABEL102
    jump                   LABEL105
 LABEL102:
-   get_settings           1243
-   get_settings           1267
+   get_varp               1243
+   get_varp               1267
    return                
 LABEL105:
    iload                  0
@@ -142,8 +142,8 @@ LABEL105:
    if_icmpeq              LABEL109
    jump                   LABEL112
 LABEL109:
-   get_settings           1244
-   get_settings           1268
+   get_varp               1244
+   get_varp               1268
    return                
 LABEL112:
    iload                  0
@@ -151,8 +151,8 @@ LABEL112:
    if_icmpeq              LABEL116
    jump                   LABEL119
 LABEL116:
-   get_settings           1245
-   get_settings           1269
+   get_varp               1245
+   get_varp               1269
    return                
 LABEL119:
    iload                  0
@@ -160,8 +160,8 @@ LABEL119:
    if_icmpeq              LABEL123
    jump                   LABEL126
 LABEL123:
-   get_settings           1246
-   get_settings           1270
+   get_varp               1246
+   get_varp               1270
    return                
 LABEL126:
    iload                  0
@@ -169,8 +169,8 @@ LABEL126:
    if_icmpeq              LABEL130
    jump                   LABEL133
 LABEL130:
-   get_settings           1247
-   get_settings           1271
+   get_varp               1247
+   get_varp               1271
    return                
 LABEL133:
    iload                  0
@@ -178,8 +178,8 @@ LABEL133:
    if_icmpeq              LABEL137
    jump                   LABEL140
 LABEL137:
-   get_settings           1248
-   get_settings           1272
+   get_varp               1248
+   get_varp               1272
    return                
 LABEL140:
    iload                  0
@@ -187,8 +187,8 @@ LABEL140:
    if_icmpeq              LABEL144
    jump                   LABEL147
 LABEL144:
-   get_settings           1249
-   get_settings           1273
+   get_varp               1249
+   get_varp               1273
    return                
 LABEL147:
    iload                  0
@@ -196,8 +196,8 @@ LABEL147:
    if_icmpeq              LABEL151
    jump                   LABEL154
 LABEL151:
-   get_settings           1250
-   get_settings           1274
+   get_varp               1250
+   get_varp               1274
    return                
 LABEL154:
    iload                  0
@@ -205,8 +205,8 @@ LABEL154:
    if_icmpeq              LABEL158
    jump                   LABEL161
 LABEL158:
-   get_settings           1251
-   get_settings           1275
+   get_varp               1251
+   get_varp               1275
    return                
 LABEL161:
    iload                  0
@@ -214,8 +214,8 @@ LABEL161:
    if_icmpeq              LABEL165
    jump                   LABEL168
 LABEL165:
-   get_settings           1228
-   get_settings           1252
+   get_varp               1228
+   get_varp               1252
    return                
 LABEL168:
    load_int               0

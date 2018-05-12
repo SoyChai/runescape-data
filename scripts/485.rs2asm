@@ -1,24 +1,66 @@
-.int_stack_count    5
+.int_stack_count    2
 .string_stack_count 0
-.int_var_count      5
+.int_var_count      2
 .string_var_count   0
-   iload                  0
+   get_varbit             3264
    iload                  1
-   widget_load_child     
-   load_int               1
-   if_icmpeq              LABEL6
-   jump                   LABEL16
-LABEL6:
+   if_icmplt              LABEL4
+   jump                   LABEL20
+LABEL4:
+   load_int               16711680
    iload                  0
-   iload                  2
-   widget_load_child      1
-   load_int               1
-   if_icmpeq              LABEL12
-   jump                   LABEL16
-LABEL12:
+   widget_put_textcolor_widget
+   load_int               -1
+   load_string            ""
    iload                  0
-   iload                  3
-   iload                  4
-   invoke                 486
-LABEL16:
+   widget_put_mouse_hover_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_option_click_listener_widget
+   jump                   LABEL55
+LABEL20:
+   get_varbit             3264
+   iload                  1
+   if_icmpeq              LABEL24
+   jump                   LABEL34
+LABEL24:
+   load_int               16776960
+   iload                  0
+   widget_put_textcolor_widget
+   load_int               45
+   iload                  0
+   load_int               16776960
+   load_string            "Ii"
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   jump                   LABEL43
+LABEL34:
+   load_int               65280
+   iload                  0
+   widget_put_textcolor_widget
+   load_int               45
+   iload                  0
+   load_int               65280
+   load_string            "Ii"
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+LABEL43:
+   load_int               45
+   iload                  0
+   load_int               16777215
+   load_string            "Ii"
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               489
+   load_int               -2147483644
+   load_int               2
+   load_string            "ii"
+   iload                  0
+   widget_put_option_click_listener_widget
+LABEL55:
    return                

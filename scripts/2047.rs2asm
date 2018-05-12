@@ -1,0 +1,25 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   iload                  0
+   widget_unset_children 
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_enter_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_mouse_exit_listener_widget
+   iload                  0
+   widget_put_actions_null_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_option_click_listener_widget
+   load_int               -1
+   load_string            ""
+   iload                  0
+   widget_put_render_listener_widget
+   return                

@@ -38,12 +38,12 @@ LABEL27:
    send_game_message     
    return                
 LABEL30:
-   get_settings           1295
+   get_varp               1295
    iload                  1
    load_int               1
    isub                  
    set_bit               
-   put_settings           1295
+   put_varp               1295
    iload                  0
    iload                  1
    invoke                 1145

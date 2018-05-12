@@ -1,0 +1,63 @@
+.int_stack_count    5
+.string_stack_count 0
+.int_var_count      5
+.string_var_count   0
+   iload                  1
+   widget_unset_children 
+   iload                  1
+   load_int               5
+   load_int               0
+   widget_create_child   
+   load_int               36
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   load_int               3355443
+   widget_put_sprite2    
+   load_int               1
+   widget_put_borderthickness
+   iload                  1
+   load_int               4
+   load_int               1
+   widget_create_child    1
+   load_int               16750623
+   widget_put_textcolor   1
+   load_int               495
+   widget_put_fontid      1
+   load_int               1
+   widget_put_text_shadowed 1
+   load_int               1
+   load_int               1
+   load_int               0
+   widget_put_text_alignment 1
+   iload                  1
+   invoke                 2131
+   load_int               2130
+   iload                  1
+   widget_get_index      
+   widget_get_index       1
+   load_int               93
+   load_int               1
+   load_string            "IiiY"
+   iload                  0
+   widget_put_table_listener_widget
+   iload                  2
+   load_string            "Agility XP"
+   iload                  2
+   iload                  3
+   iload                  4
+   invoke                 2125
+   iload                  3
+   load_string            "Thieving XP"
+   iload                  2
+   iload                  3
+   iload                  4
+   invoke                 2125
+   iload                  4
+   load_string            "Both skills"
+   iload                  2
+   iload                  3
+   iload                  4
+   invoke                 2125
+   return                

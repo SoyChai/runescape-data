@@ -4,7 +4,7 @@
 .string_var_count   1
    load_string            ""
    sstore                 0
-   get_settings           173
+   get_varp               173
    load_int               0
    if_icmple              LABEL6
    jump                   LABEL16

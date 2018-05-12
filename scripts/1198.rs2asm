@@ -11,14 +11,14 @@
    widget_put_text_widget
    load_int               0
    istore                 23
-   get_settings           262
+   get_varp               262
    load_int               0
    if_icmpgt              LABEL13
    jump                   LABEL33
 LABEL13:
    load_int               20
    load_int               0
-   get_settings           261
+   get_varp               261
    load_int               0
    load_int               1000
    load_int               20
@@ -31,7 +31,7 @@ LABEL13:
    string_append          2
    iload                  2
    widget_put_text_widget
-   load_int               1
+   load_int               6
    load_string            "Recharge"
    iload                  1
    widget_put_action_widget
@@ -45,7 +45,7 @@ LABEL33:
    string_append          2
    iload                  2
    widget_put_text_widget
-   load_int               1
+   load_int               6
    load_string            "Buy"
    iload                  1
    widget_put_action_widget
@@ -70,12 +70,12 @@ LABEL59:
    iload                  2
    widget_put_textcolor_widget
 LABEL62:
-   get_settings           263
+   get_varp               263
    load_int               0
    if_icmpgt              LABEL66
    jump                   LABEL74
 LABEL66:
-   load_int               1
+   load_int               6
    load_string            "Buy"
    iload                  5
    widget_put_action_widget
@@ -86,7 +86,7 @@ LABEL66:
 LABEL74:
    load_int               250
    istore                 23
-   load_int               1
+   load_int               6
    load_string            "Buy"
    iload                  5
    widget_put_action_widget
@@ -106,7 +106,7 @@ LABEL86:
    get_varbit             4893
    iload                  23
    if_icmplt              LABEL99
-   get_settings           263
+   get_varp               263
    load_int               0
    if_icmpgt              LABEL99
    jump                   LABEL103
@@ -128,7 +128,7 @@ LABEL110:
    load_int               1
    iload                  22
    widget_put_hidden_widget
-   load_int               1
+   load_int               6
    load_string            "Buy"
    iload                  19
    widget_put_action_widget
@@ -162,7 +162,7 @@ LABEL136:
    load_int               520
    iload                  22
    widget_put_spriteid_widget
-   load_int               1
+   load_int               6
    load_string            "Activate"
    iload                  19
    widget_put_action_widget
@@ -180,7 +180,7 @@ LABEL153:
    load_int               1210
    iload                  22
    widget_put_spriteid_widget
-   load_int               1
+   load_int               6
    load_string            "Deactivate"
    iload                  19
    widget_put_action_widget
@@ -201,46 +201,102 @@ LABEL169:
    load_int               1
    iload                  21
    2205                  
-   get_settings           264
+   get_varp               264
    load_int               1
    if_icmpeq              LABEL183
-   jump                   LABEL200
+   jump                   LABEL228
 LABEL183:
    load_int               13647
    load_int               1
    iload                  9
    2200                  
+   load_string            "<col=ff9040>"
+   load_int               13647
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   iload                  7
+   widget_put_name_widget
    load_int               13643
    load_int               1
    iload                  12
    2200                  
+   load_string            "<col=ff9040>"
+   load_int               13643
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   iload                  10
+   widget_put_name_widget
    load_int               13641
    load_int               1
    iload                  15
    2200                  
+   load_string            "<col=ff9040>"
+   load_int               13641
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   iload                  13
+   widget_put_name_widget
    load_int               13645
    load_int               1
    iload                  18
    2200                  
-   jump                   LABEL216
-LABEL200:
+   load_string            "<col=ff9040>"
+   load_int               13645
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   iload                  16
+   widget_put_name_widget
+   jump                   LABEL272
+LABEL228:
    load_int               13646
    load_int               1
    iload                  9
    2200                  
+   load_string            "<col=ff9040>"
+   load_int               13646
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   iload                  7
+   widget_put_name_widget
    load_int               13642
    load_int               1
    iload                  12
    2200                  
+   load_string            "<col=ff9040>"
+   load_int               13642
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   iload                  10
+   widget_put_name_widget
    load_int               13640
    load_int               1
    iload                  15
    2200                  
+   load_string            "<col=ff9040>"
+   load_int               13640
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   iload                  13
+   widget_put_name_widget
    load_int               13644
    load_int               1
    iload                  18
    2200                  
-LABEL216:
+   load_string            "<col=ff9040>"
+   load_int               13644
+   get_item_name         
+   load_string            "</col>"
+   string_append          3
+   iload                  16
+   widget_put_name_widget
+LABEL272:
    load_int               75
    istore                 23
    load_string            "Buy hat: "
@@ -249,7 +305,7 @@ LABEL216:
    string_append          2
    iload                  8
    widget_put_text_widget
-   load_int               1
+   load_int               6
    load_string            "Buy"
    iload                  7
    widget_put_action_widget
@@ -261,18 +317,18 @@ LABEL216:
    widget_put_option_click_listener_widget
    get_varbit             4893
    iload                  23
-   if_icmplt              LABEL238
-   jump                   LABEL242
-LABEL238:
+   if_icmplt              LABEL294
+   jump                   LABEL298
+LABEL294:
    load_int               16711680
    iload                  8
    widget_put_textcolor_widget
-   jump                   LABEL245
-LABEL242:
+   jump                   LABEL301
+LABEL298:
    load_int               16777215
    iload                  8
    widget_put_textcolor_widget
-LABEL245:
+LABEL301:
    load_int               150
    istore                 23
    load_string            "Buy jacket: "
@@ -281,7 +337,7 @@ LABEL245:
    string_append          2
    iload                  11
    widget_put_text_widget
-   load_int               1
+   load_int               6
    load_string            "Buy"
    iload                  10
    widget_put_action_widget
@@ -293,18 +349,18 @@ LABEL245:
    widget_put_option_click_listener_widget
    get_varbit             4893
    iload                  23
-   if_icmplt              LABEL267
-   jump                   LABEL271
-LABEL267:
+   if_icmplt              LABEL323
+   jump                   LABEL327
+LABEL323:
    load_int               16711680
    iload                  11
    widget_put_textcolor_widget
-   jump                   LABEL274
-LABEL271:
+   jump                   LABEL330
+LABEL327:
    load_int               16777215
    iload                  11
    widget_put_textcolor_widget
-LABEL274:
+LABEL330:
    load_int               125
    istore                 23
    load_string            "Buy legs: "
@@ -313,7 +369,7 @@ LABEL274:
    string_append          2
    iload                  14
    widget_put_text_widget
-   load_int               1
+   load_int               6
    load_string            "Buy"
    iload                  13
    widget_put_action_widget
@@ -325,18 +381,18 @@ LABEL274:
    widget_put_option_click_listener_widget
    get_varbit             4893
    iload                  23
-   if_icmplt              LABEL296
-   jump                   LABEL300
-LABEL296:
+   if_icmplt              LABEL352
+   jump                   LABEL356
+LABEL352:
    load_int               16711680
    iload                  14
    widget_put_textcolor_widget
-   jump                   LABEL303
-LABEL300:
+   jump                   LABEL359
+LABEL356:
    load_int               16777215
    iload                  14
    widget_put_textcolor_widget
-LABEL303:
+LABEL359:
    load_int               50
    istore                 23
    load_string            "Buy boots: "
@@ -345,7 +401,7 @@ LABEL303:
    string_append          2
    iload                  17
    widget_put_text_widget
-   load_int               1
+   load_int               6
    load_string            "Buy"
    iload                  16
    widget_put_action_widget
@@ -357,18 +413,18 @@ LABEL303:
    widget_put_option_click_listener_widget
    get_varbit             4893
    iload                  23
-   if_icmplt              LABEL325
-   jump                   LABEL329
-LABEL325:
+   if_icmplt              LABEL381
+   jump                   LABEL385
+LABEL381:
    load_int               16711680
    iload                  17
    widget_put_textcolor_widget
-   jump                   LABEL332
-LABEL329:
+   jump                   LABEL388
+LABEL385:
    load_int               16777215
    iload                  17
    widget_put_textcolor_widget
-LABEL332:
+LABEL388:
    iload                  3
    widget_get_width_widget
    load_int               3
@@ -400,12 +456,12 @@ LABEL332:
    iload                  29
    get_enum_value        
    istore                 30
-LABEL363:
+LABEL419:
    iload                  30
    load_int               -1
-   if_icmpne              LABEL367
-   jump                   LABEL530
-LABEL367:
+   if_icmpne              LABEL423
+   jump                   LABEL592
+LABEL423:
    iload                  3
    load_int               5
    iload                  29
@@ -416,12 +472,12 @@ LABEL367:
    widget_create_child    1
    iload                  30
    load_int               20747
-   if_icmpne              LABEL382
+   if_icmpne              LABEL438
    get_varbit             5370
    load_int               2
-   if_icmpge              LABEL382
-   jump                   LABEL515
-LABEL382:
+   if_icmpge              LABEL438
+   jump                   LABEL577
+LABEL438:
    load_int               36
    load_int               32
    load_int               0
@@ -451,6 +507,12 @@ LABEL382:
    load_string            "Buy-5"
    widget_put_action     
    load_int               4
+   load_string            "Buy-10"
+   widget_put_action     
+   load_int               5
+   load_string            "Buy-50"
+   widget_put_action     
+   load_int               6
    load_string            "Buy-X"
    widget_put_action     
    load_int               10
@@ -489,23 +551,23 @@ LABEL382:
    widget_put_text        1
    get_varbit             4893
    iload                  23
-   if_icmplt              LABEL451
-   jump                   LABEL454
-LABEL451:
+   if_icmplt              LABEL513
+   jump                   LABEL516
+LABEL513:
    load_int               16711680
    widget_put_textcolor   1
-   jump                   LABEL456
-LABEL454:
+   jump                   LABEL518
+LABEL516:
    load_int               16777215
    widget_put_textcolor   1
-LABEL456:
+LABEL518:
    iload                  28
    load_int               3
    modulo                
    load_int               0
-   if_icmpeq              LABEL462
-   jump                   LABEL475
-LABEL462:
+   if_icmpeq              LABEL524
+   jump                   LABEL537
+LABEL524:
    iload                  26
    iload                  27
    load_int               0
@@ -518,15 +580,15 @@ LABEL462:
    load_int               0
    load_int               0
    widget_put_position    1
-   jump                   LABEL510
-LABEL475:
+   jump                   LABEL572
+LABEL537:
    iload                  28
    load_int               3
    modulo                
    load_int               1
-   if_icmpeq              LABEL481
-   jump                   LABEL494
-LABEL481:
+   if_icmpeq              LABEL543
+   jump                   LABEL556
+LABEL543:
    load_int               0
    iload                  27
    load_int               1
@@ -539,8 +601,8 @@ LABEL481:
    load_int               1
    load_int               0
    widget_put_position    1
-   jump                   LABEL510
-LABEL494:
+   jump                   LABEL572
+LABEL556:
    iload                  26
    iload                  27
    load_int               2
@@ -557,18 +619,18 @@ LABEL494:
    iload                  25
    iadd                  
    istore                 27
-LABEL510:
+LABEL572:
    iload                  28
    load_int               1
    iadd                  
    istore                 28
-   jump                   LABEL519
-LABEL515:
+   jump                   LABEL581
+LABEL577:
    load_int               1
    widget_put_hidden     
    load_int               1
    widget_put_hidden      1
-LABEL519:
+LABEL581:
    iload                  29
    load_int               1
    iadd                  
@@ -579,6 +641,6 @@ LABEL519:
    iload                  29
    get_enum_value        
    istore                 30
-   jump                   LABEL363
-LABEL530:
+   jump                   LABEL419
+LABEL592:
    return                

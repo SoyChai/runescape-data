@@ -3,6 +3,32 @@
 .int_var_count      1
 .string_var_count   0
    invoke                 923
+   get_varbit             5983
+   load_int               1
+   if_icmpeq              LABEL5
+   jump                   LABEL17
+LABEL5:
+   load_int               10617381
+   widget_get_index_widget
+   load_int               1
+   if_icmpeq              LABEL10
+   jump                   LABEL17
+LABEL10:
+   load_int               0
+   load_int               0
+   load_int               1
+   load_int               1
+   load_int               10617381
+   widget_put_size_widget
+   jump                   LABEL23
+LABEL17:
+   load_int               479
+   load_int               96
+   load_int               0
+   load_int               0
+   load_int               10617381
+   widget_put_size_widget
+LABEL23:
    invoke                 178
    invoke                 553
    istore                 0

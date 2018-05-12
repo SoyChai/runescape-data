@@ -12,7 +12,7 @@ LABEL4:
    if_icmpeq              LABEL8
    jump                   LABEL23
 LABEL8:
-   get_varbit             3578
+   get_varbit             3599
    load_int               2
    if_icmpeq              LABEL12
    jump                   LABEL23

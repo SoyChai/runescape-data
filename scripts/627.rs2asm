@@ -1,6 +1,6 @@
-.int_stack_count    2
+.int_stack_count    1
 .string_stack_count 2
-.int_var_count      9
+.int_var_count      6
 .string_var_count   3
    load_int               73
    load_int               73
@@ -14,85 +14,55 @@
 LABEL9:
    return                
 LABEL10:
-   load_int               2013
-   istore                 2
-   load_int               105
-   load_int               73
-   load_int               1126
-   iload                  2
-   get_enum_value        
-   istore                 3
-LABEL18:
-   iload                  3
-   load_int               -1
-   if_icmpne              LABEL22
-   jump                   LABEL37
-LABEL22:
-   iload                  3
-   iload                  2
-   iload                  0
-   invoke                 1486
-   iload                  2
-   load_int               1
-   iadd                  
-   istore                 2
-   load_int               105
-   load_int               73
-   load_int               1126
-   iload                  2
-   get_enum_value        
-   istore                 3
-   jump                   LABEL18
-LABEL37:
-   load_int               20316170
+   load_int               20316164
    widget_unset_children 
    load_int               0
-   istore                 4
-LABEL41:
-   iload                  4
+   istore                 1
+LABEL14:
    iload                  1
-   if_icmplt              LABEL45
-   jump                   LABEL56
-LABEL45:
-   load_int               20316170
+   iload                  0
+   if_icmplt              LABEL18
+   jump                   LABEL29
+LABEL18:
+   load_int               20316164
    load_int               3
-   iload                  4
+   iload                  1
    widget_create_child   
    load_int               1
    widget_put_hidden     
-   iload                  4
+   iload                  1
    load_int               1
    iadd                  
-   istore                 4
-   jump                   LABEL41
-LABEL56:
+   istore                 1
+   jump                   LABEL14
+LABEL29:
    load_int               10
-   istore                 5
+   istore                 2
    load_string            ""
    sstore                 2
    load_int               0
-   istore                 6
-   load_int               20316170
+   istore                 3
+   load_int               20316164
    widget_get_width_widget
-   istore                 7
-   load_int               0
-   istore                 8
-LABEL67:
-   iload                  8
-   iload                  1
-   if_icmplt              LABEL71
-   jump                   LABEL224
-LABEL71:
-   load_int               20316170
-   load_int               3
-   iload                  4
-   widget_create_child   
-   iload                  4
-   load_int               1
-   iadd                  
    istore                 4
    load_int               0
+   istore                 5
+LABEL40:
    iload                  5
+   iload                  0
+   if_icmplt              LABEL44
+   jump                   LABEL197
+LABEL44:
+   load_int               20316164
+   load_int               3
+   iload                  1
+   widget_create_child   
+   iload                  1
+   load_int               1
+   iadd                  
+   istore                 1
+   load_int               0
+   iload                  2
    load_int               0
    load_int               0
    widget_put_position   
@@ -102,16 +72,16 @@ LABEL71:
    widget_put_filled     
    load_int               255
    widget_put_opacity    
-   load_int               20316170
+   load_int               20316164
    load_int               4
-   iload                  4
+   iload                  1
    widget_create_child    1
-   iload                  4
+   iload                  1
    load_int               1
    iadd                  
-   istore                 4
+   istore                 1
    load_int               0
-   iload                  5
+   iload                  2
    load_int               0
    load_int               0
    widget_put_position    1
@@ -150,27 +120,27 @@ LABEL71:
    widget_put_action     
    load_int               628
    load_int               -2147483645
-   iload                  8
+   iload                  5
    widget_get_index       1
    sload                  2
    load_string            "Iiis"
    widget_put_option_click_listener
    sload                  2
-   iload                  7
+   iload                  4
    load_int               495
    get_line_count        
    load_int               12
    imul                  
    load_int               5
    iadd                  
-   istore                 6
+   istore                 3
    sload                  1
    invoke                 632
    sstore                 1
    sstore                 2
-   iload                  6
+   iload                  3
    sload                  2
-   iload                  7
+   iload                  4
    load_int               494
    get_line_count        
    load_int               10
@@ -178,32 +148,32 @@ LABEL71:
    iadd                  
    load_int               2
    iadd                  
-   istore                 6
-   iload                  7
-   iload                  6
+   istore                 3
+   iload                  4
+   iload                  3
    load_int               0
    load_int               0
    widget_put_size       
-   iload                  7
-   iload                  6
+   iload                  4
+   iload                  3
    load_int               0
    load_int               0
    widget_put_size        1
-   load_int               20316170
+   load_int               20316164
    load_int               4
-   iload                  4
+   iload                  1
    widget_create_child    1
-   iload                  4
+   iload                  1
    load_int               1
    iadd                  
-   istore                 4
+   istore                 1
    load_int               0
-   iload                  5
+   iload                  2
    load_int               0
    load_int               0
    widget_put_position    1
-   iload                  7
-   iload                  6
+   iload                  4
+   iload                  3
    load_int               0
    load_int               0
    widget_put_size        1
@@ -219,53 +189,53 @@ LABEL71:
    widget_put_text_shadowed 1
    sload                  2
    widget_put_text        1
-   iload                  5
-   iload                  6
+   iload                  2
+   iload                  3
    iadd                  
-   iload                  8
+   iload                  5
    load_int               1
    iadd                  
-   istore                 8
    istore                 5
-   iload                  8
-   iload                  1
-   if_icmplt              LABEL219
-   jump                   LABEL223
-LABEL219:
+   istore                 2
    iload                  5
+   iload                  0
+   if_icmplt              LABEL192
+   jump                   LABEL196
+LABEL192:
+   iload                  2
    load_int               10
    iadd                  
-   istore                 5
-LABEL223:
-   jump                   LABEL67
-LABEL224:
-   iload                  5
-   load_int               20316170
+   istore                 2
+LABEL196:
+   jump                   LABEL40
+LABEL197:
+   iload                  2
+   load_int               20316164
    widget_get_height_widget
-   if_icmpgt              LABEL229
-   jump                   LABEL234
-LABEL229:
+   if_icmpgt              LABEL202
+   jump                   LABEL207
+LABEL202:
    load_int               0
-   iload                  5
-   load_int               20316170
+   iload                  2
+   load_int               20316164
    widget_put_scrollwidthheight_widget
-   jump                   LABEL238
-LABEL234:
+   jump                   LABEL211
+LABEL207:
    load_int               0
    load_int               0
-   load_int               20316170
+   load_int               20316164
    widget_put_scrollwidthheight_widget
-LABEL238:
-   iload                  5
+LABEL211:
+   iload                  2
    put_varc               49
-   load_int               20316171
+   load_int               20316165
    widget_unset_children 
    load_int               0
    load_int               0
-   load_int               20316170
+   load_int               20316164
    widget_put_scroll_widget
-   load_int               20316171
-   load_int               20316170
+   load_int               20316165
+   load_int               20316164
    load_int               792
    load_int               789
    load_int               790

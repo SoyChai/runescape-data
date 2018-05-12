@@ -2,7 +2,7 @@
 .string_stack_count 0
 .int_var_count      0
 .string_var_count   0
-   get_settings           286
+   get_varp               286
    load_int               14
    test_bit              
    load_int               1
@@ -18,7 +18,7 @@ LABEL10:
    load_int               31195176
    widget_put_hidden_widget
 LABEL13:
-   get_settings           286
+   get_varp               286
    load_int               15
    test_bit              
    load_int               1
@@ -34,7 +34,7 @@ LABEL23:
    load_int               31195177
    widget_put_hidden_widget
 LABEL26:
-   get_settings           286
+   get_varp               286
    load_int               16
    test_bit              
    load_int               1
@@ -50,7 +50,7 @@ LABEL36:
    load_int               31195178
    widget_put_hidden_widget
 LABEL39:
-   get_settings           286
+   get_varp               286
    load_int               17
    test_bit              
    load_int               1
@@ -66,7 +66,7 @@ LABEL49:
    load_int               31195179
    widget_put_hidden_widget
 LABEL52:
-   get_settings           286
+   get_varp               286
    load_int               18
    test_bit              
    load_int               1
@@ -82,7 +82,7 @@ LABEL62:
    load_int               31195180
    widget_put_hidden_widget
 LABEL65:
-   get_settings           286
+   get_varp               286
    load_int               19
    test_bit              
    load_int               1
@@ -98,7 +98,7 @@ LABEL75:
    load_int               31195181
    widget_put_hidden_widget
 LABEL78:
-   get_settings           286
+   get_varp               286
    load_int               21
    test_bit              
    load_int               1
@@ -114,7 +114,7 @@ LABEL88:
    load_int               31195182
    widget_put_hidden_widget
 LABEL91:
-   get_settings           286
+   get_varp               286
    load_int               23
    test_bit              
    load_int               1
@@ -130,7 +130,7 @@ LABEL101:
    load_int               31195183
    widget_put_hidden_widget
 LABEL104:
-   get_settings           286
+   get_varp               286
    load_int               24
    test_bit              
    load_int               1
@@ -146,7 +146,7 @@ LABEL114:
    load_int               31195184
    widget_put_hidden_widget
 LABEL117:
-   get_settings           286
+   get_varp               286
    load_int               26
    test_bit              
    load_int               1
@@ -162,7 +162,7 @@ LABEL127:
    load_int               31195185
    widget_put_hidden_widget
 LABEL130:
-   get_settings           286
+   get_varp               286
    load_int               27
    test_bit              
    load_int               1

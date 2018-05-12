@@ -1,0 +1,56 @@
+.int_stack_count    0
+.string_stack_count 0
+.int_var_count      0
+.string_var_count   0
+   get_varbit             6274
+   load_int               2
+   if_icmpeq              LABEL4
+   jump                   LABEL17
+LABEL4:
+   load_int               174
+   load_int               11927573
+   widget_put_spriteid_widget
+   load_int               176
+   load_int               11927574
+   widget_put_spriteid_widget
+   load_int               177
+   load_int               11927569
+   widget_put_spriteid_widget
+   load_int               178
+   load_int               11927570
+   widget_put_spriteid_widget
+   jump                   LABEL46
+LABEL17:
+   get_varbit             6274
+   load_int               1
+   if_icmpeq              LABEL21
+   jump                   LABEL34
+LABEL21:
+   load_int               177
+   load_int               11927573
+   widget_put_spriteid_widget
+   load_int               178
+   load_int               11927574
+   widget_put_spriteid_widget
+   load_int               174
+   load_int               11927569
+   widget_put_spriteid_widget
+   load_int               176
+   load_int               11927570
+   widget_put_spriteid_widget
+   jump                   LABEL46
+LABEL34:
+   load_int               174
+   load_int               11927573
+   widget_put_spriteid_widget
+   load_int               176
+   load_int               11927574
+   widget_put_spriteid_widget
+   load_int               174
+   load_int               11927569
+   widget_put_spriteid_widget
+   load_int               176
+   load_int               11927570
+   widget_put_spriteid_widget
+LABEL46:
+   return                

@@ -149,7 +149,7 @@ LABEL132:
    istore                 14
    jump                   LABEL52
 LABEL137:
-   get_settings           286
+   get_varp               286
    load_int               14
    test_bit              
    load_int               1
@@ -167,7 +167,7 @@ LABEL147:
    load_int               31522892
    invoke                 41
 LABEL152:
-   get_settings           286
+   get_varp               286
    load_int               15
    test_bit              
    load_int               1
@@ -185,7 +185,7 @@ LABEL162:
    load_int               31522892
    invoke                 41
 LABEL167:
-   get_settings           286
+   get_varp               286
    load_int               16
    test_bit              
    load_int               1
@@ -203,7 +203,7 @@ LABEL177:
    load_int               31522892
    invoke                 41
 LABEL182:
-   get_settings           286
+   get_varp               286
    load_int               17
    test_bit              
    load_int               1
@@ -221,7 +221,7 @@ LABEL192:
    load_int               31522892
    invoke                 41
 LABEL197:
-   get_settings           286
+   get_varp               286
    load_int               18
    test_bit              
    load_int               1
@@ -239,7 +239,7 @@ LABEL207:
    load_int               31522892
    invoke                 41
 LABEL212:
-   get_settings           286
+   get_varp               286
    load_int               19
    test_bit              
    load_int               1
@@ -257,7 +257,7 @@ LABEL222:
    load_int               31522892
    invoke                 41
 LABEL227:
-   get_settings           286
+   get_varp               286
    load_int               21
    test_bit              
    load_int               1
@@ -275,7 +275,7 @@ LABEL237:
    load_int               31522892
    invoke                 41
 LABEL242:
-   get_settings           286
+   get_varp               286
    load_int               23
    test_bit              
    load_int               1
@@ -293,7 +293,7 @@ LABEL252:
    load_int               31522892
    invoke                 41
 LABEL257:
-   get_settings           286
+   get_varp               286
    load_int               24
    test_bit              
    load_int               1
@@ -311,7 +311,7 @@ LABEL267:
    load_int               31522892
    invoke                 41
 LABEL272:
-   get_settings           286
+   get_varp               286
    load_int               26
    test_bit              
    load_int               1
@@ -329,7 +329,7 @@ LABEL282:
    load_int               31522892
    invoke                 41
 LABEL287:
-   get_settings           286
+   get_varp               286
    load_int               27
    test_bit              
    load_int               1

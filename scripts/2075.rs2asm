@@ -1,0 +1,169 @@
+.int_stack_count    11
+.string_stack_count 0
+.int_var_count      13
+.string_var_count   0
+   get_coordinates       
+   invoke                 2076
+   istore                 11
+   load_int               0
+   iload                  11
+   set_bit               
+   istore                 12
+   iload                  11
+   switch                
+      3: LABEL15
+      4: LABEL25
+      6: LABEL10
+      7: LABEL20
+   jump                   LABEL29
+LABEL10:
+   iload                  12
+   load_int               3
+   set_bit               
+   istore                 12
+   jump                   LABEL29
+LABEL15:
+   iload                  12
+   load_int               6
+   set_bit               
+   istore                 12
+   jump                   LABEL29
+LABEL20:
+   iload                  12
+   load_int               4
+   set_bit               
+   istore                 12
+   jump                   LABEL29
+LABEL25:
+   iload                  12
+   load_int               7
+   set_bit               
+   istore                 12
+LABEL29:
+   get_varp               302
+   load_int               61
+   if_icmplt              LABEL33
+   jump                   LABEL41
+LABEL33:
+   iload                  12
+   load_int               3
+   set_bit               
+   istore                 12
+   iload                  12
+   load_int               6
+   set_bit               
+   istore                 12
+LABEL41:
+   get_varp               655
+   load_int               140
+   if_icmplt              LABEL45
+   jump                   LABEL49
+LABEL45:
+   iload                  12
+   load_int               3
+   set_bit               
+   istore                 12
+LABEL49:
+   get_varp               365
+   load_int               2
+   if_icmplt              LABEL56
+   get_varp               150
+   load_int               160
+   if_icmplt              LABEL56
+   jump                   LABEL60
+LABEL56:
+   iload                  12
+   load_int               8
+   set_bit               
+   istore                 12
+LABEL60:
+   get_varp               328
+   load_int               15
+   if_icmplt              LABEL64
+   jump                   LABEL68
+LABEL64:
+   iload                  12
+   load_int               9
+   set_bit               
+   istore                 12
+LABEL68:
+   get_varp               176
+   load_int               2
+   if_icmplt              LABEL75
+   get_varp               176
+   load_int               9
+   if_icmpgt              LABEL75
+   jump                   LABEL79
+LABEL75:
+   iload                  12
+   load_int               0
+   set_bit               
+   istore                 12
+LABEL79:
+   iload                  12
+   load_int               1
+   test_bit              
+   invoke                 633
+   iload                  5
+   widget_put_hidden_widget
+   iload                  12
+   load_int               2
+   test_bit              
+   invoke                 633
+   iload                  2
+   widget_put_hidden_widget
+   iload                  12
+   load_int               3
+   test_bit              
+   invoke                 633
+   iload                  8
+   widget_put_hidden_widget
+   iload                  12
+   load_int               4
+   test_bit              
+   invoke                 633
+   iload                  4
+   widget_put_hidden_widget
+   iload                  12
+   load_int               5
+   test_bit              
+   invoke                 633
+   iload                  6
+   widget_put_hidden_widget
+   iload                  12
+   load_int               6
+   test_bit              
+   invoke                 633
+   iload                  1
+   widget_put_hidden_widget
+   iload                  12
+   load_int               7
+   test_bit              
+   invoke                 633
+   iload                  7
+   widget_put_hidden_widget
+   iload                  12
+   load_int               8
+   test_bit              
+   invoke                 633
+   iload                  3
+   widget_put_hidden_widget
+   iload                  12
+   load_int               9
+   test_bit              
+   invoke                 633
+   iload                  0
+   widget_put_hidden_widget
+   iload                  12
+   load_int               0
+   test_bit              
+   invoke                 633
+   iload                  9
+   widget_put_hidden_widget
+   iload                  12
+   load_int               10
+   test_bit              
+   invoke                 633
+   iload                  10
+   widget_put_hidden_widget
+   return                

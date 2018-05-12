@@ -6,6 +6,7 @@
    iload                  5
    load_int               494
    invoke                 1611
+   pop_int               
    iload                  1
    invoke                 1602
    load_int               1590

@@ -21,7 +21,7 @@ LABEL12:
    jump                   LABEL64
 LABEL16:
    iload                  9
-   load_int               39
+   load_int               43
    if_icmple              LABEL20
    jump                   LABEL64
 LABEL20:
@@ -30,7 +30,7 @@ LABEL20:
    if_icmplt              LABEL24
    jump                   LABEL29
 LABEL24:
-   get_settings           1076
+   get_varp               1076
    iload                  9
    test_bit              
    load_int               0
@@ -41,7 +41,7 @@ LABEL29:
    if_icmpge              LABEL33
    jump                   LABEL53
 LABEL33:
-   get_settings           1344
+   get_varp               1344
    iload                  9
    load_int               32
    modulo                
@@ -183,7 +183,7 @@ LABEL143:
    widget_put_action_widget
    load_int               414
    load_int               -1
-   load_int               39
+   load_int               43
    load_int               9
    iadd                  
    sload                  1

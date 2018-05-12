@@ -14,7 +14,7 @@ LABEL5:
    if_icmpeq              LABEL9
    jump                   LABEL21
 LABEL9:
-   get_settings           287
+   get_varp               287
    load_int               1
    if_icmpeq              LABEL13
    jump                   LABEL21

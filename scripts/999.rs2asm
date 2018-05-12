@@ -260,7 +260,7 @@ LABEL228:
    invoke                 1008
    istore                 16
    istore                 17
-   get_settings           1252
+   get_varp               1252
    load_int               -1
    if_icmpeq              LABEL240
    jump                   LABEL352
@@ -280,12 +280,12 @@ LABEL240:
    iadd                  
    istore                 18
    iload                  18
-   get_settings           1228
+   get_varp               1228
    if_icmpgt              LABEL258
    jump                   LABEL300
 LABEL258:
    iload                  18
-   get_settings           1228
+   get_varp               1228
    isub                  
    sload                  0
    invoke                 46
@@ -301,14 +301,14 @@ LABEL258:
    widget_put_text_widget
    load_string            "Total XP tracker:|Tracking from:|Total XP:"
    sstore                 1
-   get_settings           1228
+   get_varp               1228
    load_int               0
    if_icmpgt              LABEL279
    jump                   LABEL292
 LABEL279:
    sload                  3
    load_string            "|"
-   get_settings           1228
+   get_varp               1228
    sload                  0
    invoke                 46
    sload                  0
@@ -331,7 +331,7 @@ LABEL299:
    jump                   LABEL351
 LABEL300:
    iload                  18
-   get_settings           1228
+   get_varp               1228
    if_icmpeq              LABEL304
    jump                   LABEL343
 LABEL304:
@@ -350,14 +350,14 @@ LABEL308:
    widget_put_text_widget
    load_string            "Total XP tracker:|Tracking from:|Total XP:"
    sstore                 1
-   get_settings           1228
+   get_varp               1228
    load_int               0
    if_icmpgt              LABEL322
    jump                   LABEL335
 LABEL322:
    sload                  3
    load_string            "|"
-   get_settings           1228
+   get_varp               1228
    sload                  0
    invoke                 46
    sload                  0
@@ -650,13 +650,13 @@ LABEL588:
    invoke                 1008
    istore                 16
    istore                 17
-   get_settings           1252
+   get_varp               1252
    load_int               -1
    if_icmpne              LABEL597
    jump                   LABEL792
 LABEL597:
-   get_settings           1252
-   get_settings           1228
+   get_varp               1252
+   get_varp               1228
    if_icmpgt              LABEL601
    jump                   LABEL792
 LABEL601:
@@ -665,7 +665,7 @@ LABEL601:
    if_icmplt              LABEL605
    jump                   LABEL641
 LABEL605:
-   get_settings           1252
+   get_varp               1252
    load_int               2147483647
    load_int               1000
    idiv                  
@@ -673,7 +673,7 @@ LABEL605:
    jump                   LABEL641
 LABEL611:
    iload                  4
-   get_settings           1228
+   get_varp               1228
    load_int               1000
    imul                  
    iload                  17
@@ -683,13 +683,13 @@ LABEL611:
    imul                  
    iload                  16
    iadd                  
-   get_settings           1252
+   get_varp               1252
    load_int               1000
    imul                  
    load_int               1
    invoke                 1000
    istore                 21
-   get_settings           1252
+   get_varp               1252
    load_int               1000
    imul                  
    iload                  17
@@ -714,18 +714,18 @@ LABEL641:
    iadd                  
    istore                 25
    iload                  4
-   get_settings           1228
+   get_varp               1228
    iload                  25
-   get_settings           1252
+   get_varp               1252
    load_int               1
    invoke                 1000
    istore                 21
    iload                  25
-   get_settings           1252
+   get_varp               1252
    if_icmplt              LABEL662
    jump                   LABEL713
 LABEL662:
-   get_settings           1252
+   get_varp               1252
    iload                  25
    isub                  
    istore                 24
@@ -789,7 +789,7 @@ LABEL713:
    load_string            "</col>"
    string_append          8
    sstore                 1
-   get_settings           1228
+   get_varp               1228
    load_int               0
    if_icmpgt              LABEL727
    jump                   LABEL752
@@ -798,7 +798,7 @@ LABEL727:
    invoke                 1001
    load_string            "|"
    load_string            "<col=7f7f7f>"
-   get_settings           1228
+   get_varp               1228
    sload                  0
    invoke                 46
    sload                  0
@@ -810,7 +810,7 @@ LABEL727:
    invoke                 1009
    load_string            "|"
    load_string            "<col=7f7f7f>"
-   get_settings           1252
+   get_varp               1252
    sload                  0
    invoke                 46
    sload                  0
@@ -832,7 +832,7 @@ LABEL752:
    invoke                 1009
    load_string            "|"
    load_string            "<col=7f7f7f>"
-   get_settings           1252
+   get_varp               1252
    sload                  0
    invoke                 46
    sload                  0

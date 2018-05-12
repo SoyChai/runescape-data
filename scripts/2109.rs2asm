@@ -1,0 +1,19 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      2
+.string_var_count   0
+   iload                  1
+   iload                  0
+   test_bit              
+   load_int               1
+   if_icmpeq              LABEL6
+   jump                   LABEL12
+LABEL6:
+   load_int               2268
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   load_string            "That piece is stuck."
+   send_game_message     
+LABEL12:
+   return                

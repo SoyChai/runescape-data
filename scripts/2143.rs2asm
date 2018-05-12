@@ -1,0 +1,77 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      5
+.string_var_count   0
+   iload                  0
+   widget_unset_children 
+   load_int               42
+   load_int               36
+   isub                  
+   load_int               3
+   imul                  
+   load_int               2
+   isub                  
+   istore                 1
+   load_int               36
+   load_int               32
+   isub                  
+   load_int               2
+   imul                  
+   istore                 2
+   load_int               0
+   istore                 3
+   load_int               93
+   get_inventory_size    
+   istore                 4
+LABEL21:
+   iload                  3
+   iload                  4
+   if_icmplt              LABEL25
+   jump                   LABEL60
+LABEL25:
+   iload                  0
+   load_int               5
+   iload                  3
+   widget_create_child   
+   load_int               36
+   load_int               32
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  1
+   iload                  3
+   load_int               4
+   modulo                
+   load_int               42
+   imul                  
+   iadd                  
+   iload                  2
+   iload                  3
+   load_int               4
+   idiv                  
+   load_int               36
+   imul                  
+   iadd                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               3355443
+   widget_put_sprite2    
+   load_int               1
+   widget_put_borderthickness
+   iload                  3
+   load_int               1
+   iadd                  
+   istore                 3
+   jump                   LABEL21
+LABEL60:
+   iload                  0
+   invoke                 2145
+   load_int               2144
+   iload                  0
+   load_int               93
+   load_int               1
+   load_string            "IY"
+   iload                  0
+   widget_put_table_listener_widget
+   return                

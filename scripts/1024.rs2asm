@@ -16,8 +16,8 @@ LABEL5:
    iload                  1
    load_int               -1
    load_int               -1
-   put_settings           262
-   put_settings           261
+   put_varp               262
+   put_varp               261
    set_varbit             4704
    iload                  2
    iload                  3

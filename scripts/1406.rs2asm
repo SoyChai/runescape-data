@@ -295,21 +295,8 @@ LABEL260:
    iload                  1
    load_int               0
    if_icmpeq              LABEL264
-   jump                   LABEL276
+   jump                   LABEL265
 LABEL264:
-   load_int               1
-   put_varc               11
-   load_int               10616864
-   widget_get_hidden_widget
-   load_int               0
-   if_icmpeq              LABEL271
-   jump                   LABEL274
-LABEL271:
-   load_int               1
-   load_int               1
-   invoke                 299
-LABEL274:
-   load_int               0
-   invoke                 927
-LABEL276:
+   invoke                 2157
+LABEL265:
    return                

@@ -1,0 +1,79 @@
+.int_stack_count    0
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   2
+   load_string            "Museum Kudos:"
+   sstore                 0
+   get_varbit             3637
+   int_to_string         
+   load_string            "/"
+   load_int               225
+   int_to_string         
+   string_append          3
+   sstore                 1
+   get_varbit             3637
+   load_int               225
+   if_icmpge              LABEL13
+   jump                   LABEL18
+LABEL13:
+   load_string            "<col=00ff00>"
+   sload                  1
+   load_string            "</col>"
+   string_append          3
+   sstore                 1
+LABEL18:
+   sload                  0
+   load_int               512
+   load_int               496
+   get_max_line_width    
+   load_int               5
+   iadd                  
+   sload                  1
+   load_int               512
+   load_int               495
+   get_max_line_width    
+   iadd                  
+   istore                 0
+   iload                  0
+   load_int               17
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  0
+   load_int               17
+   load_int               0
+   load_int               0
+   widget_put_size        1
+   get_varbit             4692
+   load_int               0
+   if_icmpne              LABEL44
+   jump                   LABEL55
+LABEL44:
+   load_int               10
+   load_int               5
+   load_int               2
+   load_int               0
+   widget_put_position   
+   load_int               10
+   load_int               5
+   load_int               2
+   load_int               0
+   widget_put_position    1
+   jump                   LABEL65
+LABEL55:
+   load_int               10
+   load_int               20
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               10
+   load_int               20
+   load_int               0
+   load_int               0
+   widget_put_position    1
+LABEL65:
+   sload                  0
+   widget_put_text       
+   sload                  1
+   widget_put_text        1
+   return                

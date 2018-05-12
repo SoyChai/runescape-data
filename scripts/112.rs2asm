@@ -52,42 +52,33 @@ LABEL37:
    return                
 LABEL39:
    get_varc               5
-   load_int               6
-   if_icmpeq              LABEL49
-   get_varc               5
-   load_int               9
-   if_icmpeq              LABEL49
-   get_varc               5
-   load_int               11
-   if_icmpeq              LABEL49
-   jump                   LABEL56
-LABEL49:
+   switch                
+      16: LABEL49
+      6: LABEL42
+      7: LABEL49
+      9: LABEL42
+      11: LABEL42
+      12: LABEL56
+      13: LABEL64
+      14: LABEL72
+   jump                   LABEL93
+LABEL42:
    get_varc_string        22
    load_int               0
    iload                  0
    iload                  1
    invoke                 74
    put_varc_string        22
-   jump                   LABEL122
-LABEL56:
-   get_varc               5
-   load_int               7
-   if_icmpeq              LABEL60
-   jump                   LABEL67
-LABEL60:
+   jump                   LABEL99
+LABEL49:
    get_varc_string        22
    load_int               1
    iload                  0
    iload                  1
    invoke                 74
    put_varc_string        22
-   jump                   LABEL122
-LABEL67:
-   get_varc               5
-   load_int               12
-   if_icmpeq              LABEL71
-   jump                   LABEL79
-LABEL71:
+   jump                   LABEL99
+LABEL56:
    get_varc_string        22
    load_int               3
    iload                  0
@@ -95,13 +86,8 @@ LABEL71:
    invoke                 74
    put_varc_string        22
    invoke                 549
-   jump                   LABEL122
-LABEL79:
-   get_varc               5
-   load_int               13
-   if_icmpeq              LABEL83
-   jump                   LABEL91
-LABEL83:
+   jump                   LABEL99
+LABEL64:
    get_varc_string        22
    load_int               0
    iload                  0
@@ -109,18 +95,13 @@ LABEL83:
    invoke                 74
    put_varc_string        22
    invoke                 551
-   jump                   LABEL122
-LABEL91:
-   get_varc               5
-   load_int               14
-   if_icmpeq              LABEL95
-   jump                   LABEL116
-LABEL95:
+   jump                   LABEL99
+LABEL72:
    iload                  0
    load_int               13
-   if_icmpeq              LABEL99
-   jump                   LABEL109
-LABEL99:
+   if_icmpeq              LABEL76
+   jump                   LABEL86
+LABEL76:
    load_int               -1
    item_price            
    load_int               2266
@@ -131,22 +112,22 @@ LABEL99:
    load_int               1
    invoke                 299
    return                
-LABEL109:
+LABEL86:
    get_varc_string        22
    load_int               4
    iload                  0
    iload                  1
    invoke                 74
    put_varc_string        22
-   jump                   LABEL122
-LABEL116:
+   jump                   LABEL99
+LABEL93:
    get_varc_string        22
    load_int               2
    iload                  0
    iload                  1
    invoke                 74
    put_varc_string        22
-LABEL122:
+LABEL99:
    sload                  0
    invoke                 222
    return                

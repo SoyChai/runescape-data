@@ -1,0 +1,38 @@
+.int_stack_count    0
+.string_stack_count 0
+.int_var_count      0
+.string_var_count   0
+   get_varbit             6257
+   load_int               0
+   if_icmpeq              LABEL4
+   jump                   LABEL11
+LABEL4:
+   load_int               1
+   load_int               39387163
+   widget_put_hidden_widget
+   load_int               1
+   load_int               39387162
+   widget_put_hidden_widget
+   jump                   LABEL28
+LABEL11:
+   load_int               0
+   load_int               39387163
+   widget_put_hidden_widget
+   load_int               0
+   load_int               39387162
+   widget_put_hidden_widget
+   get_varbit             6256
+   load_int               0
+   if_icmpeq              LABEL21
+   jump                   LABEL25
+LABEL21:
+   load_int               1180
+   load_int               39387164
+   widget_put_spriteid_widget
+   jump                   LABEL28
+LABEL25:
+   load_int               1181
+   load_int               39387164
+   widget_put_spriteid_widget
+LABEL28:
+   return                

@@ -10,7 +10,7 @@ LABEL4:
    return                
 LABEL5:
    iload                  7
-   put_settings           43
+   put_varp               43
    iload                  0
    iload                  1
    iload                  2

@@ -2084,7 +2084,7 @@ LABEL1665:
    iload                  0
    load_int               5
    if_icmpeq              LABEL1669
-   jump                   LABEL1937
+   jump                   LABEL1945
 LABEL1669:
    iload                  1
    load_int               0
@@ -2371,946 +2371,966 @@ LABEL1893:
    if_icmpeq              LABEL1897
    jump                   LABEL1901
 LABEL1897:
+   load_int               82
+   load_int               21912
+   load_string            "Mounted Vorkath head"
+   return                
+LABEL1901:
+   iload                  1
+   load_int               28
+   if_icmpeq              LABEL1905
+   jump                   LABEL1909
+LABEL1905:
    load_int               83
    load_int               20623
    load_string            "Mahogany adventure log"
    return                
-LABEL1901:
+LABEL1909:
    iload                  1
    load_int               29
-   if_icmpeq              LABEL1905
-   jump                   LABEL1909
-LABEL1905:
+   if_icmpeq              LABEL1913
+   jump                   LABEL1917
+LABEL1913:
    load_int               86
    load_int               8107
    load_string            "Wall-mounted kiteshield"
    return                
-LABEL1909:
+LABEL1917:
    iload                  1
    load_int               30
-   if_icmpeq              LABEL1913
-   jump                   LABEL1917
-LABEL1913:
+   if_icmpeq              LABEL1921
+   jump                   LABEL1925
+LABEL1921:
    load_int               87
    load_int               20629
    load_string            "Boss lair display"
    return                
-LABEL1917:
+LABEL1925:
    iload                  1
    load_int               31
-   if_icmpeq              LABEL1921
-   jump                   LABEL1925
-LABEL1921:
+   if_icmpeq              LABEL1929
+   jump                   LABEL1933
+LABEL1929:
    load_int               88
    load_int               20624
    load_string            "Gilded adventure log"
    return                
-LABEL1925:
+LABEL1933:
    iload                  1
    load_int               32
-   if_icmpeq              LABEL1929
-   jump                   LABEL1933
-LABEL1929:
+   if_icmpeq              LABEL1937
+   jump                   LABEL1941
+LABEL1937:
    load_int               93
    load_int               20625
    load_string            "Marble adventure log"
    return                
-LABEL1933:
+LABEL1941:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL1937:
+LABEL1945:
    iload                  0
    load_int               6
-   if_icmpeq              LABEL1941
-   jump                   LABEL2169
-LABEL1941:
+   if_icmpeq              LABEL1949
+   jump                   LABEL2177
+LABEL1949:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL1945
-   jump                   LABEL1949
-LABEL1945:
+   if_icmpeq              LABEL1953
+   jump                   LABEL1957
+LABEL1953:
    load_int               30
    load_int               8162
    load_string            "Hoop-and-stick game"
    return                
-LABEL1949:
+LABEL1957:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL1953
-   jump                   LABEL1957
-LABEL1953:
+   if_icmpeq              LABEL1961
+   jump                   LABEL1965
+LABEL1961:
    load_int               32
    load_int               8023
    load_string            "Boxing ring"
    return                
-LABEL1957:
-   iload                  1
-   load_int               2
-   if_icmpeq              LABEL1961
-   jump                   LABEL1965
-LABEL1961:
-   load_int               34
-   load_int               8028
-   load_string            "Boxing glove rack"
-   return                
 LABEL1965:
    iload                  1
-   load_int               3
+   load_int               2
    if_icmpeq              LABEL1969
    jump                   LABEL1973
 LABEL1969:
    load_int               34
-   load_int               8165
-   load_string            "Oak prize chest"
+   load_int               8028
+   load_string            "Boxing glove rack"
    return                
 LABEL1973:
    iload                  1
-   load_int               4
+   load_int               3
    if_icmpeq              LABEL1977
    jump                   LABEL1981
 LABEL1977:
+   load_int               34
+   load_int               8165
+   load_string            "Oak prize chest"
+   return                
+LABEL1981:
+   iload                  1
+   load_int               4
+   if_icmpeq              LABEL1985
+   jump                   LABEL1989
+LABEL1985:
    load_int               37
    load_int               8156
    load_string            "Lesser magical balance"
    return                
-LABEL1981:
-   iload                  1
-   load_int               5
-   if_icmpeq              LABEL1985
-   jump                   LABEL1989
-LABEL1985:
-   load_int               39
-   load_int               8159
-   load_string            "Jester game"
-   return                
 LABEL1989:
    iload                  1
-   load_int               6
+   load_int               5
    if_icmpeq              LABEL1993
    jump                   LABEL1997
 LABEL1993:
    load_int               39
-   load_int               8153
-   load_string            "Clay attack stone"
+   load_int               8159
+   load_string            "Jester game"
    return                
 LABEL1997:
    iload                  1
-   load_int               7
+   load_int               6
    if_icmpeq              LABEL2001
    jump                   LABEL2005
 LABEL2001:
+   load_int               39
+   load_int               8153
+   load_string            "Clay attack stone"
+   return                
+LABEL2005:
+   iload                  1
+   load_int               7
+   if_icmpeq              LABEL2009
+   jump                   LABEL2013
+LABEL2009:
    load_int               41
    load_int               8024
    load_string            "Fencing ring"
    return                
-LABEL2005:
-   iload                  1
-   load_int               8
-   if_icmpeq              LABEL2009
-   jump                   LABEL2013
-LABEL2009:
-   load_int               44
-   load_int               8029
-   load_string            "Weapons rack"
-   return                
 LABEL2013:
    iload                  1
-   load_int               9
+   load_int               8
    if_icmpeq              LABEL2017
    jump                   LABEL2021
 LABEL2017:
    load_int               44
-   load_int               8166
-   load_string            "Teak prize chest"
+   load_int               8029
+   load_string            "Weapons rack"
    return                
 LABEL2021:
    iload                  1
-   load_int               10
+   load_int               9
    if_icmpeq              LABEL2025
    jump                   LABEL2029
 LABEL2025:
+   load_int               44
+   load_int               8166
+   load_string            "Teak prize chest"
+   return                
+LABEL2029:
+   iload                  1
+   load_int               10
+   if_icmpeq              LABEL2033
+   jump                   LABEL2037
+LABEL2033:
    load_int               48
    load_int               20745
    load_string            "Combat dummy"
    return                
-LABEL2029:
+LABEL2037:
    iload                  1
    load_int               11
-   if_icmpeq              LABEL2033
-   jump                   LABEL2037
-LABEL2033:
+   if_icmpeq              LABEL2041
+   jump                   LABEL2045
+LABEL2041:
    load_int               49
    load_int               8160
    load_string            "Treasure hunt fairy house"
    return                
-LABEL2037:
+LABEL2045:
    iload                  1
    load_int               12
-   if_icmpeq              LABEL2041
-   jump                   LABEL2045
-LABEL2041:
+   if_icmpeq              LABEL2049
+   jump                   LABEL2053
+LABEL2049:
    load_int               51
    load_int               8025
    load_string            "Combat ring"
    return                
-LABEL2045:
+LABEL2053:
    iload                  1
    load_int               13
-   if_icmpeq              LABEL2049
-   jump                   LABEL2053
-LABEL2049:
+   if_icmpeq              LABEL2057
+   jump                   LABEL2061
+LABEL2057:
    load_int               53
    load_int               20746
    load_string            "Combat dummy (Undead and slayer)"
    return                
-LABEL2053:
-   iload                  1
-   load_int               14
-   if_icmpeq              LABEL2057
-   jump                   LABEL2061
-LABEL2057:
-   load_int               54
-   load_int               8163
-   load_string            "Dartboard"
-   return                
 LABEL2061:
    iload                  1
-   load_int               15
+   load_int               14
    if_icmpeq              LABEL2065
    jump                   LABEL2069
 LABEL2065:
    load_int               54
-   load_int               8030
-   load_string            "Extra weapons rack"
+   load_int               8163
+   load_string            "Dartboard"
    return                
 LABEL2069:
    iload                  1
-   load_int               16
+   load_int               15
    if_icmpeq              LABEL2073
    jump                   LABEL2077
 LABEL2073:
    load_int               54
-   load_int               8167
-   load_string            "Mahogany prize chest"
+   load_int               8030
+   load_string            "Extra weapons rack"
    return                
 LABEL2077:
    iload                  1
-   load_int               17
+   load_int               16
    if_icmpeq              LABEL2081
    jump                   LABEL2085
 LABEL2081:
+   load_int               54
+   load_int               8167
+   load_string            "Mahogany prize chest"
+   return                
+LABEL2085:
+   iload                  1
+   load_int               17
+   if_icmpeq              LABEL2089
+   jump                   LABEL2093
+LABEL2089:
    load_int               57
    load_int               8157
    load_string            "Medium balance"
    return                
-LABEL2085:
-   iload                  1
-   load_int               18
-   if_icmpeq              LABEL2089
-   jump                   LABEL2093
-LABEL2089:
-   load_int               59
-   load_int               8154
-   load_string            "Limestone attack stone"
-   return                
 LABEL2093:
    iload                  1
-   load_int               19
+   load_int               18
    if_icmpeq              LABEL2097
    jump                   LABEL2101
 LABEL2097:
    load_int               59
-   load_int               8161
-   load_string            "Hangman game"
+   load_int               8154
+   load_string            "Limestone attack stone"
    return                
 LABEL2101:
    iload                  1
-   load_int               20
+   load_int               19
    if_icmpeq              LABEL2105
    jump                   LABEL2109
 LABEL2105:
+   load_int               59
+   load_int               8161
+   load_string            "Hangman game"
+   return                
+LABEL2109:
+   iload                  1
+   load_int               20
+   if_icmpeq              LABEL2113
+   jump                   LABEL2117
+LABEL2113:
    load_int               63
    load_int               12718
    load_string            "Simple pet arena"
    return                
-LABEL2109:
+LABEL2117:
    iload                  1
    load_int               21
-   if_icmpeq              LABEL2113
-   jump                   LABEL2117
-LABEL2113:
+   if_icmpeq              LABEL2121
+   jump                   LABEL2125
+LABEL2121:
    load_int               71
    load_int               8026
    load_string            "Ranging pedestals"
    return                
-LABEL2117:
+LABEL2125:
    iload                  1
    load_int               22
-   if_icmpeq              LABEL2121
-   jump                   LABEL2125
-LABEL2121:
+   if_icmpeq              LABEL2129
+   jump                   LABEL2133
+LABEL2129:
    load_int               73
    load_int               12719
    load_string            "Advanced pet arena"
    return                
-LABEL2125:
+LABEL2133:
    iload                  1
    load_int               23
-   if_icmpeq              LABEL2129
-   jump                   LABEL2133
-LABEL2129:
+   if_icmpeq              LABEL2137
+   jump                   LABEL2141
+LABEL2137:
    load_int               77
    load_int               8158
    load_string            "Greater magical balance"
    return                
-LABEL2133:
+LABEL2141:
    iload                  1
    load_int               24
-   if_icmpeq              LABEL2137
-   jump                   LABEL2141
-LABEL2137:
+   if_icmpeq              LABEL2145
+   jump                   LABEL2149
+LABEL2145:
    load_int               79
    load_int               8155
    load_string            "Marble attack stone"
    return                
-LABEL2141:
-   iload                  1
-   load_int               25
-   if_icmpeq              LABEL2145
-   jump                   LABEL2149
-LABEL2145:
-   load_int               81
-   load_int               8164
-   load_string            "Archery target"
-   return                
 LABEL2149:
    iload                  1
-   load_int               26
+   load_int               25
    if_icmpeq              LABEL2153
    jump                   LABEL2157
 LABEL2153:
    load_int               81
-   load_int               8027
-   load_string            "Balance beam"
+   load_int               8164
+   load_string            "Archery target"
    return                
 LABEL2157:
    iload                  1
-   load_int               27
+   load_int               26
    if_icmpeq              LABEL2161
    jump                   LABEL2165
 LABEL2161:
+   load_int               81
+   load_int               8027
+   load_string            "Balance beam"
+   return                
+LABEL2165:
+   iload                  1
+   load_int               27
+   if_icmpeq              LABEL2169
+   jump                   LABEL2173
+LABEL2169:
    load_int               83
    load_int               12720
    load_string            "Glorious pet arena"
    return                
-LABEL2165:
+LABEL2173:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL2169:
+LABEL2177:
    iload                  0
    load_int               7
-   if_icmpeq              LABEL2173
-   jump                   LABEL2687
-LABEL2173:
-   iload                  1
-   load_int               0
-   if_icmpeq              LABEL2177
-   jump                   LABEL2181
-LABEL2177:
-   load_int               1
-   load_int               8168
-   load_string            "Exit portal"
-   return                
+   if_icmpeq              LABEL2181
+   jump                   LABEL2703
 LABEL2181:
    iload                  1
-   load_int               1
+   load_int               0
    if_icmpeq              LABEL2185
    jump                   LABEL2189
 LABEL2185:
    load_int               1
-   load_int               8096
-   load_string            "Low-level plants"
+   load_int               8168
+   load_string            "Exit portal"
    return                
 LABEL2189:
    iload                  1
-   load_int               2
+   load_int               1
    if_icmpeq              LABEL2193
    jump                   LABEL2197
 LABEL2193:
-   load_int               5
-   load_int               8169
-   load_string            "Decorative rock"
+   load_int               1
+   load_int               8096
+   load_string            "Low-level plants"
    return                
 LABEL2197:
    iload                  1
-   load_int               3
+   load_int               2
    if_icmpeq              LABEL2201
    jump                   LABEL2205
 LABEL2201:
    load_int               5
-   load_int               8173
-   load_string            "Tree"
+   load_int               8169
+   load_string            "Decorative rock"
    return                
 LABEL2205:
    iload                  1
-   load_int               4
+   load_int               3
    if_icmpeq              LABEL2209
    jump                   LABEL2213
 LABEL2209:
+   load_int               5
+   load_int               8173
+   load_string            "Tree"
+   return                
+LABEL2213:
+   iload                  1
+   load_int               4
+   if_icmpeq              LABEL2217
+   jump                   LABEL2221
+LABEL2217:
    load_int               6
    load_int               8097
    load_string            "Mid-level plants"
    return                
-LABEL2213:
-   iload                  1
-   load_int               5
-   if_icmpeq              LABEL2217
-   jump                   LABEL2221
-LABEL2217:
-   load_int               10
-   load_int               8170
-   load_string            "Pond"
-   return                
 LABEL2221:
    iload                  1
-   load_int               6
+   load_int               5
    if_icmpeq              LABEL2225
    jump                   LABEL2229
 LABEL2225:
    load_int               10
-   load_int               8174
-   load_string            "Nice tree"
+   load_int               8170
+   load_string            "Pond"
    return                
 LABEL2229:
    iload                  1
-   load_int               7
+   load_int               6
    if_icmpeq              LABEL2233
    jump                   LABEL2237
 LABEL2233:
+   load_int               10
+   load_int               8174
+   load_string            "Nice tree"
+   return                
+LABEL2237:
+   iload                  1
+   load_int               7
+   if_icmpeq              LABEL2241
+   jump                   LABEL2245
+LABEL2241:
    load_int               12
    load_int               8098
    load_string            "High-level plants"
    return                
-LABEL2237:
-   iload                  1
-   load_int               8
-   if_icmpeq              LABEL2241
-   jump                   LABEL2245
-LABEL2241:
-   load_int               15
-   load_int               8171
-   load_string            "Imp statue"
-   return                
 LABEL2245:
    iload                  1
-   load_int               9
+   load_int               8
    if_icmpeq              LABEL2249
    jump                   LABEL2253
 LABEL2249:
    load_int               15
-   load_int               8175
-   load_string            "Oak tree"
+   load_int               8171
+   load_string            "Imp statue"
    return                
 LABEL2253:
    iload                  1
-   load_int               10
+   load_int               9
    if_icmpeq              LABEL2257
    jump                   LABEL2261
 LABEL2257:
+   load_int               15
+   load_int               8175
+   load_string            "Oak tree"
+   return                
+LABEL2261:
+   iload                  1
+   load_int               10
+   if_icmpeq              LABEL2265
+   jump                   LABEL2269
+LABEL2265:
    load_int               30
    load_int               8176
    load_string            "Willow tree"
    return                
-LABEL2261:
+LABEL2269:
    iload                  1
    load_int               11
-   if_icmpeq              LABEL2265
-   jump                   LABEL2269
-LABEL2265:
+   if_icmpeq              LABEL2273
+   jump                   LABEL2277
+LABEL2273:
    load_int               37
    load_int               12710
    load_string            "Grassland pet habitat"
    return                
-LABEL2269:
+LABEL2277:
    iload                  1
    load_int               12
-   if_icmpeq              LABEL2273
-   jump                   LABEL2277
-LABEL2273:
+   if_icmpeq              LABEL2281
+   jump                   LABEL2285
+LABEL2281:
    load_int               40
    load_int               20634
    load_string            "Tip jar"
    return                
-LABEL2277:
+LABEL2285:
    iload                  1
    load_int               13
-   if_icmpeq              LABEL2281
-   jump                   LABEL2285
-LABEL2281:
+   if_icmpeq              LABEL2289
+   jump                   LABEL2293
+LABEL2289:
    load_int               45
    load_int               8177
    load_string            "Maple tree"
    return                
-LABEL2285:
+LABEL2293:
    iload                  1
    load_int               14
-   if_icmpeq              LABEL2289
-   jump                   LABEL2293
-LABEL2289:
+   if_icmpeq              LABEL2297
+   jump                   LABEL2301
+LABEL2297:
    load_int               47
    load_int               12711
    load_string            "Forest pet habitat"
    return                
-LABEL2293:
+LABEL2301:
    iload                  1
    load_int               15
-   if_icmpeq              LABEL2297
-   jump                   LABEL2301
-LABEL2297:
+   if_icmpeq              LABEL2305
+   jump                   LABEL2309
+LABEL2305:
    load_int               55
    load_int               8196
    load_string            "Boundary stones"
    return                
-LABEL2301:
+LABEL2309:
    iload                  1
    load_int               16
-   if_icmpeq              LABEL2305
-   jump                   LABEL2309
-LABEL2305:
+   if_icmpeq              LABEL2313
+   jump                   LABEL2317
+LABEL2313:
    load_int               56
    load_int               8203
    load_string            "Thorny hedge"
    return                
-LABEL2309:
+LABEL2317:
    iload                  1
    load_int               17
-   if_icmpeq              LABEL2313
-   jump                   LABEL2317
-LABEL2313:
+   if_icmpeq              LABEL2321
+   jump                   LABEL2325
+LABEL2321:
    load_int               57
    load_int               12712
    load_string            "Desert pet habitat"
    return                
-LABEL2317:
+LABEL2325:
    iload                  1
    load_int               18
-   if_icmpeq              LABEL2321
-   jump                   LABEL2325
-LABEL2321:
+   if_icmpeq              LABEL2329
+   jump                   LABEL2333
+LABEL2329:
    load_int               59
    load_int               8197
    load_string            "Wooden fence"
    return                
-LABEL2325:
-   iload                  1
-   load_int               19
-   if_icmpeq              LABEL2329
-   jump                   LABEL2333
-LABEL2329:
-   load_int               60
-   load_int               8204
-   load_string            "Nice hedge"
-   return                
 LABEL2333:
    iload                  1
-   load_int               20
+   load_int               19
    if_icmpeq              LABEL2337
    jump                   LABEL2341
 LABEL2337:
    load_int               60
-   load_int               8178
-   load_string            "Yew tree"
+   load_int               8204
+   load_string            "Nice hedge"
    return                
 LABEL2341:
    iload                  1
-   load_int               21
+   load_int               20
    if_icmpeq              LABEL2345
    jump                   LABEL2349
 LABEL2345:
+   load_int               60
+   load_int               8178
+   load_string            "Yew tree"
+   return                
+LABEL2349:
+   iload                  1
+   load_int               21
+   if_icmpeq              LABEL2353
+   jump                   LABEL2357
+LABEL2353:
    load_int               63
    load_int               8198
    load_string            "Stone wall"
    return                
-LABEL2349:
+LABEL2357:
    iload                  1
    load_int               22
-   if_icmpeq              LABEL2353
-   jump                   LABEL2357
-LABEL2353:
+   if_icmpeq              LABEL2361
+   jump                   LABEL2365
+LABEL2361:
    load_int               64
    load_int               8205
    load_string            "Small box hedge"
    return                
-LABEL2357:
-   iload                  1
-   load_int               23
-   if_icmpeq              LABEL2361
-   jump                   LABEL2365
-LABEL2361:
-   load_int               65
-   load_int               8192
-   load_string            "Gazebo"
-   return                
 LABEL2365:
    iload                  1
-   load_int               24
+   load_int               23
    if_icmpeq              LABEL2369
    jump                   LABEL2373
 LABEL2369:
    load_int               65
-   load_int               20639
-   load_string            "Restoration pool"
+   load_int               8192
+   load_string            "Gazebo"
    return                
 LABEL2373:
    iload                  1
-   load_int               25
+   load_int               24
    if_icmpeq              LABEL2377
    jump                   LABEL2381
 LABEL2377:
    load_int               65
-   load_int               20644
-   load_string            "Zen theme"
+   load_int               20639
+   load_string            "Restoration pool"
    return                
 LABEL2381:
    iload                  1
-   load_int               26
+   load_int               25
    if_icmpeq              LABEL2385
    jump                   LABEL2389
 LABEL2385:
    load_int               65
-   load_int               20638
-   load_string            "Topiary bush"
+   load_int               20644
+   load_string            "Zen theme"
    return                
 LABEL2389:
    iload                  1
-   load_int               27
+   load_int               26
    if_icmpeq              LABEL2393
    jump                   LABEL2397
 LABEL2393:
-   load_int               66
-   load_int               8213
-   load_string            "Sunflower"
+   load_int               65
+   load_int               20638
+   load_string            "Topiary bush"
    return                
 LABEL2397:
    iload                  1
-   load_int               28
+   load_int               27
    if_icmpeq              LABEL2401
    jump                   LABEL2405
 LABEL2401:
    load_int               66
-   load_int               8210
-   load_string            "Rosemary"
+   load_int               8213
+   load_string            "Sunflower"
    return                
 LABEL2405:
    iload                  1
-   load_int               29
+   load_int               28
    if_icmpeq              LABEL2409
    jump                   LABEL2413
 LABEL2409:
    load_int               66
-   load_int               20649
-   load_string            "Teak garden bench"
+   load_int               8210
+   load_string            "Rosemary"
    return                
 LABEL2413:
    iload                  1
-   load_int               30
+   load_int               29
    if_icmpeq              LABEL2417
    jump                   LABEL2421
 LABEL2417:
-   load_int               67
-   load_int               8199
-   load_string            "Iron railings"
+   load_int               66
+   load_int               20649
+   load_string            "Teak garden bench"
    return                
 LABEL2421:
    iload                  1
-   load_int               31
+   load_int               30
    if_icmpeq              LABEL2425
    jump                   LABEL2429
 LABEL2425:
    load_int               67
-   load_int               12713
-   load_string            "Polar pet habitat"
+   load_int               8199
+   load_string            "Iron railings"
    return                
 LABEL2429:
    iload                  1
-   load_int               32
+   load_int               31
    if_icmpeq              LABEL2433
    jump                   LABEL2437
 LABEL2433:
+   load_int               67
+   load_int               12713
+   load_string            "Polar pet habitat"
+   return                
+LABEL2437:
+   iload                  1
+   load_int               32
+   if_icmpeq              LABEL2441
+   jump                   LABEL2445
+LABEL2441:
    load_int               68
    load_int               8206
    load_string            "Topiary hedge"
    return                
-LABEL2437:
-   iload                  1
-   load_int               33
-   if_icmpeq              LABEL2441
-   jump                   LABEL2445
-LABEL2441:
-   load_int               70
-   load_int               8172
-   load_string            "Dungeon entrance"
-   return                
 LABEL2445:
    iload                  1
-   load_int               34
+   load_int               33
    if_icmpeq              LABEL2449
    jump                   LABEL2453
 LABEL2449:
    load_int               70
-   load_int               20640
-   load_string            "Revitalisation pool"
+   load_int               8172
+   load_string            "Dungeon entrance"
    return                
 LABEL2453:
    iload                  1
-   load_int               35
+   load_int               34
    if_icmpeq              LABEL2457
    jump                   LABEL2461
 LABEL2457:
-   load_int               71
-   load_int               8214
-   load_string            "Marigolds"
+   load_int               70
+   load_int               20640
+   load_string            "Revitalisation pool"
    return                
 LABEL2461:
    iload                  1
-   load_int               36
+   load_int               35
    if_icmpeq              LABEL2465
    jump                   LABEL2469
 LABEL2465:
    load_int               71
-   load_int               8211
-   load_string            "Daffodils"
+   load_int               8214
+   load_string            "Marigolds"
    return                
 LABEL2469:
    iload                  1
-   load_int               37
+   load_int               36
    if_icmpeq              LABEL2473
    jump                   LABEL2477
 LABEL2473:
    load_int               71
-   load_int               8200
-   load_string            "Picket fence"
+   load_int               8211
+   load_string            "Daffodils"
    return                
 LABEL2477:
    iload                  1
-   load_int               38
+   load_int               37
    if_icmpeq              LABEL2481
    jump                   LABEL2485
 LABEL2481:
    load_int               71
-   load_int               8193
-   load_string            "Small fountain"
+   load_int               8200
+   load_string            "Picket fence"
    return                
 LABEL2485:
    iload                  1
-   load_int               39
+   load_int               38
    if_icmpeq              LABEL2489
    jump                   LABEL2493
 LABEL2489:
+   load_int               71
+   load_int               8193
+   load_string            "Small fountain"
+   return                
+LABEL2493:
+   iload                  1
+   load_int               39
+   if_icmpeq              LABEL2497
+   jump                   LABEL2501
+LABEL2497:
    load_int               72
    load_int               8207
    load_string            "Fancy hedge"
    return                
-LABEL2493:
-   iload                  1
-   load_int               40
-   if_icmpeq              LABEL2497
-   jump                   LABEL2501
-LABEL2497:
-   load_int               75
-   load_int               8179
-   load_string            "Magic tree"
-   return                
 LABEL2501:
    iload                  1
-   load_int               41
+   load_int               40
    if_icmpeq              LABEL2505
    jump                   LABEL2509
 LABEL2505:
    load_int               75
-   load_int               20645
-   load_string            "Otherworldly theme"
+   load_int               8179
+   load_string            "Magic tree"
    return                
 LABEL2509:
    iload                  1
-   load_int               42
+   load_int               41
    if_icmpeq              LABEL2513
    jump                   LABEL2517
 LABEL2513:
    load_int               75
-   load_int               20635
-   load_string            "Spirit tree"
+   load_int               20645
+   load_string            "Otherworldly theme"
    return                
 LABEL2517:
    iload                  1
-   load_int               43
+   load_int               42
    if_icmpeq              LABEL2521
    jump                   LABEL2525
 LABEL2521:
    load_int               75
-   load_int               8194
-   load_string            "Large fountain"
+   load_int               20635
+   load_string            "Spirit tree"
    return                
 LABEL2525:
    iload                  1
-   load_int               44
+   load_int               43
    if_icmpeq              LABEL2529
    jump                   LABEL2533
 LABEL2529:
    load_int               75
-   load_int               8201
-   load_string            "Garden fence"
+   load_int               8194
+   load_string            "Large fountain"
    return                
 LABEL2533:
    iload                  1
-   load_int               45
+   load_int               44
    if_icmpeq              LABEL2537
    jump                   LABEL2541
 LABEL2537:
    load_int               75
-   load_int               20647
-   load_string            "Redwood fence"
+   load_int               8201
+   load_string            "Garden fence"
    return                
 LABEL2541:
    iload                  1
-   load_int               46
+   load_int               45
    if_icmpeq              LABEL2545
    jump                   LABEL2549
 LABEL2545:
-   load_int               76
-   load_int               8208
-   load_string            "Tall fancy hedge"
+   load_int               75
+   load_int               20647
+   load_string            "Redwood fence"
    return                
 LABEL2549:
    iload                  1
-   load_int               47
+   load_int               46
    if_icmpeq              LABEL2553
    jump                   LABEL2557
 LABEL2553:
    load_int               76
-   load_int               8215
-   load_string            "Roses"
+   load_int               8208
+   load_string            "Tall fancy hedge"
    return                
 LABEL2557:
    iload                  1
-   load_int               48
+   load_int               47
    if_icmpeq              LABEL2561
    jump                   LABEL2565
 LABEL2561:
    load_int               76
-   load_int               8212
-   load_string            "Bluebells"
+   load_int               8215
+   load_string            "Roses"
    return                
 LABEL2565:
    iload                  1
-   load_int               49
+   load_int               48
    if_icmpeq              LABEL2569
    jump                   LABEL2573
 LABEL2569:
-   load_int               77
-   load_int               12714
-   load_string            "Volcanic pet habitat"
+   load_int               76
+   load_int               8212
+   load_string            "Bluebells"
    return                
 LABEL2573:
    iload                  1
-   load_int               50
+   load_int               49
    if_icmpeq              LABEL2577
    jump                   LABEL2581
 LABEL2577:
    load_int               77
-   load_int               20650
-   load_string            "Gnome bench"
+   load_int               12714
+   load_string            "Volcanic pet habitat"
    return                
 LABEL2581:
    iload                  1
-   load_int               51
+   load_int               50
    if_icmpeq              LABEL2585
    jump                   LABEL2589
 LABEL2585:
+   load_int               77
+   load_int               20650
+   load_string            "Gnome bench"
+   return                
+LABEL2589:
+   iload                  1
+   load_int               51
+   if_icmpeq              LABEL2593
+   jump                   LABEL2597
+LABEL2593:
    load_int               79
    load_int               8202
    load_string            "Marble wall"
    return                
-LABEL2589:
-   iload                  1
-   load_int               52
-   if_icmpeq              LABEL2593
-   jump                   LABEL2597
-LABEL2593:
-   load_int               80
-   load_int               20641
-   load_string            "Rejuvenation pool"
-   return                
 LABEL2597:
    iload                  1
-   load_int               53
+   load_int               52
    if_icmpeq              LABEL2601
    jump                   LABEL2605
 LABEL2601:
    load_int               80
-   load_int               8209
-   load_string            "Tall box hedge"
+   load_int               21788
+   load_string            "Obelisk"
    return                
 LABEL2605:
    iload                  1
-   load_int               54
+   load_int               53
    if_icmpeq              LABEL2609
    jump                   LABEL2613
 LABEL2609:
+   load_int               80
+   load_int               20641
+   load_string            "Rejuvenation pool"
+   return                
+LABEL2613:
+   iload                  1
+   load_int               54
+   if_icmpeq              LABEL2617
+   jump                   LABEL2621
+LABEL2617:
+   load_int               80
+   load_int               8209
+   load_string            "Tall box hedge"
+   return                
+LABEL2621:
+   iload                  1
+   load_int               55
+   if_icmpeq              LABEL2625
+   jump                   LABEL2629
+LABEL2625:
    load_int               81
    load_int               8195
    load_string            "Posh fountain"
    return                
-LABEL2613:
+LABEL2629:
    iload                  1
-   load_int               55
-   if_icmpeq              LABEL2617
-   jump                   LABEL2621
-LABEL2617:
+   load_int               56
+   if_icmpeq              LABEL2633
+   jump                   LABEL2637
+LABEL2633:
    load_int               83
    load_int               20648
    load_string            "Obsidian fence"
    return                
-LABEL2621:
-   iload                  1
-   load_int               56
-   if_icmpeq              LABEL2625
-   jump                   LABEL2629
-LABEL2625:
-   load_int               85
-   load_int               20636
-   load_string            "Fairy ring"
-   return                
-LABEL2629:
-   iload                  1
-   load_int               57
-   if_icmpeq              LABEL2633
-   jump                   LABEL2637
-LABEL2633:
-   load_int               85
-   load_int               20642
-   load_string            "Fancy rejuvenation pool"
-   return                
 LABEL2637:
    iload                  1
-   load_int               58
+   load_int               57
    if_icmpeq              LABEL2641
    jump                   LABEL2645
 LABEL2641:
    load_int               85
-   load_int               20646
-   load_string            "Volcanic theme"
+   load_int               20636
+   load_string            "Fairy ring"
    return                
 LABEL2645:
    iload                  1
-   load_int               59
+   load_int               58
    if_icmpeq              LABEL2649
-   jump                   LABEL2656
+   jump                   LABEL2653
 LABEL2649:
+   load_int               85
+   load_int               20642
+   load_string            "Fancy rejuvenation pool"
+   return                
+LABEL2653:
+   iload                  1
+   load_int               59
+   if_icmpeq              LABEL2657
+   jump                   LABEL2661
+LABEL2657:
+   load_int               85
+   load_int               20646
+   load_string            "Volcanic theme"
+   return                
+LABEL2661:
+   iload                  1
+   load_int               60
+   if_icmpeq              LABEL2665
+   jump                   LABEL2672
+LABEL2665:
    load_int               88
    load_int               20651
    load_string            "Marble garden bench"
@@ -3318,32 +3338,32 @@ LABEL2649:
    load_string            " (decoration only)"
    string_append          3
    return                
-LABEL2656:
+LABEL2672:
    iload                  1
-   load_int               60
-   if_icmpeq              LABEL2660
-   jump                   LABEL2664
-LABEL2660:
+   load_int               61
+   if_icmpeq              LABEL2676
+   jump                   LABEL2680
+LABEL2676:
    load_int               90
    load_int               20643
    load_string            "Ornate rejuvenation pool"
    return                
-LABEL2664:
+LABEL2680:
    iload                  1
-   load_int               61
-   if_icmpeq              LABEL2668
-   jump                   LABEL2672
-LABEL2668:
+   load_int               62
+   if_icmpeq              LABEL2684
+   jump                   LABEL2688
+LABEL2684:
    load_int               95
    load_int               20637
    load_string            "Spirit tree & fairy ring"
    return                
-LABEL2672:
+LABEL2688:
    iload                  1
-   load_int               62
-   if_icmpeq              LABEL2676
-   jump                   LABEL2683
-LABEL2676:
+   load_int               63
+   if_icmpeq              LABEL2692
+   jump                   LABEL2699
+LABEL2692:
    load_int               98
    load_int               20652
    load_string            "Obsidian garden bench"
@@ -3351,1162 +3371,1175 @@ LABEL2676:
    load_string            " (decoration only)"
    string_append          3
    return                
-LABEL2683:
+LABEL2699:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL2687:
+LABEL2703:
    iload                  0
    load_int               8
-   if_icmpeq              LABEL2691
-   jump                   LABEL3007
-LABEL2691:
+   if_icmpeq              LABEL2707
+   jump                   LABEL3034
+LABEL2707:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL2695
-   jump                   LABEL2699
-LABEL2695:
+   if_icmpeq              LABEL2711
+   jump                   LABEL2715
+LABEL2711:
    load_int               61
    load_int               8370
    load_string            "Throne room floor decoration"
    return                
-LABEL2699:
+LABEL2715:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL2703
-   jump                   LABEL2707
-LABEL2703:
+   if_icmpeq              LABEL2719
+   jump                   LABEL2723
+LABEL2719:
    load_int               65
    load_int               8297
    load_string            "Oak cage"
    return                
-LABEL2707:
+LABEL2723:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL2711
-   jump                   LABEL2715
-LABEL2711:
+   if_icmpeq              LABEL2727
+   jump                   LABEL2731
+LABEL2727:
    load_int               65
    load_int               8302
    load_string            "Oubliette spikes"
    return                
-LABEL2715:
+LABEL2731:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL2719
-   jump                   LABEL2723
-LABEL2719:
+   if_icmpeq              LABEL2735
+   jump                   LABEL2739
+LABEL2735:
    load_int               68
    load_int               8371
    load_string            "Steel cage"
    return                
-LABEL2723:
+LABEL2739:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL2727
-   jump                   LABEL2731
-LABEL2727:
+   if_icmpeq              LABEL2743
+   jump                   LABEL2747
+LABEL2743:
    load_int               70
    load_int               8298
    load_string            "Oak and steel cage"
    return                
-LABEL2731:
+LABEL2747:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL2735
-   jump                   LABEL2739
-LABEL2735:
+   if_icmpeq              LABEL2751
+   jump                   LABEL2755
+LABEL2751:
    load_int               70
    load_int               8131
    load_string            "Skeleton guard"
    return                
-LABEL2739:
+LABEL2755:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL2743
-   jump                   LABEL2747
-LABEL2743:
+   if_icmpeq              LABEL2759
+   jump                   LABEL2763
+LABEL2759:
    load_int               71
    load_int               8303
    load_string            "Tentacle pool"
    return                
-LABEL2747:
+LABEL2763:
    iload                  1
    load_int               7
-   if_icmpeq              LABEL2751
-   jump                   LABEL2755
-LABEL2751:
+   if_icmpeq              LABEL2767
+   jump                   LABEL2771
+LABEL2767:
    load_int               72
    load_int               8143
    load_string            "Spike trap"
    return                
-LABEL2755:
-   iload                  1
-   load_int               8
-   if_icmpeq              LABEL2759
-   jump                   LABEL2763
-LABEL2759:
-   load_int               74
-   load_int               8372
-   load_string            "Large trapdoor"
-   return                
-LABEL2763:
-   iload                  1
-   load_int               9
-   if_icmpeq              LABEL2767
-   jump                   LABEL2771
-LABEL2767:
-   load_int               74
-   load_int               8122
-   load_string            "Oak dungeon door"
-   return                
 LABEL2771:
    iload                  1
-   load_int               10
+   load_int               8
    if_icmpeq              LABEL2775
    jump                   LABEL2779
 LABEL2775:
    load_int               74
-   load_int               8132
-   load_string            "Guard dog"
+   load_int               8372
+   load_string            "Large trapdoor"
    return                
 LABEL2779:
    iload                  1
-   load_int               11
+   load_int               9
    if_icmpeq              LABEL2783
    jump                   LABEL2787
 LABEL2783:
-   load_int               75
-   load_int               8148
-   load_string            "Wooden dungeon treasure crate"
+   load_int               74
+   load_int               8122
+   load_string            "Oak dungeon door"
    return                
 LABEL2787:
    iload                  1
-   load_int               12
+   load_int               10
    if_icmpeq              LABEL2791
    jump                   LABEL2795
 LABEL2791:
-   load_int               75
-   load_int               8138
-   load_string            "Demon"
+   load_int               74
+   load_int               8132
+   load_string            "Guard dog"
    return                
 LABEL2795:
    iload                  1
-   load_int               13
+   load_int               11
    if_icmpeq              LABEL2799
    jump                   LABEL2803
 LABEL2799:
    load_int               75
-   load_int               8299
-   load_string            "Steel cage"
+   load_int               8148
+   load_string            "Wooden dungeon treasure crate"
    return                
 LABEL2803:
    iload                  1
-   load_int               14
+   load_int               12
    if_icmpeq              LABEL2807
    jump                   LABEL2811
 LABEL2807:
+   load_int               75
+   load_int               8138
+   load_string            "Demon"
+   return                
+LABEL2811:
+   iload                  1
+   load_int               13
+   if_icmpeq              LABEL2815
+   jump                   LABEL2819
+LABEL2815:
+   load_int               75
+   load_int               8299
+   load_string            "Steel cage"
+   return                
+LABEL2819:
+   iload                  1
+   load_int               14
+   if_icmpeq              LABEL2823
+   jump                   LABEL2827
+LABEL2823:
    load_int               76
    load_int               8144
    load_string            "Man trap"
    return                
-LABEL2811:
+LABEL2827:
    iload                  1
    load_int               15
-   if_icmpeq              LABEL2815
-   jump                   LABEL2819
-LABEL2815:
+   if_icmpeq              LABEL2831
+   jump                   LABEL2835
+LABEL2831:
    load_int               77
    load_int               8304
    load_string            "Oubliette flame pit"
    return                
-LABEL2819:
+LABEL2835:
    iload                  1
    load_int               16
-   if_icmpeq              LABEL2823
-   jump                   LABEL2827
-LABEL2823:
+   if_icmpeq              LABEL2839
+   jump                   LABEL2843
+LABEL2839:
    load_int               78
    load_int               8133
    load_string            "Hobgoblin guard"
    return                
-LABEL2827:
+LABEL2843:
    iload                  1
    load_int               17
-   if_icmpeq              LABEL2831
-   jump                   LABEL2835
-LABEL2831:
+   if_icmpeq              LABEL2847
+   jump                   LABEL2851
+LABEL2847:
    load_int               79
    load_int               8149
    load_string            "Oak dungeon treasure chest"
    return                
-LABEL2835:
-   iload                  1
-   load_int               18
-   if_icmpeq              LABEL2839
-   jump                   LABEL2843
-LABEL2839:
-   load_int               80
-   load_int               8300
-   load_string            "Spiked cage"
-   return                
-LABEL2843:
-   iload                  1
-   load_int               19
-   if_icmpeq              LABEL2847
-   jump                   LABEL2851
-LABEL2847:
-   load_int               80
-   load_int               8145
-   load_string            "Tangle vine"
-   return                
 LABEL2851:
    iload                  1
-   load_int               20
+   load_int               18
    if_icmpeq              LABEL2855
    jump                   LABEL2859
 LABEL2855:
    load_int               80
-   load_int               8139
-   load_string            "Kalphite soldier"
+   load_int               8300
+   load_string            "Spiked cage"
    return                
 LABEL2859:
    iload                  1
-   load_int               21
+   load_int               19
    if_icmpeq              LABEL2863
    jump                   LABEL2867
 LABEL2863:
+   load_int               80
+   load_int               8145
+   load_string            "Tangle vine"
+   return                
+LABEL2867:
+   iload                  1
+   load_int               20
+   if_icmpeq              LABEL2871
+   jump                   LABEL2875
+LABEL2871:
+   load_int               80
+   load_int               8139
+   load_string            "Kalphite soldier"
+   return                
+LABEL2875:
+   iload                  1
+   load_int               21
+   if_icmpeq              LABEL2879
+   jump                   LABEL2883
+LABEL2879:
    load_int               82
    load_int               8373
    load_string            "Lesser magic cage"
    return                
-LABEL2867:
+LABEL2883:
    iload                  1
    load_int               22
-   if_icmpeq              LABEL2871
-   jump                   LABEL2875
-LABEL2871:
+   if_icmpeq              LABEL2887
+   jump                   LABEL2891
+LABEL2887:
    load_int               82
    load_int               8134
    load_string            "Baby red dragon"
    return                
-LABEL2875:
+LABEL2891:
    iload                  1
    load_int               23
-   if_icmpeq              LABEL2879
-   jump                   LABEL2883
-LABEL2879:
+   if_icmpeq              LABEL2895
+   jump                   LABEL2899
+LABEL2895:
    load_int               83
    load_int               8150
    load_string            "Teak dungeon treasure chest"
    return                
-LABEL2883:
+LABEL2899:
    iload                  1
    load_int               24
-   if_icmpeq              LABEL2887
-   jump                   LABEL2891
-LABEL2887:
+   if_icmpeq              LABEL2903
+   jump                   LABEL2907
+LABEL2903:
    load_int               83
    load_int               8305
    load_string            "Rocnar"
    return                
-LABEL2891:
+LABEL2907:
    iload                  1
    load_int               25
-   if_icmpeq              LABEL2895
-   jump                   LABEL2899
-LABEL2895:
+   if_icmpeq              LABEL2911
+   jump                   LABEL2915
+LABEL2911:
    load_int               84
    load_int               8123
    load_string            "Steel-plated oak door"
    return                
-LABEL2899:
+LABEL2915:
    iload                  1
    load_int               26
-   if_icmpeq              LABEL2903
-   jump                   LABEL2907
-LABEL2903:
+   if_icmpeq              LABEL2919
+   jump                   LABEL2923
+LABEL2919:
    load_int               84
    load_int               8146
    load_string            "Marble trap"
    return                
-LABEL2907:
+LABEL2923:
    iload                  1
    load_int               27
-   if_icmpeq              LABEL2911
-   jump                   LABEL2915
-LABEL2911:
+   if_icmpeq              LABEL2927
+   jump                   LABEL2931
+LABEL2927:
    load_int               85
    load_int               8140
    load_string            "Tok-Xil"
    return                
-LABEL2915:
+LABEL2931:
    iload                  1
    load_int               28
-   if_icmpeq              LABEL2919
-   jump                   LABEL2923
-LABEL2919:
+   if_icmpeq              LABEL2935
+   jump                   LABEL2939
+LABEL2935:
    load_int               85
    load_int               8301
    load_string            "Bone cage"
    return                
-LABEL2923:
+LABEL2939:
    iload                  1
    load_int               29
-   if_icmpeq              LABEL2927
-   jump                   LABEL2931
-LABEL2927:
+   if_icmpeq              LABEL2943
+   jump                   LABEL2947
+LABEL2943:
    load_int               86
    load_int               8135
    load_string            "Huge spider"
    return                
-LABEL2931:
+LABEL2947:
    iload                  1
    load_int               30
-   if_icmpeq              LABEL2935
-   jump                   LABEL2939
-LABEL2935:
+   if_icmpeq              LABEL2951
+   jump                   LABEL2955
+LABEL2951:
    load_int               87
    load_int               8151
    load_string            "Mahogany dungeon treasure chest"
    return                
-LABEL2939:
+LABEL2955:
    iload                  1
    load_int               31
-   if_icmpeq              LABEL2943
-   jump                   LABEL2947
-LABEL2943:
+   if_icmpeq              LABEL2959
+   jump                   LABEL2963
+LABEL2959:
    load_int               88
    load_int               8147
    load_string            "Teleport trap"
    return                
-LABEL2947:
+LABEL2963:
    iload                  1
    load_int               32
-   if_icmpeq              LABEL2951
-   jump                   LABEL2955
-LABEL2951:
+   if_icmpeq              LABEL2967
+   jump                   LABEL2971
+LABEL2967:
    load_int               89
    load_int               8374
    load_string            "Greater magic cage"
    return                
-LABEL2955:
+LABEL2971:
    iload                  1
    load_int               33
-   if_icmpeq              LABEL2959
-   jump                   LABEL2963
-LABEL2959:
+   if_icmpeq              LABEL2975
+   jump                   LABEL2979
+LABEL2975:
    load_int               90
    load_int               8136
    load_string            "Troll guard"
    return                
-LABEL2963:
+LABEL2979:
    iload                  1
    load_int               34
-   if_icmpeq              LABEL2967
-   jump                   LABEL2971
-LABEL2967:
+   if_icmpeq              LABEL2983
+   jump                   LABEL2987
+LABEL2983:
    load_int               90
    load_int               8141
    load_string            "Dagannoth"
    return                
-LABEL2971:
+LABEL2987:
    iload                  1
    load_int               35
-   if_icmpeq              LABEL2975
-   jump                   LABEL2979
-LABEL2975:
+   if_icmpeq              LABEL2991
+   jump                   LABEL2995
+LABEL2991:
    load_int               91
    load_int               8152
    load_string            "Magic dungeon treasure chest"
    return                
-LABEL2979:
+LABEL2995:
    iload                  1
    load_int               36
-   if_icmpeq              LABEL2983
-   jump                   LABEL2987
-LABEL2983:
+   if_icmpeq              LABEL2999
+   jump                   LABEL3003
+LABEL2999:
    load_int               94
    load_int               8124
    load_string            "Marble dungeon door"
    return                
-LABEL2987:
+LABEL3003:
    iload                  1
    load_int               37
-   if_icmpeq              LABEL2991
-   jump                   LABEL2995
-LABEL2991:
+   if_icmpeq              LABEL3007
+   jump                   LABEL3011
+LABEL3007:
    load_int               94
    load_int               8137
    load_string            "Hellhound"
    return                
-LABEL2995:
+LABEL3011:
    iload                  1
    load_int               38
-   if_icmpeq              LABEL2999
-   jump                   LABEL3003
-LABEL2999:
+   if_icmpeq              LABEL3015
+   jump                   LABEL3019
+LABEL3015:
    load_int               95
    load_int               8142
    load_string            "Steel dragon"
    return                
-LABEL3003:
+LABEL3019:
+   iload                  1
+   load_int               39
+   if_icmpeq              LABEL3023
+   jump                   LABEL3030
+LABEL3023:
+   load_int               99
+   load_int               21911
+   load_string            "Rune dragon"
+   load_string            "<br>"
+   load_string            "(after Dragon Slayer II)"
+   string_append          3
+   return                
+LABEL3030:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL3007:
+LABEL3034:
    iload                  0
    load_int               9
-   if_icmpeq              LABEL3011
-   jump                   LABEL3255
-LABEL3011:
+   if_icmpeq              LABEL3038
+   jump                   LABEL3282
+LABEL3038:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL3015
-   jump                   LABEL3019
-LABEL3015:
+   if_icmpeq              LABEL3042
+   jump                   LABEL3046
+LABEL3042:
    load_int               45
    load_int               8062
    load_string            "Oak altar"
    return                
-LABEL3019:
+LABEL3046:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL3023
-   jump                   LABEL3027
-LABEL3023:
+   if_icmpeq              LABEL3050
+   jump                   LABEL3054
+LABEL3050:
    load_int               45
    load_int               8070
    load_string            "Steel torches (chapel)"
    return                
-LABEL3027:
+LABEL3054:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL3031
-   jump                   LABEL3035
-LABEL3031:
+   if_icmpeq              LABEL3058
+   jump                   LABEL3062
+LABEL3058:
    load_int               48
    load_int               8055
    load_string            "Symbol of Saradomin"
    return                
-LABEL3035:
+LABEL3062:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL3039
-   jump                   LABEL3043
-LABEL3039:
+   if_icmpeq              LABEL3066
+   jump                   LABEL3070
+LABEL3066:
    load_int               48
    load_int               8057
    load_string            "Symbol of Guthix"
    return                
-LABEL3043:
+LABEL3070:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL3047
-   jump                   LABEL3051
-LABEL3047:
+   if_icmpeq              LABEL3074
+   jump                   LABEL3078
+LABEL3074:
    load_int               48
    load_int               8056
    load_string            "Symbol of Zamorak"
    return                
-LABEL3051:
+LABEL3078:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL3055
-   jump                   LABEL3059
-LABEL3055:
+   if_icmpeq              LABEL3082
+   jump                   LABEL3086
+LABEL3082:
    load_int               49
    load_int               8069
    load_string            "Wooden torches (chapel)"
    return                
-LABEL3059:
+LABEL3086:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL3063
-   jump                   LABEL3067
-LABEL3063:
+   if_icmpeq              LABEL3090
+   jump                   LABEL3094
+LABEL3090:
    load_int               49
    load_int               8079
    load_string            "Chapel windchimes"
    return                
-LABEL3067:
+LABEL3094:
    iload                  1
    load_int               7
-   if_icmpeq              LABEL3071
-   jump                   LABEL3075
-LABEL3071:
+   if_icmpeq              LABEL3098
+   jump                   LABEL3102
+LABEL3098:
    load_int               49
    load_int               8082
    load_string            "Small chapel statue"
    return                
-LABEL3075:
+LABEL3102:
    iload                  1
    load_int               8
-   if_icmpeq              LABEL3079
-   jump                   LABEL3083
-LABEL3079:
+   if_icmpeq              LABEL3106
+   jump                   LABEL3110
+LABEL3106:
    load_int               49
    load_int               8076
    load_string            "Shuttered chapel window"
    return                
-LABEL3083:
+LABEL3110:
    iload                  1
    load_int               9
-   if_icmpeq              LABEL3087
-   jump                   LABEL3091
-LABEL3087:
+   if_icmpeq              LABEL3114
+   jump                   LABEL3118
+LABEL3114:
    load_int               50
    load_int               8063
    load_string            "Teak altar"
    return                
-LABEL3091:
+LABEL3118:
    iload                  1
    load_int               10
-   if_icmpeq              LABEL3095
-   jump                   LABEL3099
-LABEL3095:
+   if_icmpeq              LABEL3122
+   jump                   LABEL3126
+LABEL3122:
    load_int               53
    load_int               8071
    load_string            "Steel candlesticks"
    return                
-LABEL3099:
+LABEL3126:
    iload                  1
    load_int               11
-   if_icmpeq              LABEL3103
-   jump                   LABEL3107
-LABEL3103:
+   if_icmpeq              LABEL3130
+   jump                   LABEL3134
+LABEL3130:
    load_int               56
    load_int               8064
    load_string            "Cloth-covered teak altar"
    return                
-LABEL3107:
+LABEL3134:
    iload                  1
    load_int               12
-   if_icmpeq              LABEL3111
-   jump                   LABEL3115
-LABEL3111:
+   if_icmpeq              LABEL3138
+   jump                   LABEL3142
+LABEL3138:
    load_int               57
    load_int               8072
    load_string            "Gold candlesticks"
    return                
-LABEL3115:
+LABEL3142:
    iload                  1
    load_int               13
-   if_icmpeq              LABEL3119
-   jump                   LABEL3123
-LABEL3119:
+   if_icmpeq              LABEL3146
+   jump                   LABEL3150
+LABEL3146:
    load_int               58
    load_int               8080
    load_string            "Chapel bells"
    return                
-LABEL3123:
+LABEL3150:
    iload                  1
    load_int               14
-   if_icmpeq              LABEL3127
-   jump                   LABEL3131
-LABEL3127:
+   if_icmpeq              LABEL3154
+   jump                   LABEL3158
+LABEL3154:
    load_int               59
    load_int               8058
    load_string            "Icon of Saradomin"
    return                
-LABEL3131:
+LABEL3158:
    iload                  1
    load_int               15
-   if_icmpeq              LABEL3135
-   jump                   LABEL3139
-LABEL3135:
+   if_icmpeq              LABEL3162
+   jump                   LABEL3166
+LABEL3162:
    load_int               59
    load_int               8060
    load_string            "Icon of Guthix"
    return                
-LABEL3139:
+LABEL3166:
    iload                  1
    load_int               16
-   if_icmpeq              LABEL3143
-   jump                   LABEL3147
-LABEL3143:
+   if_icmpeq              LABEL3170
+   jump                   LABEL3174
+LABEL3170:
    load_int               59
    load_int               8059
    load_string            "Icon of Zamorak"
    return                
-LABEL3147:
+LABEL3174:
    iload                  1
    load_int               17
-   if_icmpeq              LABEL3151
-   jump                   LABEL3155
-LABEL3151:
+   if_icmpeq              LABEL3178
+   jump                   LABEL3182
+LABEL3178:
    load_int               60
    load_int               8065
    load_string            "Cloth-covered mahogany altar"
    return                
-LABEL3155:
+LABEL3182:
    iload                  1
    load_int               18
-   if_icmpeq              LABEL3159
-   jump                   LABEL3163
-LABEL3159:
+   if_icmpeq              LABEL3186
+   jump                   LABEL3190
+LABEL3186:
    load_int               61
    load_int               8073
    load_string            "Oak incense burners"
    return                
-LABEL3163:
+LABEL3190:
    iload                  1
    load_int               19
-   if_icmpeq              LABEL3167
-   jump                   LABEL3171
-LABEL3167:
+   if_icmpeq              LABEL3194
+   jump                   LABEL3198
+LABEL3194:
    load_int               64
    load_int               8066
    load_string            "Limestone altar"
    return                
-LABEL3171:
+LABEL3198:
    iload                  1
    load_int               20
-   if_icmpeq              LABEL3175
-   jump                   LABEL3179
-LABEL3175:
+   if_icmpeq              LABEL3202
+   jump                   LABEL3206
+LABEL3202:
    load_int               65
    load_int               8074
    load_string            "Mahogany incense burners"
    return                
-LABEL3179:
+LABEL3206:
    iload                  1
    load_int               21
-   if_icmpeq              LABEL3183
-   jump                   LABEL3187
-LABEL3183:
+   if_icmpeq              LABEL3210
+   jump                   LABEL3214
+LABEL3210:
    load_int               69
    load_int               8083
    load_string            "Medium chapel statue"
    return                
-LABEL3187:
+LABEL3214:
    iload                  1
    load_int               22
-   if_icmpeq              LABEL3191
-   jump                   LABEL3195
-LABEL3191:
+   if_icmpeq              LABEL3218
+   jump                   LABEL3222
+LABEL3218:
    load_int               69
    load_int               8081
    load_string            "Chapel organ"
    return                
-LABEL3195:
+LABEL3222:
    iload                  1
    load_int               23
-   if_icmpeq              LABEL3199
-   jump                   LABEL3203
-LABEL3199:
+   if_icmpeq              LABEL3226
+   jump                   LABEL3230
+LABEL3226:
    load_int               69
    load_int               8077
    load_string            "Decorative chapel window"
    return                
-LABEL3203:
+LABEL3230:
    iload                  1
    load_int               24
-   if_icmpeq              LABEL3207
-   jump                   LABEL3211
-LABEL3207:
+   if_icmpeq              LABEL3234
+   jump                   LABEL3238
+LABEL3234:
    load_int               69
    load_int               8075
    load_string            "Marble incense burner"
    return                
-LABEL3211:
+LABEL3238:
    iload                  1
    load_int               25
-   if_icmpeq              LABEL3215
-   jump                   LABEL3219
-LABEL3215:
+   if_icmpeq              LABEL3242
+   jump                   LABEL3246
+LABEL3242:
    load_int               70
    load_int               8067
    load_string            "Marble altar"
    return                
-LABEL3219:
+LABEL3246:
    iload                  1
    load_int               26
-   if_icmpeq              LABEL3223
-   jump                   LABEL3227
-LABEL3223:
+   if_icmpeq              LABEL3250
+   jump                   LABEL3254
+LABEL3250:
    load_int               71
    load_int               8061
    load_string            "Icon of Bob the Cat"
    return                
-LABEL3227:
+LABEL3254:
    iload                  1
    load_int               27
-   if_icmpeq              LABEL3231
-   jump                   LABEL3235
-LABEL3231:
+   if_icmpeq              LABEL3258
+   jump                   LABEL3262
+LABEL3258:
    load_int               75
    load_int               8068
    load_string            "Gilded marble altar"
    return                
-LABEL3235:
+LABEL3262:
    iload                  1
    load_int               28
-   if_icmpeq              LABEL3239
-   jump                   LABEL3243
-LABEL3239:
+   if_icmpeq              LABEL3266
+   jump                   LABEL3270
+LABEL3266:
    load_int               89
    load_int               8084
    load_string            "Large chapel statue"
    return                
-LABEL3243:
+LABEL3270:
    iload                  1
    load_int               29
-   if_icmpeq              LABEL3247
-   jump                   LABEL3251
-LABEL3247:
+   if_icmpeq              LABEL3274
+   jump                   LABEL3278
+LABEL3274:
    load_int               89
    load_int               8078
    load_string            "Stained-glass chapel window"
    return                
-LABEL3251:
+LABEL3278:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL3255:
+LABEL3282:
    iload                  0
    load_int               10
-   if_icmpeq              LABEL3259
-   jump                   LABEL3287
-LABEL3259:
+   if_icmpeq              LABEL3286
+   jump                   LABEL3314
+LABEL3286:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL3263
-   jump                   LABEL3267
-LABEL3263:
+   if_icmpeq              LABEL3290
+   jump                   LABEL3294
+LABEL3290:
    load_int               30
    load_int               21037
    load_string            "Small storage unit"
    return                
-LABEL3267:
+LABEL3294:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL3271
-   jump                   LABEL3275
-LABEL3271:
+   if_icmpeq              LABEL3298
+   jump                   LABEL3302
+LABEL3298:
    load_int               60
    load_int               21038
    load_string            "Medium storage unit"
    return                
-LABEL3275:
+LABEL3302:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL3279
-   jump                   LABEL3283
-LABEL3279:
+   if_icmpeq              LABEL3306
+   jump                   LABEL3310
+LABEL3306:
    load_int               90
    load_int               21039
    load_string            "Large storage unit"
    return                
-LABEL3283:
+LABEL3310:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL3287:
+LABEL3314:
    iload                  0
    load_int               11
-   if_icmpeq              LABEL3291
-   jump                   LABEL3599
-LABEL3291:
+   if_icmpeq              LABEL3318
+   jump                   LABEL3626
+LABEL3318:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL3295
-   jump                   LABEL3299
-LABEL3295:
+   if_icmpeq              LABEL3322
+   jump                   LABEL3326
+LABEL3322:
    load_int               5
    load_int               8236
    load_string            "Cat blanket"
    return                
-LABEL3299:
+LABEL3326:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL3303
-   jump                   LABEL3307
-LABEL3303:
+   if_icmpeq              LABEL3330
+   jump                   LABEL3334
+LABEL3330:
    load_int               19
    load_int               8237
    load_string            "Cat basket"
    return                
-LABEL3307:
+LABEL3334:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL3311
-   jump                   LABEL3315
-LABEL3311:
+   if_icmpeq              LABEL3338
+   jump                   LABEL3342
+LABEL3338:
    load_int               26
    load_int               8099
    load_string            "Rope bell pull"
    return                
-LABEL3315:
+LABEL3342:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL3319
-   jump                   LABEL3323
-LABEL3319:
+   if_icmpeq              LABEL3346
+   jump                   LABEL3350
+LABEL3346:
    load_int               27
    load_int               8249
    load_string            "Oak staircase"
    return                
-LABEL3323:
+LABEL3350:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL3327
-   jump                   LABEL3331
-LABEL3327:
+   if_icmpeq              LABEL3354
+   jump                   LABEL3358
+LABEL3354:
    load_int               27
    load_int               20532
    load_string            "STASH units (easy)"
    return                
-LABEL3331:
+LABEL3358:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL3335
-   jump                   LABEL3339
-LABEL3335:
+   if_icmpeq              LABEL3362
+   jump                   LABEL3366
+LABEL3362:
    load_int               33
    load_int               8238
    load_string            "Cushioned cat basket"
    return                
-LABEL3339:
+LABEL3366:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL3343
-   jump                   LABEL3347
-LABEL3343:
+   if_icmpeq              LABEL3370
+   jump                   LABEL3374
+LABEL3370:
    load_int               37
    load_int               8100
    load_string            "Teak bell pull"
    return                
-LABEL3347:
+LABEL3374:
    iload                  1
    load_int               7
-   if_icmpeq              LABEL3351
-   jump                   LABEL3355
-LABEL3351:
+   if_icmpeq              LABEL3378
+   jump                   LABEL3382
+LABEL3378:
    load_int               37
    load_int               12722
    load_string            "Oak pet feeder"
    return                
-LABEL3355:
+LABEL3382:
    iload                  1
    load_int               8
-   if_icmpeq              LABEL3359
-   jump                   LABEL3363
-LABEL3359:
+   if_icmpeq              LABEL3386
+   jump                   LABEL3390
+LABEL3386:
    load_int               38
    load_int               12721
    load_string            "Pet list (for one-off pets)"
    return                
-LABEL3363:
+LABEL3390:
    iload                  1
    load_int               9
-   if_icmpeq              LABEL3367
-   jump                   LABEL3371
-LABEL3367:
+   if_icmpeq              LABEL3394
+   jump                   LABEL3398
+LABEL3394:
    load_int               39
    load_int               12715
    load_string            "Oak pet scratching post"
    return                
-LABEL3371:
+LABEL3398:
    iload                  1
    load_int               10
-   if_icmpeq              LABEL3375
-   jump                   LABEL3379
-LABEL3375:
+   if_icmpeq              LABEL3402
+   jump                   LABEL3406
+LABEL3402:
    load_int               42
    load_int               8351
    load_string            "Crystal ball"
    return                
-LABEL3379:
+LABEL3406:
    iload                  1
    load_int               11
-   if_icmpeq              LABEL3383
-   jump                   LABEL3387
-LABEL3383:
+   if_icmpeq              LABEL3410
+   jump                   LABEL3414
+LABEL3410:
    load_int               42
    load_int               20533
    load_string            "STASH units (medium)"
    return                
-LABEL3387:
+LABEL3414:
    iload                  1
    load_int               12
-   if_icmpeq              LABEL3391
-   jump                   LABEL3395
-LABEL3391:
+   if_icmpeq              LABEL3418
+   jump                   LABEL3422
+LABEL3418:
    load_int               48
    load_int               8252
    load_string            "Teak staircase"
    return                
-LABEL3395:
+LABEL3422:
    iload                  1
    load_int               13
-   if_icmpeq              LABEL3399
-   jump                   LABEL3403
-LABEL3399:
+   if_icmpeq              LABEL3426
+   jump                   LABEL3430
+LABEL3426:
    load_int               48
    load_int               12723
    load_string            "Teak pet feeder"
    return                
-LABEL3403:
+LABEL3430:
    iload                  1
    load_int               14
-   if_icmpeq              LABEL3407
-   jump                   LABEL3411
-LABEL3407:
+   if_icmpeq              LABEL3434
+   jump                   LABEL3438
+LABEL3434:
    load_int               49
    load_int               12716
    load_string            "Teak pet scratching post"
    return                
-LABEL3411:
+LABEL3438:
    iload                  1
    load_int               15
-   if_icmpeq              LABEL3415
-   jump                   LABEL3419
-LABEL3415:
+   if_icmpeq              LABEL3442
+   jump                   LABEL3446
+LABEL3442:
    load_int               50
    load_int               8328
    load_string            "Teak portal frame"
    return                
-LABEL3419:
+LABEL3446:
    iload                  1
    load_int               16
-   if_icmpeq              LABEL3423
-   jump                   LABEL3427
-LABEL3423:
+   if_icmpeq              LABEL3450
+   jump                   LABEL3454
+LABEL3450:
    load_int               50
    load_int               8331
    load_string            "Teleport focus"
    return                
-LABEL3427:
+LABEL3454:
    iload                  1
    load_int               17
-   if_icmpeq              LABEL3431
-   jump                   LABEL3435
-LABEL3431:
+   if_icmpeq              LABEL3458
+   jump                   LABEL3462
+LABEL3458:
    load_int               54
    load_int               8352
    load_string            "Elemental sphere"
    return                
-LABEL3435:
+LABEL3462:
    iload                  1
    load_int               18
-   if_icmpeq              LABEL3439
-   jump                   LABEL3443
-LABEL3439:
+   if_icmpeq              LABEL3466
+   jump                   LABEL3470
+LABEL3466:
    load_int               55
    load_int               20534
    load_string            "STASH units (hard)"
    return                
-LABEL3443:
+LABEL3470:
    iload                  1
    load_int               19
-   if_icmpeq              LABEL3447
-   jump                   LABEL3451
-LABEL3447:
+   if_icmpeq              LABEL3474
+   jump                   LABEL3478
+LABEL3474:
    load_int               59
    load_int               12724
    load_string            "Mahogany pet feeder"
    return                
-LABEL3451:
+LABEL3478:
    iload                  1
    load_int               20
-   if_icmpeq              LABEL3455
-   jump                   LABEL3459
-LABEL3455:
+   if_icmpeq              LABEL3482
+   jump                   LABEL3486
+LABEL3482:
    load_int               59
    load_int               12717
    load_string            "Mahogany pet scratching post"
    return                
-LABEL3459:
+LABEL3486:
    iload                  1
    load_int               21
-   if_icmpeq              LABEL3463
-   jump                   LABEL3467
-LABEL3463:
+   if_icmpeq              LABEL3490
+   jump                   LABEL3494
+LABEL3490:
    load_int               60
    load_int               8101
    load_string            "Gilded teak bell pull"
    return                
-LABEL3467:
+LABEL3494:
    iload                  1
    load_int               22
-   if_icmpeq              LABEL3471
-   jump                   LABEL3475
-LABEL3471:
+   if_icmpeq              LABEL3498
+   jump                   LABEL3502
+LABEL3498:
    load_int               65
    load_int               8332
    load_string            "Greater teleport focus"
    return                
-LABEL3475:
+LABEL3502:
    iload                  1
    load_int               23
-   if_icmpeq              LABEL3479
-   jump                   LABEL3483
-LABEL3479:
+   if_icmpeq              LABEL3506
+   jump                   LABEL3510
+LABEL3506:
    load_int               65
    load_int               8329
    load_string            "Mahogany portal frame"
    return                
-LABEL3483:
+LABEL3510:
    iload                  1
    load_int               24
-   if_icmpeq              LABEL3487
-   jump                   LABEL3491
-LABEL3487:
+   if_icmpeq              LABEL3514
+   jump                   LABEL3518
+LABEL3514:
    load_int               66
    load_int               8353
    load_string            "Crystal of power"
    return                
-LABEL3491:
+LABEL3518:
    iload                  1
    load_int               25
-   if_icmpeq              LABEL3495
-   jump                   LABEL3499
-LABEL3495:
+   if_icmpeq              LABEL3522
+   jump                   LABEL3526
+LABEL3522:
    load_int               67
    load_int               8258
    load_string            "Limestone spiral staircase"
    return                
-LABEL3499:
+LABEL3526:
    iload                  1
    load_int               26
-   if_icmpeq              LABEL3503
-   jump                   LABEL3507
-LABEL3503:
+   if_icmpeq              LABEL3530
+   jump                   LABEL3534
+LABEL3530:
    load_int               68
    load_int               8306
    load_string            "Oak oubliette ladder"
    return                
-LABEL3507:
+LABEL3534:
    iload                  1
    load_int               27
-   if_icmpeq              LABEL3511
-   jump                   LABEL3515
-LABEL3511:
+   if_icmpeq              LABEL3538
+   jump                   LABEL3542
+LABEL3538:
    load_int               68
    load_int               8364
    load_string            "Oak lever"
    return                
-LABEL3515:
+LABEL3542:
    iload                  1
    load_int               28
-   if_icmpeq              LABEL3519
-   jump                   LABEL3523
-LABEL3519:
+   if_icmpeq              LABEL3546
+   jump                   LABEL3550
+LABEL3546:
    load_int               77
    load_int               20535
    load_string            "STASH units (elite)"
    return                
-LABEL3523:
+LABEL3550:
    iload                  1
    load_int               29
-   if_icmpeq              LABEL3527
-   jump                   LABEL3531
-LABEL3527:
+   if_icmpeq              LABEL3554
+   jump                   LABEL3558
+LABEL3554:
    load_int               78
    load_int               8307
    load_string            "Teak oubliette ladder"
    return                
-LABEL3531:
+LABEL3558:
    iload                  1
    load_int               30
-   if_icmpeq              LABEL3535
-   jump                   LABEL3539
-LABEL3535:
+   if_icmpeq              LABEL3562
+   jump                   LABEL3566
+LABEL3562:
    load_int               78
    load_int               8365
    load_string            "Teak lever"
    return                
-LABEL3539:
+LABEL3566:
    iload                  1
    load_int               31
-   if_icmpeq              LABEL3543
-   jump                   LABEL3547
-LABEL3543:
+   if_icmpeq              LABEL3570
+   jump                   LABEL3574
+LABEL3570:
    load_int               80
    load_int               8330
    load_string            "Marble portal frame"
    return                
-LABEL3547:
+LABEL3574:
    iload                  1
    load_int               32
-   if_icmpeq              LABEL3551
-   jump                   LABEL3555
-LABEL3551:
+   if_icmpeq              LABEL3578
+   jump                   LABEL3582
+LABEL3578:
    load_int               80
    load_int               8333
    load_string            "Scrying pool"
    return                
-LABEL3555:
+LABEL3582:
    iload                  1
    load_int               33
-   if_icmpeq              LABEL3559
-   jump                   LABEL3563
-LABEL3559:
+   if_icmpeq              LABEL3586
+   jump                   LABEL3590
+LABEL3586:
    load_int               82
    load_int               8255
    load_string            "Marble staircase"
    return                
-LABEL3563:
+LABEL3590:
    iload                  1
    load_int               34
-   if_icmpeq              LABEL3567
-   jump                   LABEL3571
-LABEL3567:
+   if_icmpeq              LABEL3594
+   jump                   LABEL3598
+LABEL3594:
    load_int               88
    load_int               8308
    load_string            "Mahogany oubliette ladder"
    return                
-LABEL3571:
+LABEL3598:
    iload                  1
    load_int               35
-   if_icmpeq              LABEL3575
-   jump                   LABEL3579
-LABEL3575:
+   if_icmpeq              LABEL3602
+   jump                   LABEL3606
+LABEL3602:
    load_int               88
    load_int               8366
    load_string            "Mahogany lever"
    return                
-LABEL3579:
+LABEL3606:
    iload                  1
    load_int               36
-   if_icmpeq              LABEL3583
-   jump                   LABEL3587
-LABEL3583:
+   if_icmpeq              LABEL3610
+   jump                   LABEL3614
+LABEL3610:
    load_int               88
    load_int               20536
    load_string            "STASH units (master)"
    return                
-LABEL3587:
+LABEL3614:
    iload                  1
    load_int               37
-   if_icmpeq              LABEL3591
-   jump                   LABEL3595
-LABEL3591:
+   if_icmpeq              LABEL3618
+   jump                   LABEL3622
+LABEL3618:
    load_int               97
    load_int               8259
    load_string            "Marble spiral"
    return                
-LABEL3595:
+LABEL3622:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL3599:
+LABEL3626:
    iload                  0
    load_int               12
-   if_icmpeq              LABEL3603
-   jump                   LABEL3658
-LABEL3603:
+   if_icmpeq              LABEL3630
+   jump                   LABEL3685
+LABEL3630:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL3607
-   jump                   LABEL3614
-LABEL3607:
+   if_icmpeq              LABEL3634
+   jump                   LABEL3641
+LABEL3634:
    load_int               -1
    load_int               7620
    load_string            "Servants can be hired at the"
@@ -4514,72 +4547,72 @@ LABEL3607:
    load_string            "Ardougne Domestic Service Agency."
    string_append          3
    return                
-LABEL3614:
+LABEL3641:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL3618
-   jump                   LABEL3622
-LABEL3618:
+   if_icmpeq              LABEL3645
+   jump                   LABEL3649
+LABEL3645:
    load_int               20
    load_int               17
    load_string            "Rick"
    return                
-LABEL3622:
+LABEL3649:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL3626
-   jump                   LABEL3630
-LABEL3626:
+   if_icmpeq              LABEL3653
+   jump                   LABEL3657
+LABEL3653:
    load_int               25
    load_int               17
    load_string            "Maid"
    return                
-LABEL3630:
+LABEL3657:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL3634
-   jump                   LABEL3638
-LABEL3634:
+   if_icmpeq              LABEL3661
+   jump                   LABEL3665
+LABEL3661:
    load_int               30
    load_int               17
    load_string            "Cook"
    return                
-LABEL3638:
+LABEL3665:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL3642
-   jump                   LABEL3646
-LABEL3642:
+   if_icmpeq              LABEL3669
+   jump                   LABEL3673
+LABEL3669:
    load_int               40
    load_int               17
    load_string            "Butler"
    return                
-LABEL3646:
+LABEL3673:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL3650
-   jump                   LABEL3654
-LABEL3650:
+   if_icmpeq              LABEL3677
+   jump                   LABEL3681
+LABEL3677:
    load_int               50
    load_int               17
    load_string            "Demon butler"
    return                
-LABEL3654:
+LABEL3681:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL3658:
+LABEL3685:
    iload                  0
    load_int               13
-   if_icmpeq              LABEL3662
-   jump                   LABEL3847
-LABEL3662:
+   if_icmpeq              LABEL3689
+   jump                   LABEL3874
+LABEL3689:
    iload                  1
    load_int               0
-   if_icmpeq              LABEL3666
-   jump                   LABEL3675
-LABEL3666:
+   if_icmpeq              LABEL3693
+   jump                   LABEL3702
+LABEL3693:
    load_int               1
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4589,52 +4622,52 @@ LABEL3666:
    int_to_string         
    string_append          2
    return                
-LABEL3675:
+LABEL3702:
    iload                  1
    load_int               1
-   if_icmpeq              LABEL3679
-   jump                   LABEL3683
-LABEL3679:
+   if_icmpeq              LABEL3706
+   jump                   LABEL3710
+LABEL3706:
    load_int               1
    load_int               8794
    load_string            "Maximum dimensions: 3x3"
    return                
-LABEL3683:
+LABEL3710:
    iload                  1
    load_int               2
-   if_icmpeq              LABEL3687
-   jump                   LABEL3691
-LABEL3687:
+   if_icmpeq              LABEL3714
+   jump                   LABEL3718
+LABEL3714:
    load_int               15
    load_int               8794
    load_string            "Maximum dimensions: 4x4"
    return                
-LABEL3691:
+LABEL3718:
    iload                  1
    load_int               3
-   if_icmpeq              LABEL3695
-   jump                   LABEL3699
-LABEL3695:
+   if_icmpeq              LABEL3722
+   jump                   LABEL3726
+LABEL3722:
    load_int               30
    load_int               8794
    load_string            "Maximum dimensions: 5x5"
    return                
-LABEL3699:
+LABEL3726:
    iload                  1
    load_int               4
-   if_icmpeq              LABEL3703
-   jump                   LABEL3707
-LABEL3703:
+   if_icmpeq              LABEL3730
+   jump                   LABEL3734
+LABEL3730:
    load_int               45
    load_int               8794
    load_string            "Maximum dimensions: 6x6"
    return                
-LABEL3707:
+LABEL3734:
    iload                  1
    load_int               5
-   if_icmpeq              LABEL3711
-   jump                   LABEL3720
-LABEL3711:
+   if_icmpeq              LABEL3738
+   jump                   LABEL3747
+LABEL3738:
    load_int               50
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4644,12 +4677,12 @@ LABEL3711:
    int_to_string         
    string_append          2
    return                
-LABEL3720:
+LABEL3747:
    iload                  1
    load_int               6
-   if_icmpeq              LABEL3724
-   jump                   LABEL3733
-LABEL3724:
+   if_icmpeq              LABEL3751
+   jump                   LABEL3760
+LABEL3751:
    load_int               56
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4659,22 +4692,22 @@ LABEL3724:
    int_to_string         
    string_append          2
    return                
-LABEL3733:
+LABEL3760:
    iload                  1
    load_int               7
-   if_icmpeq              LABEL3737
-   jump                   LABEL3741
-LABEL3737:
+   if_icmpeq              LABEL3764
+   jump                   LABEL3768
+LABEL3764:
    load_int               60
    load_int               8794
    load_string            "Maximum dimensions: 7x7"
    return                
-LABEL3741:
+LABEL3768:
    iload                  1
    load_int               8
-   if_icmpeq              LABEL3745
-   jump                   LABEL3754
-LABEL3745:
+   if_icmpeq              LABEL3772
+   jump                   LABEL3781
+LABEL3772:
    load_int               62
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4684,12 +4717,12 @@ LABEL3745:
    int_to_string         
    string_append          2
    return                
-LABEL3754:
+LABEL3781:
    iload                  1
    load_int               9
-   if_icmpeq              LABEL3758
-   jump                   LABEL3767
-LABEL3758:
+   if_icmpeq              LABEL3785
+   jump                   LABEL3794
+LABEL3785:
    load_int               68
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4699,12 +4732,12 @@ LABEL3758:
    int_to_string         
    string_append          2
    return                
-LABEL3767:
+LABEL3794:
    iload                  1
    load_int               10
-   if_icmpeq              LABEL3771
-   jump                   LABEL3780
-LABEL3771:
+   if_icmpeq              LABEL3798
+   jump                   LABEL3807
+LABEL3798:
    load_int               74
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4714,12 +4747,12 @@ LABEL3771:
    int_to_string         
    string_append          2
    return                
-LABEL3780:
+LABEL3807:
    iload                  1
    load_int               11
-   if_icmpeq              LABEL3784
-   jump                   LABEL3793
-LABEL3784:
+   if_icmpeq              LABEL3811
+   jump                   LABEL3820
+LABEL3811:
    load_int               80
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4729,12 +4762,12 @@ LABEL3784:
    int_to_string         
    string_append          2
    return                
-LABEL3793:
+LABEL3820:
    iload                  1
    load_int               12
-   if_icmpeq              LABEL3797
-   jump                   LABEL3806
-LABEL3797:
+   if_icmpeq              LABEL3824
+   jump                   LABEL3833
+LABEL3824:
    load_int               86
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4744,12 +4777,12 @@ LABEL3797:
    int_to_string         
    string_append          2
    return                
-LABEL3806:
+LABEL3833:
    iload                  1
    load_int               13
-   if_icmpeq              LABEL3810
-   jump                   LABEL3819
-LABEL3810:
+   if_icmpeq              LABEL3837
+   jump                   LABEL3846
+LABEL3837:
    load_int               92
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4759,12 +4792,12 @@ LABEL3810:
    int_to_string         
    string_append          2
    return                
-LABEL3819:
+LABEL3846:
    iload                  1
    load_int               14
-   if_icmpeq              LABEL3823
-   jump                   LABEL3832
-LABEL3823:
+   if_icmpeq              LABEL3850
+   jump                   LABEL3859
+LABEL3850:
    load_int               96
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4774,12 +4807,12 @@ LABEL3823:
    int_to_string         
    string_append          2
    return                
-LABEL3832:
+LABEL3859:
    iload                  1
    load_int               15
-   if_icmpeq              LABEL3836
-   jump                   LABEL3843
-LABEL3836:
+   if_icmpeq              LABEL3863
+   jump                   LABEL3870
+LABEL3863:
    load_int               99
    load_int               2347
    load_string            "Maximum rooms: "
@@ -4787,12 +4820,12 @@ LABEL3836:
    int_to_string         
    string_append          2
    return                
-LABEL3843:
+LABEL3870:
    load_int               -1
    load_int               -1
    load_string            ""
    return                
-LABEL3847:
+LABEL3874:
    load_int               -1
    load_int               -1
    load_string            ""

@@ -13,17 +13,17 @@ LABEL5:
    load_int               1
    load_int               0
    play_sound_effect     
-   get_settings           171
+   get_varp               171
    load_int               0
    if_icmple              LABEL13
    jump                   LABEL16
 LABEL13:
    load_int               1
-   put_settings           171
+   put_varp               171
    jump                   LABEL18
 LABEL16:
    load_int               0
-   put_settings           171
+   put_varp               171
 LABEL18:
    iload                  1
    iload                  2

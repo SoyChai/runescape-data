@@ -1,0 +1,82 @@
+.int_stack_count    5
+.string_stack_count 1
+.int_var_count      6
+.string_var_count   1
+   iload                  3
+   load_int               0
+   if_icmpeq              LABEL4
+   jump                   LABEL17
+LABEL4:
+   load_int               0
+   iload                  0
+   widget_get_parentid_widget
+   widget_get_width_widget
+   isub                  
+   load_int               3
+   idiv                  
+   load_int               0
+   load_int               1
+   iload                  4
+   iload                  0
+   widget_put_position_widget
+   jump                   LABEL38
+LABEL17:
+   iload                  3
+   load_int               2
+   if_icmpeq              LABEL21
+   jump                   LABEL32
+LABEL21:
+   iload                  0
+   widget_get_parentid_widget
+   widget_get_width_widget
+   load_int               3
+   idiv                  
+   load_int               0
+   load_int               1
+   iload                  4
+   iload                  0
+   widget_put_position_widget
+   jump                   LABEL38
+LABEL32:
+   load_int               0
+   load_int               0
+   load_int               1
+   iload                  4
+   iload                  0
+   widget_put_position_widget
+LABEL38:
+   load_int               111
+   load_int               105
+   load_int               1813
+   iload                  1
+   get_enum_value        
+   istore                 5
+   iload                  0
+   iload                  1
+   sload                  0
+   iload                  2
+   iload                  5
+   invoke                 2071
+   load_int               2070
+   iload                  0
+   iload                  1
+   sload                  0
+   iload                  2
+   iload                  5
+   load_int               12
+   load_int               1
+   load_string            "IosoiY"
+   iload                  0
+   widget_put_skill_listener_widget
+   load_int               2070
+   iload                  0
+   iload                  1
+   sload                  0
+   iload                  2
+   iload                  5
+   load_int               93
+   load_int               1
+   load_string            "IosoiY"
+   iload                  0
+   widget_put_table_listener_widget
+   return                

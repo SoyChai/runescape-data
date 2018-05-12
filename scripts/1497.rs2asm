@@ -1,0 +1,26 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      2
+.string_var_count   0
+   get_varbit             5967
+   load_int               1
+   if_icmpeq              LABEL4
+   jump                   LABEL10
+LABEL4:
+   iload                  0
+   load_string            "Graceful recolour"
+   load_int               45
+   iload                  1
+   invoke                 1696
+   jump                   LABEL18
+LABEL10:
+   iload                  0
+   load_string            "Graceful recolour"
+   load_int               250
+   load_int               -1
+   invoke                 1696
+   load_int               1
+   iload                  1
+   widget_put_hidden_widget
+LABEL18:
+   return                

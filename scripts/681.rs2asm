@@ -1,6 +1,6 @@
 .int_stack_count    0
 .string_stack_count 0
-.int_var_count      1
+.int_var_count      2
 .string_var_count   1
    get_varc               5
    load_int               14
@@ -24,101 +24,114 @@ LABEL12:
    sstore                 0
    get_varc_string        22
    string_length         
+   istore                 1
+   iload                  1
    load_int               0
-   if_icmpgt              LABEL21
-   jump                   LABEL203
-LABEL21:
+   if_icmpgt              LABEL23
+   jump                   LABEL198
+LABEL23:
    get_varc               5
-   load_int               1
-   if_icmpeq              LABEL25
-   jump                   LABEL26
-LABEL25:
-   return                
+   switch                
+      1: LABEL26
+      2: LABEL49
+      3: LABEL49
+      4: LABEL28
+      5: LABEL28
+      6: LABEL49
+      7: LABEL115
+      8: LABEL119
+      9: LABEL125
+      10: LABEL128
+      11: LABEL190
+      12: LABEL147
+      13: LABEL165
+      15: LABEL125
+      16: LABEL195
+   jump                   LABEL197
 LABEL26:
-   get_varc               5
-   load_int               4
-   if_icmpeq              LABEL33
-   get_varc               5
-   load_int               5
-   if_icmpeq              LABEL33
-   jump                   LABEL54
-LABEL33:
+   return                
+   jump                   LABEL197
+LABEL28:
    get_ignorecount       
    load_int               0
-   if_icmplt              LABEL37
-   jump                   LABEL40
-LABEL37:
+   if_icmplt              LABEL32
+   jump                   LABEL35
+LABEL32:
    load_string            "Unable to update ignore list - system busy."
    send_game_message     
-   jump                   LABEL53
-LABEL40:
+   jump                   LABEL48
+LABEL35:
    get_varc               5
    load_int               4
-   if_icmpeq              LABEL44
-   jump                   LABEL47
-LABEL44:
+   if_icmpeq              LABEL39
+   jump                   LABEL42
+LABEL39:
    get_varc_string        22
    add_ignore            
-   jump                   LABEL53
-LABEL47:
+   jump                   LABEL48
+LABEL42:
    get_varc               5
    load_int               5
-   if_icmpeq              LABEL51
-   jump                   LABEL53
-LABEL51:
+   if_icmpeq              LABEL46
+   jump                   LABEL48
+LABEL46:
    get_varc_string        22
    remove_ignore         
-LABEL53:
-   jump                   LABEL202
-LABEL54:
-   get_varc               5
-   load_int               2
-   if_icmpeq              LABEL64
-   get_varc               5
-   load_int               3
-   if_icmpeq              LABEL64
-   get_varc               5
-   load_int               6
-   if_icmpeq              LABEL64
-   jump                   LABEL117
-LABEL64:
+LABEL48:
+   jump                   LABEL197
+LABEL49:
    get_friendcount       
    load_int               0
-   if_icmplt              LABEL68
-   jump                   LABEL71
-LABEL68:
+   if_icmplt              LABEL53
+   jump                   LABEL56
+LABEL53:
    load_string            "Unable to complete action - system busy."
    send_game_message     
-   jump                   LABEL116
-LABEL71:
+   jump                   LABEL114
+LABEL56:
    get_varc               5
    load_int               2
-   if_icmpeq              LABEL75
-   jump                   LABEL78
-LABEL75:
+   if_icmpeq              LABEL60
+   jump                   LABEL63
+LABEL60:
    get_varc_string        22
    add_friend            
-   jump                   LABEL116
-LABEL78:
+   jump                   LABEL114
+LABEL63:
    get_varc               5
    load_int               3
-   if_icmpeq              LABEL82
-   jump                   LABEL85
-LABEL82:
+   if_icmpeq              LABEL67
+   jump                   LABEL70
+LABEL67:
    get_varc_string        22
    remove_friend         
-   jump                   LABEL116
-LABEL85:
+   jump                   LABEL114
+LABEL70:
    get_varc               5
    load_int               6
-   if_icmpeq              LABEL89
-   jump                   LABEL116
-LABEL89:
+   if_icmpeq              LABEL74
+   jump                   LABEL114
+LABEL74:
+   get_varc               203
+   load_int               0
+   if_icmpeq              LABEL81
+   get_varc               203
+   load_int               -1
+   if_icmpeq              LABEL81
+   jump                   LABEL87
+LABEL81:
+   load_int               1
+   load_int               1
+   invoke                 299
+   load_string            "You must set a name before you can chat."
+   send_game_message     
+   return                
+LABEL87:
    5005                  
    load_int               2
-   if_icmpeq              LABEL93
-   jump                   LABEL104
-LABEL93:
+   if_icmpeq              LABEL91
+   jump                   LABEL102
+LABEL91:
    5000                  
    load_int               1
    5016                  
@@ -130,104 +143,100 @@ LABEL93:
    invoke                 84
    iload                  0
    invoke                 89
-LABEL104:
+LABEL102:
    get_varbit             4394
    load_int               1
-   if_icmpeq              LABEL108
-   jump                   LABEL111
-LABEL108:
+   if_icmpeq              LABEL106
+   jump                   LABEL109
+LABEL106:
    get_varc_string        23
    remove_friend         
-   jump                   LABEL114
-LABEL111:
+   jump                   LABEL112
+LABEL109:
    get_varc_string        23
    get_varc_string        22
    privmsg               
-LABEL114:
+LABEL112:
    get_gamecycle         
    put_varc               61
-LABEL116:
-   jump                   LABEL202
-LABEL117:
-   get_varc               5
-   load_int               7
-   if_icmpeq              LABEL121
-   jump                   LABEL125
-LABEL121:
+LABEL114:
+   jump                   LABEL197
+LABEL115:
    get_varc_string        22
    invoke                 212
    numeric_input         
-   jump                   LABEL202
-LABEL125:
-   get_varc               5
-   load_int               8
-   if_icmpeq              LABEL129
-   jump                   LABEL135
-LABEL129:
+   jump                   LABEL197
+LABEL119:
    get_varc_string        22
    string_remove_html    
    put_varc_string        128
    get_varc_string        22
    string_input_1        
-   jump                   LABEL202
-LABEL135:
-   get_varc               5
-   load_int               9
-   if_icmpeq              LABEL142
-   get_varc               5
-   load_int               15
-   if_icmpeq              LABEL142
-   jump                   LABEL145
-LABEL142:
+   jump                   LABEL197
+LABEL125:
    get_varc_string        22
    string_input_2        
-   jump                   LABEL202
-LABEL145:
-   get_varc               5
-   load_int               10
-   if_icmpeq              LABEL149
-   jump                   LABEL155
-LABEL149:
+   jump                   LABEL197
+LABEL128:
+   get_varc               203
+   load_int               0
+   if_icmpeq              LABEL135
+   get_varc               203
+   load_int               -1
+   if_icmpeq              LABEL135
+   jump                   LABEL141
+LABEL135:
+   load_int               1
+   load_int               1
+   invoke                 299
+   load_string            "You must set a name before you can chat."
+   send_game_message     
+   return                
+LABEL141:
    get_varc_string        22
    string_remove_html    
    put_varc_string        129
    get_varc_string        22
    join_clanchat         
-   jump                   LABEL202
-LABEL155:
-   get_varc               5
-   load_int               12
-   if_icmpeq              LABEL159
-   jump                   LABEL178
-LABEL159:
-   get_varc_string        22
-   string_length         
+   jump                   LABEL197
+LABEL147:
+   iload                  1
    load_int               10
-   if_icmpgt              LABEL164
-   jump                   LABEL170
-LABEL164:
+   if_icmpgt              LABEL151
+   jump                   LABEL157
+LABEL151:
    get_varc_string        22
    load_int               0
    load_int               9
    string_substring      
    sstore                 0
-   jump                   LABEL172
-LABEL170:
+   jump                   LABEL159
+LABEL157:
    get_varc_string        22
    sstore                 0
-LABEL172:
+LABEL159:
    sload                  0
    tolowercase           
    5021                  
    invoke                 553
    invoke                 84
-   jump                   LABEL202
+   jump                   LABEL197
+LABEL165:
+   get_varc               203
+   load_int               0
+   if_icmpeq              LABEL172
+   get_varc               203
+   load_int               -1
+   if_icmpeq              LABEL172
+   jump                   LABEL178
+LABEL172:
+   load_int               1
+   load_int               1
+   invoke                 299
+   load_string            "You must set a name before you can chat."
+   send_game_message     
+   return                
 LABEL178:
-   get_varc               5
-   load_int               13
-   if_icmpeq              LABEL182
-   jump                   LABEL194
-LABEL182:
    get_varc_string        22
    load_int               0
    put_varc               62
@@ -239,36 +248,33 @@ LABEL182:
    load_string            "I1"
    load_int               10616842
    widget_put_render_listener_widget
-   jump                   LABEL202
-LABEL194:
-   get_varc               5
-   load_int               11
-   if_icmpeq              LABEL198
-   jump                   LABEL202
-LABEL198:
+   jump                   LABEL197
+LABEL190:
    load_int               0
    load_int               1
    invoke                 299
    return                
-LABEL202:
-   jump                   LABEL217
-LABEL203:
+   jump                   LABEL197
+LABEL195:
+   get_varc_string        22
+   invoke                 2061
+LABEL197:
+   jump                   LABEL204
+LABEL198:
    get_varc               5
-   load_int               7
-   if_icmpeq              LABEL216
-   get_varc               5
-   load_int               8
-   if_icmpeq              LABEL216
-   get_varc               5
-   load_int               9
-   if_icmpeq              LABEL216
-   get_varc               5
-   load_int               15
-   if_icmpeq              LABEL216
-   jump                   LABEL217
-LABEL216:
+   switch                
+      16: LABEL203
+      7: LABEL201
+      8: LABEL201
+      9: LABEL201
+      15: LABEL201
+   jump                   LABEL204
+LABEL201:
    return                
-LABEL217:
+   jump                   LABEL204
+LABEL203:
+   return                
+LABEL204:
    load_int               1
    load_int               1
    invoke                 299

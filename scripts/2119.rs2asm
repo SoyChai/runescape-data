@@ -1,0 +1,94 @@
+.int_stack_count    8
+.string_stack_count 0
+.int_var_count      8
+.string_var_count   0
+   iload                  0
+   load_int               1
+   if_icmpeq              LABEL4
+   jump                   LABEL78
+LABEL4:
+   iload                  1
+   iload                  4
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL10
+   jump                   LABEL78
+LABEL10:
+   iload                  1
+   iload                  2
+   widget_load_child      1
+   load_int               1
+   if_icmpeq              LABEL16
+   jump                   LABEL78
+LABEL16:
+   load_int               2266
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   iload                  5
+   set_varbit             1776
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   iload                  7
+   invoke                 2118
+   iload                  1
+   iload                  6
+   if_icmpne              LABEL34
+   jump                   LABEL54
+LABEL34:
+   iload                  6
+   iload                  4
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL40
+   jump                   LABEL54
+LABEL40:
+   iload                  6
+   iload                  2
+   widget_load_child      1
+   load_int               1
+   if_icmpeq              LABEL46
+   jump                   LABEL54
+LABEL46:
+   iload                  6
+   iload                  2
+   iload                  3
+   iload                  4
+   load_int               1
+   iload                  6
+   iload                  7
+   invoke                 2118
+LABEL54:
+   iload                  1
+   iload                  7
+   if_icmpne              LABEL58
+   jump                   LABEL78
+LABEL58:
+   iload                  7
+   iload                  4
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL64
+   jump                   LABEL78
+LABEL64:
+   iload                  7
+   iload                  2
+   widget_load_child      1
+   load_int               1
+   if_icmpeq              LABEL70
+   jump                   LABEL78
+LABEL70:
+   iload                  7
+   iload                  2
+   iload                  3
+   iload                  4
+   load_int               0
+   iload                  6
+   iload                  7
+   invoke                 2118
+LABEL78:
+   return                

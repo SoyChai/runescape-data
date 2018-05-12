@@ -3,7 +3,7 @@
 .int_var_count      1
 .string_var_count   0
    load_string            "Bounties: "
-   get_settings           1132
+   get_varp               1132
    load_string            ","
    invoke                 46
    string_append          2

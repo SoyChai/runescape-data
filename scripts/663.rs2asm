@@ -1,6 +1,6 @@
 .int_stack_count    0
 .string_stack_count 0
-.int_var_count      3
+.int_var_count      4
 .string_var_count   3
    invoke                 553
    istore                 0
@@ -14,14 +14,17 @@
    sstore                 1
    load_string            ""
    sstore                 2
-   load_int               10617378
+   load_int               0
+   istore                 3
+   load_int               10617380
    widget_get_index_widget
    load_int               1
-   if_icmpeq              LABEL17
-   jump                   LABEL34
-LABEL17:
+   if_icmpeq              LABEL19
+   jump                   LABEL37
+LABEL19:
    iload                  0
    get_chat_message      
+   istore                 3
    sstore                 2
    sstore                 1
    sstore                 0
@@ -33,12 +36,12 @@ LABEL17:
    iload                  1
    get_enum_value        
    load_int               1
-   if_icmpeq              LABEL32
-   jump                   LABEL34
-LABEL32:
+   if_icmpeq              LABEL35
+   jump                   LABEL37
+LABEL35:
    sload                  2
    invoke                 102
-LABEL34:
+LABEL37:
    iload                  0
    invoke                 84
    iload                  0

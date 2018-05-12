@@ -2,7 +2,7 @@
 .string_stack_count 0
 .int_var_count      4
 .string_var_count   0
-   get_settings           166
+   get_varp               166
    load_int               1
    if_icmpeq              LABEL4
    jump                   LABEL17
@@ -21,7 +21,7 @@ LABEL4:
    widget_put_spriteid_widget
    jump                   LABEL80
 LABEL17:
-   get_settings           166
+   get_varp               166
    load_int               2
    if_icmpeq              LABEL21
    jump                   LABEL34
@@ -40,7 +40,7 @@ LABEL21:
    widget_put_spriteid_widget
    jump                   LABEL80
 LABEL34:
-   get_settings           166
+   get_varp               166
    load_int               3
    if_icmpeq              LABEL38
    jump                   LABEL51
@@ -59,7 +59,7 @@ LABEL38:
    widget_put_spriteid_widget
    jump                   LABEL80
 LABEL51:
-   get_settings           166
+   get_varp               166
    load_int               4
    if_icmpeq              LABEL55
    jump                   LABEL68

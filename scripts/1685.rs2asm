@@ -2,20 +2,7 @@
 .string_stack_count 1
 .int_var_count      5
 .string_var_count   2
-   load_int               1
-   put_varc               11
-   load_int               10616864
-   widget_get_hidden_widget
-   load_int               0
-   if_icmpeq              LABEL7
-   jump                   LABEL10
-LABEL7:
-   load_int               1
-   load_int               1
-   invoke                 299
-LABEL10:
-   load_int               0
-   invoke                 927
+   invoke                 2157
    load_int               38666241
    sload                  0
    load_int               0
@@ -123,15 +110,15 @@ LABEL10:
    load_int               0
    test_bit              
    load_int               0
-   if_icmpeq              LABEL121
-   jump                   LABEL126
-LABEL121:
+   if_icmpeq              LABEL110
+   jump                   LABEL115
+LABEL110:
    load_string            "<str>"
    sload                  1
    load_string            "</str>"
    string_append          3
    sstore                 1
-LABEL126:
+LABEL115:
    load_int               38666243
    load_int               1
    sload                  1
@@ -149,15 +136,15 @@ LABEL126:
    load_int               1
    test_bit              
    load_int               0
-   if_icmpeq              LABEL145
-   jump                   LABEL150
-LABEL145:
+   if_icmpeq              LABEL134
+   jump                   LABEL139
+LABEL134:
    load_string            "<str>"
    sload                  1
    load_string            "</str>"
    string_append          3
    sstore                 1
-LABEL150:
+LABEL139:
    load_int               38666243
    load_int               1
    sload                  1
@@ -287,15 +274,15 @@ LABEL150:
    load_int               1
    test_bit              
    load_int               0
-   if_icmpeq              LABEL281
-   jump                   LABEL286
-LABEL281:
+   if_icmpeq              LABEL270
+   jump                   LABEL275
+LABEL270:
    load_string            "<str>"
    sload                  1
    load_string            "</str>"
    string_append          3
    sstore                 1
-LABEL286:
+LABEL275:
    load_int               38666245
    load_int               2
    sload                  1
@@ -325,15 +312,15 @@ LABEL286:
    load_int               2
    test_bit              
    load_int               0
-   if_icmpeq              LABEL317
-   jump                   LABEL322
-LABEL317:
+   if_icmpeq              LABEL306
+   jump                   LABEL311
+LABEL306:
    load_string            "<str>"
    sload                  1
    load_string            "</str>"
    string_append          3
    sstore                 1
-LABEL322:
+LABEL311:
    load_int               38666246
    load_int               3
    sload                  1
@@ -373,15 +360,15 @@ LABEL322:
    load_int               3
    test_bit              
    load_int               0
-   if_icmpeq              LABEL363
-   jump                   LABEL368
-LABEL363:
+   if_icmpeq              LABEL352
+   jump                   LABEL357
+LABEL352:
    load_string            "<str>"
    sload                  1
    load_string            "</str>"
    string_append          3
    sstore                 1
-LABEL368:
+LABEL357:
    load_int               38666246
    load_int               3
    sload                  1

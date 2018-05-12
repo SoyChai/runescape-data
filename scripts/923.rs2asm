@@ -34,7 +34,7 @@ LABEL22:
    widget_put_hidden_widget
    load_int               10616862
    widget_unset_children 
-   load_int               10616874
+   load_int               10616876
    widget_unset_children 
    invoke                 921
    load_int               0
@@ -64,7 +64,7 @@ LABEL33:
    widget_put_sprite_tiling
    load_int               0
    widget_put_opacity    
-   load_int               10616874
+   load_int               10616876
    load_int               3
    load_int               0
    widget_create_child   
@@ -82,7 +82,7 @@ LABEL33:
    widget_put_textcolor  
    load_int               1
    widget_put_filled     
-   load_int               10617377
+   load_int               10617379
    load_int               792
    load_int               789
    load_int               790
@@ -158,13 +158,13 @@ LABEL121:
    widget_put_filled     
    load_int               254
    widget_put_opacity    
-   load_int               10616874
+   load_int               10616876
    load_int               3
    iload                  3
    load_int               2
    imul                  
    widget_create_child   
-   load_int               10616874
+   load_int               10616876
    load_int               3
    iload                  3
    load_int               2
@@ -214,7 +214,7 @@ LABEL121:
    istore                 3
    jump                   LABEL117
 LABEL196:
-   load_int               10617377
+   load_int               10617379
    load_int               1190
    load_int               1187
    load_int               1188

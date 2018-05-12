@@ -1,0 +1,118 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   load_int               45091968
+   load_int               46124223
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL7
+   jump                   LABEL9
+LABEL7:
+   load_int               1
+   return                
+LABEL9:
+   load_int               45092160
+   load_int               46124415
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL16
+   jump                   LABEL18
+LABEL16:
+   load_int               2
+   return                
+LABEL18:
+   load_int               59771712
+   load_int               60803967
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL25
+   jump                   LABEL27
+LABEL25:
+   load_int               3
+   return                
+LABEL27:
+   load_int               48237632
+   load_int               49269887
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL34
+   jump                   LABEL36
+LABEL34:
+   load_int               4
+   return                
+LABEL36:
+   load_int               42994752
+   load_int               44027007
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL43
+   jump                   LABEL45
+LABEL43:
+   load_int               5
+   return                
+LABEL45:
+   load_int               59772288
+   load_int               60804543
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL52
+   jump                   LABEL54
+LABEL52:
+   load_int               6
+   return                
+LABEL54:
+   load_int               49286208
+   load_int               50318463
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL61
+   jump                   LABEL63
+LABEL61:
+   load_int               7
+   return                
+LABEL63:
+   load_int               48237504
+   load_int               49269759
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL70
+   jump                   LABEL72
+LABEL70:
+   load_int               8
+   return                
+LABEL72:
+   load_int               34606080
+   load_int               35638335
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL79
+   jump                   LABEL81
+LABEL79:
+   load_int               9
+   return                
+LABEL81:
+   load_int               41945856
+   load_int               42978111
+   iload                  0
+   invoke                 247
+   load_int               1
+   if_icmpeq              LABEL88
+   jump                   LABEL90
+LABEL88:
+   load_int               10
+   return                
+LABEL90:
+   load_int               0
+   return                
+   load_int               0
+   return                

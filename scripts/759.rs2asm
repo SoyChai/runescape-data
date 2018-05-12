@@ -2,7 +2,7 @@
 .string_stack_count 0
 .int_var_count      0
 .string_var_count   0
-   get_settings           286
+   get_varp               286
    load_int               0
    test_bit              
    load_int               1
@@ -18,7 +18,7 @@ LABEL10:
    load_int               31588402
    widget_put_spriteid_widget
 LABEL13:
-   get_settings           286
+   get_varp               286
    load_int               1
    test_bit              
    load_int               1
@@ -34,7 +34,7 @@ LABEL23:
    load_int               31588403
    widget_put_spriteid_widget
 LABEL26:
-   get_settings           286
+   get_varp               286
    load_int               2
    test_bit              
    load_int               1
@@ -50,7 +50,7 @@ LABEL36:
    load_int               31588404
    widget_put_spriteid_widget
 LABEL39:
-   get_settings           286
+   get_varp               286
    load_int               3
    test_bit              
    load_int               1
@@ -66,7 +66,7 @@ LABEL49:
    load_int               31588405
    widget_put_spriteid_widget
 LABEL52:
-   get_settings           286
+   get_varp               286
    load_int               4
    test_bit              
    load_int               1
@@ -82,7 +82,7 @@ LABEL62:
    load_int               31588406
    widget_put_spriteid_widget
 LABEL65:
-   get_settings           286
+   get_varp               286
    load_int               5
    test_bit              
    load_int               1
@@ -98,7 +98,7 @@ LABEL75:
    load_int               31588407
    widget_put_spriteid_widget
 LABEL78:
-   get_settings           286
+   get_varp               286
    load_int               6
    test_bit              
    load_int               1
@@ -114,7 +114,7 @@ LABEL88:
    load_int               31588408
    widget_put_spriteid_widget
 LABEL91:
-   get_settings           286
+   get_varp               286
    load_int               7
    test_bit              
    load_int               1
@@ -130,7 +130,7 @@ LABEL101:
    load_int               31588409
    widget_put_spriteid_widget
 LABEL104:
-   get_settings           286
+   get_varp               286
    load_int               8
    test_bit              
    load_int               1
@@ -146,7 +146,7 @@ LABEL114:
    load_int               31588410
    widget_put_spriteid_widget
 LABEL117:
-   get_settings           286
+   get_varp               286
    load_int               9
    test_bit              
    load_int               1
@@ -162,7 +162,7 @@ LABEL127:
    load_int               31588411
    widget_put_spriteid_widget
 LABEL130:
-   get_settings           286
+   get_varp               286
    load_int               10
    test_bit              
    load_int               1
@@ -178,7 +178,7 @@ LABEL140:
    load_int               31588412
    widget_put_spriteid_widget
 LABEL143:
-   get_settings           286
+   get_varp               286
    load_int               12
    test_bit              
    load_int               1
@@ -194,7 +194,7 @@ LABEL153:
    load_int               31588413
    widget_put_spriteid_widget
 LABEL156:
-   get_settings           286
+   get_varp               286
    load_int               13
    test_bit              
    load_int               1
@@ -210,7 +210,7 @@ LABEL166:
    load_int               31588414
    widget_put_spriteid_widget
 LABEL169:
-   get_settings           286
+   get_varp               286
    load_int               14
    test_bit              
    load_int               1
@@ -228,7 +228,7 @@ LABEL179:
    load_int               31588472
    invoke                 41
 LABEL184:
-   get_settings           286
+   get_varp               286
    load_int               15
    test_bit              
    load_int               1
@@ -246,7 +246,7 @@ LABEL194:
    load_int               31588472
    invoke                 41
 LABEL199:
-   get_settings           286
+   get_varp               286
    load_int               16
    test_bit              
    load_int               1
@@ -264,7 +264,7 @@ LABEL209:
    load_int               31588472
    invoke                 41
 LABEL214:
-   get_settings           286
+   get_varp               286
    load_int               17
    test_bit              
    load_int               1
@@ -282,7 +282,7 @@ LABEL224:
    load_int               31588472
    invoke                 41
 LABEL229:
-   get_settings           286
+   get_varp               286
    load_int               18
    test_bit              
    load_int               1
@@ -300,7 +300,7 @@ LABEL239:
    load_int               31588472
    invoke                 41
 LABEL244:
-   get_settings           286
+   get_varp               286
    load_int               19
    test_bit              
    load_int               1
@@ -318,7 +318,7 @@ LABEL254:
    load_int               31588472
    invoke                 41
 LABEL259:
-   get_settings           286
+   get_varp               286
    load_int               21
    test_bit              
    load_int               1
@@ -336,7 +336,7 @@ LABEL269:
    load_int               31588472
    invoke                 41
 LABEL274:
-   get_settings           286
+   get_varp               286
    load_int               23
    test_bit              
    load_int               1
@@ -354,7 +354,7 @@ LABEL284:
    load_int               31588472
    invoke                 41
 LABEL289:
-   get_settings           286
+   get_varp               286
    load_int               24
    test_bit              
    load_int               1
@@ -372,7 +372,7 @@ LABEL299:
    load_int               31588472
    invoke                 41
 LABEL304:
-   get_settings           286
+   get_varp               286
    load_int               26
    test_bit              
    load_int               1
@@ -390,7 +390,7 @@ LABEL314:
    load_int               31588472
    invoke                 41
 LABEL319:
-   get_settings           286
+   get_varp               286
    load_int               27
    test_bit              
    load_int               1

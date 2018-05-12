@@ -30,7 +30,7 @@ LABEL13:
    if_icmpeq              LABEL25
    jump                   LABEL28
 LABEL25:
-   get_settings           1365
+   get_varp               1365
    istore                 7
    jump                   LABEL59
 LABEL28:
@@ -39,7 +39,7 @@ LABEL28:
    if_icmpeq              LABEL32
    jump                   LABEL35
 LABEL32:
-   get_settings           1366
+   get_varp               1366
    istore                 7
    jump                   LABEL59
 LABEL35:
@@ -48,7 +48,7 @@ LABEL35:
    if_icmpeq              LABEL39
    jump                   LABEL42
 LABEL39:
-   get_settings           1367
+   get_varp               1367
    istore                 7
    jump                   LABEL59
 LABEL42:
@@ -57,7 +57,7 @@ LABEL42:
    if_icmpeq              LABEL46
    jump                   LABEL49
 LABEL46:
-   get_settings           1368
+   get_varp               1368
    istore                 7
    jump                   LABEL59
 LABEL49:
@@ -66,7 +66,7 @@ LABEL49:
    if_icmpeq              LABEL53
    jump                   LABEL56
 LABEL53:
-   get_settings           1369
+   get_varp               1369
    istore                 7
    jump                   LABEL59
 LABEL56:

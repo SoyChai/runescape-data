@@ -1,0 +1,209 @@
+.int_stack_count    1
+.string_stack_count 0
+.int_var_count      1
+.string_var_count   0
+   iload                  0
+   switch                
+      0: LABEL3
+      1: LABEL17
+      2: LABEL31
+      3: LABEL115
+      4: LABEL73
+      5: LABEL87
+      6: LABEL129
+      7: LABEL101
+      8: LABEL143
+      9: LABEL45
+      10: LABEL59
+   jump                   LABEL156
+LABEL3:
+   get_varbit             2423
+   load_int               10
+   get_varbit             3577
+   get_varbit             6288
+   load_int               19
+   get_varbit             3598
+   get_varbit             6289
+   load_int               10
+   get_varbit             3610
+   get_varbit             6290
+   load_int               5
+   get_varbit             4567
+   return                
+   jump                   LABEL156
+LABEL17:
+   get_varbit             6291
+   load_int               10
+   get_varbit             4499
+   get_varbit             6292
+   load_int               12
+   get_varbit             4500
+   get_varbit             6293
+   load_int               12
+   get_varbit             4501
+   get_varbit             6294
+   load_int               8
+   get_varbit             4502
+   return                
+   jump                   LABEL156
+LABEL31:
+   get_varbit             6299
+   load_int               11
+   get_varbit             4503
+   get_varbit             6300
+   load_int               14
+   get_varbit             4504
+   get_varbit             6301
+   load_int               11
+   get_varbit             4505
+   get_varbit             6302
+   load_int               6
+   get_varbit             4506
+   return                
+   jump                   LABEL156
+LABEL45:
+   get_varbit             6323
+   load_int               12
+   get_varbit             4507
+   get_varbit             6324
+   load_int               11
+   get_varbit             4508
+   get_varbit             6325
+   load_int               10
+   get_varbit             4509
+   get_varbit             6326
+   load_int               7
+   get_varbit             4510
+   return                
+   jump                   LABEL156
+LABEL59:
+   get_varbit             6327
+   load_int               11
+   get_varbit             4511
+   get_varbit             6328
+   load_int               13
+   get_varbit             4512
+   get_varbit             6329
+   load_int               13
+   get_varbit             4513
+   get_varbit             6330
+   load_int               7
+   get_varbit             4514
+   return                
+   jump                   LABEL156
+LABEL73:
+   get_varbit             6307
+   load_int               11
+   get_varbit             4515
+   get_varbit             6308
+   load_int               14
+   get_varbit             4516
+   get_varbit             6309
+   load_int               11
+   get_varbit             4517
+   get_varbit             6310
+   load_int               7
+   get_varbit             4518
+   return                
+   jump                   LABEL156
+LABEL87:
+   get_varbit             6295
+   load_int               11
+   get_varbit             4523
+   get_varbit             6296
+   load_int               12
+   get_varbit             4524
+   get_varbit             6297
+   load_int               10
+   get_varbit             4525
+   get_varbit             6298
+   load_int               6
+   get_varbit             4526
+   return                
+   jump                   LABEL156
+LABEL101:
+   get_varbit             6315
+   load_int               11
+   get_varbit             4527
+   get_varbit             6316
+   load_int               11
+   get_varbit             4528
+   get_varbit             6317
+   load_int               10
+   get_varbit             4529
+   get_varbit             6318
+   load_int               6
+   get_varbit             4530
+   return                
+   jump                   LABEL156
+LABEL115:
+   get_varbit             6303
+   load_int               10
+   get_varbit             4531
+   get_varbit             6304
+   load_int               9
+   get_varbit             4532
+   get_varbit             6305
+   load_int               9
+   get_varbit             4533
+   get_varbit             6306
+   load_int               6
+   get_varbit             4534
+   return                
+   jump                   LABEL156
+LABEL129:
+   get_varbit             6311
+   load_int               12
+   get_varbit             4535
+   get_varbit             6312
+   load_int               12
+   get_varbit             4536
+   get_varbit             6313
+   load_int               11
+   get_varbit             4537
+   get_varbit             6314
+   load_int               6
+   get_varbit             4538
+   return                
+   jump                   LABEL156
+LABEL143:
+   get_varbit             6319
+   load_int               14
+   get_varbit             4519
+   get_varbit             6320
+   load_int               13
+   get_varbit             4520
+   get_varbit             6321
+   load_int               10
+   get_varbit             4521
+   get_varbit             6322
+   load_int               5
+   get_varbit             4522
+   return                
+LABEL156:
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   return                
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   load_int               0
+   return                

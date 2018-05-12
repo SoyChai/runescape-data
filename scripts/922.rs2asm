@@ -10,11 +10,11 @@ LABEL4:
    load_int               0
    return                
 LABEL6:
-   load_int               10617379
+   load_int               10617381
    widget_get_index_widget
    load_int               1
    if_icmpeq              LABEL15
-   load_int               10617378
+   load_int               10617380
    widget_get_index_widget
    load_int               1
    if_icmpeq              LABEL15

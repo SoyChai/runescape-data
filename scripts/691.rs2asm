@@ -1,6 +1,6 @@
-.int_stack_count    5
+.int_stack_count    7
 .string_stack_count 0
-.int_var_count      5
+.int_var_count      12
 .string_var_count   0
    iload                  0
    load_int               1
@@ -9,26 +9,198 @@
 LABEL4:
    return                
 LABEL5:
-   iload                  1
-   set_varbit             1777
-   load_int               2266
+   iload                  2
+   invoke                 1484
+   istore                 7
+   iload                  7
+   load_int               -1
+   if_icmpeq              LABEL12
+   jump                   LABEL13
+LABEL12:
+   return                
+LABEL13:
+   iload                  2
+   load_int               5
+   modulo                
+   istore                 8
+   iload                  2
+   load_int               5
+   idiv                  
+   istore                 9
+   load_int               -1
+   istore                 10
+   load_int               -1
+   istore                 11
+   iload                  8
+   load_int               0
+   if_icmpgt              LABEL29
+   jump                   LABEL63
+LABEL29:
+   iload                  8
+   load_int               1
+   isub                  
+   iload                  9
+   load_int               5
+   imul                  
+   iadd                  
+   istore                 10
+   iload                  10
+   invoke                 1484
+   istore                 11
+   iload                  11
+   load_int               -1
+   if_icmpeq              LABEL44
+   jump                   LABEL63
+LABEL44:
+   load_int               1859
    load_int               1
    load_int               0
    play_sound_effect     
+   iload                  10
+   iload                  7
+   invoke                 1485
    iload                  2
+   load_int               -1
+   invoke                 1485
+   iload                  1
    iload                  3
    iload                  4
-   invoke                 689
+   iload                  5
+   iload                  6
+   invoke                 692
+   get_gamecycle         
+   put_varc               110
+   return                
+LABEL63:
+   iload                  8
+   load_int               5
+   load_int               1
+   isub                  
+   if_icmplt              LABEL69
+   jump                   LABEL103
+LABEL69:
+   iload                  8
+   load_int               1
+   iadd                  
+   iload                  9
+   load_int               5
+   imul                  
+   iadd                  
+   istore                 10
+   iload                  10
+   invoke                 1484
+   istore                 11
+   iload                  11
+   load_int               -1
+   if_icmpeq              LABEL84
+   jump                   LABEL103
+LABEL84:
+   load_int               1859
+   load_int               1
+   load_int               0
+   play_sound_effect     
+   iload                  10
+   iload                  7
+   invoke                 1485
+   iload                  2
+   load_int               -1
+   invoke                 1485
    iload                  1
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   invoke                 692
+   get_gamecycle         
+   put_varc               110
+   return                
+LABEL103:
+   iload                  9
    load_int               0
-   if_icmpne              LABEL19
-   jump                   LABEL25
-LABEL19:
+   if_icmpgt              LABEL107
+   jump                   LABEL141
+LABEL107:
+   iload                  8
+   iload                  9
+   load_int               1
+   isub                  
+   load_int               5
+   imul                  
+   iadd                  
+   istore                 10
+   iload                  10
+   invoke                 1484
+   istore                 11
+   iload                  11
+   load_int               -1
+   if_icmpeq              LABEL122
+   jump                   LABEL141
+LABEL122:
+   load_int               1859
+   load_int               1
    load_int               0
-   load_int               14090281
-   widget_put_hidden_widget
+   play_sound_effect     
+   iload                  10
+   iload                  7
+   invoke                 1485
+   iload                  2
+   load_int               -1
+   invoke                 1485
+   iload                  1
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   invoke                 692
+   get_gamecycle         
+   put_varc               110
+   return                
+LABEL141:
+   iload                  9
+   load_int               5
+   load_int               1
+   isub                  
+   if_icmplt              LABEL147
+   jump                   LABEL181
+LABEL147:
+   iload                  8
+   iload                  9
+   load_int               1
+   iadd                  
+   load_int               5
+   imul                  
+   iadd                  
+   istore                 10
+   iload                  10
+   invoke                 1484
+   istore                 11
+   iload                  11
+   load_int               -1
+   if_icmpeq              LABEL162
+   jump                   LABEL181
+LABEL162:
+   load_int               1859
+   load_int               1
    load_int               0
-   load_int               14090282
-   widget_put_hidden_widget
-LABEL25:
+   play_sound_effect     
+   iload                  10
+   iload                  7
+   invoke                 1485
+   iload                  2
+   load_int               -1
+   invoke                 1485
+   iload                  1
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   invoke                 692
+   get_gamecycle         
+   put_varc               110
+   return                
+LABEL181:
+   load_int               2304
+   load_int               1
+   load_int               0
+   play_sound_effect     
    return                

@@ -1,57 +1,152 @@
-.int_stack_count    2
-.string_stack_count 1
-.int_var_count      2
+.int_stack_count    19
+.string_stack_count 0
+.int_var_count      19
 .string_var_count   1
    iload                  1
+   load_string            "Experience"
    load_int               1
-   if_icmpeq              LABEL4
-   jump                   LABEL9
-LABEL4:
+   load_int               -1
+   invoke                 1696
+   iload                  2
+   load_string            "Experience"
+   load_int               10
+   load_int               -1
+   invoke                 1696
+   iload                  3
+   load_string            "Experience"
+   load_int               25
+   load_int               -1
+   invoke                 1696
+   iload                  4
+   load_string            "Experience"
+   load_int               100
+   load_int               -1
+   invoke                 1696
+   iload                  5
+   load_string            "Experience"
+   load_int               1000
+   load_int               -1
+   invoke                 1696
+   iload                  6
+   load_int               2998
+   get_item_name         
+   load_int               3
+   load_int               -1
+   invoke                 1696
+   iload                  7
+   load_int               3000
+   get_item_name         
+   load_int               10
+   load_int               -1
+   invoke                 1696
+   iload                  9
+   load_int               2997
+   get_item_name         
+   load_int               800
+   load_int               -1
+   invoke                 1696
    load_int               1
-   load_string            "Buy for 1 ticket"
-   iload                  0
-   widget_put_action_widget
-   jump                   LABEL18
-LABEL9:
-   load_int               1
-   load_string            "Buy for "
-   iload                  1
-   load_string            ","
-   invoke                 46
-   load_string            " tickets"
-   string_append          3
-   iload                  0
-   widget_put_action_widget
-LABEL18:
-   iload                  0
-   sload                  0
-   iload                  1
+   iload                  10
+   widget_put_hidden_widget
+   iload                  10
+   widget_unset_children 
+   iload                  10
    load_int               0
-   invoke                 1595
-   load_int               1459
-   iload                  0
+   invoke                 1192
+   pop_int               
+   iload                  11
+   load_int               21061
+   load_int               11850
+   load_string            "Hood"
+   load_int               45
+   invoke                 2033
+   iload                  12
+   load_int               21067
+   load_int               11854
+   load_string            "Top"
+   load_int               45
+   invoke                 2033
+   iload                  13
+   load_int               21070
+   load_int               11856
+   load_string            "Legs"
+   load_int               45
+   invoke                 2033
+   iload                  14
+   load_int               21064
+   load_int               11852
+   load_string            "Cape"
+   load_int               45
+   invoke                 2033
+   iload                  15
+   load_int               21073
+   load_int               11858
+   load_string            "Gloves"
+   load_int               45
+   invoke                 2033
+   iload                  16
+   load_int               21076
+   load_int               11860
+   load_string            "Boots"
+   load_int               45
+   invoke                 2033
+   iload                  17
+   load_int               -1
+   load_int               -1
+   load_string            "Whole set"
+   load_int               250
+   invoke                 2033
+   load_string            "Dismiss"
+   sstore                 0
+   load_int               50
    sload                  0
-   iload                  1
+   load_int               512
+   load_int               495
+   get_max_line_width    
+   iadd                  
+   iload                  18
+   widget_get_height_widget
    load_int               0
-   load_int               93
-   load_int               1
-   load_string            "Isi1Y"
-   iload                  0
-   widget_put_table_listener_widget
-   load_int               1459
-   iload                  0
+   load_int               0
+   iload                  18
+   widget_put_size_widget
+   iload                  18
    sload                  0
-   iload                  1
+   load_int               0
+   invoke                 2038
+   load_int               2037
+   iload                  18
+   sload                  0
    load_int               1
-   load_string            "Isi1"
-   iload                  0
+   load_string            "Is1"
+   iload                  18
    widget_put_mouse_hover_listener_widget
-   load_int               1459
-   iload                  0
+   load_int               2037
+   iload                  18
    sload                  0
-   iload                  1
    load_int               0
-   load_string            "Isi1"
-   iload                  0
+   load_string            "Is1"
+   iload                  18
    widget_put_mouse_exit_listener_widget
+   load_int               1
+   sload                  0
+   iload                  18
+   widget_put_action_widget
+   load_int               2032
+   load_int               1
+   iload                  10
+   load_string            "1I"
+   iload                  18
+   widget_put_option_click_listener_widget
+   iload                  8
+   iload                  10
+   invoke                 1497
+   load_int               1496
+   iload                  8
+   iload                  10
+   load_int               309
+   load_int               1
+   load_string            "IIY"
+   iload                  0
+   widget_put_config_listener_widget
    return                

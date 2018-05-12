@@ -1,0 +1,62 @@
+.int_stack_count    9
+.string_stack_count 0
+.int_var_count      9
+.string_var_count   0
+   load_int               1
+   iload                  1
+   widget_put_hidden_widget
+   iload                  6
+   load_string            "Cancel"
+   iload                  1
+   invoke                 2136
+   iload                  7
+   load_string            "Discard all"
+   iload                  1
+   invoke                 2136
+   iload                  8
+   load_string            "Bank all"
+   iload                  1
+   invoke                 2136
+   iload                  3
+   load_string            "Discard all"
+   load_int               1235
+   load_string            "Are you sure you want to "
+   load_string            "<col=ff0000>"
+   load_string            "destroy"
+   load_string            "</col>"
+   load_string            "<br>"
+   load_string            "everything you've caught?"
+   string_append          6
+   iload                  1
+   iload                  2
+   iload                  7
+   iload                  8
+   invoke                 2133
+   iload                  4
+   load_string            "Bank all"
+   load_int               1227
+   load_string            "Pay "
+   load_int               5
+   int_to_string         
+   load_string            " numulites to "
+   load_string            "<col=ffffff>"
+   load_string            "bank"
+   load_string            "</col>"
+   load_string            "<br>"
+   load_string            "everything you've caught?"
+   string_append          8
+   iload                  1
+   iload                  2
+   iload                  8
+   iload                  7
+   invoke                 2133
+   iload                  5
+   load_string            "Take all"
+   load_int               1041
+   load_string            ""
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   load_int               -1
+   invoke                 2133
+   return                

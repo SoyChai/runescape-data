@@ -12,13 +12,13 @@
 LABEL7:
    sload                  1
    put_varc_string        24
-   jump                   LABEL38
+   jump                   LABEL59
 LABEL10:
    sload                  1
    is_friend             
    load_int               1
    if_icmpeq              LABEL15
-   jump                   LABEL25
+   jump                   LABEL32
 LABEL15:
    iload                  0
    load_int               8
@@ -26,28 +26,56 @@ LABEL15:
    iload                  0
    load_int               9
    if_icmpeq              LABEL22
-   jump                   LABEL24
+   jump                   LABEL31
 LABEL22:
+   get_varc               203
+   load_int               1
+   if_icmpeq              LABEL26
+   jump                   LABEL29
+LABEL26:
    sload                  1
    invoke                 107
-LABEL24:
-   jump                   LABEL38
-LABEL25:
-   iload                  0
-   load_int               8
-   if_icmpeq              LABEL29
-   jump                   LABEL32
+   jump                   LABEL31
 LABEL29:
-   sload                  1
-   add_friend            
-   jump                   LABEL38
+   load_string            "You must set a name before you can do that."
+   send_game_message     
+LABEL31:
+   jump                   LABEL59
 LABEL32:
    iload                  0
-   load_int               9
+   load_int               8
    if_icmpeq              LABEL36
-   jump                   LABEL38
+   jump                   LABEL46
 LABEL36:
+   get_varc               203
+   load_int               1
+   if_icmpeq              LABEL40
+   jump                   LABEL43
+LABEL40:
+   sload                  1
+   add_friend            
+   jump                   LABEL45
+LABEL43:
+   load_string            "You must set a name before you can do that."
+   send_game_message     
+LABEL45:
+   jump                   LABEL59
+LABEL46:
+   iload                  0
+   load_int               9
+   if_icmpeq              LABEL50
+   jump                   LABEL59
+LABEL50:
+   get_varc               203
+   load_int               1
+   if_icmpeq              LABEL54
+   jump                   LABEL57
+LABEL54:
    sload                  1
    add_ignore            
-LABEL38:
+   jump                   LABEL59
+LABEL57:
+   load_string            "You must set a name before you can do that."
+   send_game_message     
+LABEL59:
    return                

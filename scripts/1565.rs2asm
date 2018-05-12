@@ -4,7 +4,7 @@
 .string_var_count   1
    load_string            "Make party"
    sstore                 0
-   get_settings           1427
+   get_varp               1427
    load_int               -1
    if_icmpne              LABEL6
    jump                   LABEL11

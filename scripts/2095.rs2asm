@@ -1,0 +1,29 @@
+.int_stack_count    8
+.string_stack_count 0
+.int_var_count      8
+.string_var_count   0
+   iload                  0
+   iload                  2
+   widget_load_child     
+   load_int               1
+   if_icmpeq              LABEL6
+   jump                   LABEL21
+LABEL6:
+   iload                  0
+   iload                  1
+   widget_load_child      1
+   load_int               1
+   if_icmpeq              LABEL12
+   jump                   LABEL21
+LABEL12:
+   iload                  0
+   iload                  1
+   iload                  2
+   iload                  3
+   iload                  4
+   iload                  5
+   iload                  6
+   iload                  7
+   invoke                 2096
+LABEL21:
+   return                

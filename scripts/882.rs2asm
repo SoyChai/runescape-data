@@ -2,7 +2,7 @@
 .string_stack_count 0
 .int_var_count      1
 .string_var_count   0
-   get_settings           143
+   get_varp               143
    int_to_string         
    iload                  0
    widget_put_text_widget

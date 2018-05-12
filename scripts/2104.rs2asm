@@ -1,0 +1,186 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      3
+.string_var_count   0
+   iload                  1
+   widget_unset_children 
+   load_int               0
+   istore                 2
+LABEL4:
+   iload                  2
+   load_int               36
+   if_icmplt              LABEL8
+   jump                   LABEL151
+LABEL8:
+   iload                  1
+   load_int               6
+   iload                  2
+   widget_create_child   
+   load_int               50
+   iload                  2
+   load_int               6
+   modulo                
+   imul                  
+   load_int               50
+   iload                  2
+   load_int               6
+   idiv                  
+   imul                  
+   load_int               0
+   load_int               0
+   widget_put_position   
+   load_int               50
+   load_int               50
+   load_int               0
+   load_int               0
+   widget_put_size       
+   iload                  2
+   switch                
+      17: LABEL51
+      18: LABEL69
+      4: LABEL33
+      20: LABEL87
+      30: LABEL105
+   jump                   LABEL123
+LABEL33:
+   load_int               35079
+   widget_put_modelid_1  
+   load_int               0
+   load_int               0
+   load_int               512
+   load_int               0
+   load_int               0
+   load_int               625
+   widget_put_3d_rotation
+   load_int               10
+   load_string            "Check"
+   widget_put_action     
+   load_int               2109
+   load_int               -2147483644
+   load_int               1024
+   load_string            "ii"
+   widget_put_option_click_listener
+   jump                   LABEL146
+LABEL51:
+   load_int               35075
+   widget_put_modelid_1  
+   load_int               0
+   load_int               0
+   load_int               512
+   load_int               0
+   load_int               0
+   load_int               625
+   widget_put_3d_rotation
+   load_int               10
+   load_string            "Check"
+   widget_put_action     
+   load_int               2109
+   load_int               -2147483644
+   load_int               1024
+   load_string            "ii"
+   widget_put_option_click_listener
+   jump                   LABEL146
+LABEL69:
+   load_int               35067
+   widget_put_modelid_1  
+   load_int               0
+   load_int               0
+   load_int               512
+   load_int               0
+   load_int               0
+   load_int               625
+   widget_put_3d_rotation
+   load_int               10
+   load_string            "Check"
+   widget_put_action     
+   load_int               2109
+   load_int               -2147483644
+   load_int               1024
+   load_string            "ii"
+   widget_put_option_click_listener
+   jump                   LABEL146
+LABEL87:
+   load_int               35082
+   widget_put_modelid_1  
+   load_int               0
+   load_int               0
+   load_int               512
+   load_int               0
+   load_int               0
+   load_int               625
+   widget_put_3d_rotation
+   load_int               10
+   load_string            "Check"
+   widget_put_action     
+   load_int               2109
+   load_int               -2147483644
+   load_int               1024
+   load_string            "ii"
+   widget_put_option_click_listener
+   jump                   LABEL146
+LABEL105:
+   load_int               35079
+   widget_put_modelid_1  
+   load_int               0
+   load_int               0
+   load_int               512
+   load_int               0
+   load_int               0
+   load_int               625
+   widget_put_3d_rotation
+   load_int               10
+   load_string            "Check"
+   widget_put_action     
+   load_int               2109
+   load_int               -2147483644
+   load_int               1024
+   load_string            "ii"
+   widget_put_option_click_listener
+   jump                   LABEL146
+LABEL123:
+   load_int               1
+   load_string            "Rotate-right"
+   widget_put_action     
+   load_int               2
+   load_string            "Rotate-left"
+   widget_put_action     
+   load_int               2107
+   load_int               -2147483644
+   load_int               -2147483645
+   load_int               -2147483643
+   load_string            "iIi"
+   widget_put_option_click_listener
+   load_int               5
+   1303                  
+   load_int               5
+   1304                  
+   load_int               2108
+   load_int               -2147483645
+   load_int               -2147483643
+   load_int               -2147483642
+   load_int               -2147483641
+   load_string            "IiIi"
+   widget_put_drag_release_listener
+LABEL146:
+   iload                  2
+   load_int               1
+   iadd                  
+   istore                 2
+   jump                   LABEL4
+LABEL151:
+   iload                  1
+   invoke                 2106
+   load_int               2105
+   iload                  1
+   load_int               831
+   load_int               832
+   load_int               833
+   load_int               858
+   load_int               859
+   load_int               860
+   load_int               861
+   load_int               7
+   load_string            "IY"
+   iload                  0
+   widget_put_config_listener_widget
+   return                

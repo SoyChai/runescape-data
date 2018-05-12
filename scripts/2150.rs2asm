@@ -1,0 +1,72 @@
+.int_stack_count    2
+.string_stack_count 0
+.int_var_count      2
+.string_var_count   2
+   load_string            "Function-mode toggle"
+   sstore                 0
+   load_string            " (hidden)"
+   sstore                 1
+   get_varbit             6257
+   load_int               0
+   if_icmpgt              LABEL8
+   jump                   LABEL36
+LABEL8:
+   get_varbit             6255
+   switch                
+      2: LABEL11
+      3: LABEL27
+   jump                   LABEL30
+LABEL11:
+   load_string            " (single-tap,"
+   sstore                 1
+   get_varbit             6256
+   load_int               0
+   if_icmpeq              LABEL17
+   jump                   LABEL22
+LABEL17:
+   sload                  1
+   load_string            " off)"
+   concat_string         
+   sstore                 1
+   jump                   LABEL26
+LABEL22:
+   sload                  1
+   load_string            " on)"
+   concat_string         
+   sstore                 1
+LABEL26:
+   jump                   LABEL32
+LABEL27:
+   load_string            " (show keyboard)"
+   sstore                 1
+   jump                   LABEL32
+LABEL30:
+   load_string            " (displayed)"
+   sstore                 1
+LABEL32:
+   load_int               762
+   iload                  0
+   widget_put_spriteid_widget
+   jump                   LABEL39
+LABEL36:
+   load_int               761
+   iload                  0
+   widget_put_spriteid_widget
+LABEL39:
+   sload                  0
+   sload                  1
+   concat_string         
+   sstore                 0
+   load_int               526
+   iload                  0
+   load_int               -1
+   iload                  1
+   sload                  0
+   load_int               25
+   load_int               190
+   load_string            "IiIsii"
+   iload                  0
+   widget_put_mouse_hover_listener_widget
+   load_int               0
+   put_varc               2
+   return                
